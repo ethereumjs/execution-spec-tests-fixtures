@@ -1,0 +1,440 @@
+{
+    "tests/osaka/eip7594_peerdas/test_max_blob_per_tx.py::test_invalid_max_blobs_per_tx[fork_Osaka-blob_count_10-state_test]": {
+        "env": {
+            "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
+            "currentGasLimit": "0x055d4a80",
+            "currentNumber": "0x01",
+            "currentTimestamp": "0x03e8",
+            "currentRandom": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "currentDifficulty": "0x00",
+            "currentBaseFee": "0x07",
+            "currentExcessBlobGas": "0x00"
+        },
+        "pre": {
+            "0xb871111ec4a0decf4859fdc0ce2f498943e32d66": {
+                "nonce": "0x00",
+                "balance": "0x0de0b6b3a7640000",
+                "code": "0x",
+                "storage": {}
+            }
+        },
+        "transaction": {
+            "nonce": "0x00",
+            "maxPriorityFeePerGas": "0x01",
+            "maxFeePerGas": "0x0a",
+            "gasLimit": [
+                "0x5208"
+            ],
+            "to": "0xa38a08465ae1ee3c1d19b9e5b0dcaa765005b729",
+            "value": [
+                "0x01"
+            ],
+            "data": [
+                "0x"
+            ],
+            "accessLists": [
+                []
+            ],
+            "maxFeePerBlobGas": "0x01",
+            "blobVersionedHashes": [
+                "0x0100000000000000000000000000000000000000000000000000000000000000",
+                "0x0100000000000000000000000000000000000000000000000000000000000001",
+                "0x0100000000000000000000000000000000000000000000000000000000000002",
+                "0x0100000000000000000000000000000000000000000000000000000000000003",
+                "0x0100000000000000000000000000000000000000000000000000000000000004",
+                "0x0100000000000000000000000000000000000000000000000000000000000005",
+                "0x0100000000000000000000000000000000000000000000000000000000000006",
+                "0x0100000000000000000000000000000000000000000000000000000000000007",
+                "0x0100000000000000000000000000000000000000000000000000000000000008",
+                "0x0100000000000000000000000000000000000000000000000000000000000009"
+            ],
+            "sender": "0xb871111ec4a0decf4859fdc0ce2f498943e32d66",
+            "secretKey": "0x8fdf1b79d6d34255fc17cf3e5050b7a509c1ae974c0325fb7c0e18ba870d95c7"
+        },
+        "post": {
+            "Osaka": [
+                {
+                    "hash": "0x10a5c6893be7cd3c05ed3a767c2151c2c1298543e9f9db61bb87fcdae64a1e1a",
+                    "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x03f901b00180010a82520894a38a08465ae1ee3c1d19b9e5b0dcaa765005b7290180c001f9014aa00100000000000000000000000000000000000000000000000000000000000000a00100000000000000000000000000000000000000000000000000000000000001a00100000000000000000000000000000000000000000000000000000000000002a00100000000000000000000000000000000000000000000000000000000000003a00100000000000000000000000000000000000000000000000000000000000004a00100000000000000000000000000000000000000000000000000000000000005a00100000000000000000000000000000000000000000000000000000000000006a00100000000000000000000000000000000000000000000000000000000000007a00100000000000000000000000000000000000000000000000000000000000008a0010000000000000000000000000000000000000000000000000000000000000901a053c328887ec444aa6dc9b13e6f72e30415ba2dd0f298f51c95a4a307f1279293a018ef42e15a94fe020f42e51a84f108d6276e9f45caeb200d7f081059511f2f34",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    },
+                    "state": {
+                        "0xb871111ec4a0decf4859fdc0ce2f498943e32d66": {
+                            "nonce": "0x00",
+                            "balance": "0x0de0b6b3a7640000",
+                            "code": "0x",
+                            "storage": {}
+                        }
+                    },
+                    "expectException": "TransactionException.TYPE_3_TX_MAX_BLOB_GAS_ALLOWANCE_EXCEEDED"
+                }
+            ]
+        },
+        "config": {
+            "blobSchedule": {
+                "Cancun": {
+                    "target": "0x03",
+                    "max": "0x06",
+                    "baseFeeUpdateFraction": "0x32f0ed"
+                },
+                "Prague": {
+                    "target": "0x06",
+                    "max": "0x09",
+                    "baseFeeUpdateFraction": "0x4c6964"
+                },
+                "Osaka": {
+                    "target": "0x06",
+                    "max": "0x09",
+                    "baseFeeUpdateFraction": "0x4c6964"
+                }
+            },
+            "chainid": "0x01"
+        },
+        "_info": {
+            "hash": "0x12606df286c3d6e0e4ef76f365193c81d710d7a6769eef5554ce19edffb3a534",
+            "comment": "`execution-spec-tests` generated test",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
+            "description": "Test that transactions exceeding MAX_BLOBS_PER_TX are rejected.\n    Verifies that individual transactions cannot contain more than the maximum\n    allowed number of blobs per transaction, even if the total would be within\n    the block limit.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/fusaka-devnet-5@v1.1.0/tests/osaka/eip7594_peerdas/test_max_blob_per_tx.py#L103",
+            "fixture-format": "state_test",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7594.md",
+            "reference-spec-version": "45d03a84a8ad0160ed3fb03af52c49bd39e802ba",
+            "eels-resolution": {
+                "git-url": "https://github.com/marioevz/execution-specs.git",
+                "branch": "forks/bpo1",
+                "commit": "3387e5f4aedfe99becfdc39b444d6371e25e0924"
+            }
+        }
+    },
+    "tests/osaka/eip7594_peerdas/test_max_blob_per_tx.py::test_invalid_max_blobs_per_tx[fork_Osaka-blob_count_7-state_test]": {
+        "env": {
+            "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
+            "currentGasLimit": "0x055d4a80",
+            "currentNumber": "0x01",
+            "currentTimestamp": "0x03e8",
+            "currentRandom": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "currentDifficulty": "0x00",
+            "currentBaseFee": "0x07",
+            "currentExcessBlobGas": "0x00"
+        },
+        "pre": {
+            "0x10254e44fc1af10228c708d966274722724d7dfc": {
+                "nonce": "0x00",
+                "balance": "0x0de0b6b3a7640000",
+                "code": "0x",
+                "storage": {}
+            }
+        },
+        "transaction": {
+            "nonce": "0x00",
+            "maxPriorityFeePerGas": "0x01",
+            "maxFeePerGas": "0x0a",
+            "gasLimit": [
+                "0x5208"
+            ],
+            "to": "0xfa52599efd99117439e2b40c4fdb2399eceb338d",
+            "value": [
+                "0x01"
+            ],
+            "data": [
+                "0x"
+            ],
+            "accessLists": [
+                []
+            ],
+            "maxFeePerBlobGas": "0x01",
+            "blobVersionedHashes": [
+                "0x0100000000000000000000000000000000000000000000000000000000000000",
+                "0x0100000000000000000000000000000000000000000000000000000000000001",
+                "0x0100000000000000000000000000000000000000000000000000000000000002",
+                "0x0100000000000000000000000000000000000000000000000000000000000003",
+                "0x0100000000000000000000000000000000000000000000000000000000000004",
+                "0x0100000000000000000000000000000000000000000000000000000000000005",
+                "0x0100000000000000000000000000000000000000000000000000000000000006"
+            ],
+            "sender": "0x10254e44fc1af10228c708d966274722724d7dfc",
+            "secretKey": "0xf84fa2612dc2657d867ab9557b59798273dcd9d2d6d94a610f5d49c40b4508dc"
+        },
+        "post": {
+            "Osaka": [
+                {
+                    "hash": "0x3143e5dbbd08c5d466f3526f62834cf604bdcd96589c9b01f41a8d655d5171c9",
+                    "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x03f9014c0180010a82520894fa52599efd99117439e2b40c4fdb2399eceb338d0180c001f8e7a00100000000000000000000000000000000000000000000000000000000000000a00100000000000000000000000000000000000000000000000000000000000001a00100000000000000000000000000000000000000000000000000000000000002a00100000000000000000000000000000000000000000000000000000000000003a00100000000000000000000000000000000000000000000000000000000000004a00100000000000000000000000000000000000000000000000000000000000005a0010000000000000000000000000000000000000000000000000000000000000680a009b3f9030c0f755de245d42d5468f2559041492d481778f2faa3521bcac3cd0fa0727064ad04aabb318babdcfd56d0b2ae8da8dad57ca0c9e694abd7583d4bdd2c",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    },
+                    "state": {
+                        "0x10254e44fc1af10228c708d966274722724d7dfc": {
+                            "nonce": "0x00",
+                            "balance": "0x0de0b6b3a7640000",
+                            "code": "0x",
+                            "storage": {}
+                        }
+                    },
+                    "expectException": "TransactionException.TYPE_3_TX_BLOB_COUNT_EXCEEDED"
+                }
+            ]
+        },
+        "config": {
+            "blobSchedule": {
+                "Cancun": {
+                    "target": "0x03",
+                    "max": "0x06",
+                    "baseFeeUpdateFraction": "0x32f0ed"
+                },
+                "Prague": {
+                    "target": "0x06",
+                    "max": "0x09",
+                    "baseFeeUpdateFraction": "0x4c6964"
+                },
+                "Osaka": {
+                    "target": "0x06",
+                    "max": "0x09",
+                    "baseFeeUpdateFraction": "0x4c6964"
+                }
+            },
+            "chainid": "0x01"
+        },
+        "_info": {
+            "hash": "0x86b941af77ffe6a9daf994de78ca2ffa68de340c464fd29c11365e1fafe8c49b",
+            "comment": "`execution-spec-tests` generated test",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
+            "description": "Test that transactions exceeding MAX_BLOBS_PER_TX are rejected.\n    Verifies that individual transactions cannot contain more than the maximum\n    allowed number of blobs per transaction, even if the total would be within\n    the block limit.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/fusaka-devnet-5@v1.1.0/tests/osaka/eip7594_peerdas/test_max_blob_per_tx.py#L103",
+            "fixture-format": "state_test",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7594.md",
+            "reference-spec-version": "45d03a84a8ad0160ed3fb03af52c49bd39e802ba",
+            "eels-resolution": {
+                "git-url": "https://github.com/marioevz/execution-specs.git",
+                "branch": "forks/bpo1",
+                "commit": "3387e5f4aedfe99becfdc39b444d6371e25e0924"
+            }
+        }
+    },
+    "tests/osaka/eip7594_peerdas/test_max_blob_per_tx.py::test_invalid_max_blobs_per_tx[fork_Osaka-blob_count_8-state_test]": {
+        "env": {
+            "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
+            "currentGasLimit": "0x055d4a80",
+            "currentNumber": "0x01",
+            "currentTimestamp": "0x03e8",
+            "currentRandom": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "currentDifficulty": "0x00",
+            "currentBaseFee": "0x07",
+            "currentExcessBlobGas": "0x00"
+        },
+        "pre": {
+            "0x4e660fcf12b87506e06628dbf1bb5e4ff4687b41": {
+                "nonce": "0x00",
+                "balance": "0x0de0b6b3a7640000",
+                "code": "0x",
+                "storage": {}
+            }
+        },
+        "transaction": {
+            "nonce": "0x00",
+            "maxPriorityFeePerGas": "0x01",
+            "maxFeePerGas": "0x0a",
+            "gasLimit": [
+                "0x5208"
+            ],
+            "to": "0xa0dec44d3bab4ef43e2802593934c26b9a114402",
+            "value": [
+                "0x01"
+            ],
+            "data": [
+                "0x"
+            ],
+            "accessLists": [
+                []
+            ],
+            "maxFeePerBlobGas": "0x01",
+            "blobVersionedHashes": [
+                "0x0100000000000000000000000000000000000000000000000000000000000000",
+                "0x0100000000000000000000000000000000000000000000000000000000000001",
+                "0x0100000000000000000000000000000000000000000000000000000000000002",
+                "0x0100000000000000000000000000000000000000000000000000000000000003",
+                "0x0100000000000000000000000000000000000000000000000000000000000004",
+                "0x0100000000000000000000000000000000000000000000000000000000000005",
+                "0x0100000000000000000000000000000000000000000000000000000000000006",
+                "0x0100000000000000000000000000000000000000000000000000000000000007"
+            ],
+            "sender": "0x4e660fcf12b87506e06628dbf1bb5e4ff4687b41",
+            "secretKey": "0x9d5474e9b6844f5287ec6fdfdc30abfb873eb758d621f4ec894fc182d84908df"
+        },
+        "post": {
+            "Osaka": [
+                {
+                    "hash": "0x6808d175eaf15f16f8429a399cd0ef1526862af4b4f98f766c6236d26ed107df",
+                    "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x03f9016e0180010a82520894a0dec44d3bab4ef43e2802593934c26b9a1144020180c001f90108a00100000000000000000000000000000000000000000000000000000000000000a00100000000000000000000000000000000000000000000000000000000000001a00100000000000000000000000000000000000000000000000000000000000002a00100000000000000000000000000000000000000000000000000000000000003a00100000000000000000000000000000000000000000000000000000000000004a00100000000000000000000000000000000000000000000000000000000000005a00100000000000000000000000000000000000000000000000000000000000006a0010000000000000000000000000000000000000000000000000000000000000780a0cebed12330d754c2b209a5ec89d1ce52e636c1be4c293d7009c714bfd896950da01b5584d34425142016e30a430bd781bb77bbe43f1c61bda9488947b470aa4ee3",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    },
+                    "state": {
+                        "0x4e660fcf12b87506e06628dbf1bb5e4ff4687b41": {
+                            "nonce": "0x00",
+                            "balance": "0x0de0b6b3a7640000",
+                            "code": "0x",
+                            "storage": {}
+                        }
+                    },
+                    "expectException": "TransactionException.TYPE_3_TX_BLOB_COUNT_EXCEEDED"
+                }
+            ]
+        },
+        "config": {
+            "blobSchedule": {
+                "Cancun": {
+                    "target": "0x03",
+                    "max": "0x06",
+                    "baseFeeUpdateFraction": "0x32f0ed"
+                },
+                "Prague": {
+                    "target": "0x06",
+                    "max": "0x09",
+                    "baseFeeUpdateFraction": "0x4c6964"
+                },
+                "Osaka": {
+                    "target": "0x06",
+                    "max": "0x09",
+                    "baseFeeUpdateFraction": "0x4c6964"
+                }
+            },
+            "chainid": "0x01"
+        },
+        "_info": {
+            "hash": "0xc953779889564f58a42a6d8439fc77fcc32a7b277ab9ff913404b27eb7bb4f07",
+            "comment": "`execution-spec-tests` generated test",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
+            "description": "Test that transactions exceeding MAX_BLOBS_PER_TX are rejected.\n    Verifies that individual transactions cannot contain more than the maximum\n    allowed number of blobs per transaction, even if the total would be within\n    the block limit.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/fusaka-devnet-5@v1.1.0/tests/osaka/eip7594_peerdas/test_max_blob_per_tx.py#L103",
+            "fixture-format": "state_test",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7594.md",
+            "reference-spec-version": "45d03a84a8ad0160ed3fb03af52c49bd39e802ba",
+            "eels-resolution": {
+                "git-url": "https://github.com/marioevz/execution-specs.git",
+                "branch": "forks/bpo1",
+                "commit": "3387e5f4aedfe99becfdc39b444d6371e25e0924"
+            }
+        }
+    },
+    "tests/osaka/eip7594_peerdas/test_max_blob_per_tx.py::test_invalid_max_blobs_per_tx[fork_Osaka-blob_count_9-state_test]": {
+        "env": {
+            "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
+            "currentGasLimit": "0x055d4a80",
+            "currentNumber": "0x01",
+            "currentTimestamp": "0x03e8",
+            "currentRandom": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "currentDifficulty": "0x00",
+            "currentBaseFee": "0x07",
+            "currentExcessBlobGas": "0x00"
+        },
+        "pre": {
+            "0xe4fbb1f388a78e16c2f53470fc360c3beadcf481": {
+                "nonce": "0x00",
+                "balance": "0x0de0b6b3a7640000",
+                "code": "0x",
+                "storage": {}
+            }
+        },
+        "transaction": {
+            "nonce": "0x00",
+            "maxPriorityFeePerGas": "0x01",
+            "maxFeePerGas": "0x0a",
+            "gasLimit": [
+                "0x5208"
+            ],
+            "to": "0xbe9a3f75db88dbdb0d8ea7a549e1cd084cf9d00b",
+            "value": [
+                "0x01"
+            ],
+            "data": [
+                "0x"
+            ],
+            "accessLists": [
+                []
+            ],
+            "maxFeePerBlobGas": "0x01",
+            "blobVersionedHashes": [
+                "0x0100000000000000000000000000000000000000000000000000000000000000",
+                "0x0100000000000000000000000000000000000000000000000000000000000001",
+                "0x0100000000000000000000000000000000000000000000000000000000000002",
+                "0x0100000000000000000000000000000000000000000000000000000000000003",
+                "0x0100000000000000000000000000000000000000000000000000000000000004",
+                "0x0100000000000000000000000000000000000000000000000000000000000005",
+                "0x0100000000000000000000000000000000000000000000000000000000000006",
+                "0x0100000000000000000000000000000000000000000000000000000000000007",
+                "0x0100000000000000000000000000000000000000000000000000000000000008"
+            ],
+            "sender": "0xe4fbb1f388a78e16c2f53470fc360c3beadcf481",
+            "secretKey": "0xb044ddd15ecbb7e1275e6599bcc09d4877521511f2f62ffb9718ce3ee73b95b6"
+        },
+        "post": {
+            "Osaka": [
+                {
+                    "hash": "0xc6101d3e1c7efdf549e287685bb015558519069aee8fa74d0394a8ac0daa9e0c",
+                    "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x03f9018f0180010a82520894be9a3f75db88dbdb0d8ea7a549e1cd084cf9d00b0180c001f90129a00100000000000000000000000000000000000000000000000000000000000000a00100000000000000000000000000000000000000000000000000000000000001a00100000000000000000000000000000000000000000000000000000000000002a00100000000000000000000000000000000000000000000000000000000000003a00100000000000000000000000000000000000000000000000000000000000004a00100000000000000000000000000000000000000000000000000000000000005a00100000000000000000000000000000000000000000000000000000000000006a00100000000000000000000000000000000000000000000000000000000000007a0010000000000000000000000000000000000000000000000000000000000000801a0ef13074ce8d8805f735d2f21104545d41319a2fac7cfff7acb9e99f18a217702a062144e3626c6d8d384ab2865678dd7aca34982d2f904901b94ec3497090505be",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    },
+                    "state": {
+                        "0xe4fbb1f388a78e16c2f53470fc360c3beadcf481": {
+                            "nonce": "0x00",
+                            "balance": "0x0de0b6b3a7640000",
+                            "code": "0x",
+                            "storage": {}
+                        }
+                    },
+                    "expectException": "TransactionException.TYPE_3_TX_BLOB_COUNT_EXCEEDED"
+                }
+            ]
+        },
+        "config": {
+            "blobSchedule": {
+                "Cancun": {
+                    "target": "0x03",
+                    "max": "0x06",
+                    "baseFeeUpdateFraction": "0x32f0ed"
+                },
+                "Prague": {
+                    "target": "0x06",
+                    "max": "0x09",
+                    "baseFeeUpdateFraction": "0x4c6964"
+                },
+                "Osaka": {
+                    "target": "0x06",
+                    "max": "0x09",
+                    "baseFeeUpdateFraction": "0x4c6964"
+                }
+            },
+            "chainid": "0x01"
+        },
+        "_info": {
+            "hash": "0x75e5023b8b4c67c6c1fb3014ef7c62e30e5f7fbdeaa41f5eaf97c6f81d01a6f1",
+            "comment": "`execution-spec-tests` generated test",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.5",
+            "description": "Test that transactions exceeding MAX_BLOBS_PER_TX are rejected.\n    Verifies that individual transactions cannot contain more than the maximum\n    allowed number of blobs per transaction, even if the total would be within\n    the block limit.",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/fusaka-devnet-5@v1.1.0/tests/osaka/eip7594_peerdas/test_max_blob_per_tx.py#L103",
+            "fixture-format": "state_test",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7594.md",
+            "reference-spec-version": "45d03a84a8ad0160ed3fb03af52c49bd39e802ba",
+            "eels-resolution": {
+                "git-url": "https://github.com/marioevz/execution-specs.git",
+                "branch": "forks/bpo1",
+                "commit": "3387e5f4aedfe99becfdc39b444d6371e25e0924"
+            }
+        }
+    }
+}
