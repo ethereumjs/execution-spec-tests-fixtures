@@ -16,6 +16,8 @@ Fixtures in `stable`are taken from the following releases:
 - [v5.4.0](https://github.com/ethereum/execution-spec-tests/releases/tag/v5.4.0)
   - `state_tests/osaka/`
   - `state_tests/prague/`
+  - `state_tests/cancun/`
+  - `state_tests/shanghai/`
   - `blockchain_tests/osaka/`
 
 Test exclusions (file size limit GitHub):
