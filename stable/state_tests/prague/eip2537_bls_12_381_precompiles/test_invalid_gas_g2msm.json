@@ -1,0 +1,845 @@
+{
+    "tests/prague/eip2537_bls_12_381_precompiles/test_bls12_variable_length_input_contracts.py::test_invalid_gas_g2msm[fork_Osaka-discount_table_1_of_7-state_test-precompile_address_14--insufficient_gas]": {
+        "env": {
+            "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
+            "currentGasLimit": "0x07270e00",
+            "currentNumber": "0x01",
+            "currentTimestamp": "0x03e8",
+            "currentRandom": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "currentDifficulty": "0x00",
+            "currentBaseFee": "0x07",
+            "currentExcessBlobGas": "0x00"
+        },
+        "pre": {
+            "0x7e11e5e5ce8c6b899e1163f7e87c9a72ca665a7d": {
+                "nonce": "0x01",
+                "balance": "0x00",
+                "code": "0x6000600061012060006000600e6157e3f16000556000600061024060006000600e61afc7f16001556000600061036060006000600e61f35df16002556000600061048060006000600e620136c7f1600355600060006105a060006000600e620177baf1600455600060006106c060006000600e6201b6bff1600555600060006107e060006000600e6201f391f16006556000600061090060006000600e62022faff160075560006000610a2060006000600e62026a92f160085560006000610b4060006000600e6202a4c1f160095560006000610c6060006000600e6202ddcbf1600a5560006000610d8060006000600e620315f5f1600b5560006000610ea060006000600e62034d81f1600c5560006000610fc060006000600e620384b3f1600d55600060006110e060006000600e6203ba7df1600e556000600061120060006000600e6203f047f1600f556000600061132060006000600e62042654f16010556000600061144060006000600e620459bff16011556000600061156060006000600e62048f45f16012556000600061168060006000600e6204c229f1601355600060006117a060006000600e6204f5d7f1601455600060006118c060006000600e620528a4f1601555600060006119e060006000600e62055c95f160165560006000611b0060006000600e62058db7f160175560006000611c2060006000600e6205c02af160185560006000611d4060006000600e6205f1e9f160195560006000611e6060006000600e62062553f1601a5560006000611f8060006000600e620655c1f1601b55600060006120a060006000600e6206857af1601c55600060006121c060006000600e6206b723f1601d55600060006122e060006000600e6206e844f1601e556000600061240060006000600e620718dff1601f556000600061252060006000600e620748f2f16020556000600061264060006000600e6207787ff16021556000600061276060006000600e6207a784f16022556000600061288060006000600e6207d603f1602355600060006129a060006000600e6208073bf160245560006000612ac060006000600e620834c2f160255560006000612be060006000600e6208652ff160265560006000612d0060006000600e620891bff160275560006000612e2060006000600e6208c162f160285560006000612f4060006000600e6208f0abf16029556000600061306060006000600e62091f9af1602a556000600061318060006000600e62094a51f1602b55600060006132a060006000600e62097875f1602c55",
+                "storage": {}
+            },
+            "0xe836e1491c00538aaee86437f99bf51a86a9472a": {
+                "nonce": "0x00",
+                "balance": "0x3635c9adc5dea00000",
+                "code": "0x",
+                "storage": {}
+            }
+        },
+        "transaction": {
+            "nonce": "0x00",
+            "gasPrice": "0x0a",
+            "gasLimit": [
+                "0xfb1a59"
+            ],
+            "to": "0x7e11e5e5ce8c6b899e1163f7e87c9a72ca665a7d",
+            "value": [
+                "0x00"
+            ],
+            "data": [
+                "0x"
+            ],
+            "sender": "0xe836e1491c00538aaee86437f99bf51a86a9472a",
+            "secretKey": "0xc3bc0b86908ff662726346a77e11e5e5ce8c6b899e1163f7e87c9a72ca665a7d"
+        },
+        "post": {
+            "Osaka": [
+                {
+                    "hash": "0x56cfe6568268e7de2941f5d07f1d38c40848335ff5aef56a05337a3ab15abdcf",
+                    "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0xf860800a83fb1a59947e11e5e5ce8c6b899e1163f7e87c9a72ca665a7d808026a02f0e411fd3beff13be9688b0db259069a64c58bda90acb601ece0e292d47ccc3a05ebfb38f3f9edb6d8d2a65891bca9c09e1d98f03888206ad2c8cec3581d8bc52",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    },
+                    "state": {
+                        "0x7e11e5e5ce8c6b899e1163f7e87c9a72ca665a7d": {
+                            "nonce": "0x01",
+                            "balance": "0x00",
+                            "code": "0x6000600061012060006000600e6157e3f16000556000600061024060006000600e61afc7f16001556000600061036060006000600e61f35df16002556000600061048060006000600e620136c7f1600355600060006105a060006000600e620177baf1600455600060006106c060006000600e6201b6bff1600555600060006107e060006000600e6201f391f16006556000600061090060006000600e62022faff160075560006000610a2060006000600e62026a92f160085560006000610b4060006000600e6202a4c1f160095560006000610c6060006000600e6202ddcbf1600a5560006000610d8060006000600e620315f5f1600b5560006000610ea060006000600e62034d81f1600c5560006000610fc060006000600e620384b3f1600d55600060006110e060006000600e6203ba7df1600e556000600061120060006000600e6203f047f1600f556000600061132060006000600e62042654f16010556000600061144060006000600e620459bff16011556000600061156060006000600e62048f45f16012556000600061168060006000600e6204c229f1601355600060006117a060006000600e6204f5d7f1601455600060006118c060006000600e620528a4f1601555600060006119e060006000600e62055c95f160165560006000611b0060006000600e62058db7f160175560006000611c2060006000600e6205c02af160185560006000611d4060006000600e6205f1e9f160195560006000611e6060006000600e62062553f1601a5560006000611f8060006000600e620655c1f1601b55600060006120a060006000600e6206857af1601c55600060006121c060006000600e6206b723f1601d55600060006122e060006000600e6206e844f1601e556000600061240060006000600e620718dff1601f556000600061252060006000600e620748f2f16020556000600061264060006000600e6207787ff16021556000600061276060006000600e6207a784f16022556000600061288060006000600e6207d603f1602355600060006129a060006000600e6208073bf160245560006000612ac060006000600e620834c2f160255560006000612be060006000600e6208652ff160265560006000612d0060006000600e620891bff160275560006000612e2060006000600e6208c162f160285560006000612f4060006000600e6208f0abf16029556000600061306060006000600e62091f9af1602a556000600061318060006000600e62094a51f1602b55600060006132a060006000600e62097875f1602c55",
+                            "storage": {}
+                        },
+                        "0xe836e1491c00538aaee86437f99bf51a86a9472a": {
+                            "nonce": "0x01",
+                            "balance": "0x3635c9adc5d55b83e8",
+                            "code": "0x",
+                            "storage": {}
+                        },
+                        "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba": {
+                            "nonce": "0x00",
+                            "balance": "0x02c7bed4",
+                            "code": "0x",
+                            "storage": {}
+                        }
+                    }
+                }
+            ]
+        },
+        "config": {
+            "blobSchedule": {
+                "Cancun": {
+                    "target": "0x03",
+                    "max": "0x06",
+                    "baseFeeUpdateFraction": "0x32f0ed"
+                },
+                "Prague": {
+                    "target": "0x06",
+                    "max": "0x09",
+                    "baseFeeUpdateFraction": "0x4c6964"
+                },
+                "Osaka": {
+                    "target": "0x06",
+                    "max": "0x09",
+                    "baseFeeUpdateFraction": "0x4c6964"
+                }
+            },
+            "chainid": "0x01"
+        },
+        "_info": {
+            "hash": "0xd129897783f94bf0ab45ae234627485f1056581b1bcdf79ccda6ad88e2fe7b25",
+            "comment": "`execution-specs` generated test",
+            "filling-transition-tool": "2.18.0rc6",
+            "description": "Test the BLS12_G2MSM discount gas table in full, by expecting the call to\n    fail for all possible input lengths because the appropriate amount of gas\n    is not provided.\n\n    If any of the calls succeeds, the test will fail.",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-v5.4.0/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_variable_length_input_contracts.py#L505",
+            "fixture-format": "state_test",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2537.md",
+            "reference-spec-version": "c561ec1426fe5ec470eade499a0bd4174f270583"
+        }
+    },
+    "tests/prague/eip2537_bls_12_381_precompiles/test_bls12_variable_length_input_contracts.py::test_invalid_gas_g2msm[fork_Osaka-discount_table_2_of_7-state_test-precompile_address_14--insufficient_gas]": {
+        "env": {
+            "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
+            "currentGasLimit": "0x07270e00",
+            "currentNumber": "0x01",
+            "currentTimestamp": "0x03e8",
+            "currentRandom": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "currentDifficulty": "0x00",
+            "currentBaseFee": "0x07",
+            "currentExcessBlobGas": "0x00"
+        },
+        "pre": {
+            "0xbfeac13978559cddf1bd04dbf6449d488ca7c6a6": {
+                "nonce": "0x01",
+                "balance": "0x00",
+                "code": "0x600060006133c060006000600e6209a640f1600055600060006134e060006000600e6209d3b0f16001556000600061360060006000600e620a00c7f16002556000600061372060006000600e620a31d2f16003556000600061384060006000600e620a5e4bf16004556000600061396060006000600e620a8a6af160055560006000613a8060006000600e620ab62ff160065560006000613ba060006000600e620ae19af160075560006000613cc060006000600e620b116af160085560006000613de060006000600e620b3c37f160095560006000613f0060006000600e620b66abf1600a556000600061402060006000600e620b95c7f1600b556000600061414060006000600e620bbf9df1600c556000600061426060006000600e620bee48f1600d556000600061438060006000600e620c1781f1600e55600060006144a060006000600e620c45bcf1600f55600060006145c060006000600e620c6e57f1601055600060006146e060006000600e620c9c21f16011556000600061480060006000600e620cc9bff16012556000600061492060006000600e620cf179f160135560006000614a4060006000600e620d1ea6f1601455",
+                "storage": {}
+            },
+            "0x7c05cadc4f94dddc3107465f80fc45dbc9ce3387": {
+                "nonce": "0x00",
+                "balance": "0x3635c9adc5dea00000",
+                "code": "0x",
+                "storage": {}
+            }
+        },
+        "transaction": {
+            "nonce": "0x00",
+            "gasPrice": "0x0a",
+            "gasLimit": [
+                "0xf6f80a"
+            ],
+            "to": "0xbfeac13978559cddf1bd04dbf6449d488ca7c6a6",
+            "value": [
+                "0x00"
+            ],
+            "data": [
+                "0x"
+            ],
+            "sender": "0x7c05cadc4f94dddc3107465f80fc45dbc9ce3387",
+            "secretKey": "0xfd5f2fb012601e95cea67218bfeac13978559cddf1bd04dbf6449d488ca7c6a6"
+        },
+        "post": {
+            "Osaka": [
+                {
+                    "hash": "0x4df8ed03479fe349c0cab909ae8ff9d663ab3bf74e6fff1447cf151420747e0d",
+                    "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0xf860800a83f6f80a94bfeac13978559cddf1bd04dbf6449d488ca7c6a6808026a0963dba2aeb5460f959a0736131ee4a1eb8abeadf4fb6fdc9e1f15eaa2745b884a05a39d6187c44aabdbc8f7010bcf9ddbb04375d3b5415815241d84de1aef7e8d6",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    },
+                    "state": {
+                        "0xbfeac13978559cddf1bd04dbf6449d488ca7c6a6": {
+                            "nonce": "0x01",
+                            "balance": "0x00",
+                            "code": "0x600060006133c060006000600e6209a640f1600055600060006134e060006000600e6209d3b0f16001556000600061360060006000600e620a00c7f16002556000600061372060006000600e620a31d2f16003556000600061384060006000600e620a5e4bf16004556000600061396060006000600e620a8a6af160055560006000613a8060006000600e620ab62ff160065560006000613ba060006000600e620ae19af160075560006000613cc060006000600e620b116af160085560006000613de060006000600e620b3c37f160095560006000613f0060006000600e620b66abf1600a556000600061402060006000600e620b95c7f1600b556000600061414060006000600e620bbf9df1600c556000600061426060006000600e620bee48f1600d556000600061438060006000600e620c1781f1600e55600060006144a060006000600e620c45bcf1600f55600060006145c060006000600e620c6e57f1601055600060006146e060006000600e620c9c21f16011556000600061480060006000600e620cc9bff16012556000600061492060006000600e620cf179f160135560006000614a4060006000600e620d1ea6f1601455",
+                            "storage": {}
+                        },
+                        "0x7c05cadc4f94dddc3107465f80fc45dbc9ce3387": {
+                            "nonce": "0x01",
+                            "balance": "0x3635c9adc5d53af70e",
+                            "code": "0x",
+                            "storage": {}
+                        },
+                        "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba": {
+                            "nonce": "0x00",
+                            "balance": "0x02d182af",
+                            "code": "0x",
+                            "storage": {}
+                        }
+                    }
+                }
+            ]
+        },
+        "config": {
+            "blobSchedule": {
+                "Cancun": {
+                    "target": "0x03",
+                    "max": "0x06",
+                    "baseFeeUpdateFraction": "0x32f0ed"
+                },
+                "Prague": {
+                    "target": "0x06",
+                    "max": "0x09",
+                    "baseFeeUpdateFraction": "0x4c6964"
+                },
+                "Osaka": {
+                    "target": "0x06",
+                    "max": "0x09",
+                    "baseFeeUpdateFraction": "0x4c6964"
+                }
+            },
+            "chainid": "0x01"
+        },
+        "_info": {
+            "hash": "0x99a35fd9d367c0341f9c07df53ebfe6e37311a39ace9f8f008696b8df88bdfef",
+            "comment": "`execution-specs` generated test",
+            "filling-transition-tool": "2.18.0rc6",
+            "description": "Test the BLS12_G2MSM discount gas table in full, by expecting the call to\n    fail for all possible input lengths because the appropriate amount of gas\n    is not provided.\n\n    If any of the calls succeeds, the test will fail.",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-v5.4.0/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_variable_length_input_contracts.py#L505",
+            "fixture-format": "state_test",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2537.md",
+            "reference-spec-version": "c561ec1426fe5ec470eade499a0bd4174f270583"
+        }
+    },
+    "tests/prague/eip2537_bls_12_381_precompiles/test_bls12_variable_length_input_contracts.py::test_invalid_gas_g2msm[fork_Osaka-discount_table_3_of_7-state_test-precompile_address_14--insufficient_gas]": {
+        "env": {
+            "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
+            "currentGasLimit": "0x07270e00",
+            "currentNumber": "0x01",
+            "currentTimestamp": "0x03e8",
+            "currentRandom": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "currentDifficulty": "0x00",
+            "currentBaseFee": "0x07",
+            "currentExcessBlobGas": "0x00"
+        },
+        "pre": {
+            "0xf3094b1e579f35652c1430852e62a5fa85104a01": {
+                "nonce": "0x01",
+                "balance": "0x00",
+                "code": "0x60006000614b6060006000600e620d4ba6f160005560006000614c8060006000600e620d727ff160015560006000614da060006000600e620d9f0ef160025560006000614ec060006000600e620dcb71f160035560006000614fe060006000600e620df7a6f16004556000600061510060006000600e620e1d5bf16005556000600061522060006000600e620e4920f16006556000600061534060006000600e620e74b8f16007556000600061546060006000600e620ea023f16008556000600061558060006000600e620ecb61f1600955600060006156a060006000600e620ef672f1600a55600060006157c060006000600e620f2156f1600b55600060006158e060006000600e620f451bf1600c5560006000615a0060006000600e620f6f8ff1600d5560006000615b2060006000600e620f99d5f1600e5560006000615c4060006000600e620fc3eff1600f5560006000615d6060006000600e620feddbf1601055",
+                "storage": {}
+            },
+            "0x2cbc7fa73f50ce070138e72c59d43c648dd33fcc": {
+                "nonce": "0x00",
+                "balance": "0x3635c9adc5dea00000",
+                "code": "0x",
+                "storage": {}
+            }
+        },
+        "transaction": {
+            "nonce": "0x00",
+            "gasPrice": "0x0a",
+            "gasLimit": [
+                "0xfeb451"
+            ],
+            "to": "0xf3094b1e579f35652c1430852e62a5fa85104a01",
+            "value": [
+                "0x00"
+            ],
+            "data": [
+                "0x"
+            ],
+            "sender": "0x2cbc7fa73f50ce070138e72c59d43c648dd33fcc",
+            "secretKey": "0x04d89f8e80fa6ca7a49a3303f3094b1e579f35652c1430852e62a5fa85104a01"
+        },
+        "post": {
+            "Osaka": [
+                {
+                    "hash": "0xd698d2295df2dd23dbbd4ef95ad3460ff47f64f290ed635f7f1de05813a1eec5",
+                    "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0xf860800a83feb45194f3094b1e579f35652c1430852e62a5fa85104a01808026a0cd0b3a4977b3943798e0dbb540b13a4dd6af70fa9a98e77a5d4cff249f97fbf2a0442fe292fb5da2ac7ef6a532f500747b1d94c397e078816d32d431d3cac37e53",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    },
+                    "state": {
+                        "0xf3094b1e579f35652c1430852e62a5fa85104a01": {
+                            "nonce": "0x01",
+                            "balance": "0x00",
+                            "code": "0x60006000614b6060006000600e620d4ba6f160005560006000614c8060006000600e620d727ff160015560006000614da060006000600e620d9f0ef160025560006000614ec060006000600e620dcb71f160035560006000614fe060006000600e620df7a6f16004556000600061510060006000600e620e1d5bf16005556000600061522060006000600e620e4920f16006556000600061534060006000600e620e74b8f16007556000600061546060006000600e620ea023f16008556000600061558060006000600e620ecb61f1600955600060006156a060006000600e620ef672f1600a55600060006157c060006000600e620f2156f1600b55600060006158e060006000600e620f451bf1600c5560006000615a0060006000600e620f6f8ff1600d5560006000615b2060006000600e620f99d5f1600e5560006000615c4060006000600e620fc3eff1600f5560006000615d6060006000600e620feddbf1601055",
+                            "storage": {}
+                        },
+                        "0x2cbc7fa73f50ce070138e72c59d43c648dd33fcc": {
+                            "nonce": "0x01",
+                            "balance": "0x3635c9adc5d4e14ba0",
+                            "code": "0x",
+                            "storage": {}
+                        },
+                        "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba": {
+                            "nonce": "0x00",
+                            "balance": "0x02ec6950",
+                            "code": "0x",
+                            "storage": {}
+                        }
+                    }
+                }
+            ]
+        },
+        "config": {
+            "blobSchedule": {
+                "Cancun": {
+                    "target": "0x03",
+                    "max": "0x06",
+                    "baseFeeUpdateFraction": "0x32f0ed"
+                },
+                "Prague": {
+                    "target": "0x06",
+                    "max": "0x09",
+                    "baseFeeUpdateFraction": "0x4c6964"
+                },
+                "Osaka": {
+                    "target": "0x06",
+                    "max": "0x09",
+                    "baseFeeUpdateFraction": "0x4c6964"
+                }
+            },
+            "chainid": "0x01"
+        },
+        "_info": {
+            "hash": "0xc680382a5a31e8cd6d561b4fb110f0bdd6e9e9486036072305816dfe94aca492",
+            "comment": "`execution-specs` generated test",
+            "filling-transition-tool": "2.18.0rc6",
+            "description": "Test the BLS12_G2MSM discount gas table in full, by expecting the call to\n    fail for all possible input lengths because the appropriate amount of gas\n    is not provided.\n\n    If any of the calls succeeds, the test will fail.",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-v5.4.0/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_variable_length_input_contracts.py#L505",
+            "fixture-format": "state_test",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2537.md",
+            "reference-spec-version": "c561ec1426fe5ec470eade499a0bd4174f270583"
+        }
+    },
+    "tests/prague/eip2537_bls_12_381_precompiles/test_bls12_variable_length_input_contracts.py::test_invalid_gas_g2msm[fork_Osaka-discount_table_4_of_7-state_test-precompile_address_14--insufficient_gas]": {
+        "env": {
+            "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
+            "currentGasLimit": "0x07270e00",
+            "currentNumber": "0x01",
+            "currentTimestamp": "0x03e8",
+            "currentRandom": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "currentDifficulty": "0x00",
+            "currentBaseFee": "0x07",
+            "currentExcessBlobGas": "0x00"
+        },
+        "pre": {
+            "0x61bc9f46a20237867f00657ce7200555fadbb2c7": {
+                "nonce": "0x01",
+                "balance": "0x00",
+                "code": "0x60006000615e8060006000600e6210179bf160005560006000615fa060006000600e6210412df1600155600060006160c060006000600e62106a93f1600255600060006161e060006000600e621093cbf16003556000600061630060006000600e6210bcd7f16004556000600061642060006000600e6210e5b5f16005556000600061654060006000600e62110e67f16006556000600061666060006000600e62113eebf16007556000600061678060006000600e62116759f1600855600060006168a060006000600e62118f9af1600955600060006169c060006000600e6211b7aef1600a5560006000616ae060006000600e6211df95f1600b5560006000616c0060006000600e6212074ff1600c5560006000616d2060006000600e62122edcf1600d55",
+                "storage": {}
+            },
+            "0x39923c05070020c2727c1aa590816f916683021d": {
+                "nonce": "0x00",
+                "balance": "0x3635c9adc5dea00000",
+                "code": "0x",
+                "storage": {}
+            }
+        },
+        "transaction": {
+            "nonce": "0x00",
+            "gasPrice": "0x0a",
+            "gasLimit": [
+                "0xf53bfe"
+            ],
+            "to": "0x61bc9f46a20237867f00657ce7200555fadbb2c7",
+            "value": [
+                "0x00"
+            ],
+            "data": [
+                "0x"
+            ],
+            "sender": "0x39923c05070020c2727c1aa590816f916683021d",
+            "secretKey": "0xc7cc865b2a87f2f1fd5f877c61bc9f46a20237867f00657ce7200555fadbb2c7"
+        },
+        "post": {
+            "Osaka": [
+                {
+                    "hash": "0xd6388b8aacb58de350cd815434d3e5e9bef117bbf1fd7952372f0b16138b3ff8",
+                    "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0xf860800a83f53bfe9461bc9f46a20237867f00657ce7200555fadbb2c7808025a068797d52370931f8ee3b8b4462fa449e07b40d9f143e4865fd0b3655710a2a44a07403c46246825ef6e4a4ac9f2878824858334740bba87f2f5ec259232236d053",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    },
+                    "state": {
+                        "0x61bc9f46a20237867f00657ce7200555fadbb2c7": {
+                            "nonce": "0x01",
+                            "balance": "0x00",
+                            "code": "0x60006000615e8060006000600e6210179bf160005560006000615fa060006000600e6210412df1600155600060006160c060006000600e62106a93f1600255600060006161e060006000600e621093cbf16003556000600061630060006000600e6210bcd7f16004556000600061642060006000600e6210e5b5f16005556000600061654060006000600e62110e67f16006556000600061666060006000600e62113eebf16007556000600061678060006000600e62116759f1600855600060006168a060006000600e62118f9af1600955600060006169c060006000600e6211b7aef1600a5560006000616ae060006000600e6211df95f1600b5560006000616c0060006000600e6212074ff1600c5560006000616d2060006000600e62122edcf1600d55",
+                            "storage": {}
+                        },
+                        "0x39923c05070020c2727c1aa590816f916683021d": {
+                            "nonce": "0x01",
+                            "balance": "0x3635c9adc5d536c260",
+                            "code": "0x",
+                            "storage": {}
+                        },
+                        "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba": {
+                            "nonce": "0x00",
+                            "balance": "0x02d2c5b0",
+                            "code": "0x",
+                            "storage": {}
+                        }
+                    }
+                }
+            ]
+        },
+        "config": {
+            "blobSchedule": {
+                "Cancun": {
+                    "target": "0x03",
+                    "max": "0x06",
+                    "baseFeeUpdateFraction": "0x32f0ed"
+                },
+                "Prague": {
+                    "target": "0x06",
+                    "max": "0x09",
+                    "baseFeeUpdateFraction": "0x4c6964"
+                },
+                "Osaka": {
+                    "target": "0x06",
+                    "max": "0x09",
+                    "baseFeeUpdateFraction": "0x4c6964"
+                }
+            },
+            "chainid": "0x01"
+        },
+        "_info": {
+            "hash": "0xe8d74c448847faa17efd5a6d183d379f14b6516049c3d1725d35ae7eb3ddcb56",
+            "comment": "`execution-specs` generated test",
+            "filling-transition-tool": "2.18.0rc6",
+            "description": "Test the BLS12_G2MSM discount gas table in full, by expecting the call to\n    fail for all possible input lengths because the appropriate amount of gas\n    is not provided.\n\n    If any of the calls succeeds, the test will fail.",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-v5.4.0/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_variable_length_input_contracts.py#L505",
+            "fixture-format": "state_test",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2537.md",
+            "reference-spec-version": "c561ec1426fe5ec470eade499a0bd4174f270583"
+        }
+    },
+    "tests/prague/eip2537_bls_12_381_precompiles/test_bls12_variable_length_input_contracts.py::test_invalid_gas_g2msm[fork_Osaka-discount_table_5_of_7-state_test-precompile_address_14--insufficient_gas]": {
+        "env": {
+            "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
+            "currentGasLimit": "0x07270e00",
+            "currentNumber": "0x01",
+            "currentTimestamp": "0x03e8",
+            "currentRandom": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "currentDifficulty": "0x00",
+            "currentBaseFee": "0x07",
+            "currentExcessBlobGas": "0x00"
+        },
+        "pre": {
+            "0x4e270da42eba7e0af240052b769462c146d23847": {
+                "nonce": "0x01",
+                "balance": "0x00",
+                "code": "0x60006000616e4060006000600e6212563cf160005560006000616f6060006000600e62128622f16001556000600061708060006000600e6212ad3ff1600255600060006171a060006000600e6212d42ef1600355600060006172c060006000600e6212faf1f1600455600060006173e060006000600e62132186f16005556000600061750060006000600e62135113f16006556000600061762060006000600e62137765f16007556000600061774060006000600e62139d8af16008556000600061786060006000600e6213c382f16009556000600061798060006000600e6213e94df1600a5560006000617aa060006000600e6214187ff1600b5560006000617bc060006000600e62143e07f1600c55",
+                "storage": {}
+            },
+            "0xf02a2be45a7176ffd956fd875b7a59d83f3861e1": {
+                "nonce": "0x00",
+                "balance": "0x3635c9adc5dea00000",
+                "code": "0x",
+                "storage": {}
+            }
+        },
+        "transaction": {
+            "nonce": "0x00",
+            "gasPrice": "0x0a",
+            "gasLimit": [
+                "0xffbf56"
+            ],
+            "to": "0x4e270da42eba7e0af240052b769462c146d23847",
+            "value": [
+                "0x00"
+            ],
+            "data": [
+                "0x"
+            ],
+            "sender": "0xf02a2be45a7176ffd956fd875b7a59d83f3861e1",
+            "secretKey": "0x51e943206b9c9cf3bb5984bc4e270da42eba7e0af240052b769462c146d23847"
+        },
+        "post": {
+            "Osaka": [
+                {
+                    "hash": "0x4e01c2fcf43d289460a2d9829d24f3823d44af8bf6aceb5128cb63e424992b27",
+                    "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0xf860800a83ffbf56944e270da42eba7e0af240052b769462c146d23847808025a0084be3aa7838975a30718db009ff4ba8f473d5864742822320a8567a7cd178fea02cb114c9be2ef2d1e16c9a03b872fbd3c9078930002eae37b35b3cce2666dd0f",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    },
+                    "state": {
+                        "0x4e270da42eba7e0af240052b769462c146d23847": {
+                            "nonce": "0x01",
+                            "balance": "0x00",
+                            "code": "0x60006000616e4060006000600e6212563cf160005560006000616f6060006000600e62128622f16001556000600061708060006000600e6212ad3ff1600255600060006171a060006000600e6212d42ef1600355600060006172c060006000600e6212faf1f1600455600060006173e060006000600e62132186f16005556000600061750060006000600e62135113f16006556000600061762060006000600e62137765f16007556000600061774060006000600e62139d8af16008556000600061786060006000600e6213c382f16009556000600061798060006000600e6213e94df1600a5560006000617aa060006000600e6214187ff1600b5560006000617bc060006000600e62143e07f1600c55",
+                            "storage": {}
+                        },
+                        "0xf02a2be45a7176ffd956fd875b7a59d83f3861e1": {
+                            "nonce": "0x01",
+                            "balance": "0x3635c9adc5d4ca8cc6",
+                            "code": "0x",
+                            "storage": {}
+                        },
+                        "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba": {
+                            "nonce": "0x00",
+                            "balance": "0x02f33c2b",
+                            "code": "0x",
+                            "storage": {}
+                        }
+                    }
+                }
+            ]
+        },
+        "config": {
+            "blobSchedule": {
+                "Cancun": {
+                    "target": "0x03",
+                    "max": "0x06",
+                    "baseFeeUpdateFraction": "0x32f0ed"
+                },
+                "Prague": {
+                    "target": "0x06",
+                    "max": "0x09",
+                    "baseFeeUpdateFraction": "0x4c6964"
+                },
+                "Osaka": {
+                    "target": "0x06",
+                    "max": "0x09",
+                    "baseFeeUpdateFraction": "0x4c6964"
+                }
+            },
+            "chainid": "0x01"
+        },
+        "_info": {
+            "hash": "0x0dd7c4ca78d7f859861a1f8a465faa48ce88a2dd83a16ce111f905fefab49427",
+            "comment": "`execution-specs` generated test",
+            "filling-transition-tool": "2.18.0rc6",
+            "description": "Test the BLS12_G2MSM discount gas table in full, by expecting the call to\n    fail for all possible input lengths because the appropriate amount of gas\n    is not provided.\n\n    If any of the calls succeeds, the test will fail.",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-v5.4.0/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_variable_length_input_contracts.py#L505",
+            "fixture-format": "state_test",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2537.md",
+            "reference-spec-version": "c561ec1426fe5ec470eade499a0bd4174f270583"
+        }
+    },
+    "tests/prague/eip2537_bls_12_381_precompiles/test_bls12_variable_length_input_contracts.py::test_invalid_gas_g2msm[fork_Osaka-discount_table_6_of_7-state_test-precompile_address_14--insufficient_gas]": {
+        "env": {
+            "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
+            "currentGasLimit": "0x07270e00",
+            "currentNumber": "0x01",
+            "currentTimestamp": "0x03e8",
+            "currentRandom": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "currentDifficulty": "0x00",
+            "currentBaseFee": "0x07",
+            "currentExcessBlobGas": "0x00"
+        },
+        "pre": {
+            "0x196bac717fa0ccac51f4bd7b901e77d23c4e4b45": {
+                "nonce": "0x01",
+                "balance": "0x00",
+                "code": "0x60006000617ce060006000600e62146361f160005560006000617e0060006000600e62149267f160015560006000617f2060006000600e6214b77ef16002556000600061804060006000600e6214dc68f16003556000600061816060006000600e62150125f16004556000600061828060006000600e62152fe7f1600555600060006183a060006000600e62155460f1600655600060006184c060006000600e621578adf1600755600060006185e060006000600e6215a742f16008556000600061870060006000600e6215cb4bf16009556000600061882060006000600e6215ef27f1600a55",
+                "storage": {}
+            },
+            "0x29c41ead6256d9d9c7b5404b0ac179e98b9b2c20": {
+                "nonce": "0x00",
+                "balance": "0x3635c9adc5dea00000",
+                "code": "0x",
+                "storage": {}
+            }
+        },
+        "transaction": {
+            "nonce": "0x00",
+            "gasPrice": "0x0a",
+            "gasLimit": [
+                "0xed1829"
+            ],
+            "to": "0x196bac717fa0ccac51f4bd7b901e77d23c4e4b45",
+            "value": [
+                "0x00"
+            ],
+            "data": [
+                "0x"
+            ],
+            "sender": "0x29c41ead6256d9d9c7b5404b0ac179e98b9b2c20",
+            "secretKey": "0x5e24463203172abe90ff9d39196bac717fa0ccac51f4bd7b901e77d23c4e4b45"
+        },
+        "post": {
+            "Osaka": [
+                {
+                    "hash": "0x5affcb9bb62fd3a862d313cc30ef6b64502aae8d0ee4056f936cb14f45563f6d",
+                    "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0xf860800a83ed182994196bac717fa0ccac51f4bd7b901e77d23c4e4b45808025a08d9efcd731722b83db3379aa8b810b52d960793f9d964373119580bf289c9016a02d59e16c5be5a73be6cd4a90adc9cc2d15baa45bf6818751159fda3ed4f35770",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    },
+                    "state": {
+                        "0x196bac717fa0ccac51f4bd7b901e77d23c4e4b45": {
+                            "nonce": "0x01",
+                            "balance": "0x00",
+                            "code": "0x60006000617ce060006000600e62146361f160005560006000617e0060006000600e62149267f160015560006000617f2060006000600e6214b77ef16002556000600061804060006000600e6214dc68f16003556000600061816060006000600e62150125f16004556000600061828060006000600e62152fe7f1600555600060006183a060006000600e62155460f1600655600060006184c060006000600e621578adf1600755600060006185e060006000600e6215a742f16008556000600061870060006000600e6215cb4bf16009556000600061882060006000600e6215ef27f1600a55",
+                            "storage": {}
+                        },
+                        "0x29c41ead6256d9d9c7b5404b0ac179e98b9b2c20": {
+                            "nonce": "0x01",
+                            "balance": "0x3635c9adc5d57eec34",
+                            "code": "0x",
+                            "storage": {}
+                        },
+                        "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba": {
+                            "nonce": "0x00",
+                            "balance": "0x02bd1f8a",
+                            "code": "0x",
+                            "storage": {}
+                        }
+                    }
+                }
+            ]
+        },
+        "config": {
+            "blobSchedule": {
+                "Cancun": {
+                    "target": "0x03",
+                    "max": "0x06",
+                    "baseFeeUpdateFraction": "0x32f0ed"
+                },
+                "Prague": {
+                    "target": "0x06",
+                    "max": "0x09",
+                    "baseFeeUpdateFraction": "0x4c6964"
+                },
+                "Osaka": {
+                    "target": "0x06",
+                    "max": "0x09",
+                    "baseFeeUpdateFraction": "0x4c6964"
+                }
+            },
+            "chainid": "0x01"
+        },
+        "_info": {
+            "hash": "0x39e5eaefc2e047397553180ceb51db0ba90cec7d0d9347575050cb13fa1c295d",
+            "comment": "`execution-specs` generated test",
+            "filling-transition-tool": "2.18.0rc6",
+            "description": "Test the BLS12_G2MSM discount gas table in full, by expecting the call to\n    fail for all possible input lengths because the appropriate amount of gas\n    is not provided.\n\n    If any of the calls succeeds, the test will fail.",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-v5.4.0/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_variable_length_input_contracts.py#L505",
+            "fixture-format": "state_test",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2537.md",
+            "reference-spec-version": "c561ec1426fe5ec470eade499a0bd4174f270583"
+        }
+    },
+    "tests/prague/eip2537_bls_12_381_precompiles/test_bls12_variable_length_input_contracts.py::test_invalid_gas_g2msm[fork_Osaka-discount_table_7_of_7-state_test-precompile_address_14--insufficient_gas]": {
+        "env": {
+            "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
+            "currentGasLimit": "0x07270e00",
+            "currentNumber": "0x01",
+            "currentTimestamp": "0x03e8",
+            "currentRandom": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "currentDifficulty": "0x00",
+            "currentBaseFee": "0x07",
+            "currentExcessBlobGas": "0x00"
+        },
+        "pre": {
+            "0x5c4f309f3d5dd00b1e425ff473388e5a52af6d6d": {
+                "nonce": "0x01",
+                "balance": "0x00",
+                "code": "0x6000600061894060006000600e62161d8ff160005560006000618a6060006000600e62164127f160015560006000618b8060006000600e62166493f160025560006000618ca060006000600e621692cef160035560006000618dc060006000600e6216b5f6f160045560006000618ee060006000600e6216d8f1f16005556000600061900060006000600e621706fff16006556000600061912060006000600e6217350df1600755",
+                "storage": {}
+            },
+            "0xd10a5c9ea2f07f4243c7163b108e3d51f85be34f": {
+                "nonce": "0x00",
+                "balance": "0x3635c9adc5dea00000",
+                "code": "0x",
+                "storage": {}
+            }
+        },
+        "transaction": {
+            "nonce": "0x00",
+            "gasPrice": "0x0a",
+            "gasLimit": [
+                "0xb84a1d"
+            ],
+            "to": "0x5c4f309f3d5dd00b1e425ff473388e5a52af6d6d",
+            "value": [
+                "0x00"
+            ],
+            "data": [
+                "0x"
+            ],
+            "sender": "0xd10a5c9ea2f07f4243c7163b108e3d51f85be34f",
+            "secretKey": "0xdba72b4ce2c7e80418f6ea665c4f309f3d5dd00b1e425ff473388e5a52af6d6d"
+        },
+        "post": {
+            "Osaka": [
+                {
+                    "hash": "0xf404c74feddb91532b9b0691a7b7b11e5254876695df931343aeb567c3a1d501",
+                    "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0xf860800a83b84a1d945c4f309f3d5dd00b1e425ff473388e5a52af6d6d808025a084b7579278e82cbea56ff36e98831697d2fe5dee7b2c8cd518efbc6c8fdd82f5a067bc4bcac169d32a36218e0768da05db80ba7209f7792409c948cedf3f24dcba",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    },
+                    "state": {
+                        "0x5c4f309f3d5dd00b1e425ff473388e5a52af6d6d": {
+                            "nonce": "0x01",
+                            "balance": "0x00",
+                            "code": "0x6000600061894060006000600e62161d8ff160005560006000618a6060006000600e62164127f160015560006000618b8060006000600e62166493f160025560006000618ca060006000600e621692cef160035560006000618dc060006000600e6216b5f6f160045560006000618ee060006000600e6216d8f1f16005556000600061900060006000600e621706fff16006556000600061912060006000600e6217350df1600755",
+                            "storage": {}
+                        },
+                        "0xd10a5c9ea2f07f4243c7163b108e3d51f85be34f": {
+                            "nonce": "0x01",
+                            "balance": "0x3635c9adc5d785bc2e",
+                            "code": "0x",
+                            "storage": {}
+                        },
+                        "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba": {
+                            "nonce": "0x00",
+                            "balance": "0x02217abf",
+                            "code": "0x",
+                            "storage": {}
+                        }
+                    }
+                }
+            ]
+        },
+        "config": {
+            "blobSchedule": {
+                "Cancun": {
+                    "target": "0x03",
+                    "max": "0x06",
+                    "baseFeeUpdateFraction": "0x32f0ed"
+                },
+                "Prague": {
+                    "target": "0x06",
+                    "max": "0x09",
+                    "baseFeeUpdateFraction": "0x4c6964"
+                },
+                "Osaka": {
+                    "target": "0x06",
+                    "max": "0x09",
+                    "baseFeeUpdateFraction": "0x4c6964"
+                }
+            },
+            "chainid": "0x01"
+        },
+        "_info": {
+            "hash": "0x2a400022fa1a955d34e82a683183577773e70d371953b59fbcbc00c3c7a262de",
+            "comment": "`execution-specs` generated test",
+            "filling-transition-tool": "2.18.0rc6",
+            "description": "Test the BLS12_G2MSM discount gas table in full, by expecting the call to\n    fail for all possible input lengths because the appropriate amount of gas\n    is not provided.\n\n    If any of the calls succeeds, the test will fail.",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-v5.4.0/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_variable_length_input_contracts.py#L505",
+            "fixture-format": "state_test",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2537.md",
+            "reference-spec-version": "c561ec1426fe5ec470eade499a0bd4174f270583"
+        }
+    },
+    "tests/prague/eip2537_bls_12_381_precompiles/test_bls12_variable_length_input_contracts.py::test_invalid_gas_g2msm[fork_Prague-full_discount_table-state_test-precompile_address_14--insufficient_gas]": {
+        "env": {
+            "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
+            "currentGasLimit": "0x07270e00",
+            "currentNumber": "0x01",
+            "currentTimestamp": "0x03e8",
+            "currentRandom": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "currentDifficulty": "0x00",
+            "currentBaseFee": "0x07",
+            "currentExcessBlobGas": "0x00"
+        },
+        "pre": {
+            "0x2c375698f86f4eb6c9c96b8fbbf37f767e991ce9": {
+                "nonce": "0x01",
+                "balance": "0x00",
+                "code": "0x6000600061012060006000600e6157e3f16000556000600061024060006000600e61afc7f16001556000600061036060006000600e61f35df16002556000600061048060006000600e620136c7f1600355600060006105a060006000600e620177baf1600455600060006106c060006000600e6201b6bff1600555600060006107e060006000600e6201f391f16006556000600061090060006000600e62022faff160075560006000610a2060006000600e62026a92f160085560006000610b4060006000600e6202a4c1f160095560006000610c6060006000600e6202ddcbf1600a5560006000610d8060006000600e620315f5f1600b5560006000610ea060006000600e62034d81f1600c5560006000610fc060006000600e620384b3f1600d55600060006110e060006000600e6203ba7df1600e556000600061120060006000600e6203f047f1600f556000600061132060006000600e62042654f16010556000600061144060006000600e620459bff16011556000600061156060006000600e62048f45f16012556000600061168060006000600e6204c229f1601355600060006117a060006000600e6204f5d7f1601455600060006118c060006000600e620528a4f1601555600060006119e060006000600e62055c95f160165560006000611b0060006000600e62058db7f160175560006000611c2060006000600e6205c02af160185560006000611d4060006000600e6205f1e9f160195560006000611e6060006000600e62062553f1601a5560006000611f8060006000600e620655c1f1601b55600060006120a060006000600e6206857af1601c55600060006121c060006000600e6206b723f1601d55600060006122e060006000600e6206e844f1601e556000600061240060006000600e620718dff1601f556000600061252060006000600e620748f2f16020556000600061264060006000600e6207787ff16021556000600061276060006000600e6207a784f16022556000600061288060006000600e6207d603f1602355600060006129a060006000600e6208073bf160245560006000612ac060006000600e620834c2f160255560006000612be060006000600e6208652ff160265560006000612d0060006000600e620891bff160275560006000612e2060006000600e6208c162f160285560006000612f4060006000600e6208f0abf16029556000600061306060006000600e62091f9af1602a556000600061318060006000600e62094a51f1602b55600060006132a060006000600e62097875f1602c55600060006133c060006000600e6209a640f1602d55600060006134e060006000600e6209d3b0f1602e556000600061360060006000600e620a00c7f1602f556000600061372060006000600e620a31d2f16030556000600061384060006000600e620a5e4bf16031556000600061396060006000600e620a8a6af160325560006000613a8060006000600e620ab62ff160335560006000613ba060006000600e620ae19af160345560006000613cc060006000600e620b116af160355560006000613de060006000600e620b3c37f160365560006000613f0060006000600e620b66abf16037556000600061402060006000600e620b95c7f16038556000600061414060006000600e620bbf9df16039556000600061426060006000600e620bee48f1603a556000600061438060006000600e620c1781f1603b55600060006144a060006000600e620c45bcf1603c55600060006145c060006000600e620c6e57f1603d55600060006146e060006000600e620c9c21f1603e556000600061480060006000600e620cc9bff1603f556000600061492060006000600e620cf179f160405560006000614a4060006000600e620d1ea6f160415560006000614b6060006000600e620d4ba6f160425560006000614c8060006000600e620d727ff160435560006000614da060006000600e620d9f0ef160445560006000614ec060006000600e620dcb71f160455560006000614fe060006000600e620df7a6f16046556000600061510060006000600e620e1d5bf16047556000600061522060006000600e620e4920f16048556000600061534060006000600e620e74b8f16049556000600061546060006000600e620ea023f1604a556000600061558060006000600e620ecb61f1604b55600060006156a060006000600e620ef672f1604c55600060006157c060006000600e620f2156f1604d55600060006158e060006000600e620f451bf1604e5560006000615a0060006000600e620f6f8ff1604f5560006000615b2060006000600e620f99d5f160505560006000615c4060006000600e620fc3eff160515560006000615d6060006000600e620feddbf160525560006000615e8060006000600e6210179bf160535560006000615fa060006000600e6210412df1605455600060006160c060006000600e62106a93f1605555600060006161e060006000600e621093cbf16056556000600061630060006000600e6210bcd7f16057556000600061642060006000600e6210e5b5f16058556000600061654060006000600e62110e67f16059556000600061666060006000600e62113eebf1605a556000600061678060006000600e62116759f1605b55600060006168a060006000600e62118f9af1605c55600060006169c060006000600e6211b7aef1605d5560006000616ae060006000600e6211df95f1605e5560006000616c0060006000600e6212074ff1605f5560006000616d2060006000600e62122edcf160605560006000616e4060006000600e6212563cf160615560006000616f6060006000600e62128622f16062556000600061708060006000600e6212ad3ff1606355600060006171a060006000600e6212d42ef1606455600060006172c060006000600e6212faf1f1606555600060006173e060006000600e62132186f16066556000600061750060006000600e62135113f16067556000600061762060006000600e62137765f16068556000600061774060006000600e62139d8af16069556000600061786060006000600e6213c382f1606a556000600061798060006000600e6213e94df1606b5560006000617aa060006000600e6214187ff1606c5560006000617bc060006000600e62143e07f1606d5560006000617ce060006000600e62146361f1606e5560006000617e0060006000600e62149267f1606f5560006000617f2060006000600e6214b77ef16070556000600061804060006000600e6214dc68f16071556000600061816060006000600e62150125f16072556000600061828060006000600e62152fe7f1607355600060006183a060006000600e62155460f1607455600060006184c060006000600e621578adf1607555600060006185e060006000600e6215a742f16076556000600061870060006000600e6215cb4bf16077556000600061882060006000600e6215ef27f16078556000600061894060006000600e62161d8ff160795560006000618a6060006000600e62164127f1607a5560006000618b8060006000600e62166493f1607b5560006000618ca060006000600e621692cef1607c5560006000618dc060006000600e6216b5f6f1607d5560006000618ee060006000600e6216d8f1f1607e556000600061900060006000600e621706fff1607f556000600061912060006000600e6217350df1608055",
+                "storage": {}
+            },
+            "0x30b5ccce42615c3a96d31184c4ea2ff6243999d2": {
+                "nonce": "0x00",
+                "balance": "0x3635c9adc5dea00000",
+                "code": "0x",
+                "storage": {}
+            }
+        },
+        "transaction": {
+            "nonce": "0x00",
+            "gasPrice": "0x0a",
+            "gasLimit": [
+                "0x0688e288"
+            ],
+            "to": "0x2c375698f86f4eb6c9c96b8fbbf37f767e991ce9",
+            "value": [
+                "0x00"
+            ],
+            "data": [
+                "0x"
+            ],
+            "sender": "0x30b5ccce42615c3a96d31184c4ea2ff6243999d2",
+            "secretKey": "0xeb3ebfcc6d2c876f6f9152ca2c375698f86f4eb6c9c96b8fbbf37f767e991ce9"
+        },
+        "post": {
+            "Prague": [
+                {
+                    "hash": "0x04f2f69d8fa4b2f41b862ac85c3a3feb20ff386ae590576ebd05e9dd721d26d5",
+                    "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0xf861800a840688e288942c375698f86f4eb6c9c96b8fbbf37f767e991ce9808026a095ddf9cfdb2f8fbb13bba02871f9760fa2dcf0fe109027da9aa6b4a06f6f2b7fa0213ef6ba0204c7c74763e130f4d08ab81439a9b8e8897c3f8cd86ad05d078eaf",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    },
+                    "state": {
+                        "0x2c375698f86f4eb6c9c96b8fbbf37f767e991ce9": {
+                            "nonce": "0x01",
+                            "balance": "0x00",
+                            "code": "0x6000600061012060006000600e6157e3f16000556000600061024060006000600e61afc7f16001556000600061036060006000600e61f35df16002556000600061048060006000600e620136c7f1600355600060006105a060006000600e620177baf1600455600060006106c060006000600e6201b6bff1600555600060006107e060006000600e6201f391f16006556000600061090060006000600e62022faff160075560006000610a2060006000600e62026a92f160085560006000610b4060006000600e6202a4c1f160095560006000610c6060006000600e6202ddcbf1600a5560006000610d8060006000600e620315f5f1600b5560006000610ea060006000600e62034d81f1600c5560006000610fc060006000600e620384b3f1600d55600060006110e060006000600e6203ba7df1600e556000600061120060006000600e6203f047f1600f556000600061132060006000600e62042654f16010556000600061144060006000600e620459bff16011556000600061156060006000600e62048f45f16012556000600061168060006000600e6204c229f1601355600060006117a060006000600e6204f5d7f1601455600060006118c060006000600e620528a4f1601555600060006119e060006000600e62055c95f160165560006000611b0060006000600e62058db7f160175560006000611c2060006000600e6205c02af160185560006000611d4060006000600e6205f1e9f160195560006000611e6060006000600e62062553f1601a5560006000611f8060006000600e620655c1f1601b55600060006120a060006000600e6206857af1601c55600060006121c060006000600e6206b723f1601d55600060006122e060006000600e6206e844f1601e556000600061240060006000600e620718dff1601f556000600061252060006000600e620748f2f16020556000600061264060006000600e6207787ff16021556000600061276060006000600e6207a784f16022556000600061288060006000600e6207d603f1602355600060006129a060006000600e6208073bf160245560006000612ac060006000600e620834c2f160255560006000612be060006000600e6208652ff160265560006000612d0060006000600e620891bff160275560006000612e2060006000600e6208c162f160285560006000612f4060006000600e6208f0abf16029556000600061306060006000600e62091f9af1602a556000600061318060006000600e62094a51f1602b55600060006132a060006000600e62097875f1602c55600060006133c060006000600e6209a640f1602d55600060006134e060006000600e6209d3b0f1602e556000600061360060006000600e620a00c7f1602f556000600061372060006000600e620a31d2f16030556000600061384060006000600e620a5e4bf16031556000600061396060006000600e620a8a6af160325560006000613a8060006000600e620ab62ff160335560006000613ba060006000600e620ae19af160345560006000613cc060006000600e620b116af160355560006000613de060006000600e620b3c37f160365560006000613f0060006000600e620b66abf16037556000600061402060006000600e620b95c7f16038556000600061414060006000600e620bbf9df16039556000600061426060006000600e620bee48f1603a556000600061438060006000600e620c1781f1603b55600060006144a060006000600e620c45bcf1603c55600060006145c060006000600e620c6e57f1603d55600060006146e060006000600e620c9c21f1603e556000600061480060006000600e620cc9bff1603f556000600061492060006000600e620cf179f160405560006000614a4060006000600e620d1ea6f160415560006000614b6060006000600e620d4ba6f160425560006000614c8060006000600e620d727ff160435560006000614da060006000600e620d9f0ef160445560006000614ec060006000600e620dcb71f160455560006000614fe060006000600e620df7a6f16046556000600061510060006000600e620e1d5bf16047556000600061522060006000600e620e4920f16048556000600061534060006000600e620e74b8f16049556000600061546060006000600e620ea023f1604a556000600061558060006000600e620ecb61f1604b55600060006156a060006000600e620ef672f1604c55600060006157c060006000600e620f2156f1604d55600060006158e060006000600e620f451bf1604e5560006000615a0060006000600e620f6f8ff1604f5560006000615b2060006000600e620f99d5f160505560006000615c4060006000600e620fc3eff160515560006000615d6060006000600e620feddbf160525560006000615e8060006000600e6210179bf160535560006000615fa060006000600e6210412df1605455600060006160c060006000600e62106a93f1605555600060006161e060006000600e621093cbf16056556000600061630060006000600e6210bcd7f16057556000600061642060006000600e6210e5b5f16058556000600061654060006000600e62110e67f16059556000600061666060006000600e62113eebf1605a556000600061678060006000600e62116759f1605b55600060006168a060006000600e62118f9af1605c55600060006169c060006000600e6211b7aef1605d5560006000616ae060006000600e6211df95f1605e5560006000616c0060006000600e6212074ff1605f5560006000616d2060006000600e62122edcf160605560006000616e4060006000600e6212563cf160615560006000616f6060006000600e62128622f16062556000600061708060006000600e6212ad3ff1606355600060006171a060006000600e6212d42ef1606455600060006172c060006000600e6212faf1f1606555600060006173e060006000600e62132186f16066556000600061750060006000600e62135113f16067556000600061762060006000600e62137765f16068556000600061774060006000600e62139d8af16069556000600061786060006000600e6213c382f1606a556000600061798060006000600e6213e94df1606b5560006000617aa060006000600e6214187ff1606c5560006000617bc060006000600e62143e07f1606d5560006000617ce060006000600e62146361f1606e5560006000617e0060006000600e62149267f1606f5560006000617f2060006000600e6214b77ef16070556000600061804060006000600e6214dc68f16071556000600061816060006000600e62150125f16072556000600061828060006000600e62152fe7f1607355600060006183a060006000600e62155460f1607455600060006184c060006000600e621578adf1607555600060006185e060006000600e6215a742f16076556000600061870060006000600e6215cb4bf16077556000600061882060006000600e6215ef27f16078556000600061894060006000600e62161d8ff160795560006000618a6060006000600e62164127f1607a5560006000618b8060006000600e62166493f1607b5560006000618ca060006000600e621692cef1607c5560006000618dc060006000600e6216b5f6f1607d5560006000618ee060006000600e6216d8f1f1607e556000600061900060006000600e621706fff1607f556000600061912060006000600e6217350df1608055",
+                            "storage": {}
+                        },
+                        "0x30b5ccce42615c3a96d31184c4ea2ff6243999d2": {
+                            "nonce": "0x01",
+                            "balance": "0x3635c9adc59ed44fda",
+                            "code": "0x",
+                            "storage": {}
+                        },
+                        "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba": {
+                            "nonce": "0x00",
+                            "balance": "0x132381a5",
+                            "code": "0x",
+                            "storage": {}
+                        }
+                    }
+                }
+            ]
+        },
+        "config": {
+            "blobSchedule": {
+                "Cancun": {
+                    "target": "0x03",
+                    "max": "0x06",
+                    "baseFeeUpdateFraction": "0x32f0ed"
+                },
+                "Prague": {
+                    "target": "0x06",
+                    "max": "0x09",
+                    "baseFeeUpdateFraction": "0x4c6964"
+                }
+            },
+            "chainid": "0x01"
+        },
+        "_info": {
+            "hash": "0x6d07316238152a3ed3e4aeccdc8b76cf153c5e275d4abb3c39d48204d4415700",
+            "comment": "`execution-specs` generated test",
+            "filling-transition-tool": "2.18.0rc6",
+            "description": "Test the BLS12_G2MSM discount gas table in full, by expecting the call to\n    fail for all possible input lengths because the appropriate amount of gas\n    is not provided.\n\n    If any of the calls succeeds, the test will fail.",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-v5.4.0/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_variable_length_input_contracts.py#L505",
+            "fixture-format": "state_test",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2537.md",
+            "reference-spec-version": "c561ec1426fe5ec470eade499a0bd4174f270583"
+        }
+    }
+}

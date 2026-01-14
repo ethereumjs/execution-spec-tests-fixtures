@@ -1,0 +1,118 @@
+{
+    "tests/osaka/eip7951_p256verify_precompiles/test_p256verify.py::test_precompile_will_return_success_with_tx_value[fork_Osaka-state_test-valid_input_with_value_transfer]": {
+        "env": {
+            "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
+            "currentGasLimit": "0x07270e00",
+            "currentNumber": "0x01",
+            "currentTimestamp": "0x03e8",
+            "currentRandom": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "currentDifficulty": "0x00",
+            "currentBaseFee": "0x07",
+            "currentExcessBlobGas": "0x00"
+        },
+        "pre": {
+            "0x4b042c0c24596ba3d7f6a27cc6a0465fe1083cf3": {
+                "nonce": "0x00",
+                "balance": "0x3635c9adc5dea00000",
+                "code": "0x",
+                "storage": {}
+            },
+            "0x488b362fdb8091102a526cea7da03f44b9b9e26e": {
+                "nonce": "0x01",
+                "balance": "0x00",
+                "code": "0x3660006000376020600036600034610100611af4f1806000556000516001553d60025500",
+                "storage": {}
+            }
+        },
+        "transaction": {
+            "nonce": "0x00",
+            "gasPrice": "0x0a",
+            "gasLimit": [
+                "0x0f4240"
+            ],
+            "to": "0x488b362fdb8091102a526cea7da03f44b9b9e26e",
+            "value": [
+                "0x03e8"
+            ],
+            "data": [
+                "0xbb5a52f42f9c9261ed4361f59422a1e30036e7c32b270c8807a419feca6050232ba3a8be6b94d5ec80a6d9d1190a436effe50d85a1eee859b8cc6af9bd5c2e184cd60b855d442f5b3c7b11eb6c4e0ae7525fe710fab9aa7c77a67f79e6fadd762927b10512bae3eddcfe467828128bad2903269919f7086069c8c4df6c732838c7787964eaac00e5921fb1498a60f4606766b3d9685001558d1a974e7341513e"
+            ],
+            "sender": "0x4b042c0c24596ba3d7f6a27cc6a0465fe1083cf3",
+            "secretKey": "0x49ea21d4fab7f7d7d3c8dcb5488b362fdb8091102a526cea7da03f44b9b9e26e"
+        },
+        "post": {
+            "Osaka": [
+                {
+                    "hash": "0xe7ce35cafef006f257ee0552292508c733180f0c20b63f6e61a803ef55174fa9",
+                    "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0xf90103800a830f424094488b362fdb8091102a526cea7da03f44b9b9e26e8203e8b8a0bb5a52f42f9c9261ed4361f59422a1e30036e7c32b270c8807a419feca6050232ba3a8be6b94d5ec80a6d9d1190a436effe50d85a1eee859b8cc6af9bd5c2e184cd60b855d442f5b3c7b11eb6c4e0ae7525fe710fab9aa7c77a67f79e6fadd762927b10512bae3eddcfe467828128bad2903269919f7086069c8c4df6c732838c7787964eaac00e5921fb1498a60f4606766b3d9685001558d1a974e7341513e26a06fd87fe4f511f349294ffa3f0ec79434b00671877aaae5eb23e6a58fbc227b8da061b19adef9a9824cb6c2730fdbb9bab35d831d2b78ae4193a752e27ec372dca0",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    },
+                    "state": {
+                        "0x4b042c0c24596ba3d7f6a27cc6a0465fe1083cf3": {
+                            "nonce": "0x01",
+                            "balance": "0x3635c9adc5de8c5c08",
+                            "code": "0x",
+                            "storage": {}
+                        },
+                        "0x488b362fdb8091102a526cea7da03f44b9b9e26e": {
+                            "nonce": "0x01",
+                            "balance": "0x00",
+                            "code": "0x3660006000376020600036600034610100611af4f1806000556000516001553d60025500",
+                            "storage": {
+                                "0x00": "0x01",
+                                "0x01": "0x01",
+                                "0x02": "0x20"
+                            }
+                        },
+                        "0x0000000000000000000000000000000000000100": {
+                            "nonce": "0x00",
+                            "balance": "0x03e8",
+                            "code": "0x",
+                            "storage": {}
+                        },
+                        "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba": {
+                            "nonce": "0x00",
+                            "balance": "0x05e338",
+                            "code": "0x",
+                            "storage": {}
+                        }
+                    }
+                }
+            ]
+        },
+        "config": {
+            "blobSchedule": {
+                "Cancun": {
+                    "target": "0x03",
+                    "max": "0x06",
+                    "baseFeeUpdateFraction": "0x32f0ed"
+                },
+                "Prague": {
+                    "target": "0x06",
+                    "max": "0x09",
+                    "baseFeeUpdateFraction": "0x4c6964"
+                },
+                "Osaka": {
+                    "target": "0x06",
+                    "max": "0x09",
+                    "baseFeeUpdateFraction": "0x4c6964"
+                }
+            },
+            "chainid": "0x01"
+        },
+        "_info": {
+            "hash": "0x5777fc52831a1a3825e6f81231626a966345eea95cbbb995c77cca70f171655f",
+            "comment": "`execution-specs` generated test",
+            "filling-transition-tool": "2.18.0rc6",
+            "description": "Test P256Verify precompile will not fail if value is sent.",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-v5.4.0/tests/osaka/eip7951_p256verify_precompiles/test_p256verify.py#L1074",
+            "fixture-format": "state_test",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7951.md",
+            "reference-spec-version": "06aadd458ee04ede80498db55927b052eb5bef38"
+        }
+    }
+}
