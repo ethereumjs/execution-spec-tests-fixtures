@@ -12,8 +12,8 @@ on the implementation state on the EthereumJS side.
 
 ## `stable` Fixtures
 
-Fixtures in `stable`are taken from the following releases:
-- [v5.4.0](https://github.com/ethereum/execution-spec-tests/releases/tag/v5.4.0)
+Fixtures in `stable` are taken from the following releases:
+- [v5.4.0](https://github.com/ethereum/execution-spec-tests/releases/tag/v5.4.0) | Dec 7, 2025 | Osaka + some pre-Osaka tests
   - `state_tests/osaka/`
   - `state_tests/prague/`
   - `state_tests/cancun/`
@@ -27,7 +27,9 @@ Test exclusions (file size limit GitHub):
 
 ## `dev` Fixtures
 
-No dev fixtures yet.
+Fixtures in `dev` are taken from the following releases:
+- [bal@v3.0.1](https://github.com/ethereum/execution-spec-tests/releases/tag/bal%40v3.0.1) | Jan 13, 2026 | EIP-7928 Block Level Access Lists (BAL)
+  - `blockchain_tests/amsterdam/eip7928_block_level_access_lists/`
 
 ## Notes
 
