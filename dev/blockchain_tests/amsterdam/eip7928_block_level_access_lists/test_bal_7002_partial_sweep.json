@@ -24,7 +24,8 @@
             "parentBeaconBlockRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "requestsHash": "0xe3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
             "blockAccessListHash": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-            "hash": "0xa6a3a0b92ca04a284520663e7466b71fc56f6b885573ffdbc7b50c09c32cc3c3"
+            "slotNumber": "0x00",
+            "hash": "0xa7c471d7ca2ad316af387a57014729a504a8ac4beb863c7df3cee325be78e845"
         },
         "pre": {
             "0x00000000219ab540356cbb839cbe05303d7705fa": {
@@ -308,8 +309,8 @@
                 "balance": "0x00",
                 "code": "0x3373fffffffffffffffffffffffffffffffffffffffe14604657602036036042575f35600143038111604257611fff81430311604257611fff9006545f5260205ff35b5f5ffd5b5f35611fff60014303065500",
                 "storage": {
-                    "0x00": "0xa6a3a0b92ca04a284520663e7466b71fc56f6b885573ffdbc7b50c09c32cc3c3",
-                    "0x01": "0x98321fd17d6d79404ee72210d3b8ec4d90b41ddd5d0ce5c1e423320212a7af37"
+                    "0x00": "0xa7c471d7ca2ad316af387a57014729a504a8ac4beb863c7df3cee325be78e845",
+                    "0x01": "0xfd935391adb77be5e34e3d54acc7c8a606a372e4ed3493e7bc97d9c454d5da26"
                 }
             },
             "0x000f3df6d732807ef1319fb7b8bb8522d0beac02": {
@@ -448,7 +449,7 @@
                 "storage": {}
             }
         },
-        "lastblockhash": "0xcb29b24a9e943fb8ed4d03d3eb8bc1478d8ad1deaa93070e713eaad7ef747713",
+        "lastblockhash": "0xbdc3277f1cd1f8f6977dfd64b20cc553a28bfd868b2d7c1b0dda1dbcded14192",
         "config": {
             "network": "Amsterdam",
             "chainid": "0x01",
@@ -485,17 +486,17 @@
                 }
             }
         },
-        "genesisRLP": "0xf9027ef90278a00000000000000000000000000000000000000000000000000000000000000000a01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347940000000000000000000000000000000000000000a03e2547632c573bfb4dfffb7fb207735b1b63a5f17f53e441dc13c5d80e21b663a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421b901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080808407270e00808000a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347c0c0c0",
+        "genesisRLP": "0xf9027ff90279a00000000000000000000000000000000000000000000000000000000000000000a01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347940000000000000000000000000000000000000000a03e2547632c573bfb4dfffb7fb207735b1b63a5f17f53e441dc13c5d80e21b663a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421b901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080808407270e00808000a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d4934780c0c0c0",
         "blocks": [
             {
                 "blockHeader": {
-                    "parentHash": "0xa6a3a0b92ca04a284520663e7466b71fc56f6b885573ffdbc7b50c09c32cc3c3",
+                    "parentHash": "0xa7c471d7ca2ad316af387a57014729a504a8ac4beb863c7df3cee325be78e845",
                     "uncleHash": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "coinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
-                    "stateRoot": "0x3c56c396c40e8f2cd163429f3dafe1296c347600308c1e747bb91883c7256549",
+                    "stateRoot": "0xdf659fdf0d737b312307aa2a11d222fa9b63cea894097954bd1979ad3465b9bd",
                     "transactionsTrie": "0xa43e1795219415ea136501d9226a37f7699c7bb7723f5c7daede1572f94e0b4e",
-                    "receiptTrie": "0x68a1920d20092ffc7d24ec5c5cf68b9cd48324b964b4f5dd6a3831cd5ea46fac",
-                    "bloom": "0x00000000008000000000000000000040000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                    "receiptTrie": "0x5cb34ce3223d5563a1cbe975e2241cf9798c6cc00b5a74bda55f0b1b29fba86f",
+                    "bloom": "0x20400000008000000000000000000040000000000000000200000008000001400000000000800000000082000020000000020000080011000000000000800011000000008000000040100208010000020000050000000000000000000000000000000080000000006040000002000000000000000000000080410810000000000000000000001050002000000000000000000000010000000100000800000002000000080000000000100000000000008000040000000000000000000000000481010042000000002008800000000800000800000000000000001000000000400000100020000001000008000080000000000000002000000020000020008000",
                     "difficulty": "0x00",
                     "number": "0x01",
                     "gasLimit": "0x07270e00",
@@ -510,8 +511,9 @@
                     "excessBlobGas": "0x00",
                     "parentBeaconBlockRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
                     "requestsHash": "0x72c37da245f67c15fca04efac490b0c2ec92b9db6b4a5dcb3ca695419b5de90e",
-                    "blockAccessListHash": "0x077028a0b62e5c1c45a8da2651f85d5621c12bdcd2f19c9312d686c51ab34622",
-                    "hash": "0x98321fd17d6d79404ee72210d3b8ec4d90b41ddd5d0ce5c1e423320212a7af37"
+                    "blockAccessListHash": "0x8d8fc02bfb27d0bd9f62a75d61de2e6c91cf89d76305eeb68539469464709cb0",
+                    "slotNumber": "0x00",
+                    "hash": "0xfd935391adb77be5e34e3d54acc7c8a606a372e4ed3493e7bc97d9c454d5da26"
                 },
                 "transactions": [
                     {
@@ -797,15 +799,1180 @@
                 ],
                 "uncleHeaders": [],
                 "withdrawals": [],
-                "rlp": "0xf90e9ef9027ba0a6a3a0b92ca04a284520663e7466b71fc56f6b885573ffdbc7b50c09c32cc3c3a01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa03c56c396c40e8f2cd163429f3dafe1296c347600308c1e747bb91883c7256549a0a43e1795219415ea136501d9226a37f7699c7bb7723f5c7daede1572f94e0b4ea068a1920d20092ffc7d24ec5c5cf68b9cd48324b964b4f5dd6a3831cd5ea46facb901000000000000800000000000000000004000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e008319440c0c80a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a072c37da245f67c15fca04efac490b0c2ec92b9db6b4a5dcb3ca695419b5de90ea0077028a0b62e5c1c45a8da2651f85d5621c12bdcd2f19c9312d686c51ab34622f90c1bf899800a83030d409400000961ef480eb55e80d19ad83579a64c00700201b838000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000026a0e31953ee96edb7b13d49435ce44781894190d9344143689bcb91d4c780f91b26a06e1efec6475dd00dcd96d8678f27cc43e18b729f6ec64944babbf76edea429c8f899800a83030d409400000961ef480eb55e80d19ad83579a64c00700201b838000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002000000000000000026a0c0040ef47a0e33754073870433dd4fa2e9069f09d1786f120ad8af5eac0352c3a06b8c026b05f5b3ed3566b2edc2aa322107d4c17d25d8036bf333cecd48a96abef899800a83030d409400000961ef480eb55e80d19ad83579a64c00700201b838000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003000000000000000025a08c07ae074fe7a6be12386d798c04366204055e6fe3d451e267667efc539b155ea0263f7cfc935f1609e6ecece02ea48e3820a2cf0c42f328ee40be04c4aca51efbf899800a83030d409400000961ef480eb55e80d19ad83579a64c00700201b838000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004000000000000000025a04de114d53a2004e236d5c5a7c166efa4ff6c00295cf7b83b1e8d76a356e3c972a0710b0f3ca65589218d2bf7741674afcac2fd53ff173acf072853fa09836f149ff899800a83030d409400000961ef480eb55e80d19ad83579a64c00700201b838000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000005000000000000000026a0d16dc6b8932654b6c72996a93953d14c5208958bb692be713a9e5c51366f9bf3a0629798c99c7493dac68bc36c7319752a66c2326c4c4a39d05e17834f3961fbe0f899800a83030d409400000961ef480eb55e80d19ad83579a64c00700201b838000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006000000000000000025a0b889d5e7671af195e54e183c9ccec283b3f4057f4f89e4cb9a52d3e3c3ce7f25a064b3fb9340a93e268e39f413e3391451be4baec4fa79ac96a764cef108473d06f899800a83030d409400000961ef480eb55e80d19ad83579a64c00700201b838000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000007000000000000000025a0c2e023726ddce7dfa7f79b110863f10625d87e617f8ba1f4aca52beda577db41a051ee94904401fa7e5a364be6c7de68e7d9a1498c940c1d184c9b4aef6a250091f899800a83030d409400000961ef480eb55e80d19ad83579a64c00700201b838000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008000000000000000026a0028f465612064f799f130f2d8015d7db0f37574aea110dbd5fcb27e42083823fa01283870a1beca29b5818318ccbd620c35df921204eebc50563e58d1145131801f899800a83030d409400000961ef480eb55e80d19ad83579a64c00700201b838000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000009000000000000000026a050d1bb45de6ba77ad470b9152b433bdc4f35c1a3cb120b488baec2c2778dad03a069a3431f5f9b7796d0c123121c0a8ea65f597b09b49c18d623c69ff404896fe9f899800a83030d409400000961ef480eb55e80d19ad83579a64c00700201b83800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a000000000000000025a0aa88adb249ec09d4d71f512173d48b178e9cb6c7172ba997a1378198c3712ca3a0773f21742d73c01fd4381ec9f309522ef0289cad81d101566b470300a3bb1052f899800a83030d409400000961ef480eb55e80d19ad83579a64c00700201b83800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000b000000000000000026a0aa7670421c74ff5cacd72b0298c06274c4f448b94479ee29012728204657d1eda04b6b3c4bf9838240445d3e660d641af49e6175a9314a55cfba8744117b014389f898800a83030d409400000961ef480eb55e80d19ad83579a64c00700201b83800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000c000000000000000025a00eda835c01936b1b03f52aebd0ab14c03903c9a9bd7b2de518b80221100829429fe35b45076befe604e0a7904f4339a44890ef1862ca2cc31948e9cdc9a20451f899800a83030d409400000961ef480eb55e80d19ad83579a64c00700201b83800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000d000000000000000025a094a6b7bff0e3e6cfd3b04878ebebe035371aa391e1119b4f2fe82bd287d64993a0406480ae83ebd4fd399fffd26f24d97108578d1090144824c4906e00440b1db1f899800a83030d409400000961ef480eb55e80d19ad83579a64c00700201b83800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000e000000000000000026a02023949fea8ee1d921c11cbbdd611e0665551989f34e09acadb1f628973d0cf3a056aa96addfd0f42ec6a3cf27a66286591a25d61c0976430a2b69c48ad81ab405f899800a83030d409400000961ef480eb55e80d19ad83579a64c00700201b83800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000f000000000000000025a0b21e03867b0a5ddfa4ab3a5ec94689f82cda04326da5278474c0a794ae906f69a008b42488031b9a85a3d6b0bcea9d2c11d097cf435bee567d972a83560f1705fbf899800a83030d409400000961ef480eb55e80d19ad83579a64c00700201b838000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000025a06a0026ff147fb265997a01d1ffd7f78b08636232e7546cee7e1af4f7b43d9813a0061371f6b8019618cfb256c1d267e4887a0978a71c9c4146755c29ea8844f2b2f899800a83030d409400000961ef480eb55e80d19ad83579a64c00700201b838000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011000000000000000026a08743ceab5e79dfaa5bfc322da50c78fc4e610ed252eb5a1900fb317808e71ccea04a51d2e54d121f8bc10d3298d9512182934ee7f3aa63bdf016a6b918c36c8ffaf899800a83030d409400000961ef480eb55e80d19ad83579a64c00700201b838000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000012000000000000000025a05c828b30b4483bda859ae6394b6aa4df1062d4bf0055a82350e6478f6d4ee5b7a0625fb1b2df48c2774b918fb3ed4dc339509a95feecabb3e967acde178bd8bb1ef899800a83030d409400000961ef480eb55e80d19ad83579a64c00700201b838000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000013000000000000000025a09fe4b82e8556c33b6c734d78eea51728935e9c82666a11c033e4d9339f66df1da03a98ce4ba7e864dbaa2d7b39adecb143683de2641733e273df04398850c093ebf899800a83030d409400000961ef480eb55e80d19ad83579a64c00700201b838000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000014000000000000000025a0ae0461917f6811c4926611a88f77cea18ec2f754cd9a558db8525388084a8924a05dd2c979fd0ff19c439238fd5ecf04ebf1a98908005c0024919c47c006f7df99c0c0",
+                "blockAccessList": [
+                    {
+                        "address": "0x00000961ef480eb55e80d19ad83579a64c007002",
+                        "nonceChanges": [],
+                        "balanceChanges": [
+                            {
+                                "blockAccessIndex": "0x01",
+                                "postBalance": "0x01"
+                            },
+                            {
+                                "blockAccessIndex": "0x02",
+                                "postBalance": "0x02"
+                            },
+                            {
+                                "blockAccessIndex": "0x03",
+                                "postBalance": "0x03"
+                            },
+                            {
+                                "blockAccessIndex": "0x04",
+                                "postBalance": "0x04"
+                            },
+                            {
+                                "blockAccessIndex": "0x05",
+                                "postBalance": "0x05"
+                            },
+                            {
+                                "blockAccessIndex": "0x06",
+                                "postBalance": "0x06"
+                            },
+                            {
+                                "blockAccessIndex": "0x07",
+                                "postBalance": "0x07"
+                            },
+                            {
+                                "blockAccessIndex": "0x08",
+                                "postBalance": "0x08"
+                            },
+                            {
+                                "blockAccessIndex": "0x09",
+                                "postBalance": "0x09"
+                            },
+                            {
+                                "blockAccessIndex": "0x0a",
+                                "postBalance": "0x0a"
+                            },
+                            {
+                                "blockAccessIndex": "0x0b",
+                                "postBalance": "0x0b"
+                            },
+                            {
+                                "blockAccessIndex": "0x0c",
+                                "postBalance": "0x0c"
+                            },
+                            {
+                                "blockAccessIndex": "0x0d",
+                                "postBalance": "0x0d"
+                            },
+                            {
+                                "blockAccessIndex": "0x0e",
+                                "postBalance": "0x0e"
+                            },
+                            {
+                                "blockAccessIndex": "0x0f",
+                                "postBalance": "0x0f"
+                            },
+                            {
+                                "blockAccessIndex": "0x10",
+                                "postBalance": "0x10"
+                            },
+                            {
+                                "blockAccessIndex": "0x11",
+                                "postBalance": "0x11"
+                            },
+                            {
+                                "blockAccessIndex": "0x12",
+                                "postBalance": "0x12"
+                            },
+                            {
+                                "blockAccessIndex": "0x13",
+                                "postBalance": "0x13"
+                            },
+                            {
+                                "blockAccessIndex": "0x14",
+                                "postBalance": "0x14"
+                            }
+                        ],
+                        "codeChanges": [],
+                        "storageChanges": [
+                            {
+                                "slot": "0x00",
+                                "slotChanges": [
+                                    {
+                                        "blockAccessIndex": "0x15",
+                                        "postValue": "0x12"
+                                    }
+                                ]
+                            },
+                            {
+                                "slot": "0x01",
+                                "slotChanges": [
+                                    {
+                                        "blockAccessIndex": "0x01",
+                                        "postValue": "0x01"
+                                    },
+                                    {
+                                        "blockAccessIndex": "0x02",
+                                        "postValue": "0x02"
+                                    },
+                                    {
+                                        "blockAccessIndex": "0x03",
+                                        "postValue": "0x03"
+                                    },
+                                    {
+                                        "blockAccessIndex": "0x04",
+                                        "postValue": "0x04"
+                                    },
+                                    {
+                                        "blockAccessIndex": "0x05",
+                                        "postValue": "0x05"
+                                    },
+                                    {
+                                        "blockAccessIndex": "0x06",
+                                        "postValue": "0x06"
+                                    },
+                                    {
+                                        "blockAccessIndex": "0x07",
+                                        "postValue": "0x07"
+                                    },
+                                    {
+                                        "blockAccessIndex": "0x08",
+                                        "postValue": "0x08"
+                                    },
+                                    {
+                                        "blockAccessIndex": "0x09",
+                                        "postValue": "0x09"
+                                    },
+                                    {
+                                        "blockAccessIndex": "0x0a",
+                                        "postValue": "0x0a"
+                                    },
+                                    {
+                                        "blockAccessIndex": "0x0b",
+                                        "postValue": "0x0b"
+                                    },
+                                    {
+                                        "blockAccessIndex": "0x0c",
+                                        "postValue": "0x0c"
+                                    },
+                                    {
+                                        "blockAccessIndex": "0x0d",
+                                        "postValue": "0x0d"
+                                    },
+                                    {
+                                        "blockAccessIndex": "0x0e",
+                                        "postValue": "0x0e"
+                                    },
+                                    {
+                                        "blockAccessIndex": "0x0f",
+                                        "postValue": "0x0f"
+                                    },
+                                    {
+                                        "blockAccessIndex": "0x10",
+                                        "postValue": "0x10"
+                                    },
+                                    {
+                                        "blockAccessIndex": "0x11",
+                                        "postValue": "0x11"
+                                    },
+                                    {
+                                        "blockAccessIndex": "0x12",
+                                        "postValue": "0x12"
+                                    },
+                                    {
+                                        "blockAccessIndex": "0x13",
+                                        "postValue": "0x13"
+                                    },
+                                    {
+                                        "blockAccessIndex": "0x14",
+                                        "postValue": "0x14"
+                                    },
+                                    {
+                                        "blockAccessIndex": "0x15",
+                                        "postValue": "0x00"
+                                    }
+                                ]
+                            },
+                            {
+                                "slot": "0x02",
+                                "slotChanges": [
+                                    {
+                                        "blockAccessIndex": "0x15",
+                                        "postValue": "0x10"
+                                    }
+                                ]
+                            },
+                            {
+                                "slot": "0x03",
+                                "slotChanges": [
+                                    {
+                                        "blockAccessIndex": "0x01",
+                                        "postValue": "0x01"
+                                    },
+                                    {
+                                        "blockAccessIndex": "0x02",
+                                        "postValue": "0x02"
+                                    },
+                                    {
+                                        "blockAccessIndex": "0x03",
+                                        "postValue": "0x03"
+                                    },
+                                    {
+                                        "blockAccessIndex": "0x04",
+                                        "postValue": "0x04"
+                                    },
+                                    {
+                                        "blockAccessIndex": "0x05",
+                                        "postValue": "0x05"
+                                    },
+                                    {
+                                        "blockAccessIndex": "0x06",
+                                        "postValue": "0x06"
+                                    },
+                                    {
+                                        "blockAccessIndex": "0x07",
+                                        "postValue": "0x07"
+                                    },
+                                    {
+                                        "blockAccessIndex": "0x08",
+                                        "postValue": "0x08"
+                                    },
+                                    {
+                                        "blockAccessIndex": "0x09",
+                                        "postValue": "0x09"
+                                    },
+                                    {
+                                        "blockAccessIndex": "0x0a",
+                                        "postValue": "0x0a"
+                                    },
+                                    {
+                                        "blockAccessIndex": "0x0b",
+                                        "postValue": "0x0b"
+                                    },
+                                    {
+                                        "blockAccessIndex": "0x0c",
+                                        "postValue": "0x0c"
+                                    },
+                                    {
+                                        "blockAccessIndex": "0x0d",
+                                        "postValue": "0x0d"
+                                    },
+                                    {
+                                        "blockAccessIndex": "0x0e",
+                                        "postValue": "0x0e"
+                                    },
+                                    {
+                                        "blockAccessIndex": "0x0f",
+                                        "postValue": "0x0f"
+                                    },
+                                    {
+                                        "blockAccessIndex": "0x10",
+                                        "postValue": "0x10"
+                                    },
+                                    {
+                                        "blockAccessIndex": "0x11",
+                                        "postValue": "0x11"
+                                    },
+                                    {
+                                        "blockAccessIndex": "0x12",
+                                        "postValue": "0x12"
+                                    },
+                                    {
+                                        "blockAccessIndex": "0x13",
+                                        "postValue": "0x13"
+                                    },
+                                    {
+                                        "blockAccessIndex": "0x14",
+                                        "postValue": "0x14"
+                                    }
+                                ]
+                            },
+                            {
+                                "slot": "0x04",
+                                "slotChanges": [
+                                    {
+                                        "blockAccessIndex": "0x01",
+                                        "postValue": "0xd94a6fa18599b79a6b34e5c3bf9ee4c68c947600"
+                                    }
+                                ]
+                            },
+                            {
+                                "slot": "0x06",
+                                "slotChanges": [
+                                    {
+                                        "blockAccessIndex": "0x01",
+                                        "postValue": "0x0100000000000000000000000000000000"
+                                    }
+                                ]
+                            },
+                            {
+                                "slot": "0x07",
+                                "slotChanges": [
+                                    {
+                                        "blockAccessIndex": "0x02",
+                                        "postValue": "0x454fad19c898a8294e7bc25adaf147e8a8d35979"
+                                    }
+                                ]
+                            },
+                            {
+                                "slot": "0x09",
+                                "slotChanges": [
+                                    {
+                                        "blockAccessIndex": "0x02",
+                                        "postValue": "0x0200000000000000000000000000000000"
+                                    }
+                                ]
+                            },
+                            {
+                                "slot": "0x0a",
+                                "slotChanges": [
+                                    {
+                                        "blockAccessIndex": "0x03",
+                                        "postValue": "0x01dec29e789a12625e6e03cbe5cdfd8880360602"
+                                    }
+                                ]
+                            },
+                            {
+                                "slot": "0x0c",
+                                "slotChanges": [
+                                    {
+                                        "blockAccessIndex": "0x03",
+                                        "postValue": "0x0300000000000000000000000000000000"
+                                    }
+                                ]
+                            },
+                            {
+                                "slot": "0x0d",
+                                "slotChanges": [
+                                    {
+                                        "blockAccessIndex": "0x04",
+                                        "postValue": "0x5547e1515e2e40aeae6e589a3d22ec757684504e"
+                                    }
+                                ]
+                            },
+                            {
+                                "slot": "0x0f",
+                                "slotChanges": [
+                                    {
+                                        "blockAccessIndex": "0x04",
+                                        "postValue": "0x0400000000000000000000000000000000"
+                                    }
+                                ]
+                            },
+                            {
+                                "slot": "0x10",
+                                "slotChanges": [
+                                    {
+                                        "blockAccessIndex": "0x05",
+                                        "postValue": "0x8a79b507163aac814c9cb6b238a7bbd595f2a16f"
+                                    }
+                                ]
+                            },
+                            {
+                                "slot": "0x12",
+                                "slotChanges": [
+                                    {
+                                        "blockAccessIndex": "0x05",
+                                        "postValue": "0x0500000000000000000000000000000000"
+                                    }
+                                ]
+                            },
+                            {
+                                "slot": "0x13",
+                                "slotChanges": [
+                                    {
+                                        "blockAccessIndex": "0x06",
+                                        "postValue": "0x2cf134310e09e4849317e9ee78f9d6f1a1cdf16a"
+                                    }
+                                ]
+                            },
+                            {
+                                "slot": "0x15",
+                                "slotChanges": [
+                                    {
+                                        "blockAccessIndex": "0x06",
+                                        "postValue": "0x0600000000000000000000000000000000"
+                                    }
+                                ]
+                            },
+                            {
+                                "slot": "0x16",
+                                "slotChanges": [
+                                    {
+                                        "blockAccessIndex": "0x07",
+                                        "postValue": "0x57f07fb9461154255661147b64c771eaf3b4c3e5"
+                                    }
+                                ]
+                            },
+                            {
+                                "slot": "0x18",
+                                "slotChanges": [
+                                    {
+                                        "blockAccessIndex": "0x07",
+                                        "postValue": "0x0700000000000000000000000000000000"
+                                    }
+                                ]
+                            },
+                            {
+                                "slot": "0x19",
+                                "slotChanges": [
+                                    {
+                                        "blockAccessIndex": "0x08",
+                                        "postValue": "0x0a807a2e5b1701411f12c5cf4b45d940822a63ff"
+                                    }
+                                ]
+                            },
+                            {
+                                "slot": "0x1b",
+                                "slotChanges": [
+                                    {
+                                        "blockAccessIndex": "0x08",
+                                        "postValue": "0x0800000000000000000000000000000000"
+                                    }
+                                ]
+                            },
+                            {
+                                "slot": "0x1c",
+                                "slotChanges": [
+                                    {
+                                        "blockAccessIndex": "0x09",
+                                        "postValue": "0x854f34699fdd8052a9cf9c622cdc459ebec2b24c"
+                                    }
+                                ]
+                            },
+                            {
+                                "slot": "0x1e",
+                                "slotChanges": [
+                                    {
+                                        "blockAccessIndex": "0x09",
+                                        "postValue": "0x0900000000000000000000000000000000"
+                                    }
+                                ]
+                            },
+                            {
+                                "slot": "0x1f",
+                                "slotChanges": [
+                                    {
+                                        "blockAccessIndex": "0x0a",
+                                        "postValue": "0x5b051582077f5ad96676f20c6df86af32d18301e"
+                                    }
+                                ]
+                            },
+                            {
+                                "slot": "0x21",
+                                "slotChanges": [
+                                    {
+                                        "blockAccessIndex": "0x0a",
+                                        "postValue": "0x0a00000000000000000000000000000000"
+                                    }
+                                ]
+                            },
+                            {
+                                "slot": "0x22",
+                                "slotChanges": [
+                                    {
+                                        "blockAccessIndex": "0x0b",
+                                        "postValue": "0x9c7f68f0a6168ec86cdcbf7f4d741fa17702f90c"
+                                    }
+                                ]
+                            },
+                            {
+                                "slot": "0x24",
+                                "slotChanges": [
+                                    {
+                                        "blockAccessIndex": "0x0b",
+                                        "postValue": "0x0b00000000000000000000000000000000"
+                                    }
+                                ]
+                            },
+                            {
+                                "slot": "0x25",
+                                "slotChanges": [
+                                    {
+                                        "blockAccessIndex": "0x0c",
+                                        "postValue": "0x4ad9fa635e16f86de959a2f7a4c962b8ab2d7007"
+                                    }
+                                ]
+                            },
+                            {
+                                "slot": "0x27",
+                                "slotChanges": [
+                                    {
+                                        "blockAccessIndex": "0x0c",
+                                        "postValue": "0x0c00000000000000000000000000000000"
+                                    }
+                                ]
+                            },
+                            {
+                                "slot": "0x28",
+                                "slotChanges": [
+                                    {
+                                        "blockAccessIndex": "0x0d",
+                                        "postValue": "0xb705218c5d886e6c15490ae78640fbe86cf9703e"
+                                    }
+                                ]
+                            },
+                            {
+                                "slot": "0x2a",
+                                "slotChanges": [
+                                    {
+                                        "blockAccessIndex": "0x0d",
+                                        "postValue": "0x0d00000000000000000000000000000000"
+                                    }
+                                ]
+                            },
+                            {
+                                "slot": "0x2b",
+                                "slotChanges": [
+                                    {
+                                        "blockAccessIndex": "0x0e",
+                                        "postValue": "0x16056d571ee50cd73eeb7836beae6dcc05fcb3d6"
+                                    }
+                                ]
+                            },
+                            {
+                                "slot": "0x2d",
+                                "slotChanges": [
+                                    {
+                                        "blockAccessIndex": "0x0e",
+                                        "postValue": "0x0e00000000000000000000000000000000"
+                                    }
+                                ]
+                            },
+                            {
+                                "slot": "0x2e",
+                                "slotChanges": [
+                                    {
+                                        "blockAccessIndex": "0x0f",
+                                        "postValue": "0xd2e5e7a26dd8a4a7b41c58c80d0ee177e80b0113"
+                                    }
+                                ]
+                            },
+                            {
+                                "slot": "0x30",
+                                "slotChanges": [
+                                    {
+                                        "blockAccessIndex": "0x0f",
+                                        "postValue": "0x0f00000000000000000000000000000000"
+                                    }
+                                ]
+                            },
+                            {
+                                "slot": "0x31",
+                                "slotChanges": [
+                                    {
+                                        "blockAccessIndex": "0x10",
+                                        "postValue": "0xac92bcb7d2d8a369ad6f05fe795a1d4dac757ec7"
+                                    }
+                                ]
+                            },
+                            {
+                                "slot": "0x33",
+                                "slotChanges": [
+                                    {
+                                        "blockAccessIndex": "0x10",
+                                        "postValue": "0x1000000000000000000000000000000000"
+                                    }
+                                ]
+                            },
+                            {
+                                "slot": "0x34",
+                                "slotChanges": [
+                                    {
+                                        "blockAccessIndex": "0x11",
+                                        "postValue": "0x2caaf9fdc16f9dfd83dbe138d68be2a60c9052af"
+                                    }
+                                ]
+                            },
+                            {
+                                "slot": "0x36",
+                                "slotChanges": [
+                                    {
+                                        "blockAccessIndex": "0x11",
+                                        "postValue": "0x1100000000000000000000000000000000"
+                                    }
+                                ]
+                            },
+                            {
+                                "slot": "0x37",
+                                "slotChanges": [
+                                    {
+                                        "blockAccessIndex": "0x12",
+                                        "postValue": "0x53268d9382bbd1b06f52bdfc3733d8671a856b13"
+                                    }
+                                ]
+                            },
+                            {
+                                "slot": "0x39",
+                                "slotChanges": [
+                                    {
+                                        "blockAccessIndex": "0x12",
+                                        "postValue": "0x1200000000000000000000000000000000"
+                                    }
+                                ]
+                            },
+                            {
+                                "slot": "0x3a",
+                                "slotChanges": [
+                                    {
+                                        "blockAccessIndex": "0x13",
+                                        "postValue": "0xf1710005ef16847655c34417a050d9cd0e9ca230"
+                                    }
+                                ]
+                            },
+                            {
+                                "slot": "0x3c",
+                                "slotChanges": [
+                                    {
+                                        "blockAccessIndex": "0x13",
+                                        "postValue": "0x1300000000000000000000000000000000"
+                                    }
+                                ]
+                            },
+                            {
+                                "slot": "0x3d",
+                                "slotChanges": [
+                                    {
+                                        "blockAccessIndex": "0x14",
+                                        "postValue": "0x52d156463ef69a8d5a795981c24a91d1165ef773"
+                                    }
+                                ]
+                            },
+                            {
+                                "slot": "0x3f",
+                                "slotChanges": [
+                                    {
+                                        "blockAccessIndex": "0x14",
+                                        "postValue": "0x1400000000000000000000000000000000"
+                                    }
+                                ]
+                            }
+                        ],
+                        "storageReads": [
+                            "0x05",
+                            "0x08",
+                            "0x0b",
+                            "0x0e",
+                            "0x11",
+                            "0x14",
+                            "0x17",
+                            "0x1a",
+                            "0x1d",
+                            "0x20",
+                            "0x23",
+                            "0x26",
+                            "0x29",
+                            "0x2c",
+                            "0x2f",
+                            "0x32",
+                            "0x35",
+                            "0x38",
+                            "0x3b",
+                            "0x3e"
+                        ]
+                    },
+                    {
+                        "address": "0x0000bbddc7ce488642fb579f8b00f3a590007251",
+                        "nonceChanges": [],
+                        "balanceChanges": [],
+                        "codeChanges": [],
+                        "storageChanges": [],
+                        "storageReads": [
+                            "0x00",
+                            "0x01",
+                            "0x02",
+                            "0x03"
+                        ]
+                    },
+                    {
+                        "address": "0x0000f90827f1c53a10cb7a02335b175320002935",
+                        "nonceChanges": [],
+                        "balanceChanges": [],
+                        "codeChanges": [],
+                        "storageChanges": [
+                            {
+                                "slot": "0x00",
+                                "slotChanges": [
+                                    {
+                                        "blockAccessIndex": "0x00",
+                                        "postValue": "0xa7c471d7ca2ad316af387a57014729a504a8ac4beb863c7df3cee325be78e845"
+                                    }
+                                ]
+                            }
+                        ],
+                        "storageReads": []
+                    },
+                    {
+                        "address": "0x000f3df6d732807ef1319fb7b8bb8522d0beac02",
+                        "nonceChanges": [],
+                        "balanceChanges": [],
+                        "codeChanges": [],
+                        "storageChanges": [
+                            {
+                                "slot": "0x0c",
+                                "slotChanges": [
+                                    {
+                                        "blockAccessIndex": "0x00",
+                                        "postValue": "0x0c"
+                                    }
+                                ]
+                            }
+                        ],
+                        "storageReads": [
+                            "0x200b"
+                        ]
+                    },
+                    {
+                        "address": "0x01dec29e789a12625e6e03cbe5cdfd8880360602",
+                        "nonceChanges": [
+                            {
+                                "blockAccessIndex": "0x03",
+                                "postNonce": "0x01"
+                            }
+                        ],
+                        "balanceChanges": [
+                            {
+                                "blockAccessIndex": "0x03",
+                                "postBalance": "0x3635c9adc5de93a0c5"
+                            }
+                        ],
+                        "codeChanges": [],
+                        "storageChanges": [],
+                        "storageReads": []
+                    },
+                    {
+                        "address": "0x0a807a2e5b1701411f12c5cf4b45d940822a63ff",
+                        "nonceChanges": [
+                            {
+                                "blockAccessIndex": "0x08",
+                                "postNonce": "0x01"
+                            }
+                        ],
+                        "balanceChanges": [
+                            {
+                                "blockAccessIndex": "0x08",
+                                "postBalance": "0x3635c9adc5de93a0c5"
+                            }
+                        ],
+                        "codeChanges": [],
+                        "storageChanges": [],
+                        "storageReads": []
+                    },
+                    {
+                        "address": "0x16056d571ee50cd73eeb7836beae6dcc05fcb3d6",
+                        "nonceChanges": [
+                            {
+                                "blockAccessIndex": "0x0e",
+                                "postNonce": "0x01"
+                            }
+                        ],
+                        "balanceChanges": [
+                            {
+                                "blockAccessIndex": "0x0e",
+                                "postBalance": "0x3635c9adc5de93a0c5"
+                            }
+                        ],
+                        "codeChanges": [],
+                        "storageChanges": [],
+                        "storageReads": []
+                    },
+                    {
+                        "address": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
+                        "nonceChanges": [],
+                        "balanceChanges": [
+                            {
+                                "blockAccessIndex": "0x01",
+                                "postBalance": "0x0546f3"
+                            },
+                            {
+                                "blockAccessIndex": "0x02",
+                                "postBalance": "0x08fd1e"
+                            },
+                            {
+                                "blockAccessIndex": "0x03",
+                                "postBalance": "0x0cb349"
+                            },
+                            {
+                                "blockAccessIndex": "0x04",
+                                "postBalance": "0x106974"
+                            },
+                            {
+                                "blockAccessIndex": "0x05",
+                                "postBalance": "0x141f9f"
+                            },
+                            {
+                                "blockAccessIndex": "0x06",
+                                "postBalance": "0x17d5ca"
+                            },
+                            {
+                                "blockAccessIndex": "0x07",
+                                "postBalance": "0x1b8bf5"
+                            },
+                            {
+                                "blockAccessIndex": "0x08",
+                                "postBalance": "0x1f4220"
+                            },
+                            {
+                                "blockAccessIndex": "0x09",
+                                "postBalance": "0x22f84b"
+                            },
+                            {
+                                "blockAccessIndex": "0x0a",
+                                "postBalance": "0x26ae76"
+                            },
+                            {
+                                "blockAccessIndex": "0x0b",
+                                "postBalance": "0x2a64a1"
+                            },
+                            {
+                                "blockAccessIndex": "0x0c",
+                                "postBalance": "0x2e1acc"
+                            },
+                            {
+                                "blockAccessIndex": "0x0d",
+                                "postBalance": "0x31d0f7"
+                            },
+                            {
+                                "blockAccessIndex": "0x0e",
+                                "postBalance": "0x358722"
+                            },
+                            {
+                                "blockAccessIndex": "0x0f",
+                                "postBalance": "0x393d4d"
+                            },
+                            {
+                                "blockAccessIndex": "0x10",
+                                "postBalance": "0x3cf378"
+                            },
+                            {
+                                "blockAccessIndex": "0x11",
+                                "postBalance": "0x40a9a3"
+                            },
+                            {
+                                "blockAccessIndex": "0x12",
+                                "postBalance": "0x445fce"
+                            },
+                            {
+                                "blockAccessIndex": "0x13",
+                                "postBalance": "0x4815f9"
+                            },
+                            {
+                                "blockAccessIndex": "0x14",
+                                "postBalance": "0x4bcc24"
+                            }
+                        ],
+                        "codeChanges": [],
+                        "storageChanges": [],
+                        "storageReads": []
+                    },
+                    {
+                        "address": "0x2caaf9fdc16f9dfd83dbe138d68be2a60c9052af",
+                        "nonceChanges": [
+                            {
+                                "blockAccessIndex": "0x11",
+                                "postNonce": "0x01"
+                            }
+                        ],
+                        "balanceChanges": [
+                            {
+                                "blockAccessIndex": "0x11",
+                                "postBalance": "0x3635c9adc5de93a0c5"
+                            }
+                        ],
+                        "codeChanges": [],
+                        "storageChanges": [],
+                        "storageReads": []
+                    },
+                    {
+                        "address": "0x2cf134310e09e4849317e9ee78f9d6f1a1cdf16a",
+                        "nonceChanges": [
+                            {
+                                "blockAccessIndex": "0x06",
+                                "postNonce": "0x01"
+                            }
+                        ],
+                        "balanceChanges": [
+                            {
+                                "blockAccessIndex": "0x06",
+                                "postBalance": "0x3635c9adc5de93a0c5"
+                            }
+                        ],
+                        "codeChanges": [],
+                        "storageChanges": [],
+                        "storageReads": []
+                    },
+                    {
+                        "address": "0x454fad19c898a8294e7bc25adaf147e8a8d35979",
+                        "nonceChanges": [
+                            {
+                                "blockAccessIndex": "0x02",
+                                "postNonce": "0x01"
+                            }
+                        ],
+                        "balanceChanges": [
+                            {
+                                "blockAccessIndex": "0x02",
+                                "postBalance": "0x3635c9adc5de93a0c5"
+                            }
+                        ],
+                        "codeChanges": [],
+                        "storageChanges": [],
+                        "storageReads": []
+                    },
+                    {
+                        "address": "0x4ad9fa635e16f86de959a2f7a4c962b8ab2d7007",
+                        "nonceChanges": [
+                            {
+                                "blockAccessIndex": "0x0c",
+                                "postNonce": "0x01"
+                            }
+                        ],
+                        "balanceChanges": [
+                            {
+                                "blockAccessIndex": "0x0c",
+                                "postBalance": "0x3635c9adc5de93a0c5"
+                            }
+                        ],
+                        "codeChanges": [],
+                        "storageChanges": [],
+                        "storageReads": []
+                    },
+                    {
+                        "address": "0x52d156463ef69a8d5a795981c24a91d1165ef773",
+                        "nonceChanges": [
+                            {
+                                "blockAccessIndex": "0x14",
+                                "postNonce": "0x01"
+                            }
+                        ],
+                        "balanceChanges": [
+                            {
+                                "blockAccessIndex": "0x14",
+                                "postBalance": "0x3635c9adc5de93a0c5"
+                            }
+                        ],
+                        "codeChanges": [],
+                        "storageChanges": [],
+                        "storageReads": []
+                    },
+                    {
+                        "address": "0x53268d9382bbd1b06f52bdfc3733d8671a856b13",
+                        "nonceChanges": [
+                            {
+                                "blockAccessIndex": "0x12",
+                                "postNonce": "0x01"
+                            }
+                        ],
+                        "balanceChanges": [
+                            {
+                                "blockAccessIndex": "0x12",
+                                "postBalance": "0x3635c9adc5de93a0c5"
+                            }
+                        ],
+                        "codeChanges": [],
+                        "storageChanges": [],
+                        "storageReads": []
+                    },
+                    {
+                        "address": "0x5547e1515e2e40aeae6e589a3d22ec757684504e",
+                        "nonceChanges": [
+                            {
+                                "blockAccessIndex": "0x04",
+                                "postNonce": "0x01"
+                            }
+                        ],
+                        "balanceChanges": [
+                            {
+                                "blockAccessIndex": "0x04",
+                                "postBalance": "0x3635c9adc5de93a0c5"
+                            }
+                        ],
+                        "codeChanges": [],
+                        "storageChanges": [],
+                        "storageReads": []
+                    },
+                    {
+                        "address": "0x57f07fb9461154255661147b64c771eaf3b4c3e5",
+                        "nonceChanges": [
+                            {
+                                "blockAccessIndex": "0x07",
+                                "postNonce": "0x01"
+                            }
+                        ],
+                        "balanceChanges": [
+                            {
+                                "blockAccessIndex": "0x07",
+                                "postBalance": "0x3635c9adc5de93a0c5"
+                            }
+                        ],
+                        "codeChanges": [],
+                        "storageChanges": [],
+                        "storageReads": []
+                    },
+                    {
+                        "address": "0x5b051582077f5ad96676f20c6df86af32d18301e",
+                        "nonceChanges": [
+                            {
+                                "blockAccessIndex": "0x0a",
+                                "postNonce": "0x01"
+                            }
+                        ],
+                        "balanceChanges": [
+                            {
+                                "blockAccessIndex": "0x0a",
+                                "postBalance": "0x3635c9adc5de93a0c5"
+                            }
+                        ],
+                        "codeChanges": [],
+                        "storageChanges": [],
+                        "storageReads": []
+                    },
+                    {
+                        "address": "0x854f34699fdd8052a9cf9c622cdc459ebec2b24c",
+                        "nonceChanges": [
+                            {
+                                "blockAccessIndex": "0x09",
+                                "postNonce": "0x01"
+                            }
+                        ],
+                        "balanceChanges": [
+                            {
+                                "blockAccessIndex": "0x09",
+                                "postBalance": "0x3635c9adc5de93a0c5"
+                            }
+                        ],
+                        "codeChanges": [],
+                        "storageChanges": [],
+                        "storageReads": []
+                    },
+                    {
+                        "address": "0x8a79b507163aac814c9cb6b238a7bbd595f2a16f",
+                        "nonceChanges": [
+                            {
+                                "blockAccessIndex": "0x05",
+                                "postNonce": "0x01"
+                            }
+                        ],
+                        "balanceChanges": [
+                            {
+                                "blockAccessIndex": "0x05",
+                                "postBalance": "0x3635c9adc5de93a0c5"
+                            }
+                        ],
+                        "codeChanges": [],
+                        "storageChanges": [],
+                        "storageReads": []
+                    },
+                    {
+                        "address": "0x9c7f68f0a6168ec86cdcbf7f4d741fa17702f90c",
+                        "nonceChanges": [
+                            {
+                                "blockAccessIndex": "0x0b",
+                                "postNonce": "0x01"
+                            }
+                        ],
+                        "balanceChanges": [
+                            {
+                                "blockAccessIndex": "0x0b",
+                                "postBalance": "0x3635c9adc5de93a0c5"
+                            }
+                        ],
+                        "codeChanges": [],
+                        "storageChanges": [],
+                        "storageReads": []
+                    },
+                    {
+                        "address": "0xac92bcb7d2d8a369ad6f05fe795a1d4dac757ec7",
+                        "nonceChanges": [
+                            {
+                                "blockAccessIndex": "0x10",
+                                "postNonce": "0x01"
+                            }
+                        ],
+                        "balanceChanges": [
+                            {
+                                "blockAccessIndex": "0x10",
+                                "postBalance": "0x3635c9adc5de93a0c5"
+                            }
+                        ],
+                        "codeChanges": [],
+                        "storageChanges": [],
+                        "storageReads": []
+                    },
+                    {
+                        "address": "0xb705218c5d886e6c15490ae78640fbe86cf9703e",
+                        "nonceChanges": [
+                            {
+                                "blockAccessIndex": "0x0d",
+                                "postNonce": "0x01"
+                            }
+                        ],
+                        "balanceChanges": [
+                            {
+                                "blockAccessIndex": "0x0d",
+                                "postBalance": "0x3635c9adc5de93a0c5"
+                            }
+                        ],
+                        "codeChanges": [],
+                        "storageChanges": [],
+                        "storageReads": []
+                    },
+                    {
+                        "address": "0xd2e5e7a26dd8a4a7b41c58c80d0ee177e80b0113",
+                        "nonceChanges": [
+                            {
+                                "blockAccessIndex": "0x0f",
+                                "postNonce": "0x01"
+                            }
+                        ],
+                        "balanceChanges": [
+                            {
+                                "blockAccessIndex": "0x0f",
+                                "postBalance": "0x3635c9adc5de93a0c5"
+                            }
+                        ],
+                        "codeChanges": [],
+                        "storageChanges": [],
+                        "storageReads": []
+                    },
+                    {
+                        "address": "0xd94a6fa18599b79a6b34e5c3bf9ee4c68c947600",
+                        "nonceChanges": [
+                            {
+                                "blockAccessIndex": "0x01",
+                                "postNonce": "0x01"
+                            }
+                        ],
+                        "balanceChanges": [
+                            {
+                                "blockAccessIndex": "0x01",
+                                "postBalance": "0x3635c9adc5de8e68d5"
+                            }
+                        ],
+                        "codeChanges": [],
+                        "storageChanges": [],
+                        "storageReads": []
+                    },
+                    {
+                        "address": "0xf1710005ef16847655c34417a050d9cd0e9ca230",
+                        "nonceChanges": [
+                            {
+                                "blockAccessIndex": "0x13",
+                                "postNonce": "0x01"
+                            }
+                        ],
+                        "balanceChanges": [
+                            {
+                                "blockAccessIndex": "0x13",
+                                "postBalance": "0x3635c9adc5de93a0c5"
+                            }
+                        ],
+                        "codeChanges": [],
+                        "storageChanges": [],
+                        "storageReads": []
+                    }
+                ],
+                "rlp": "0xf90e9ff9027ca0a7c471d7ca2ad316af387a57014729a504a8ac4beb863c7df3cee325be78e845a01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa0df659fdf0d737b312307aa2a11d222fa9b63cea894097954bd1979ad3465b9bda0a43e1795219415ea136501d9226a37f7699c7bb7723f5c7daede1572f94e0b4ea05cb34ce3223d5563a1cbe975e2241cf9798c6cc00b5a74bda55f0b1b29fba86fb901002040000000800000000000000000004000000000000000020000000800000140000000000080000000008200002000000002000008001100000000000080001100000000800000004010020801000002000005000000000000000000000000000000008000000000604000000200000000000000000000008041081000000000000000000000105000200000000000000000000001000000010000080000000200000008000000000010000000000000800004000000000000000000000000048101004200000000200880000000080000080000000000000000100000000040000010002000000100000800008000000000000000200000002000002000800080018407270e008319440c0c80a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a072c37da245f67c15fca04efac490b0c2ec92b9db6b4a5dcb3ca695419b5de90ea08d8fc02bfb27d0bd9f62a75d61de2e6c91cf89d76305eeb68539469464709cb080f90c1bf899800a83030d409400000961ef480eb55e80d19ad83579a64c00700201b838000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000026a0e31953ee96edb7b13d49435ce44781894190d9344143689bcb91d4c780f91b26a06e1efec6475dd00dcd96d8678f27cc43e18b729f6ec64944babbf76edea429c8f899800a83030d409400000961ef480eb55e80d19ad83579a64c00700201b838000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002000000000000000026a0c0040ef47a0e33754073870433dd4fa2e9069f09d1786f120ad8af5eac0352c3a06b8c026b05f5b3ed3566b2edc2aa322107d4c17d25d8036bf333cecd48a96abef899800a83030d409400000961ef480eb55e80d19ad83579a64c00700201b838000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003000000000000000025a08c07ae074fe7a6be12386d798c04366204055e6fe3d451e267667efc539b155ea0263f7cfc935f1609e6ecece02ea48e3820a2cf0c42f328ee40be04c4aca51efbf899800a83030d409400000961ef480eb55e80d19ad83579a64c00700201b838000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004000000000000000025a04de114d53a2004e236d5c5a7c166efa4ff6c00295cf7b83b1e8d76a356e3c972a0710b0f3ca65589218d2bf7741674afcac2fd53ff173acf072853fa09836f149ff899800a83030d409400000961ef480eb55e80d19ad83579a64c00700201b838000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000005000000000000000026a0d16dc6b8932654b6c72996a93953d14c5208958bb692be713a9e5c51366f9bf3a0629798c99c7493dac68bc36c7319752a66c2326c4c4a39d05e17834f3961fbe0f899800a83030d409400000961ef480eb55e80d19ad83579a64c00700201b838000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006000000000000000025a0b889d5e7671af195e54e183c9ccec283b3f4057f4f89e4cb9a52d3e3c3ce7f25a064b3fb9340a93e268e39f413e3391451be4baec4fa79ac96a764cef108473d06f899800a83030d409400000961ef480eb55e80d19ad83579a64c00700201b838000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000007000000000000000025a0c2e023726ddce7dfa7f79b110863f10625d87e617f8ba1f4aca52beda577db41a051ee94904401fa7e5a364be6c7de68e7d9a1498c940c1d184c9b4aef6a250091f899800a83030d409400000961ef480eb55e80d19ad83579a64c00700201b838000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008000000000000000026a0028f465612064f799f130f2d8015d7db0f37574aea110dbd5fcb27e42083823fa01283870a1beca29b5818318ccbd620c35df921204eebc50563e58d1145131801f899800a83030d409400000961ef480eb55e80d19ad83579a64c00700201b838000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000009000000000000000026a050d1bb45de6ba77ad470b9152b433bdc4f35c1a3cb120b488baec2c2778dad03a069a3431f5f9b7796d0c123121c0a8ea65f597b09b49c18d623c69ff404896fe9f899800a83030d409400000961ef480eb55e80d19ad83579a64c00700201b83800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a000000000000000025a0aa88adb249ec09d4d71f512173d48b178e9cb6c7172ba997a1378198c3712ca3a0773f21742d73c01fd4381ec9f309522ef0289cad81d101566b470300a3bb1052f899800a83030d409400000961ef480eb55e80d19ad83579a64c00700201b83800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000b000000000000000026a0aa7670421c74ff5cacd72b0298c06274c4f448b94479ee29012728204657d1eda04b6b3c4bf9838240445d3e660d641af49e6175a9314a55cfba8744117b014389f898800a83030d409400000961ef480eb55e80d19ad83579a64c00700201b83800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000c000000000000000025a00eda835c01936b1b03f52aebd0ab14c03903c9a9bd7b2de518b80221100829429fe35b45076befe604e0a7904f4339a44890ef1862ca2cc31948e9cdc9a20451f899800a83030d409400000961ef480eb55e80d19ad83579a64c00700201b83800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000d000000000000000025a094a6b7bff0e3e6cfd3b04878ebebe035371aa391e1119b4f2fe82bd287d64993a0406480ae83ebd4fd399fffd26f24d97108578d1090144824c4906e00440b1db1f899800a83030d409400000961ef480eb55e80d19ad83579a64c00700201b83800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000e000000000000000026a02023949fea8ee1d921c11cbbdd611e0665551989f34e09acadb1f628973d0cf3a056aa96addfd0f42ec6a3cf27a66286591a25d61c0976430a2b69c48ad81ab405f899800a83030d409400000961ef480eb55e80d19ad83579a64c00700201b83800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000f000000000000000025a0b21e03867b0a5ddfa4ab3a5ec94689f82cda04326da5278474c0a794ae906f69a008b42488031b9a85a3d6b0bcea9d2c11d097cf435bee567d972a83560f1705fbf899800a83030d409400000961ef480eb55e80d19ad83579a64c00700201b838000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000025a06a0026ff147fb265997a01d1ffd7f78b08636232e7546cee7e1af4f7b43d9813a0061371f6b8019618cfb256c1d267e4887a0978a71c9c4146755c29ea8844f2b2f899800a83030d409400000961ef480eb55e80d19ad83579a64c00700201b838000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011000000000000000026a08743ceab5e79dfaa5bfc322da50c78fc4e610ed252eb5a1900fb317808e71ccea04a51d2e54d121f8bc10d3298d9512182934ee7f3aa63bdf016a6b918c36c8ffaf899800a83030d409400000961ef480eb55e80d19ad83579a64c00700201b838000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000012000000000000000025a05c828b30b4483bda859ae6394b6aa4df1062d4bf0055a82350e6478f6d4ee5b7a0625fb1b2df48c2774b918fb3ed4dc339509a95feecabb3e967acde178bd8bb1ef899800a83030d409400000961ef480eb55e80d19ad83579a64c00700201b838000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000013000000000000000025a09fe4b82e8556c33b6c734d78eea51728935e9c82666a11c033e4d9339f66df1da03a98ce4ba7e864dbaa2d7b39adecb143683de2641733e273df04398850c093ebf899800a83030d409400000961ef480eb55e80d19ad83579a64c00700201b838000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000014000000000000000025a0ae0461917f6811c4926611a88f77cea18ec2f754cd9a558db8525388084a8924a05dd2c979fd0ff19c439238fd5ecf04ebf1a98908005c0024919c47c006f7df99c0c0",
                 "blocknumber": "1"
             },
             {
                 "blockHeader": {
-                    "parentHash": "0x98321fd17d6d79404ee72210d3b8ec4d90b41ddd5d0ce5c1e423320212a7af37",
+                    "parentHash": "0xfd935391adb77be5e34e3d54acc7c8a606a372e4ed3493e7bc97d9c454d5da26",
                     "uncleHash": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "coinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
-                    "stateRoot": "0x67cfbb79f00f0c48cb8a875e780e5f5c668db775d2996ab7fb4a3f2751224646",
+                    "stateRoot": "0xaedfd259d9cc36e4352ea2f306b2b1fcc23f9f4f91fb976ef29f3324153adeb3",
                     "transactionsTrie": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
                     "receiptTrie": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
                     "bloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
@@ -823,23 +1990,127 @@
                     "excessBlobGas": "0x00",
                     "parentBeaconBlockRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
                     "requestsHash": "0xe9ef1ccbd4b7f8607851d946c896d8296601235faa677ed3aa906b0388d958ab",
-                    "blockAccessListHash": "0xcd97e8bb18770418647d3e6d350d870687622e607e35595e42c17813a47c28e6",
-                    "hash": "0xcb29b24a9e943fb8ed4d03d3eb8bc1478d8ad1deaa93070e713eaad7ef747713"
+                    "blockAccessListHash": "0x739123449e3069e3becf1f7538ddb163b09b7759413293cdb1ef3f6a701ed794",
+                    "slotNumber": "0x00",
+                    "hash": "0xbdc3277f1cd1f8f6977dfd64b20cc553a28bfd868b2d7c1b0dda1dbcded14192"
                 },
                 "transactions": [],
                 "uncleHeaders": [],
                 "withdrawals": [],
-                "rlp": "0xf9027ef90278a098321fd17d6d79404ee72210d3b8ec4d90b41ddd5d0ce5c1e423320212a7af37a01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa067cfbb79f00f0c48cb8a875e780e5f5c668db775d2996ab7fb4a3f2751224646a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421b901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080028407270e00801880a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e9ef1ccbd4b7f8607851d946c896d8296601235faa677ed3aa906b0388d958aba0cd97e8bb18770418647d3e6d350d870687622e607e35595e42c17813a47c28e6c0c0c0",
+                "blockAccessList": [
+                    {
+                        "address": "0x00000961ef480eb55e80d19ad83579a64c007002",
+                        "nonceChanges": [],
+                        "balanceChanges": [],
+                        "codeChanges": [],
+                        "storageChanges": [
+                            {
+                                "slot": "0x00",
+                                "slotChanges": [
+                                    {
+                                        "blockAccessIndex": "0x01",
+                                        "postValue": "0x10"
+                                    }
+                                ]
+                            },
+                            {
+                                "slot": "0x02",
+                                "slotChanges": [
+                                    {
+                                        "blockAccessIndex": "0x01",
+                                        "postValue": "0x00"
+                                    }
+                                ]
+                            },
+                            {
+                                "slot": "0x03",
+                                "slotChanges": [
+                                    {
+                                        "blockAccessIndex": "0x01",
+                                        "postValue": "0x00"
+                                    }
+                                ]
+                            }
+                        ],
+                        "storageReads": [
+                            "0x01",
+                            "0x34",
+                            "0x35",
+                            "0x36",
+                            "0x37",
+                            "0x38",
+                            "0x39",
+                            "0x3a",
+                            "0x3b",
+                            "0x3c",
+                            "0x3d",
+                            "0x3e",
+                            "0x3f"
+                        ]
+                    },
+                    {
+                        "address": "0x0000bbddc7ce488642fb579f8b00f3a590007251",
+                        "nonceChanges": [],
+                        "balanceChanges": [],
+                        "codeChanges": [],
+                        "storageChanges": [],
+                        "storageReads": [
+                            "0x00",
+                            "0x01",
+                            "0x02",
+                            "0x03"
+                        ]
+                    },
+                    {
+                        "address": "0x0000f90827f1c53a10cb7a02335b175320002935",
+                        "nonceChanges": [],
+                        "balanceChanges": [],
+                        "codeChanges": [],
+                        "storageChanges": [
+                            {
+                                "slot": "0x01",
+                                "slotChanges": [
+                                    {
+                                        "blockAccessIndex": "0x00",
+                                        "postValue": "0xfd935391adb77be5e34e3d54acc7c8a606a372e4ed3493e7bc97d9c454d5da26"
+                                    }
+                                ]
+                            }
+                        ],
+                        "storageReads": []
+                    },
+                    {
+                        "address": "0x000f3df6d732807ef1319fb7b8bb8522d0beac02",
+                        "nonceChanges": [],
+                        "balanceChanges": [],
+                        "codeChanges": [],
+                        "storageChanges": [
+                            {
+                                "slot": "0x18",
+                                "slotChanges": [
+                                    {
+                                        "blockAccessIndex": "0x00",
+                                        "postValue": "0x18"
+                                    }
+                                ]
+                            }
+                        ],
+                        "storageReads": [
+                            "0x2017"
+                        ]
+                    }
+                ],
+                "rlp": "0xf9027ff90279a0fd935391adb77be5e34e3d54acc7c8a606a372e4ed3493e7bc97d9c454d5da26a01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa0aedfd259d9cc36e4352ea2f306b2b1fcc23f9f4f91fb976ef29f3324153adeb3a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421b901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080028407270e00801880a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e9ef1ccbd4b7f8607851d946c896d8296601235faa677ed3aa906b0388d958aba0739123449e3069e3becf1f7538ddb163b09b7759413293cdb1ef3f6a701ed79480c0c0c0",
                 "blocknumber": "2"
             }
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x37a9487a87894c4426d130371288f902b0cf88c327876789452bb05689cb313f",
+            "hash": "0x76ee3528749c3b31e757456660b1f29667c1b3f29c8c43d9c04668599945ee15",
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Ensure BAL correctly tracks queue overflow when requests exceed MAX.\n    Block 1: 20 requests (partial sweep, 16 dequeued).\n    Block 2: Empty (clean sweep of remaining 4).",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v3.0.1/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_eip7002.py#L283",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v5.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_eip7002.py#L283",
             "fixture-format": "blockchain_test",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7928.md",
             "reference-spec-version": "e7f0963a024b3d0dedc4488a7553bf7c70dedb3e"
