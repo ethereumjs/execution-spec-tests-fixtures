@@ -28,8 +28,8 @@ Test exclusions (file size limit GitHub):
 ## `dev` Fixtures
 
 Fixtures in `dev` are taken from the following releases:
-- [bal@v5.0.0](https://github.com/ethereum/execution-spec-tests/releases/tag/bal%40v5.0.0) | Jan 27, 2026 | EIP-7928 Block Level Access Lists (BAL)
-  - `blockchain_tests/amsterdam/eip7928_block_level_access_lists/`
+- [bal@v5.0.0](https://github.com/ethereum/execution-spec-tests/releases/tag/bal%40v5.0.0) | Jan 27, 2026
+  - `blockchain_tests/amsterdam/`
 
 ## Notes
 
