@@ -823,7 +823,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Observe coinbase balance between state-creating transactions.\n\nA reporter contract reads `BALANCE(COINBASE)` and stores it.\nThis makes `receipt_gas_used` directly observable: if a client\ncomputes a different `receipt_gas_used` for prior transactions,\nthe stored balance will differ and the state root will not match.\n\nBlock 1:\n  Tx 1: SSTORE zero-to-nonzero (coinbase earns fee).\n  Tx 2: Store `BALANCE(COINBASE)` in slot 0.\n\nBlock 2:\n  Tx 3: Child spills state gas then reverts; parent SSTOREs\n  (coinbase earns fee through different code path).\n  Tx 4: Store `BALANCE(COINBASE)` in slot 0.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_multi_block.py#L224",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_multi_block.py#L224",
             "metadata": {
                 "opcode_count": {}
             },

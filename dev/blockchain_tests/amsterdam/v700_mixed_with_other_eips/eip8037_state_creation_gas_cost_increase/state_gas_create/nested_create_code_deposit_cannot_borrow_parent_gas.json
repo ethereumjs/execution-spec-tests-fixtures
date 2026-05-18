@@ -413,7 +413,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test nested CREATE code deposit does not borrow parent gas.\n\nProvide just enough gas for CREATE to start (new account state\ngas + regular gas) but not enough for the child frame to cover\ncode deposit after init code runs. The CREATE increments the\nfactory nonce but code deposit fails, so no contract is deployed.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_create.py#L790",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_create.py#L790",
             "metadata": {
                 "opcode_count": {}
             },

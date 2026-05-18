@@ -400,7 +400,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test CREATE OOGs when state gas is insufficient.\n\nProvide enough gas for CREATE's regular gas cost but not enough\nto cover the new-account state gas. The CREATE should fail,\nreturning 0.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_create.py#L389",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_create.py#L389",
             "metadata": {
                 "opcode_count": {}
             },

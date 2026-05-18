@@ -591,7 +591,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test block gas accounting with refunds per EIP-7778.\n\nWhen exceed_block_gas_limit=True, we create a scenario where:\n- Pre-refund gas (gas_used) > block_gas_limit - intrinsic_cost\n  (no room for another tx with correct EIP-7778 accounting)\n- Post-refund gas (gas_spent) <= block_gas_limit - intrinsic_cost\n  (appears to have room with old refund-based accounting)\n\nThis tests that clients correctly use pre-refund gas for block accounting.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7778_block_gas_accounting_without_refunds/test_gas_accounting.py#L261",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7778_block_gas_accounting_without_refunds/test_gas_accounting.py#L261",
             "metadata": {
                 "opcode_count": {}
             },
@@ -1122,7 +1122,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test block gas accounting with refunds per EIP-7778.\n\nWhen exceed_block_gas_limit=True, we create a scenario where:\n- Pre-refund gas (gas_used) > block_gas_limit - intrinsic_cost\n  (no room for another tx with correct EIP-7778 accounting)\n- Post-refund gas (gas_spent) <= block_gas_limit - intrinsic_cost\n  (appears to have room with old refund-based accounting)\n\nThis tests that clients correctly use pre-refund gas for block accounting.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7778_block_gas_accounting_without_refunds/test_gas_accounting.py#L261",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7778_block_gas_accounting_without_refunds/test_gas_accounting.py#L261",
             "metadata": {
                 "opcode_count": {}
             },
@@ -1722,7 +1722,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test block gas accounting with refunds per EIP-7778.\n\nWhen exceed_block_gas_limit=True, we create a scenario where:\n- Pre-refund gas (gas_used) > block_gas_limit - intrinsic_cost\n  (no room for another tx with correct EIP-7778 accounting)\n- Post-refund gas (gas_spent) <= block_gas_limit - intrinsic_cost\n  (appears to have room with old refund-based accounting)\n\nThis tests that clients correctly use pre-refund gas for block accounting.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7778_block_gas_accounting_without_refunds/test_gas_accounting.py#L261",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7778_block_gas_accounting_without_refunds/test_gas_accounting.py#L261",
             "metadata": {
                 "opcode_count": {}
             },
@@ -2253,7 +2253,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test block gas accounting with refunds per EIP-7778.\n\nWhen exceed_block_gas_limit=True, we create a scenario where:\n- Pre-refund gas (gas_used) > block_gas_limit - intrinsic_cost\n  (no room for another tx with correct EIP-7778 accounting)\n- Post-refund gas (gas_spent) <= block_gas_limit - intrinsic_cost\n  (appears to have room with old refund-based accounting)\n\nThis tests that clients correctly use pre-refund gas for block accounting.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7778_block_gas_accounting_without_refunds/test_gas_accounting.py#L261",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7778_block_gas_accounting_without_refunds/test_gas_accounting.py#L261",
             "metadata": {
                 "opcode_count": {}
             },
@@ -2853,7 +2853,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test block gas accounting with refunds per EIP-7778.\n\nWhen exceed_block_gas_limit=True, we create a scenario where:\n- Pre-refund gas (gas_used) > block_gas_limit - intrinsic_cost\n  (no room for another tx with correct EIP-7778 accounting)\n- Post-refund gas (gas_spent) <= block_gas_limit - intrinsic_cost\n  (appears to have room with old refund-based accounting)\n\nThis tests that clients correctly use pre-refund gas for block accounting.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7778_block_gas_accounting_without_refunds/test_gas_accounting.py#L261",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7778_block_gas_accounting_without_refunds/test_gas_accounting.py#L261",
             "metadata": {
                 "opcode_count": {}
             },
@@ -3384,7 +3384,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test block gas accounting with refunds per EIP-7778.\n\nWhen exceed_block_gas_limit=True, we create a scenario where:\n- Pre-refund gas (gas_used) > block_gas_limit - intrinsic_cost\n  (no room for another tx with correct EIP-7778 accounting)\n- Post-refund gas (gas_spent) <= block_gas_limit - intrinsic_cost\n  (appears to have room with old refund-based accounting)\n\nThis tests that clients correctly use pre-refund gas for block accounting.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7778_block_gas_accounting_without_refunds/test_gas_accounting.py#L261",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7778_block_gas_accounting_without_refunds/test_gas_accounting.py#L261",
             "metadata": {
                 "opcode_count": {}
             },
@@ -3984,7 +3984,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test block gas accounting with refunds per EIP-7778.\n\nWhen exceed_block_gas_limit=True, we create a scenario where:\n- Pre-refund gas (gas_used) > block_gas_limit - intrinsic_cost\n  (no room for another tx with correct EIP-7778 accounting)\n- Post-refund gas (gas_spent) <= block_gas_limit - intrinsic_cost\n  (appears to have room with old refund-based accounting)\n\nThis tests that clients correctly use pre-refund gas for block accounting.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7778_block_gas_accounting_without_refunds/test_gas_accounting.py#L261",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7778_block_gas_accounting_without_refunds/test_gas_accounting.py#L261",
             "metadata": {
                 "opcode_count": {}
             },
@@ -4515,7 +4515,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test block gas accounting with refunds per EIP-7778.\n\nWhen exceed_block_gas_limit=True, we create a scenario where:\n- Pre-refund gas (gas_used) > block_gas_limit - intrinsic_cost\n  (no room for another tx with correct EIP-7778 accounting)\n- Post-refund gas (gas_spent) <= block_gas_limit - intrinsic_cost\n  (appears to have room with old refund-based accounting)\n\nThis tests that clients correctly use pre-refund gas for block accounting.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7778_block_gas_accounting_without_refunds/test_gas_accounting.py#L261",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7778_block_gas_accounting_without_refunds/test_gas_accounting.py#L261",
             "metadata": {
                 "opcode_count": {}
             },
@@ -5080,7 +5080,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test block gas accounting with refunds per EIP-7778.\n\nWhen exceed_block_gas_limit=True, we create a scenario where:\n- Pre-refund gas (gas_used) > block_gas_limit - intrinsic_cost\n  (no room for another tx with correct EIP-7778 accounting)\n- Post-refund gas (gas_spent) <= block_gas_limit - intrinsic_cost\n  (appears to have room with old refund-based accounting)\n\nThis tests that clients correctly use pre-refund gas for block accounting.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7778_block_gas_accounting_without_refunds/test_gas_accounting.py#L261",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7778_block_gas_accounting_without_refunds/test_gas_accounting.py#L261",
             "metadata": {
                 "opcode_count": {}
             },
@@ -5565,7 +5565,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test block gas accounting with refunds per EIP-7778.\n\nWhen exceed_block_gas_limit=True, we create a scenario where:\n- Pre-refund gas (gas_used) > block_gas_limit - intrinsic_cost\n  (no room for another tx with correct EIP-7778 accounting)\n- Post-refund gas (gas_spent) <= block_gas_limit - intrinsic_cost\n  (appears to have room with old refund-based accounting)\n\nThis tests that clients correctly use pre-refund gas for block accounting.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7778_block_gas_accounting_without_refunds/test_gas_accounting.py#L261",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7778_block_gas_accounting_without_refunds/test_gas_accounting.py#L261",
             "metadata": {
                 "opcode_count": {}
             },
@@ -6130,7 +6130,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test block gas accounting with refunds per EIP-7778.\n\nWhen exceed_block_gas_limit=True, we create a scenario where:\n- Pre-refund gas (gas_used) > block_gas_limit - intrinsic_cost\n  (no room for another tx with correct EIP-7778 accounting)\n- Post-refund gas (gas_spent) <= block_gas_limit - intrinsic_cost\n  (appears to have room with old refund-based accounting)\n\nThis tests that clients correctly use pre-refund gas for block accounting.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7778_block_gas_accounting_without_refunds/test_gas_accounting.py#L261",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7778_block_gas_accounting_without_refunds/test_gas_accounting.py#L261",
             "metadata": {
                 "opcode_count": {}
             },
@@ -6615,7 +6615,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test block gas accounting with refunds per EIP-7778.\n\nWhen exceed_block_gas_limit=True, we create a scenario where:\n- Pre-refund gas (gas_used) > block_gas_limit - intrinsic_cost\n  (no room for another tx with correct EIP-7778 accounting)\n- Post-refund gas (gas_spent) <= block_gas_limit - intrinsic_cost\n  (appears to have room with old refund-based accounting)\n\nThis tests that clients correctly use pre-refund gas for block accounting.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7778_block_gas_accounting_without_refunds/test_gas_accounting.py#L261",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7778_block_gas_accounting_without_refunds/test_gas_accounting.py#L261",
             "metadata": {
                 "opcode_count": {}
             },
@@ -7180,7 +7180,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test block gas accounting with refunds per EIP-7778.\n\nWhen exceed_block_gas_limit=True, we create a scenario where:\n- Pre-refund gas (gas_used) > block_gas_limit - intrinsic_cost\n  (no room for another tx with correct EIP-7778 accounting)\n- Post-refund gas (gas_spent) <= block_gas_limit - intrinsic_cost\n  (appears to have room with old refund-based accounting)\n\nThis tests that clients correctly use pre-refund gas for block accounting.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7778_block_gas_accounting_without_refunds/test_gas_accounting.py#L261",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7778_block_gas_accounting_without_refunds/test_gas_accounting.py#L261",
             "metadata": {
                 "opcode_count": {}
             },
@@ -7665,7 +7665,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test block gas accounting with refunds per EIP-7778.\n\nWhen exceed_block_gas_limit=True, we create a scenario where:\n- Pre-refund gas (gas_used) > block_gas_limit - intrinsic_cost\n  (no room for another tx with correct EIP-7778 accounting)\n- Post-refund gas (gas_spent) <= block_gas_limit - intrinsic_cost\n  (appears to have room with old refund-based accounting)\n\nThis tests that clients correctly use pre-refund gas for block accounting.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7778_block_gas_accounting_without_refunds/test_gas_accounting.py#L261",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7778_block_gas_accounting_without_refunds/test_gas_accounting.py#L261",
             "metadata": {
                 "opcode_count": {}
             },
@@ -8230,7 +8230,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test block gas accounting with refunds per EIP-7778.\n\nWhen exceed_block_gas_limit=True, we create a scenario where:\n- Pre-refund gas (gas_used) > block_gas_limit - intrinsic_cost\n  (no room for another tx with correct EIP-7778 accounting)\n- Post-refund gas (gas_spent) <= block_gas_limit - intrinsic_cost\n  (appears to have room with old refund-based accounting)\n\nThis tests that clients correctly use pre-refund gas for block accounting.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7778_block_gas_accounting_without_refunds/test_gas_accounting.py#L261",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7778_block_gas_accounting_without_refunds/test_gas_accounting.py#L261",
             "metadata": {
                 "opcode_count": {}
             },
@@ -8715,7 +8715,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test block gas accounting with refunds per EIP-7778.\n\nWhen exceed_block_gas_limit=True, we create a scenario where:\n- Pre-refund gas (gas_used) > block_gas_limit - intrinsic_cost\n  (no room for another tx with correct EIP-7778 accounting)\n- Post-refund gas (gas_spent) <= block_gas_limit - intrinsic_cost\n  (appears to have room with old refund-based accounting)\n\nThis tests that clients correctly use pre-refund gas for block accounting.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7778_block_gas_accounting_without_refunds/test_gas_accounting.py#L261",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7778_block_gas_accounting_without_refunds/test_gas_accounting.py#L261",
             "metadata": {
                 "opcode_count": {}
             },

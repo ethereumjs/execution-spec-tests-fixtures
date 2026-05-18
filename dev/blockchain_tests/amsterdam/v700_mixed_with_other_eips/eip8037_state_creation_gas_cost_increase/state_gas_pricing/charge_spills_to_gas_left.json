@@ -412,7 +412,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test state gas spills from reservoir to gas_left.\n\nWhen the reservoir has some gas but not enough to cover the full\nstate charge, the remainder is taken from gas_left. The SSTORE\nshould still succeed.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_pricing.py#L130",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_pricing.py#L130",
             "metadata": {
                 "opcode_count": {}
             },

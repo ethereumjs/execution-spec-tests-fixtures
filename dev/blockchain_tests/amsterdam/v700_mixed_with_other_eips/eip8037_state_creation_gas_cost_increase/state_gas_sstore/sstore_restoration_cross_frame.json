@@ -422,7 +422,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Verify restoration refund across frames for CALL / CALLCODE / DELEGATECALL.\n\nCallee performs the full 0 to x to 0 cycle within its call. For\nCALL the slot lives in callee's storage; for CALLCODE/DELEGATECALL\nit lives in caller's.  The reservoir is tx-level, so the refund\napplies regardless of storage ownership.  Net block state gas is\nzero.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_sstore.py#L682",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_sstore.py#L682",
             "metadata": {
                 "opcode_count": {}
             },
@@ -853,7 +853,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Verify restoration refund across frames for CALL / CALLCODE / DELEGATECALL.\n\nCallee performs the full 0 to x to 0 cycle within its call. For\nCALL the slot lives in callee's storage; for CALLCODE/DELEGATECALL\nit lives in caller's.  The reservoir is tx-level, so the refund\napplies regardless of storage ownership.  Net block state gas is\nzero.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_sstore.py#L682",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_sstore.py#L682",
             "metadata": {
                 "opcode_count": {}
             },
@@ -1284,7 +1284,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Verify restoration refund across frames for CALL / CALLCODE / DELEGATECALL.\n\nCallee performs the full 0 to x to 0 cycle within its call. For\nCALL the slot lives in callee's storage; for CALLCODE/DELEGATECALL\nit lives in caller's.  The reservoir is tx-level, so the refund\napplies regardless of storage ownership.  Net block state gas is\nzero.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_sstore.py#L682",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_sstore.py#L682",
             "metadata": {
                 "opcode_count": {}
             },

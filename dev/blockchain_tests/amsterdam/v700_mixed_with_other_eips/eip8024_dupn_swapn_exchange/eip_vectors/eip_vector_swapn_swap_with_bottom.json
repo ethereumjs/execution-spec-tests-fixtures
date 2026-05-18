@@ -422,7 +422,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "EIP test vector: 600160008080808080808080808080808080806002e780.\n\nResults in 18 stack items, top=1, bottom=2, rest=0.\n\nPUSH1 1, PUSH1 0, 15x DUP1, PUSH1 2, SWAPN[0x80]\n- After PUSH1 2: 18 items with top=2, bottom=1\n- SWAPN[0x80]: decode_single(0x80)=17, swap pos 1 with pos (17+1)=18\n- Result: 18 items, top=1, bottom=2",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8024_dupn_swapn_exchange/test_eip_vectors.py#L74",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8024_dupn_swapn_exchange/test_eip_vectors.py#L74",
             "metadata": {
                 "opcode_count": {}
             },

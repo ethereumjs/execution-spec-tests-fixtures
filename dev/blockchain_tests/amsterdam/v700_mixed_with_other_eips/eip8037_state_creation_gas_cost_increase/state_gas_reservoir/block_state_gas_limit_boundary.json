@@ -979,7 +979,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Verify the per-tx state check at the strict-greater-than boundary.\n\ntx1 consumes `tx1_state` via cold SSTOREs. tx2 is sized so that\nits worst-case state contribution `tx.gas - intrinsic_regular`\nequals `state_available` (delta=0, accepted because the check is\nstrict `>`) or exceeds it by 1 (delta=1, rejected with\n`GAS_ALLOWANCE_EXCEEDED`).\n\nThe regular check is asserted to pass so rejection on delta=1 is\npinned to the state dimension.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_reservoir.py#L255",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_reservoir.py#L255",
             "metadata": {
                 "opcode_count": {}
             },
@@ -1870,7 +1870,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Verify the per-tx state check at the strict-greater-than boundary.\n\ntx1 consumes `tx1_state` via cold SSTOREs. tx2 is sized so that\nits worst-case state contribution `tx.gas - intrinsic_regular`\nequals `state_available` (delta=0, accepted because the check is\nstrict `>`) or exceeds it by 1 (delta=1, rejected with\n`GAS_ALLOWANCE_EXCEEDED`).\n\nThe regular check is asserted to pass so rejection on delta=1 is\npinned to the state dimension.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_reservoir.py#L255",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_reservoir.py#L255",
             "metadata": {
                 "opcode_count": {}
             },

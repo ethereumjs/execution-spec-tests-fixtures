@@ -432,7 +432,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test STATICCALL passes reservoir but cannot use it for state ops.\n\nSTATICCALL forbids state-modifying operations. The reservoir is\npassed to the child but cannot be consumed. After the STATICCALL\nreturns, the parent can still use the reservoir for its own SSTORE.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_call.py#L616",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_call.py#L616",
             "metadata": {
                 "opcode_count": {}
             },

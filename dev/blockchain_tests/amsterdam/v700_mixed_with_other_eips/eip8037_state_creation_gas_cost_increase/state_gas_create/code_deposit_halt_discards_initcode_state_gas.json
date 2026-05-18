@@ -396,7 +396,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Verify initcode state gas excluded from block on deposit halt.\n\nA CREATE tx runs initcode that first performs a state-creating\noperation (charging GAS_NEW_ACCOUNT state gas), then returns\ncode that triggers a deposit failure (oversized or OOG). The\nexceptional halt reverts all initcode state changes including\nthe new account. The reverted GAS_NEW_ACCOUNT must NOT count\nin block_state_gas_used, which determines the block header\ngas_used via max(block_regular_gas, block_state_gas).",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_create.py#L1119",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_create.py#L1119",
             "metadata": {
                 "opcode_count": {}
             },
@@ -801,7 +801,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Verify initcode state gas excluded from block on deposit halt.\n\nA CREATE tx runs initcode that first performs a state-creating\noperation (charging GAS_NEW_ACCOUNT state gas), then returns\ncode that triggers a deposit failure (oversized or OOG). The\nexceptional halt reverts all initcode state changes including\nthe new account. The reverted GAS_NEW_ACCOUNT must NOT count\nin block_state_gas_used, which determines the block header\ngas_used via max(block_regular_gas, block_state_gas).",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_create.py#L1119",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_create.py#L1119",
             "metadata": {
                 "opcode_count": {}
             },
@@ -1206,7 +1206,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Verify initcode state gas excluded from block on deposit halt.\n\nA CREATE tx runs initcode that first performs a state-creating\noperation (charging GAS_NEW_ACCOUNT state gas), then returns\ncode that triggers a deposit failure (oversized or OOG). The\nexceptional halt reverts all initcode state changes including\nthe new account. The reverted GAS_NEW_ACCOUNT must NOT count\nin block_state_gas_used, which determines the block header\ngas_used via max(block_regular_gas, block_state_gas).",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_create.py#L1119",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_create.py#L1119",
             "metadata": {
                 "opcode_count": {}
             },
@@ -1611,7 +1611,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Verify initcode state gas excluded from block on deposit halt.\n\nA CREATE tx runs initcode that first performs a state-creating\noperation (charging GAS_NEW_ACCOUNT state gas), then returns\ncode that triggers a deposit failure (oversized or OOG). The\nexceptional halt reverts all initcode state changes including\nthe new account. The reverted GAS_NEW_ACCOUNT must NOT count\nin block_state_gas_used, which determines the block header\ngas_used via max(block_regular_gas, block_state_gas).",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_create.py#L1119",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_create.py#L1119",
             "metadata": {
                 "opcode_count": {}
             },

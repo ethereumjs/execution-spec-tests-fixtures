@@ -412,7 +412,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test SWAPN when the immediate byte is beyond the end of code.\n\nPer EIP-8024, code[pc + 1] evaluates to 0 if beyond the end of the code,\nmatching PUSH behavior. With immediate = 0, decode_single(0) = 145, so\nSWAPN swaps position 1 with position 146.\n\nThis test verifies the transaction succeeds (doesn't revert) when SWAPN\nis the last byte of the code with no immediate byte following it.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8024_dupn_swapn_exchange/test_swapn.py#L238",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8024_dupn_swapn_exchange/test_swapn.py#L238",
             "metadata": {
                 "opcode_count": {}
             },

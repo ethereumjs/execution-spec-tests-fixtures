@@ -409,7 +409,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test that system contract post-execution calls filter net-zero\nstorage writes.\n\nWhen no transaction interacts with withdrawal/consolidation contracts\nduring a block, the post-execution system calls read storage slots\n0-3 but don't modify them. These should appear as storage READS,\nnot storage CHANGES.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_cross_index.py#L301",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_cross_index.py#L301",
             "metadata": {
                 "opcode_count": {}
             },

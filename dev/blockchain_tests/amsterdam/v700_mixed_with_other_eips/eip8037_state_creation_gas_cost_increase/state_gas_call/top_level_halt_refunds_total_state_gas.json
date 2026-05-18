@@ -422,7 +422,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Verify a top-level halt refunds the total state-gas consumed\n(reservoir-portion + spilled-portion) regardless of child failure\nmode. The parent calls a child that either reverts or halts, then\nINVALIDs at the top level.\n\nPer the updated EIP, both child failure modes propagate the full\n`state_gas_used` back through `incorporate_child_on_error`, and\nthe top-level halt no longer overrides it. The tx-level error\nhandler then folds the residual into the reservoir, so\n`state_gas_left_end = max(reservoir, child_charge)` and\n`tx_gas_used = tx.gas - state_gas_left_end`:\n\n- `reservoir < child_charge` (one_short): spill is refunded too,\n  `tx_gas_used = gas_limit_cap - (child_charge - reservoir)`.\n- `reservoir >= child_charge`: no spill, `tx_gas_used =\n  gas_limit_cap`.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_call.py#L1339",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_call.py#L1339",
             "metadata": {
                 "opcode_count": {}
             },
@@ -853,7 +853,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Verify a top-level halt refunds the total state-gas consumed\n(reservoir-portion + spilled-portion) regardless of child failure\nmode. The parent calls a child that either reverts or halts, then\nINVALIDs at the top level.\n\nPer the updated EIP, both child failure modes propagate the full\n`state_gas_used` back through `incorporate_child_on_error`, and\nthe top-level halt no longer overrides it. The tx-level error\nhandler then folds the residual into the reservoir, so\n`state_gas_left_end = max(reservoir, child_charge)` and\n`tx_gas_used = tx.gas - state_gas_left_end`:\n\n- `reservoir < child_charge` (one_short): spill is refunded too,\n  `tx_gas_used = gas_limit_cap - (child_charge - reservoir)`.\n- `reservoir >= child_charge`: no spill, `tx_gas_used =\n  gas_limit_cap`.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_call.py#L1339",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_call.py#L1339",
             "metadata": {
                 "opcode_count": {}
             },
@@ -1284,7 +1284,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Verify a top-level halt refunds the total state-gas consumed\n(reservoir-portion + spilled-portion) regardless of child failure\nmode. The parent calls a child that either reverts or halts, then\nINVALIDs at the top level.\n\nPer the updated EIP, both child failure modes propagate the full\n`state_gas_used` back through `incorporate_child_on_error`, and\nthe top-level halt no longer overrides it. The tx-level error\nhandler then folds the residual into the reservoir, so\n`state_gas_left_end = max(reservoir, child_charge)` and\n`tx_gas_used = tx.gas - state_gas_left_end`:\n\n- `reservoir < child_charge` (one_short): spill is refunded too,\n  `tx_gas_used = gas_limit_cap - (child_charge - reservoir)`.\n- `reservoir >= child_charge`: no spill, `tx_gas_used =\n  gas_limit_cap`.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_call.py#L1339",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_call.py#L1339",
             "metadata": {
                 "opcode_count": {}
             },
@@ -1715,7 +1715,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Verify a top-level halt refunds the total state-gas consumed\n(reservoir-portion + spilled-portion) regardless of child failure\nmode. The parent calls a child that either reverts or halts, then\nINVALIDs at the top level.\n\nPer the updated EIP, both child failure modes propagate the full\n`state_gas_used` back through `incorporate_child_on_error`, and\nthe top-level halt no longer overrides it. The tx-level error\nhandler then folds the residual into the reservoir, so\n`state_gas_left_end = max(reservoir, child_charge)` and\n`tx_gas_used = tx.gas - state_gas_left_end`:\n\n- `reservoir < child_charge` (one_short): spill is refunded too,\n  `tx_gas_used = gas_limit_cap - (child_charge - reservoir)`.\n- `reservoir >= child_charge`: no spill, `tx_gas_used =\n  gas_limit_cap`.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_call.py#L1339",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_call.py#L1339",
             "metadata": {
                 "opcode_count": {}
             },
@@ -2146,7 +2146,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Verify a top-level halt refunds the total state-gas consumed\n(reservoir-portion + spilled-portion) regardless of child failure\nmode. The parent calls a child that either reverts or halts, then\nINVALIDs at the top level.\n\nPer the updated EIP, both child failure modes propagate the full\n`state_gas_used` back through `incorporate_child_on_error`, and\nthe top-level halt no longer overrides it. The tx-level error\nhandler then folds the residual into the reservoir, so\n`state_gas_left_end = max(reservoir, child_charge)` and\n`tx_gas_used = tx.gas - state_gas_left_end`:\n\n- `reservoir < child_charge` (one_short): spill is refunded too,\n  `tx_gas_used = gas_limit_cap - (child_charge - reservoir)`.\n- `reservoir >= child_charge`: no spill, `tx_gas_used =\n  gas_limit_cap`.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_call.py#L1339",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_call.py#L1339",
             "metadata": {
                 "opcode_count": {}
             },
@@ -2577,7 +2577,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Verify a top-level halt refunds the total state-gas consumed\n(reservoir-portion + spilled-portion) regardless of child failure\nmode. The parent calls a child that either reverts or halts, then\nINVALIDs at the top level.\n\nPer the updated EIP, both child failure modes propagate the full\n`state_gas_used` back through `incorporate_child_on_error`, and\nthe top-level halt no longer overrides it. The tx-level error\nhandler then folds the residual into the reservoir, so\n`state_gas_left_end = max(reservoir, child_charge)` and\n`tx_gas_used = tx.gas - state_gas_left_end`:\n\n- `reservoir < child_charge` (one_short): spill is refunded too,\n  `tx_gas_used = gas_limit_cap - (child_charge - reservoir)`.\n- `reservoir >= child_charge`: no spill, `tx_gas_used =\n  gas_limit_cap`.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_call.py#L1339",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_call.py#L1339",
             "metadata": {
                 "opcode_count": {}
             },

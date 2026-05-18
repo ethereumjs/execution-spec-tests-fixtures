@@ -545,7 +545,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Verify CALL with value to a pre existing contract that ran\nSELFDESTRUCT charges no new account state gas.\n\nPer EIP-6780 a pre existing contract that executes SELFDESTRUCT\nis not queued for end of the transaction destruction, so a\nsubsequent CALL sees an existing, code carrying account and the\nnew account creation gate does not fire.\n\nSeveral cold SSTOREs after the CALLs make block state gas\ndominate the block regular gas component, so the block header\nreflects exactly `num_probes * sstore_state_gas`. A spurious\nnew account charge on the value bearing CALL would push the\nheader up by that charge, breaking the assertion.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_call.py#L1258",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_call.py#L1258",
             "metadata": {
                 "opcode_count": {}
             },
@@ -1099,7 +1099,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Verify CALL with value to a pre existing contract that ran\nSELFDESTRUCT charges no new account state gas.\n\nPer EIP-6780 a pre existing contract that executes SELFDESTRUCT\nis not queued for end of the transaction destruction, so a\nsubsequent CALL sees an existing, code carrying account and the\nnew account creation gate does not fire.\n\nSeveral cold SSTOREs after the CALLs make block state gas\ndominate the block regular gas component, so the block header\nreflects exactly `num_probes * sstore_state_gas`. A spurious\nnew account charge on the value bearing CALL would push the\nheader up by that charge, breaking the assertion.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_call.py#L1258",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_call.py#L1258",
             "metadata": {
                 "opcode_count": {}
             },

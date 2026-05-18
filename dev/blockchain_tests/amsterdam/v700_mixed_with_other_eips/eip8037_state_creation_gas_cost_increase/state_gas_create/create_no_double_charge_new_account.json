@@ -468,7 +468,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Verify CREATE does not double-charge new-account gas.\n\nCREATE charges REGULAR_GAS_CREATE as regular gas and new-account\nstate gas separately. Provide exactly enough gas for both \u2014 if\nGAS_NEW_ACCOUNT were charged twice (once in regular, once in\nstate), the CREATE would OOG.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_create.py#L1061",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_create.py#L1061",
             "metadata": {
                 "opcode_count": {}
             },

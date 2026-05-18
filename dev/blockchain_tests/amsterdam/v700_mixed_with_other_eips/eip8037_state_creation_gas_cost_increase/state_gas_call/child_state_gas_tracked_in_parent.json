@@ -454,7 +454,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test state gas used by child is accumulated in parent.\n\nBoth parent and child perform SSTOREs. The total state gas used\nshould reflect both operations. This is verified by the test\nsucceeding with enough total gas but would OOG if state gas\nwasn't tracked across frames.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_call.py#L526",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_call.py#L526",
             "metadata": {
                 "opcode_count": {}
             },

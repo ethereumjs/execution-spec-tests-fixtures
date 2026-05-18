@@ -432,7 +432,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Verify a subcall failure does not zero the top level execution\nstate gas.\n\nThe top level tx succeeds end to end even though a subcall\nreverts, so the top level failure refund does not apply. The\nparent's own SSTORE contributes state gas that appears in\n`block_state_gas_used`.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_reservoir.py#L897",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_reservoir.py#L897",
             "metadata": {
                 "opcode_count": {}
             },

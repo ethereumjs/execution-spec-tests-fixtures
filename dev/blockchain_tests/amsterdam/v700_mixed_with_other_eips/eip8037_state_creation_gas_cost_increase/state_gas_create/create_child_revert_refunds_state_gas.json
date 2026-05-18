@@ -425,7 +425,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Verify CREATE/CREATE2 child REVERT refunds parent's account gas.\n\nOn REVERT the parent's `GAS_NEW_ACCOUNT` charge is refunded to\nthe reservoir (on top of the child's state gas returned via\n`incorporate_child_on_error`). Block state gas reflects only the\nprobe SSTORE. The spillover variant runs with tx.gas at the cap\n(reservoir zero), so the state gas charge spills into `gas_left`\nand the refund returns to the reservoir (not back to `gas_left`).",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_create.py#L1474",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_create.py#L1474",
             "metadata": {
                 "opcode_count": {}
             },
@@ -859,7 +859,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Verify CREATE/CREATE2 child REVERT refunds parent's account gas.\n\nOn REVERT the parent's `GAS_NEW_ACCOUNT` charge is refunded to\nthe reservoir (on top of the child's state gas returned via\n`incorporate_child_on_error`). Block state gas reflects only the\nprobe SSTORE. The spillover variant runs with tx.gas at the cap\n(reservoir zero), so the state gas charge spills into `gas_left`\nand the refund returns to the reservoir (not back to `gas_left`).",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_create.py#L1474",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_create.py#L1474",
             "metadata": {
                 "opcode_count": {}
             },
@@ -1293,7 +1293,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Verify CREATE/CREATE2 child REVERT refunds parent's account gas.\n\nOn REVERT the parent's `GAS_NEW_ACCOUNT` charge is refunded to\nthe reservoir (on top of the child's state gas returned via\n`incorporate_child_on_error`). Block state gas reflects only the\nprobe SSTORE. The spillover variant runs with tx.gas at the cap\n(reservoir zero), so the state gas charge spills into `gas_left`\nand the refund returns to the reservoir (not back to `gas_left`).",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_create.py#L1474",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_create.py#L1474",
             "metadata": {
                 "opcode_count": {}
             },
@@ -1727,7 +1727,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Verify CREATE/CREATE2 child REVERT refunds parent's account gas.\n\nOn REVERT the parent's `GAS_NEW_ACCOUNT` charge is refunded to\nthe reservoir (on top of the child's state gas returned via\n`incorporate_child_on_error`). Block state gas reflects only the\nprobe SSTORE. The spillover variant runs with tx.gas at the cap\n(reservoir zero), so the state gas charge spills into `gas_left`\nand the refund returns to the reservoir (not back to `gas_left`).",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_create.py#L1474",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_create.py#L1474",
             "metadata": {
                 "opcode_count": {}
             },

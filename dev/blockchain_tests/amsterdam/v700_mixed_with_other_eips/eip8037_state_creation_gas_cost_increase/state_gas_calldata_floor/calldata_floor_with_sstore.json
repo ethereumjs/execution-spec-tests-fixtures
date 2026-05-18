@@ -412,7 +412,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test calldata floor does not affect state gas charging.\n\nA transaction with large calldata triggers the calldata floor for\nregular gas, but state gas for SSTORE is charged independently.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_calldata_floor.py#L35",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_calldata_floor.py#L35",
             "metadata": {
                 "opcode_count": {}
             },

@@ -477,7 +477,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Probe the regular-gas inclusion boundary with a small-gas tx.\n\nThe second tx's ``gas_limit`` is the remaining regular budget\nplus ``delta``. The inclusion check uses strict ``>``, so\n``delta=0`` must pass and ``delta=1`` must reject with\n``GAS_ALLOWANCE_EXCEEDED``. Catches an off-by-one ``>=`` bug.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_block_2d_gas_accounting.py#L486",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_block_2d_gas_accounting.py#L486",
             "metadata": {
                 "opcode_count": {}
             },
@@ -917,7 +917,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Probe the regular-gas inclusion boundary with a small-gas tx.\n\nThe second tx's ``gas_limit`` is the remaining regular budget\nplus ``delta``. The inclusion check uses strict ``>``, so\n``delta=0`` must pass and ``delta=1`` must reject with\n``GAS_ALLOWANCE_EXCEEDED``. Catches an off-by-one ``>=`` bug.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_block_2d_gas_accounting.py#L486",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_block_2d_gas_accounting.py#L486",
             "metadata": {
                 "opcode_count": {}
             },

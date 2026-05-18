@@ -343,7 +343,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Verify a single tx is rejected when its state contribution exceeds\nthe entire block gas limit.\n\nNo prior txs needed. A tx whose tx.gas - intrinsic_regular exceeds\nblock_gas_limit must be rejected at inclusion.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_reservoir.py#L423",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_reservoir.py#L423",
             "metadata": {
                 "opcode_count": {}
             },

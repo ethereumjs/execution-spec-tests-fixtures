@@ -521,7 +521,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Ensure BAL captures storage reads when querying beacon root.\n\nTest scenarios:\n1. Valid query (timestamp=12, matches stored timestamp): Beacon root\n   contract reads both timestamp and root slots, query contract writes\n   returned value\n2. Invalid query with non-zero timestamp (timestamp=42, no match):\n   Beacon root contract reads only timestamp slot then reverts, query\n   contract has implicit read recorded\n3. Invalid query with zero timestamp (timestamp=0): Beacon root\n   contract reverts immediately before any storage access, query\n   contract has implicit read recorded\n4. With value transfer: BAL captures balance changes in addition\n   to storage operations (only when query is valid)",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_eip4788.py#L226",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_eip4788.py#L226",
             "metadata": {
                 "opcode_count": {}
             },
@@ -1062,7 +1062,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Ensure BAL captures storage reads when querying beacon root.\n\nTest scenarios:\n1. Valid query (timestamp=12, matches stored timestamp): Beacon root\n   contract reads both timestamp and root slots, query contract writes\n   returned value\n2. Invalid query with non-zero timestamp (timestamp=42, no match):\n   Beacon root contract reads only timestamp slot then reverts, query\n   contract has implicit read recorded\n3. Invalid query with zero timestamp (timestamp=0): Beacon root\n   contract reverts immediately before any storage access, query\n   contract has implicit read recorded\n4. With value transfer: BAL captures balance changes in addition\n   to storage operations (only when query is valid)",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_eip4788.py#L226",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_eip4788.py#L226",
             "metadata": {
                 "opcode_count": {}
             },
@@ -1590,7 +1590,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Ensure BAL captures storage reads when querying beacon root.\n\nTest scenarios:\n1. Valid query (timestamp=12, matches stored timestamp): Beacon root\n   contract reads both timestamp and root slots, query contract writes\n   returned value\n2. Invalid query with non-zero timestamp (timestamp=42, no match):\n   Beacon root contract reads only timestamp slot then reverts, query\n   contract has implicit read recorded\n3. Invalid query with zero timestamp (timestamp=0): Beacon root\n   contract reverts immediately before any storage access, query\n   contract has implicit read recorded\n4. With value transfer: BAL captures balance changes in addition\n   to storage operations (only when query is valid)",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_eip4788.py#L226",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_eip4788.py#L226",
             "metadata": {
                 "opcode_count": {}
             },
@@ -2135,7 +2135,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Ensure BAL captures storage reads when querying beacon root.\n\nTest scenarios:\n1. Valid query (timestamp=12, matches stored timestamp): Beacon root\n   contract reads both timestamp and root slots, query contract writes\n   returned value\n2. Invalid query with non-zero timestamp (timestamp=42, no match):\n   Beacon root contract reads only timestamp slot then reverts, query\n   contract has implicit read recorded\n3. Invalid query with zero timestamp (timestamp=0): Beacon root\n   contract reverts immediately before any storage access, query\n   contract has implicit read recorded\n4. With value transfer: BAL captures balance changes in addition\n   to storage operations (only when query is valid)",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_eip4788.py#L226",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_eip4788.py#L226",
             "metadata": {
                 "opcode_count": {}
             },
@@ -2700,7 +2700,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Ensure BAL captures storage reads when querying beacon root.\n\nTest scenarios:\n1. Valid query (timestamp=12, matches stored timestamp): Beacon root\n   contract reads both timestamp and root slots, query contract writes\n   returned value\n2. Invalid query with non-zero timestamp (timestamp=42, no match):\n   Beacon root contract reads only timestamp slot then reverts, query\n   contract has implicit read recorded\n3. Invalid query with zero timestamp (timestamp=0): Beacon root\n   contract reverts immediately before any storage access, query\n   contract has implicit read recorded\n4. With value transfer: BAL captures balance changes in addition\n   to storage operations (only when query is valid)",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_eip4788.py#L226",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_eip4788.py#L226",
             "metadata": {
                 "opcode_count": {}
             },
@@ -3243,7 +3243,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Ensure BAL captures storage reads when querying beacon root.\n\nTest scenarios:\n1. Valid query (timestamp=12, matches stored timestamp): Beacon root\n   contract reads both timestamp and root slots, query contract writes\n   returned value\n2. Invalid query with non-zero timestamp (timestamp=42, no match):\n   Beacon root contract reads only timestamp slot then reverts, query\n   contract has implicit read recorded\n3. Invalid query with zero timestamp (timestamp=0): Beacon root\n   contract reverts immediately before any storage access, query\n   contract has implicit read recorded\n4. With value transfer: BAL captures balance changes in addition\n   to storage operations (only when query is valid)",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_eip4788.py#L226",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_eip4788.py#L226",
             "metadata": {
                 "opcode_count": {}
             },

@@ -412,7 +412,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test GAS opcode returns gas_left only, excluding the reservoir.\n\nThe spec states the GAS opcode reports only gas_left. When the\nreservoir is non-empty, the GAS return value should be less than\nthe total remaining gas (gas_left + reservoir).",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_call.py#L658",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_call.py#L658",
             "metadata": {
                 "opcode_count": {}
             },

@@ -870,7 +870,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Verify a creation tx is rejected by the state check.\n\nA creation tx has non-zero intrinsic_state (new account) AND\nintrinsic_regular (base + CREATE cost). Both formulas are\nexercised: the regular check subtracts intrinsic_state, the state\ncheck subtracts intrinsic_regular.\n\nA filler tx consumes state budget. The creation tx's state\ncontribution (tx.gas - intrinsic_regular) exceeds the remaining\nstate budget while its regular contribution\n(tx.gas - intrinsic_state) fits the regular budget.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_reservoir.py#L466",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_reservoir.py#L466",
             "metadata": {
                 "opcode_count": {}
             },

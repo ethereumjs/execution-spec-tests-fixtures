@@ -447,7 +447,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "SSTORE in static context must not leak storage reads into BAL.\n\nContract A STATICCALLs Contract B which attempts SSTORE. Contract B\nIS in BAL (accessed via STATICCALL) but MUST NOT have storage_reads\n\u2014 the static check must fire before any implicit SLOAD.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_opcodes.py#L2044",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_opcodes.py#L2045",
             "metadata": {
                 "opcode_count": {}
             },
@@ -899,7 +899,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "SSTORE in static context must not leak storage reads into BAL.\n\nContract A STATICCALLs Contract B which attempts SSTORE. Contract B\nIS in BAL (accessed via STATICCALL) but MUST NOT have storage_reads\n\u2014 the static check must fire before any implicit SLOAD.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_opcodes.py#L2044",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_opcodes.py#L2045",
             "metadata": {
                 "opcode_count": {}
             },

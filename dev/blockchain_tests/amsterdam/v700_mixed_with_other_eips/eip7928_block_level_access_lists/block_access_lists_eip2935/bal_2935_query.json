@@ -503,7 +503,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Ensure BAL captures storage reads when querying historical block hashes.\n\nTest scenarios:\n1. Valid query (block_number=0, genesis hash): History storage contract\n   reads the genesis hash slot, query contract writes returned value\n2. Invalid query (block_number=1042, out of range): History storage\n   contract reverts before any storage access, query contract has\n   implicit read recorded\n3. With value transfer: BAL captures balance changes in addition\n   to storage operations (only when query is valid)",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_eip2935.py#L148",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_eip2935.py#L148",
             "metadata": {
                 "opcode_count": {}
             },
@@ -1027,7 +1027,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Ensure BAL captures storage reads when querying historical block hashes.\n\nTest scenarios:\n1. Valid query (block_number=0, genesis hash): History storage contract\n   reads the genesis hash slot, query contract writes returned value\n2. Invalid query (block_number=1042, out of range): History storage\n   contract reverts before any storage access, query contract has\n   implicit read recorded\n3. With value transfer: BAL captures balance changes in addition\n   to storage operations (only when query is valid)",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_eip2935.py#L148",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_eip2935.py#L148",
             "metadata": {
                 "opcode_count": {}
             },
@@ -1554,7 +1554,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Ensure BAL captures storage reads when querying historical block hashes.\n\nTest scenarios:\n1. Valid query (block_number=0, genesis hash): History storage contract\n   reads the genesis hash slot, query contract writes returned value\n2. Invalid query (block_number=1042, out of range): History storage\n   contract reverts before any storage access, query contract has\n   implicit read recorded\n3. With value transfer: BAL captures balance changes in addition\n   to storage operations (only when query is valid)",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_eip2935.py#L148",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_eip2935.py#L148",
             "metadata": {
                 "opcode_count": {}
             },
@@ -2102,7 +2102,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Ensure BAL captures storage reads when querying historical block hashes.\n\nTest scenarios:\n1. Valid query (block_number=0, genesis hash): History storage contract\n   reads the genesis hash slot, query contract writes returned value\n2. Invalid query (block_number=1042, out of range): History storage\n   contract reverts before any storage access, query contract has\n   implicit read recorded\n3. With value transfer: BAL captures balance changes in addition\n   to storage operations (only when query is valid)",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_eip2935.py#L148",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_eip2935.py#L148",
             "metadata": {
                 "opcode_count": {}
             },

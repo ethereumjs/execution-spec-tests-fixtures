@@ -400,7 +400,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "EIP test vector: 6000808080808080808080808080808080e680.\n\nResults in exceptional halt (stack underflow).\n\nPUSH1 0, 15x DUP1, DUPN[0x80]\n- After 15 DUP1s: 16 items\n- DUPN[0x80]: decode_single(0x80)=17, needs position 17 but only 16 items\n- Result: exceptional halt",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8024_dupn_swapn_exchange/test_eip_vectors.py#L284",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8024_dupn_swapn_exchange/test_eip_vectors.py#L284",
             "metadata": {
                 "opcode_count": {}
             },

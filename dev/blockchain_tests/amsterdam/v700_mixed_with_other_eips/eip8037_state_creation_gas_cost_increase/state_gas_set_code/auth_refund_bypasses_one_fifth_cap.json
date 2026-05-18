@@ -465,7 +465,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test auth refund to reservoir bypasses the 1/5 refund cap.\n\nThe existing-account auth refund (new-account state gas) goes directly to\nstate_gas_reservoir, NOT to refund_counter. This means it is not\nsubject to the 1/5 refund cap. The test provides just enough gas\nfor the auth intrinsic state gas and multiple SSTOREs whose state\ngas can only be funded from the reservoir if the full auth refund\nis available (i.e. not capped at 1/5).\n\nIf the auth refund went through refund_counter with the 1/5 cap,\nthe SSTOREs would OOG. By succeeding, this test proves the refund\nbypasses the cap.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_set_code.py#L980",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_set_code.py#L991",
             "metadata": {
                 "opcode_count": {}
             },

@@ -408,7 +408,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "CALL without 7702 delegation - OOG after state access.\n\nWhen target_is_warm=True, uses EIP-2930 tx access list to warm the target.\nAccess list warming does NOT add targets to BAL - only EVM access does.\n\nThis test is only meaningful when there's a gap between gas check before\nstate access and after state access. This only happens if create cost\n(empty target) and value transfer cost are both non-zero.\n\nNote:\n    - target is always empty - required for create cost\n    - value=1 (greater than 0) - required for create cost\n\n    Gas is set so the static check (access + transfer + memory) passes\n    but the new-account cost (G_NEW_ACCOUNT) causes OOG. Under EIP-8037,\n    G_NEW_ACCOUNT is state gas charged via charge_state_gas from the\n    reservoir (empty) then gas_left (near zero) \u2014 same OOG outcome.\n    The child frame is never created, so the target is not tracked in BAL.\n\n    TODO[EIP-8037]: Verify this OOG boundary is correct under state gas\n    semantics \u2014 charge_state_gas for new-account creation should fail\n    before the child frame is entered.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_opcodes.py#L619",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_opcodes.py#L620",
             "metadata": {
                 "opcode_count": {}
             },
@@ -831,7 +831,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "CALL without 7702 delegation - OOG after state access.\n\nWhen target_is_warm=True, uses EIP-2930 tx access list to warm the target.\nAccess list warming does NOT add targets to BAL - only EVM access does.\n\nThis test is only meaningful when there's a gap between gas check before\nstate access and after state access. This only happens if create cost\n(empty target) and value transfer cost are both non-zero.\n\nNote:\n    - target is always empty - required for create cost\n    - value=1 (greater than 0) - required for create cost\n\n    Gas is set so the static check (access + transfer + memory) passes\n    but the new-account cost (G_NEW_ACCOUNT) causes OOG. Under EIP-8037,\n    G_NEW_ACCOUNT is state gas charged via charge_state_gas from the\n    reservoir (empty) then gas_left (near zero) \u2014 same OOG outcome.\n    The child frame is never created, so the target is not tracked in BAL.\n\n    TODO[EIP-8037]: Verify this OOG boundary is correct under state gas\n    semantics \u2014 charge_state_gas for new-account creation should fail\n    before the child frame is entered.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_opcodes.py#L619",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_opcodes.py#L620",
             "metadata": {
                 "opcode_count": {}
             },
@@ -1248,7 +1248,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "CALL without 7702 delegation - OOG after state access.\n\nWhen target_is_warm=True, uses EIP-2930 tx access list to warm the target.\nAccess list warming does NOT add targets to BAL - only EVM access does.\n\nThis test is only meaningful when there's a gap between gas check before\nstate access and after state access. This only happens if create cost\n(empty target) and value transfer cost are both non-zero.\n\nNote:\n    - target is always empty - required for create cost\n    - value=1 (greater than 0) - required for create cost\n\n    Gas is set so the static check (access + transfer + memory) passes\n    but the new-account cost (G_NEW_ACCOUNT) causes OOG. Under EIP-8037,\n    G_NEW_ACCOUNT is state gas charged via charge_state_gas from the\n    reservoir (empty) then gas_left (near zero) \u2014 same OOG outcome.\n    The child frame is never created, so the target is not tracked in BAL.\n\n    TODO[EIP-8037]: Verify this OOG boundary is correct under state gas\n    semantics \u2014 charge_state_gas for new-account creation should fail\n    before the child frame is entered.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_opcodes.py#L619",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_opcodes.py#L620",
             "metadata": {
                 "opcode_count": {}
             },
@@ -1671,7 +1671,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "CALL without 7702 delegation - OOG after state access.\n\nWhen target_is_warm=True, uses EIP-2930 tx access list to warm the target.\nAccess list warming does NOT add targets to BAL - only EVM access does.\n\nThis test is only meaningful when there's a gap between gas check before\nstate access and after state access. This only happens if create cost\n(empty target) and value transfer cost are both non-zero.\n\nNote:\n    - target is always empty - required for create cost\n    - value=1 (greater than 0) - required for create cost\n\n    Gas is set so the static check (access + transfer + memory) passes\n    but the new-account cost (G_NEW_ACCOUNT) causes OOG. Under EIP-8037,\n    G_NEW_ACCOUNT is state gas charged via charge_state_gas from the\n    reservoir (empty) then gas_left (near zero) \u2014 same OOG outcome.\n    The child frame is never created, so the target is not tracked in BAL.\n\n    TODO[EIP-8037]: Verify this OOG boundary is correct under state gas\n    semantics \u2014 charge_state_gas for new-account creation should fail\n    before the child frame is entered.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_opcodes.py#L619",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_opcodes.py#L620",
             "metadata": {
                 "opcode_count": {}
             },

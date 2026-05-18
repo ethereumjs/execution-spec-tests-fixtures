@@ -412,7 +412,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "EIP test vector: 600456e65b executes successfully.\n\nPUSH1 04, JUMP, DUPN[0x5b]\n- The DUPN at position 2 has immediate 0x5b which would be invalid\n- But we JUMP to position 4 (the 0x5b byte), which is a valid JUMPDEST\n- The DUPN instruction is never executed",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8024_dupn_swapn_exchange/test_eip_vectors.py#L201",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8024_dupn_swapn_exchange/test_eip_vectors.py#L201",
             "metadata": {
                 "opcode_count": {}
             },

@@ -433,7 +433,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Verify the block header gas_used reflects the existing-authority\nauth refund (deducted from `tx_state_gas`) when every authority\nis an existing account.\n\n`set_delegation` credits `state_gas_reservoir` and accumulates\n`state_refund`, which `process_transaction` subtracts from\n`tx_state_gas` before adding it to `block_state_gas_used`. With\nSTOP execution there is no extra regular or state gas used, so\nheader gas_used equals\n`max(intrinsic_regular, intrinsic_state - N * auth_refund)`.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_set_code.py#L1050",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_set_code.py#L1061",
             "metadata": {
                 "opcode_count": {}
             },
@@ -955,7 +955,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Verify the block header gas_used reflects the existing-authority\nauth refund (deducted from `tx_state_gas`) when every authority\nis an existing account.\n\n`set_delegation` credits `state_gas_reservoir` and accumulates\n`state_refund`, which `process_transaction` subtracts from\n`tx_state_gas` before adding it to `block_state_gas_used`. With\nSTOP execution there is no extra regular or state gas used, so\nheader gas_used equals\n`max(intrinsic_regular, intrinsic_state - N * auth_refund)`.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_set_code.py#L1050",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_set_code.py#L1061",
             "metadata": {
                 "opcode_count": {}
             },

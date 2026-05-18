@@ -402,7 +402,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Verify an opcode OOG before frame-end settlement does not refund\nunsettled state gas.\n\nThe transaction has enough gas for the SSTORE and all preceding\nregular work, but is one gas short of the MCOPY regular cost. The\nframe halts before frame-end settlement runs, so the earlier SSTORE\nnever contributes execution state gas to refund.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_reservoir.py#L1379",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_reservoir.py#L1379",
             "metadata": {
                 "opcode_count": {}
             },

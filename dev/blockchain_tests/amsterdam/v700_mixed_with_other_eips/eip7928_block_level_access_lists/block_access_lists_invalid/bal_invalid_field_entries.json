@@ -442,7 +442,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test that clients reject blocks with missing or incorrect\nfield-level BAL entries.\n\nOracle writes storage slot 1, reads storage slot 2, and CREATEs a\nsmall contract. A valid BAL is created containing all changes, then\ncorrupted by the parameterized modifier:\n\n- missing_storage_change: Oracle's storage writes removed.\n- missing_storage_read: Oracle's storage reads removed.\n- missing_code_change: Created contract's code change removed.\n- wrong_code_value: Created contract's deployed bytecode wrong.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_invalid.py#L1228",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_invalid.py#L1228",
             "metadata": {
                 "opcode_count": {}
             },
@@ -888,7 +888,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test that clients reject blocks with missing or incorrect\nfield-level BAL entries.\n\nOracle writes storage slot 1, reads storage slot 2, and CREATEs a\nsmall contract. A valid BAL is created containing all changes, then\ncorrupted by the parameterized modifier:\n\n- missing_storage_change: Oracle's storage writes removed.\n- missing_storage_read: Oracle's storage reads removed.\n- missing_code_change: Created contract's code change removed.\n- wrong_code_value: Created contract's deployed bytecode wrong.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_invalid.py#L1228",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_invalid.py#L1228",
             "metadata": {
                 "opcode_count": {}
             },
@@ -1342,7 +1342,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test that clients reject blocks with missing or incorrect\nfield-level BAL entries.\n\nOracle writes storage slot 1, reads storage slot 2, and CREATEs a\nsmall contract. A valid BAL is created containing all changes, then\ncorrupted by the parameterized modifier:\n\n- missing_storage_change: Oracle's storage writes removed.\n- missing_storage_read: Oracle's storage reads removed.\n- missing_code_change: Created contract's code change removed.\n- wrong_code_value: Created contract's deployed bytecode wrong.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_invalid.py#L1228",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_invalid.py#L1228",
             "metadata": {
                 "opcode_count": {}
             },
@@ -1798,7 +1798,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test that clients reject blocks with missing or incorrect\nfield-level BAL entries.\n\nOracle writes storage slot 1, reads storage slot 2, and CREATEs a\nsmall contract. A valid BAL is created containing all changes, then\ncorrupted by the parameterized modifier:\n\n- missing_storage_change: Oracle's storage writes removed.\n- missing_storage_read: Oracle's storage reads removed.\n- missing_code_change: Created contract's code change removed.\n- wrong_code_value: Created contract's deployed bytecode wrong.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_invalid.py#L1228",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_invalid.py#L1228",
             "metadata": {
                 "opcode_count": {}
             },

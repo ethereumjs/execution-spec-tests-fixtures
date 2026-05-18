@@ -402,7 +402,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "A 0\u2192X SSTORE paired with an X\u21920 on the same slot must cancel in\nthe state-gas reservoir. With a tight regular-gas budget and no\nreservoir headroom (tx.gas <= TX_MAX_GAS_LIMIT, so reservoir = 0),\nthe tx completes only because the frame-end byte_delta nets to\nzero.\n\nA standalone 0\u2192X here would charge +sstore_state_gas at frame\nend, spill into gas_left, and OOG against this budget. The\nfollow-up X\u21920 returns the slot to its tx-start original (0), so\n`compute_state_byte_diff` reports byte_delta=0 and the\nstate-gas reservoir is never touched.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_reservoir.py#L1747",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_reservoir.py#L1747",
             "metadata": {
                 "opcode_count": {}
             },

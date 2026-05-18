@@ -312,7 +312,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test that clients reject blocks where BAL contains a spurious\ncoinbase entry when the coinbase received no fees.\n\nCoinbase is only included in BAL when it receives transaction tips.\nIn blocks with no transactions, the coinbase receives nothing \u2014\neven if withdrawals modify other accounts' balances.\n\n- empty_block: No txs, no withdrawals. Only system contracts.\n- withdrawal_only: No txs, one withdrawal to a different address.\n  Withdrawals don't pay fees, so coinbase is still untouched.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_invalid.py#L1568",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_invalid.py#L1568",
             "metadata": {
                 "opcode_count": {}
             },
@@ -653,7 +653,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test that clients reject blocks where BAL contains a spurious\ncoinbase entry when the coinbase received no fees.\n\nCoinbase is only included in BAL when it receives transaction tips.\nIn blocks with no transactions, the coinbase receives nothing \u2014\neven if withdrawals modify other accounts' balances.\n\n- empty_block: No txs, no withdrawals. Only system contracts.\n- withdrawal_only: No txs, one withdrawal to a different address.\n  Withdrawals don't pay fees, so coinbase is still untouched.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_invalid.py#L1568",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_invalid.py#L1568",
             "metadata": {
                 "opcode_count": {}
             },

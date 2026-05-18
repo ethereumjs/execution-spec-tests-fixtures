@@ -488,7 +488,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Ensure BAL captures beacon root storage writes during pre-execution\nsystem call.\n\nBlock with 2 normal user transactions: Alice sends 10 wei to Charlie,\nBob sends 10 wei to Charlie. At block start (pre-execution),\nSYSTEM_ADDRESS calls BEACON_ROOTS_ADDRESS to store parent beacon root.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_eip4788.py#L113",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_eip4788.py#L113",
             "metadata": {
                 "opcode_count": {}
             },

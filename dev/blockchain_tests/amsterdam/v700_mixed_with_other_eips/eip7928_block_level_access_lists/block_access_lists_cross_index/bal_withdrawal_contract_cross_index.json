@@ -447,7 +447,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test that the withdrawal system contract shows storage changes at both\nindex 1 (during transaction) and index 2 (during post-execution).\n\nThis verifies that slots 0x01 and 0x03 are:\n1. Incremented during the transaction (index 1)\n2. Reset during post-execution (index 2)",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_cross_index.py#L45",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_cross_index.py#L45",
             "metadata": {
                 "opcode_count": {}
             },

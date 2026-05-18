@@ -429,7 +429,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test that NOOP writes (writing same value or 0 to empty) are filtered.\n\nThis verifies that:\n1. Writing 0 to an uninitialized slot doesn't appear in BAL\n2. Writing the same value to a slot doesn't appear in BAL\n3. Only actual changes are tracked",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_cross_index.py#L194",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_cross_index.py#L194",
             "metadata": {
                 "opcode_count": {}
             },

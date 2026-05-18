@@ -494,7 +494,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Verify a deferred refund applied in an intermediate frame still\nflows back to the caller when that frame REVERTs.\n\nCaller's SSTORE charges; the matching clear in inner is deferred\nthrough the chain and lands on middle's own SSTORE-set during\n`incorporate_child_on_success`.  Middle REVERTs; the applied\namount must reach the caller via `incorporate_child_on_error`.\nA probe SSTORE sized to OOG by 1 detects loss.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_sstore.py#L965",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_sstore.py#L965",
             "metadata": {
                 "opcode_count": {}
             },
@@ -997,7 +997,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Verify a deferred refund applied in an intermediate frame still\nflows back to the caller when that frame REVERTs.\n\nCaller's SSTORE charges; the matching clear in inner is deferred\nthrough the chain and lands on middle's own SSTORE-set during\n`incorporate_child_on_success`.  Middle REVERTs; the applied\namount must reach the caller via `incorporate_child_on_error`.\nA probe SSTORE sized to OOG by 1 detects loss.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_sstore.py#L965",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_sstore.py#L965",
             "metadata": {
                 "opcode_count": {}
             },

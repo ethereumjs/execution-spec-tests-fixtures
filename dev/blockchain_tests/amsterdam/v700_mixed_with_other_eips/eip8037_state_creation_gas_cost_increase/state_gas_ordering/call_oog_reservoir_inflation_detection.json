@@ -452,7 +452,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Detect CALL state gas ordering via reservoir inflation.\n\nA child does CALL(value=1) to a dead address with gas tuned so\nthe regular gas charge OOGs by 1. If state gas (new account) is\nincorrectly charged first, the parent's reservoir is inflated.\n\nA single-SSTORE probe detects the inflation: with correct reservoir\n(0) it OOGs; with inflated reservoir it succeeds.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_ordering.py#L147",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_ordering.py#L152",
             "metadata": {
                 "opcode_count": {}
             },

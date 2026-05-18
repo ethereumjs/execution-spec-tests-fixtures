@@ -388,7 +388,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Verify initcode exceptional halt excludes code deposit state gas.\n\nA CREATE tx runs initcode that hits INVALID (exceptional halt)\nbefore returning any code. Code deposit never happens, so code\ndeposit state gas must NOT be charged. Only the intrinsic state\ngas (new account creation) should count.\n\nComplements test_create_revert_no_code_deposit_state_gas which\ncovers the REVERT path.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_create.py#L1237",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_create.py#L1237",
             "metadata": {
                 "opcode_count": {}
             },

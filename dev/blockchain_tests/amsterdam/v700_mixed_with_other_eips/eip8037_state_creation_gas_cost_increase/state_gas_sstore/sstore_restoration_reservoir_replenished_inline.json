@@ -414,7 +414,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Verify the reservoir is replenished inline at x to 0.\n\nReservoir sized for exactly one slot. After the 0 to 1 to 0 pair\non slot 0, the reservoir refill allows a second 0 to 1 on slot 1\nto draw from it.  Block state gas reflects only slot 1.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_sstore.py#L637",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_sstore.py#L637",
             "metadata": {
                 "opcode_count": {}
             },

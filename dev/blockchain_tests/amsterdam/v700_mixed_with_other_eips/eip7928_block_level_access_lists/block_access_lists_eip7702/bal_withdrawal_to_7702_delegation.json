@@ -467,7 +467,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test BAL with withdrawal to 7702 delegated account.\n\nTx1: Alice delegates to Oracle. Withdrawal: 10 gwei to Alice.\nWithdrawals credit balance without executing code.\n\nExpected BAL:\n- Alice tx1: code_changes (delegation), nonce_changes\n- Alice tx2: balance_changes (+10 gwei)\n- Oracle: MUST NOT appear (withdrawals don't execute recipient code)",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_eip7702.py#L1028",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_eip7702.py#L1216",
             "metadata": {
                 "opcode_count": {}
             },

@@ -476,7 +476,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Verify the regular check subtracts `intrinsic.state` from tx.gas.\n\nThe EIP regular check is\n`min(TX_MAX, tx.gas - intrinsic.state) > regular_available`. For a\ncreation tx, `intrinsic.state = GAS_NEW_ACCOUNT`. This test sizes a\ncreation tx whose raw `tx.gas` exceeds `regular_available` but\n`tx.gas - intrinsic.state` fits; it must be accepted. The old\nformula `min(TX_MAX, tx.gas)` would reject the same tx, proving\nthe subtraction is honored.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_reservoir.py#L345",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_reservoir.py#L345",
             "metadata": {
                 "opcode_count": {}
             },

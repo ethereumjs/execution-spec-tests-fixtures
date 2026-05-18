@@ -560,7 +560,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Verify block gas accounting for SSTORE 0\u2192x\u21920 refund paths.\n\nRegular gas refund via `refund_counter` does NOT reduce block gas\n(EIP-7778). State gas refund goes to the reservoir and DOES reduce\n`block_state_gas_used` (net zero state growth).",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_block_2d_gas_accounting.py#L225",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_block_2d_gas_accounting.py#L225",
             "metadata": {
                 "opcode_count": {}
             },
