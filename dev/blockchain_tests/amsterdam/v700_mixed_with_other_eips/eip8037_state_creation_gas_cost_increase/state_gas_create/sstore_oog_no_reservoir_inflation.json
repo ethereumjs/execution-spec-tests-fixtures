@@ -461,7 +461,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Verify SSTORE state gas is not charged when regular gas OOGs.\n\nWith zero reservoir, all state gas spills into gas_left. A child\nframe does CREATE (charging state gas from gas_left) followed by\nSSTORE. When the factory is 1 gas short, SSTORE OOGs. If state\ngas is incorrectly charged before regular gas, the extra state gas\ninflates the parent's reservoir on frame failure, changing the\ntransaction's effective gas consumption.\n\nRegression test for SSTORE gas ordering: regular gas must be\nchecked before state gas.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_create.py#L854",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_create.py#L854",
             "metadata": {
                 "opcode_count": {}
             },
@@ -900,7 +900,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Verify SSTORE state gas is not charged when regular gas OOGs.\n\nWith zero reservoir, all state gas spills into gas_left. A child\nframe does CREATE (charging state gas from gas_left) followed by\nSSTORE. When the factory is 1 gas short, SSTORE OOGs. If state\ngas is incorrectly charged before regular gas, the extra state gas\ninflates the parent's reservoir on frame failure, changing the\ntransaction's effective gas consumption.\n\nRegression test for SSTORE gas ordering: regular gas must be\nchecked before state gas.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_create.py#L854",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_create.py#L854",
             "metadata": {
                 "opcode_count": {}
             },

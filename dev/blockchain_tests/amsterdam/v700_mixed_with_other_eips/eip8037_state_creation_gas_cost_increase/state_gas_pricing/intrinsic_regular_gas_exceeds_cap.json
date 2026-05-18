@@ -343,7 +343,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test that tx is rejected when intrinsic regular gas exceeds cap.\n\nvalidate_transaction checks that the intrinsic regular gas (or\ncalldata floor) does not exceed the transaction gas limit cap.\nA transaction with enough calldata to push intrinsic cost above\nthe cap is invalid even with a high gas_limit.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_pricing.py#L269",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_pricing.py#L269",
             "metadata": {
                 "opcode_count": {}
             },

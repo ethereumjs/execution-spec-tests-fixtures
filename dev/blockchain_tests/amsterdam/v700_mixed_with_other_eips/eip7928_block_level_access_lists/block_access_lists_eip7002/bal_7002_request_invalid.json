@@ -380,7 +380,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Ensure BAL correctly handles invalid withdrawal request scenarios.\n\nTests various failure modes:\n- insufficient_fee: Transaction reverts due to fee below minimum\n- calldata_too_short: Transaction reverts due to short calldata (55 bytes)\n- calldata_too_long: Transaction reverts due to long calldata (57 bytes)\n- oog: Transaction runs out of gas before completion\n- invalid_call_type_*: Contract call via DELEGATECALL/STATICCALL/CALLCODE\n- contract_reverts: Contract calls system contract but reverts after\n\nIn all cases:\n- Sender's nonce increments (transaction executed)\n- Sender pays gas costs\n- System contract is accessed during dequeue but has no state changes\n- No withdrawal request is queued",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_eip7002.py#L645",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_eip7002.py#L645",
             "metadata": {
                 "opcode_count": {}
             },
@@ -769,7 +769,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Ensure BAL correctly handles invalid withdrawal request scenarios.\n\nTests various failure modes:\n- insufficient_fee: Transaction reverts due to fee below minimum\n- calldata_too_short: Transaction reverts due to short calldata (55 bytes)\n- calldata_too_long: Transaction reverts due to long calldata (57 bytes)\n- oog: Transaction runs out of gas before completion\n- invalid_call_type_*: Contract call via DELEGATECALL/STATICCALL/CALLCODE\n- contract_reverts: Contract calls system contract but reverts after\n\nIn all cases:\n- Sender's nonce increments (transaction executed)\n- Sender pays gas costs\n- System contract is accessed during dequeue but has no state changes\n- No withdrawal request is queued",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_eip7002.py#L645",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_eip7002.py#L645",
             "metadata": {
                 "opcode_count": {}
             },
@@ -1181,7 +1181,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Ensure BAL correctly handles invalid withdrawal request scenarios.\n\nTests various failure modes:\n- insufficient_fee: Transaction reverts due to fee below minimum\n- calldata_too_short: Transaction reverts due to short calldata (55 bytes)\n- calldata_too_long: Transaction reverts due to long calldata (57 bytes)\n- oog: Transaction runs out of gas before completion\n- invalid_call_type_*: Contract call via DELEGATECALL/STATICCALL/CALLCODE\n- contract_reverts: Contract calls system contract but reverts after\n\nIn all cases:\n- Sender's nonce increments (transaction executed)\n- Sender pays gas costs\n- System contract is accessed during dequeue but has no state changes\n- No withdrawal request is queued",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_eip7002.py#L645",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_eip7002.py#L645",
             "metadata": {
                 "opcode_count": {}
             },
@@ -1570,7 +1570,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Ensure BAL correctly handles invalid withdrawal request scenarios.\n\nTests various failure modes:\n- insufficient_fee: Transaction reverts due to fee below minimum\n- calldata_too_short: Transaction reverts due to short calldata (55 bytes)\n- calldata_too_long: Transaction reverts due to long calldata (57 bytes)\n- oog: Transaction runs out of gas before completion\n- invalid_call_type_*: Contract call via DELEGATECALL/STATICCALL/CALLCODE\n- contract_reverts: Contract calls system contract but reverts after\n\nIn all cases:\n- Sender's nonce increments (transaction executed)\n- Sender pays gas costs\n- System contract is accessed during dequeue but has no state changes\n- No withdrawal request is queued",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_eip7002.py#L645",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_eip7002.py#L645",
             "metadata": {
                 "opcode_count": {}
             },
@@ -2030,7 +2030,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Ensure BAL correctly handles invalid withdrawal request scenarios.\n\nTests various failure modes:\n- insufficient_fee: Transaction reverts due to fee below minimum\n- calldata_too_short: Transaction reverts due to short calldata (55 bytes)\n- calldata_too_long: Transaction reverts due to long calldata (57 bytes)\n- oog: Transaction runs out of gas before completion\n- invalid_call_type_*: Contract call via DELEGATECALL/STATICCALL/CALLCODE\n- contract_reverts: Contract calls system contract but reverts after\n\nIn all cases:\n- Sender's nonce increments (transaction executed)\n- Sender pays gas costs\n- System contract is accessed during dequeue but has no state changes\n- No withdrawal request is queued",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_eip7002.py#L645",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_eip7002.py#L645",
             "metadata": {
                 "opcode_count": {}
             },
@@ -2441,7 +2441,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Ensure BAL correctly handles invalid withdrawal request scenarios.\n\nTests various failure modes:\n- insufficient_fee: Transaction reverts due to fee below minimum\n- calldata_too_short: Transaction reverts due to short calldata (55 bytes)\n- calldata_too_long: Transaction reverts due to long calldata (57 bytes)\n- oog: Transaction runs out of gas before completion\n- invalid_call_type_*: Contract call via DELEGATECALL/STATICCALL/CALLCODE\n- contract_reverts: Contract calls system contract but reverts after\n\nIn all cases:\n- Sender's nonce increments (transaction executed)\n- Sender pays gas costs\n- System contract is accessed during dequeue but has no state changes\n- No withdrawal request is queued",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_eip7002.py#L645",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_eip7002.py#L645",
             "metadata": {
                 "opcode_count": {}
             },
@@ -2850,7 +2850,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Ensure BAL correctly handles invalid withdrawal request scenarios.\n\nTests various failure modes:\n- insufficient_fee: Transaction reverts due to fee below minimum\n- calldata_too_short: Transaction reverts due to short calldata (55 bytes)\n- calldata_too_long: Transaction reverts due to long calldata (57 bytes)\n- oog: Transaction runs out of gas before completion\n- invalid_call_type_*: Contract call via DELEGATECALL/STATICCALL/CALLCODE\n- contract_reverts: Contract calls system contract but reverts after\n\nIn all cases:\n- Sender's nonce increments (transaction executed)\n- Sender pays gas costs\n- System contract is accessed during dequeue but has no state changes\n- No withdrawal request is queued",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_eip7002.py#L645",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_eip7002.py#L645",
             "metadata": {
                 "opcode_count": {}
             },
@@ -3239,7 +3239,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Ensure BAL correctly handles invalid withdrawal request scenarios.\n\nTests various failure modes:\n- insufficient_fee: Transaction reverts due to fee below minimum\n- calldata_too_short: Transaction reverts due to short calldata (55 bytes)\n- calldata_too_long: Transaction reverts due to long calldata (57 bytes)\n- oog: Transaction runs out of gas before completion\n- invalid_call_type_*: Contract call via DELEGATECALL/STATICCALL/CALLCODE\n- contract_reverts: Contract calls system contract but reverts after\n\nIn all cases:\n- Sender's nonce increments (transaction executed)\n- Sender pays gas costs\n- System contract is accessed during dequeue but has no state changes\n- No withdrawal request is queued",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_eip7002.py#L645",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_eip7002.py#L645",
             "metadata": {
                 "opcode_count": {}
             },

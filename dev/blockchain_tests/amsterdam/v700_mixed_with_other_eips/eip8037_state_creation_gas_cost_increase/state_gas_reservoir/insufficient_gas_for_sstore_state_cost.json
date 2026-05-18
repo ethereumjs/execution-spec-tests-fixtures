@@ -402,7 +402,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test that execution OOGs when gas is insufficient for SSTORE state cost.\n\nProvide just enough gas for intrinsic costs plus the SSTORE regular\ngas, but not enough to also cover the SSTORE state gas. The SSTORE\nshould OOG, leaving storage slot 0 unchanged at zero.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_reservoir.py#L167",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_reservoir.py#L167",
             "metadata": {
                 "opcode_count": {}
             },

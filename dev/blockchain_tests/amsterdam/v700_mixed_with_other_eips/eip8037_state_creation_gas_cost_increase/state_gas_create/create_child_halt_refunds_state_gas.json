@@ -445,7 +445,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Verify CREATE/CREATE2 child halt refunds parent's account gas.\n\nExceptional halts (invalid opcode, EIP-3541 invalid prefix)\nconsume all forwarded gas as `regular_gas_used`, so block\naccounting cannot strictly discriminate via header gas. Tight\ngas tuning via a caller wrapper leaves the factory with just\nenough `gas_left` to pay the probe SSTORE's regular portion\nbut not enough to spill the state portion, so the probe SSTORE\ncan only succeed via the refunded reservoir.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_create.py#L1554",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_create.py#L1554",
             "metadata": {
                 "opcode_count": {}
             },
@@ -899,7 +899,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Verify CREATE/CREATE2 child halt refunds parent's account gas.\n\nExceptional halts (invalid opcode, EIP-3541 invalid prefix)\nconsume all forwarded gas as `regular_gas_used`, so block\naccounting cannot strictly discriminate via header gas. Tight\ngas tuning via a caller wrapper leaves the factory with just\nenough `gas_left` to pay the probe SSTORE's regular portion\nbut not enough to spill the state portion, so the probe SSTORE\ncan only succeed via the refunded reservoir.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_create.py#L1554",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_create.py#L1554",
             "metadata": {
                 "opcode_count": {}
             },
@@ -1353,7 +1353,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Verify CREATE/CREATE2 child halt refunds parent's account gas.\n\nExceptional halts (invalid opcode, EIP-3541 invalid prefix)\nconsume all forwarded gas as `regular_gas_used`, so block\naccounting cannot strictly discriminate via header gas. Tight\ngas tuning via a caller wrapper leaves the factory with just\nenough `gas_left` to pay the probe SSTORE's regular portion\nbut not enough to spill the state portion, so the probe SSTORE\ncan only succeed via the refunded reservoir.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_create.py#L1554",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_create.py#L1554",
             "metadata": {
                 "opcode_count": {}
             },
@@ -1807,7 +1807,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Verify CREATE/CREATE2 child halt refunds parent's account gas.\n\nExceptional halts (invalid opcode, EIP-3541 invalid prefix)\nconsume all forwarded gas as `regular_gas_used`, so block\naccounting cannot strictly discriminate via header gas. Tight\ngas tuning via a caller wrapper leaves the factory with just\nenough `gas_left` to pay the probe SSTORE's regular portion\nbut not enough to spill the state portion, so the probe SSTORE\ncan only succeed via the refunded reservoir.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_create.py#L1554",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_create.py#L1554",
             "metadata": {
                 "opcode_count": {}
             },

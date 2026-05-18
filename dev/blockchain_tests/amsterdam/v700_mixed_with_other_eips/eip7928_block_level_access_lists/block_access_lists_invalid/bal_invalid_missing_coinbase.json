@@ -383,7 +383,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test that clients reject blocks where BAL is missing the\ncoinbase/fee recipient account.\n\nAlice sends 100 wei to Bob with gas_price > base_fee so the\ncoinbase (charlie) receives a non-zero tip. BAL is corrupted\nby removing charlie's entry entirely.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_invalid.py#L1402",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_invalid.py#L1402",
             "metadata": {
                 "opcode_count": {}
             },

@@ -437,7 +437,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test BAL with CREATE2 collision against pre-existing contract.\n\nPre-existing contract has code=STOP, nonce=1.\nFactory (nonce=1, slot[0]=0xDEAD) executes CREATE2 targeting it.\n\nExpected BAL:\n- Factory: nonce_changes (1\u21922), storage_changes slot 0 (0xDEAD\u21920)\n- Collision address: empty (accessed during collision check)\n- Collision address MUST NOT have nonce_changes or code_changes",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_opcodes.py#L2747",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_opcodes.py#L2784",
             "metadata": {
                 "opcode_count": {}
             },

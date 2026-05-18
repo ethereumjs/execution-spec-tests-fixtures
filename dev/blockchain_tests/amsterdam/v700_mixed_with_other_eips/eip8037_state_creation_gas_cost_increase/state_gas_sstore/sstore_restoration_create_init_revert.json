@@ -474,7 +474,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Verify reservoir refunds return to the caller when CREATE init\ncode REVERTs inside a sub-frame that also REVERTs.\n\nWrapping the CREATE in an outer reverting frame isolates the\nrollback concern from the legitimate CREATE silent-failure refund\n(`create_account_state_gas` credited to the frame executing the\nCREATE opcode).  When the outer frame reverts, the refunded\nreservoir flows back to the caller via\n`incorporate_child_on_error`, replenishing the caller's\nreservoir by at least `sstore_state_gas`.  A single-SSTORE probe\nsized to OOG by 1 succeeds, confirming the propagation.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_sstore.py#L1065",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_sstore.py#L1065",
             "metadata": {
                 "opcode_count": {}
             },
@@ -957,7 +957,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Verify reservoir refunds return to the caller when CREATE init\ncode REVERTs inside a sub-frame that also REVERTs.\n\nWrapping the CREATE in an outer reverting frame isolates the\nrollback concern from the legitimate CREATE silent-failure refund\n(`create_account_state_gas` credited to the frame executing the\nCREATE opcode).  When the outer frame reverts, the refunded\nreservoir flows back to the caller via\n`incorporate_child_on_error`, replenishing the caller's\nreservoir by at least `sstore_state_gas`.  A single-SSTORE probe\nsized to OOG by 1 succeeds, confirming the propagation.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_sstore.py#L1065",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_sstore.py#L1065",
             "metadata": {
                 "opcode_count": {}
             },

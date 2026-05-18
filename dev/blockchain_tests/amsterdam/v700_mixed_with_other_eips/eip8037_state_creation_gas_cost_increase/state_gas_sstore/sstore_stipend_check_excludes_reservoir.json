@@ -444,7 +444,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Verify SSTORE stipend check uses gas_left only, not the reservoir.\n\nA child frame has gas_left at or just below the stipend threshold\n(GAS_CALL_STIPEND + 1) while the reservoir holds ample state gas.\nThe stipend check must fail when gas_left < stipend, regardless\nof the reservoir balance.\n\nWith below_stipend: SSTORE fails (gas_left < 2301, reservoir ignored).\nWith at_stipend: SSTORE passes the stipend check and proceeds.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_sstore.py#L354",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_sstore.py#L354",
             "metadata": {
                 "opcode_count": {}
             },
@@ -875,7 +875,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Verify SSTORE stipend check uses gas_left only, not the reservoir.\n\nA child frame has gas_left at or just below the stipend threshold\n(GAS_CALL_STIPEND + 1) while the reservoir holds ample state gas.\nThe stipend check must fail when gas_left < stipend, regardless\nof the reservoir balance.\n\nWith below_stipend: SSTORE fails (gas_left < 2301, reservoir ignored).\nWith at_stipend: SSTORE passes the stipend check and proceeds.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_sstore.py#L354",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_sstore.py#L354",
             "metadata": {
                 "opcode_count": {}
             },

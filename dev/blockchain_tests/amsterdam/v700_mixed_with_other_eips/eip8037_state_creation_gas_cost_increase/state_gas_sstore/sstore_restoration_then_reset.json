@@ -412,7 +412,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Verify accounting across 0 to 1 to 0 to 1 (restore then re-set).\n\nThe refund applied at 1 to 0 returns state gas to the reservoir;\nthe subsequent 0 to 1 re-charges state gas.  Net: one charge\nremains, one state gas worth counted in block state gas.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_sstore.py#L587",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_sstore.py#L587",
             "metadata": {
                 "opcode_count": {}
             },

@@ -305,7 +305,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test the BAL max items gas limit boundary for an empty block.\n\nThe consensus rule requires\n``bal_items <= block_gas_limit // BLOCK_ACCESS_LIST_ITEM``.\nThe boundary gas limit is derived from the fork's system-contract\nBAL footprint.  At the boundary the check passes; one below it fails.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists.py#L2711",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists.py#L2709",
             "metadata": {
                 "opcode_count": {}
             },
@@ -618,7 +618,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test the BAL max items gas limit boundary for an empty block.\n\nThe consensus rule requires\n``bal_items <= block_gas_limit // BLOCK_ACCESS_LIST_ITEM``.\nThe boundary gas limit is derived from the fork's system-contract\nBAL footprint.  At the boundary the check passes; one below it fails.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists.py#L2711",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists.py#L2709",
             "metadata": {
                 "opcode_count": {}
             },

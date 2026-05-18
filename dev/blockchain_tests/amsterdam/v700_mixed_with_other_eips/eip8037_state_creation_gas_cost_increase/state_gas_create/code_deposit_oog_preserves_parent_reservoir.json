@@ -447,7 +447,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test parent reservoir preserved after child code deposit OOG.\n\nA caller contract invokes the factory via CALL with limited gas.\nThe child CREATE returns enough bytes that code deposit state gas\nexceeds the child frame's available gas (reservoir spillover plus\nthe limited gas_left). The factory's SSTORE after the failed\nCREATE proves the reservoir was not inflated by a spill-then-halt\nrefund.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_create.py#L530",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_create.py#L530",
             "metadata": {
                 "opcode_count": {}
             },

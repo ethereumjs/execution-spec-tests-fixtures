@@ -523,7 +523,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Verify block.gas_used includes state gas from CALL creating accounts.\n\nA contract does CALL(value=1) to a non-existent address (charges\nGAS_NEW_ACCOUNT state gas) then SSTORE. Combined with a STOP tx,\nthe 2D max must reflect state gas from account creation.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_block_2d_gas_accounting.py#L352",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_block_2d_gas_accounting.py#L352",
             "metadata": {
                 "opcode_count": {}
             },

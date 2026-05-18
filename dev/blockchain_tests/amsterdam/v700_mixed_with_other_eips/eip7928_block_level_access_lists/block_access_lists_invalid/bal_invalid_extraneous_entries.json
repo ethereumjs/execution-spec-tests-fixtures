@@ -422,7 +422,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test that clients reject blocks where BAL contains extraneous entries.\n\nAlice sends 100 wei to Oracle (1 transaction). Oracle reads storage slot 0.\nCharlie is uninvolved in this transaction.\nA valid BAL is created containing nonce change for Alice, balance change\nand storage read for Oracle which is further modified as:\n\n- extra_nonce: Extra nonce change for Oracle.\n- extra_balance: Extra balance change for uninvolved Charlie.\n- extra_code: Extra code change for Oracle.\n- extra_storage_write_touched: Extra storage write for an already read slot\n  (slot 0) for Oracle.\n- extra_storage_write_untouched: Extra storage write for an unread slot\n  (slot 1) for Oracle.\n- extra_storage_write_uninvolved_account: Extra storage write for\n  uninvolved account (Charlie) that isn't accessed at all.\n- extra_account_access: Uninvolved account (Charlie) added to BAL entirely.\n- extra_storage_read: Extra storage read for Oracle (slot 999).\n\nBAL is corrupted with extraneous entries at various block_access_index\nvalues:\n- bal_index=1: current transaction\n- bal_index=2: system transaction (tx_count + 1)\n- bal_index=3: beyond system transaction (tx_count + 2)",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_invalid.py#L867",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_invalid.py#L867",
             "metadata": {
                 "opcode_count": {}
             },
@@ -858,7 +858,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test that clients reject blocks where BAL contains extraneous entries.\n\nAlice sends 100 wei to Oracle (1 transaction). Oracle reads storage slot 0.\nCharlie is uninvolved in this transaction.\nA valid BAL is created containing nonce change for Alice, balance change\nand storage read for Oracle which is further modified as:\n\n- extra_nonce: Extra nonce change for Oracle.\n- extra_balance: Extra balance change for uninvolved Charlie.\n- extra_code: Extra code change for Oracle.\n- extra_storage_write_touched: Extra storage write for an already read slot\n  (slot 0) for Oracle.\n- extra_storage_write_untouched: Extra storage write for an unread slot\n  (slot 1) for Oracle.\n- extra_storage_write_uninvolved_account: Extra storage write for\n  uninvolved account (Charlie) that isn't accessed at all.\n- extra_account_access: Uninvolved account (Charlie) added to BAL entirely.\n- extra_storage_read: Extra storage read for Oracle (slot 999).\n\nBAL is corrupted with extraneous entries at various block_access_index\nvalues:\n- bal_index=1: current transaction\n- bal_index=2: system transaction (tx_count + 1)\n- bal_index=3: beyond system transaction (tx_count + 2)",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_invalid.py#L867",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_invalid.py#L867",
             "metadata": {
                 "opcode_count": {}
             },
@@ -1286,7 +1286,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test that clients reject blocks where BAL contains extraneous entries.\n\nAlice sends 100 wei to Oracle (1 transaction). Oracle reads storage slot 0.\nCharlie is uninvolved in this transaction.\nA valid BAL is created containing nonce change for Alice, balance change\nand storage read for Oracle which is further modified as:\n\n- extra_nonce: Extra nonce change for Oracle.\n- extra_balance: Extra balance change for uninvolved Charlie.\n- extra_code: Extra code change for Oracle.\n- extra_storage_write_touched: Extra storage write for an already read slot\n  (slot 0) for Oracle.\n- extra_storage_write_untouched: Extra storage write for an unread slot\n  (slot 1) for Oracle.\n- extra_storage_write_uninvolved_account: Extra storage write for\n  uninvolved account (Charlie) that isn't accessed at all.\n- extra_account_access: Uninvolved account (Charlie) added to BAL entirely.\n- extra_storage_read: Extra storage read for Oracle (slot 999).\n\nBAL is corrupted with extraneous entries at various block_access_index\nvalues:\n- bal_index=1: current transaction\n- bal_index=2: system transaction (tx_count + 1)\n- bal_index=3: beyond system transaction (tx_count + 2)",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_invalid.py#L867",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_invalid.py#L867",
             "metadata": {
                 "opcode_count": {}
             },
@@ -1714,7 +1714,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test that clients reject blocks where BAL contains extraneous entries.\n\nAlice sends 100 wei to Oracle (1 transaction). Oracle reads storage slot 0.\nCharlie is uninvolved in this transaction.\nA valid BAL is created containing nonce change for Alice, balance change\nand storage read for Oracle which is further modified as:\n\n- extra_nonce: Extra nonce change for Oracle.\n- extra_balance: Extra balance change for uninvolved Charlie.\n- extra_code: Extra code change for Oracle.\n- extra_storage_write_touched: Extra storage write for an already read slot\n  (slot 0) for Oracle.\n- extra_storage_write_untouched: Extra storage write for an unread slot\n  (slot 1) for Oracle.\n- extra_storage_write_uninvolved_account: Extra storage write for\n  uninvolved account (Charlie) that isn't accessed at all.\n- extra_account_access: Uninvolved account (Charlie) added to BAL entirely.\n- extra_storage_read: Extra storage read for Oracle (slot 999).\n\nBAL is corrupted with extraneous entries at various block_access_index\nvalues:\n- bal_index=1: current transaction\n- bal_index=2: system transaction (tx_count + 1)\n- bal_index=3: beyond system transaction (tx_count + 2)",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_invalid.py#L867",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_invalid.py#L867",
             "metadata": {
                 "opcode_count": {}
             },
@@ -2138,7 +2138,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test that clients reject blocks where BAL contains extraneous entries.\n\nAlice sends 100 wei to Oracle (1 transaction). Oracle reads storage slot 0.\nCharlie is uninvolved in this transaction.\nA valid BAL is created containing nonce change for Alice, balance change\nand storage read for Oracle which is further modified as:\n\n- extra_nonce: Extra nonce change for Oracle.\n- extra_balance: Extra balance change for uninvolved Charlie.\n- extra_code: Extra code change for Oracle.\n- extra_storage_write_touched: Extra storage write for an already read slot\n  (slot 0) for Oracle.\n- extra_storage_write_untouched: Extra storage write for an unread slot\n  (slot 1) for Oracle.\n- extra_storage_write_uninvolved_account: Extra storage write for\n  uninvolved account (Charlie) that isn't accessed at all.\n- extra_account_access: Uninvolved account (Charlie) added to BAL entirely.\n- extra_storage_read: Extra storage read for Oracle (slot 999).\n\nBAL is corrupted with extraneous entries at various block_access_index\nvalues:\n- bal_index=1: current transaction\n- bal_index=2: system transaction (tx_count + 1)\n- bal_index=3: beyond system transaction (tx_count + 2)",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_invalid.py#L867",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_invalid.py#L867",
             "metadata": {
                 "opcode_count": {}
             },
@@ -2571,7 +2571,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test that clients reject blocks where BAL contains extraneous entries.\n\nAlice sends 100 wei to Oracle (1 transaction). Oracle reads storage slot 0.\nCharlie is uninvolved in this transaction.\nA valid BAL is created containing nonce change for Alice, balance change\nand storage read for Oracle which is further modified as:\n\n- extra_nonce: Extra nonce change for Oracle.\n- extra_balance: Extra balance change for uninvolved Charlie.\n- extra_code: Extra code change for Oracle.\n- extra_storage_write_touched: Extra storage write for an already read slot\n  (slot 0) for Oracle.\n- extra_storage_write_untouched: Extra storage write for an unread slot\n  (slot 1) for Oracle.\n- extra_storage_write_uninvolved_account: Extra storage write for\n  uninvolved account (Charlie) that isn't accessed at all.\n- extra_account_access: Uninvolved account (Charlie) added to BAL entirely.\n- extra_storage_read: Extra storage read for Oracle (slot 999).\n\nBAL is corrupted with extraneous entries at various block_access_index\nvalues:\n- bal_index=1: current transaction\n- bal_index=2: system transaction (tx_count + 1)\n- bal_index=3: beyond system transaction (tx_count + 2)",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_invalid.py#L867",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_invalid.py#L867",
             "metadata": {
                 "opcode_count": {}
             },
@@ -3012,7 +3012,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test that clients reject blocks where BAL contains extraneous entries.\n\nAlice sends 100 wei to Oracle (1 transaction). Oracle reads storage slot 0.\nCharlie is uninvolved in this transaction.\nA valid BAL is created containing nonce change for Alice, balance change\nand storage read for Oracle which is further modified as:\n\n- extra_nonce: Extra nonce change for Oracle.\n- extra_balance: Extra balance change for uninvolved Charlie.\n- extra_code: Extra code change for Oracle.\n- extra_storage_write_touched: Extra storage write for an already read slot\n  (slot 0) for Oracle.\n- extra_storage_write_untouched: Extra storage write for an unread slot\n  (slot 1) for Oracle.\n- extra_storage_write_uninvolved_account: Extra storage write for\n  uninvolved account (Charlie) that isn't accessed at all.\n- extra_account_access: Uninvolved account (Charlie) added to BAL entirely.\n- extra_storage_read: Extra storage read for Oracle (slot 999).\n\nBAL is corrupted with extraneous entries at various block_access_index\nvalues:\n- bal_index=1: current transaction\n- bal_index=2: system transaction (tx_count + 1)\n- bal_index=3: beyond system transaction (tx_count + 2)",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_invalid.py#L867",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_invalid.py#L867",
             "metadata": {
                 "opcode_count": {}
             },
@@ -3445,7 +3445,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test that clients reject blocks where BAL contains extraneous entries.\n\nAlice sends 100 wei to Oracle (1 transaction). Oracle reads storage slot 0.\nCharlie is uninvolved in this transaction.\nA valid BAL is created containing nonce change for Alice, balance change\nand storage read for Oracle which is further modified as:\n\n- extra_nonce: Extra nonce change for Oracle.\n- extra_balance: Extra balance change for uninvolved Charlie.\n- extra_code: Extra code change for Oracle.\n- extra_storage_write_touched: Extra storage write for an already read slot\n  (slot 0) for Oracle.\n- extra_storage_write_untouched: Extra storage write for an unread slot\n  (slot 1) for Oracle.\n- extra_storage_write_uninvolved_account: Extra storage write for\n  uninvolved account (Charlie) that isn't accessed at all.\n- extra_account_access: Uninvolved account (Charlie) added to BAL entirely.\n- extra_storage_read: Extra storage read for Oracle (slot 999).\n\nBAL is corrupted with extraneous entries at various block_access_index\nvalues:\n- bal_index=1: current transaction\n- bal_index=2: system transaction (tx_count + 1)\n- bal_index=3: beyond system transaction (tx_count + 2)",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_invalid.py#L867",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_invalid.py#L867",
             "metadata": {
                 "opcode_count": {}
             },
@@ -3876,7 +3876,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test that clients reject blocks where BAL contains extraneous entries.\n\nAlice sends 100 wei to Oracle (1 transaction). Oracle reads storage slot 0.\nCharlie is uninvolved in this transaction.\nA valid BAL is created containing nonce change for Alice, balance change\nand storage read for Oracle which is further modified as:\n\n- extra_nonce: Extra nonce change for Oracle.\n- extra_balance: Extra balance change for uninvolved Charlie.\n- extra_code: Extra code change for Oracle.\n- extra_storage_write_touched: Extra storage write for an already read slot\n  (slot 0) for Oracle.\n- extra_storage_write_untouched: Extra storage write for an unread slot\n  (slot 1) for Oracle.\n- extra_storage_write_uninvolved_account: Extra storage write for\n  uninvolved account (Charlie) that isn't accessed at all.\n- extra_account_access: Uninvolved account (Charlie) added to BAL entirely.\n- extra_storage_read: Extra storage read for Oracle (slot 999).\n\nBAL is corrupted with extraneous entries at various block_access_index\nvalues:\n- bal_index=1: current transaction\n- bal_index=2: system transaction (tx_count + 1)\n- bal_index=3: beyond system transaction (tx_count + 2)",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_invalid.py#L867",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_invalid.py#L867",
             "metadata": {
                 "opcode_count": {}
             },
@@ -4312,7 +4312,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test that clients reject blocks where BAL contains extraneous entries.\n\nAlice sends 100 wei to Oracle (1 transaction). Oracle reads storage slot 0.\nCharlie is uninvolved in this transaction.\nA valid BAL is created containing nonce change for Alice, balance change\nand storage read for Oracle which is further modified as:\n\n- extra_nonce: Extra nonce change for Oracle.\n- extra_balance: Extra balance change for uninvolved Charlie.\n- extra_code: Extra code change for Oracle.\n- extra_storage_write_touched: Extra storage write for an already read slot\n  (slot 0) for Oracle.\n- extra_storage_write_untouched: Extra storage write for an unread slot\n  (slot 1) for Oracle.\n- extra_storage_write_uninvolved_account: Extra storage write for\n  uninvolved account (Charlie) that isn't accessed at all.\n- extra_account_access: Uninvolved account (Charlie) added to BAL entirely.\n- extra_storage_read: Extra storage read for Oracle (slot 999).\n\nBAL is corrupted with extraneous entries at various block_access_index\nvalues:\n- bal_index=1: current transaction\n- bal_index=2: system transaction (tx_count + 1)\n- bal_index=3: beyond system transaction (tx_count + 2)",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_invalid.py#L867",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_invalid.py#L867",
             "metadata": {
                 "opcode_count": {}
             },
@@ -4740,7 +4740,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test that clients reject blocks where BAL contains extraneous entries.\n\nAlice sends 100 wei to Oracle (1 transaction). Oracle reads storage slot 0.\nCharlie is uninvolved in this transaction.\nA valid BAL is created containing nonce change for Alice, balance change\nand storage read for Oracle which is further modified as:\n\n- extra_nonce: Extra nonce change for Oracle.\n- extra_balance: Extra balance change for uninvolved Charlie.\n- extra_code: Extra code change for Oracle.\n- extra_storage_write_touched: Extra storage write for an already read slot\n  (slot 0) for Oracle.\n- extra_storage_write_untouched: Extra storage write for an unread slot\n  (slot 1) for Oracle.\n- extra_storage_write_uninvolved_account: Extra storage write for\n  uninvolved account (Charlie) that isn't accessed at all.\n- extra_account_access: Uninvolved account (Charlie) added to BAL entirely.\n- extra_storage_read: Extra storage read for Oracle (slot 999).\n\nBAL is corrupted with extraneous entries at various block_access_index\nvalues:\n- bal_index=1: current transaction\n- bal_index=2: system transaction (tx_count + 1)\n- bal_index=3: beyond system transaction (tx_count + 2)",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_invalid.py#L867",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_invalid.py#L867",
             "metadata": {
                 "opcode_count": {}
             },
@@ -5168,7 +5168,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test that clients reject blocks where BAL contains extraneous entries.\n\nAlice sends 100 wei to Oracle (1 transaction). Oracle reads storage slot 0.\nCharlie is uninvolved in this transaction.\nA valid BAL is created containing nonce change for Alice, balance change\nand storage read for Oracle which is further modified as:\n\n- extra_nonce: Extra nonce change for Oracle.\n- extra_balance: Extra balance change for uninvolved Charlie.\n- extra_code: Extra code change for Oracle.\n- extra_storage_write_touched: Extra storage write for an already read slot\n  (slot 0) for Oracle.\n- extra_storage_write_untouched: Extra storage write for an unread slot\n  (slot 1) for Oracle.\n- extra_storage_write_uninvolved_account: Extra storage write for\n  uninvolved account (Charlie) that isn't accessed at all.\n- extra_account_access: Uninvolved account (Charlie) added to BAL entirely.\n- extra_storage_read: Extra storage read for Oracle (slot 999).\n\nBAL is corrupted with extraneous entries at various block_access_index\nvalues:\n- bal_index=1: current transaction\n- bal_index=2: system transaction (tx_count + 1)\n- bal_index=3: beyond system transaction (tx_count + 2)",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_invalid.py#L867",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_invalid.py#L867",
             "metadata": {
                 "opcode_count": {}
             },
@@ -5592,7 +5592,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test that clients reject blocks where BAL contains extraneous entries.\n\nAlice sends 100 wei to Oracle (1 transaction). Oracle reads storage slot 0.\nCharlie is uninvolved in this transaction.\nA valid BAL is created containing nonce change for Alice, balance change\nand storage read for Oracle which is further modified as:\n\n- extra_nonce: Extra nonce change for Oracle.\n- extra_balance: Extra balance change for uninvolved Charlie.\n- extra_code: Extra code change for Oracle.\n- extra_storage_write_touched: Extra storage write for an already read slot\n  (slot 0) for Oracle.\n- extra_storage_write_untouched: Extra storage write for an unread slot\n  (slot 1) for Oracle.\n- extra_storage_write_uninvolved_account: Extra storage write for\n  uninvolved account (Charlie) that isn't accessed at all.\n- extra_account_access: Uninvolved account (Charlie) added to BAL entirely.\n- extra_storage_read: Extra storage read for Oracle (slot 999).\n\nBAL is corrupted with extraneous entries at various block_access_index\nvalues:\n- bal_index=1: current transaction\n- bal_index=2: system transaction (tx_count + 1)\n- bal_index=3: beyond system transaction (tx_count + 2)",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_invalid.py#L867",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_invalid.py#L867",
             "metadata": {
                 "opcode_count": {}
             },
@@ -6025,7 +6025,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test that clients reject blocks where BAL contains extraneous entries.\n\nAlice sends 100 wei to Oracle (1 transaction). Oracle reads storage slot 0.\nCharlie is uninvolved in this transaction.\nA valid BAL is created containing nonce change for Alice, balance change\nand storage read for Oracle which is further modified as:\n\n- extra_nonce: Extra nonce change for Oracle.\n- extra_balance: Extra balance change for uninvolved Charlie.\n- extra_code: Extra code change for Oracle.\n- extra_storage_write_touched: Extra storage write for an already read slot\n  (slot 0) for Oracle.\n- extra_storage_write_untouched: Extra storage write for an unread slot\n  (slot 1) for Oracle.\n- extra_storage_write_uninvolved_account: Extra storage write for\n  uninvolved account (Charlie) that isn't accessed at all.\n- extra_account_access: Uninvolved account (Charlie) added to BAL entirely.\n- extra_storage_read: Extra storage read for Oracle (slot 999).\n\nBAL is corrupted with extraneous entries at various block_access_index\nvalues:\n- bal_index=1: current transaction\n- bal_index=2: system transaction (tx_count + 1)\n- bal_index=3: beyond system transaction (tx_count + 2)",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_invalid.py#L867",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_invalid.py#L867",
             "metadata": {
                 "opcode_count": {}
             },
@@ -6466,7 +6466,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test that clients reject blocks where BAL contains extraneous entries.\n\nAlice sends 100 wei to Oracle (1 transaction). Oracle reads storage slot 0.\nCharlie is uninvolved in this transaction.\nA valid BAL is created containing nonce change for Alice, balance change\nand storage read for Oracle which is further modified as:\n\n- extra_nonce: Extra nonce change for Oracle.\n- extra_balance: Extra balance change for uninvolved Charlie.\n- extra_code: Extra code change for Oracle.\n- extra_storage_write_touched: Extra storage write for an already read slot\n  (slot 0) for Oracle.\n- extra_storage_write_untouched: Extra storage write for an unread slot\n  (slot 1) for Oracle.\n- extra_storage_write_uninvolved_account: Extra storage write for\n  uninvolved account (Charlie) that isn't accessed at all.\n- extra_account_access: Uninvolved account (Charlie) added to BAL entirely.\n- extra_storage_read: Extra storage read for Oracle (slot 999).\n\nBAL is corrupted with extraneous entries at various block_access_index\nvalues:\n- bal_index=1: current transaction\n- bal_index=2: system transaction (tx_count + 1)\n- bal_index=3: beyond system transaction (tx_count + 2)",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_invalid.py#L867",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_invalid.py#L867",
             "metadata": {
                 "opcode_count": {}
             },
@@ -6899,7 +6899,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test that clients reject blocks where BAL contains extraneous entries.\n\nAlice sends 100 wei to Oracle (1 transaction). Oracle reads storage slot 0.\nCharlie is uninvolved in this transaction.\nA valid BAL is created containing nonce change for Alice, balance change\nand storage read for Oracle which is further modified as:\n\n- extra_nonce: Extra nonce change for Oracle.\n- extra_balance: Extra balance change for uninvolved Charlie.\n- extra_code: Extra code change for Oracle.\n- extra_storage_write_touched: Extra storage write for an already read slot\n  (slot 0) for Oracle.\n- extra_storage_write_untouched: Extra storage write for an unread slot\n  (slot 1) for Oracle.\n- extra_storage_write_uninvolved_account: Extra storage write for\n  uninvolved account (Charlie) that isn't accessed at all.\n- extra_account_access: Uninvolved account (Charlie) added to BAL entirely.\n- extra_storage_read: Extra storage read for Oracle (slot 999).\n\nBAL is corrupted with extraneous entries at various block_access_index\nvalues:\n- bal_index=1: current transaction\n- bal_index=2: system transaction (tx_count + 1)\n- bal_index=3: beyond system transaction (tx_count + 2)",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_invalid.py#L867",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_invalid.py#L867",
             "metadata": {
                 "opcode_count": {}
             },
@@ -7330,7 +7330,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test that clients reject blocks where BAL contains extraneous entries.\n\nAlice sends 100 wei to Oracle (1 transaction). Oracle reads storage slot 0.\nCharlie is uninvolved in this transaction.\nA valid BAL is created containing nonce change for Alice, balance change\nand storage read for Oracle which is further modified as:\n\n- extra_nonce: Extra nonce change for Oracle.\n- extra_balance: Extra balance change for uninvolved Charlie.\n- extra_code: Extra code change for Oracle.\n- extra_storage_write_touched: Extra storage write for an already read slot\n  (slot 0) for Oracle.\n- extra_storage_write_untouched: Extra storage write for an unread slot\n  (slot 1) for Oracle.\n- extra_storage_write_uninvolved_account: Extra storage write for\n  uninvolved account (Charlie) that isn't accessed at all.\n- extra_account_access: Uninvolved account (Charlie) added to BAL entirely.\n- extra_storage_read: Extra storage read for Oracle (slot 999).\n\nBAL is corrupted with extraneous entries at various block_access_index\nvalues:\n- bal_index=1: current transaction\n- bal_index=2: system transaction (tx_count + 1)\n- bal_index=3: beyond system transaction (tx_count + 2)",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_invalid.py#L867",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_invalid.py#L867",
             "metadata": {
                 "opcode_count": {}
             },
@@ -7766,7 +7766,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test that clients reject blocks where BAL contains extraneous entries.\n\nAlice sends 100 wei to Oracle (1 transaction). Oracle reads storage slot 0.\nCharlie is uninvolved in this transaction.\nA valid BAL is created containing nonce change for Alice, balance change\nand storage read for Oracle which is further modified as:\n\n- extra_nonce: Extra nonce change for Oracle.\n- extra_balance: Extra balance change for uninvolved Charlie.\n- extra_code: Extra code change for Oracle.\n- extra_storage_write_touched: Extra storage write for an already read slot\n  (slot 0) for Oracle.\n- extra_storage_write_untouched: Extra storage write for an unread slot\n  (slot 1) for Oracle.\n- extra_storage_write_uninvolved_account: Extra storage write for\n  uninvolved account (Charlie) that isn't accessed at all.\n- extra_account_access: Uninvolved account (Charlie) added to BAL entirely.\n- extra_storage_read: Extra storage read for Oracle (slot 999).\n\nBAL is corrupted with extraneous entries at various block_access_index\nvalues:\n- bal_index=1: current transaction\n- bal_index=2: system transaction (tx_count + 1)\n- bal_index=3: beyond system transaction (tx_count + 2)",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_invalid.py#L867",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_invalid.py#L867",
             "metadata": {
                 "opcode_count": {}
             },
@@ -8194,7 +8194,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test that clients reject blocks where BAL contains extraneous entries.\n\nAlice sends 100 wei to Oracle (1 transaction). Oracle reads storage slot 0.\nCharlie is uninvolved in this transaction.\nA valid BAL is created containing nonce change for Alice, balance change\nand storage read for Oracle which is further modified as:\n\n- extra_nonce: Extra nonce change for Oracle.\n- extra_balance: Extra balance change for uninvolved Charlie.\n- extra_code: Extra code change for Oracle.\n- extra_storage_write_touched: Extra storage write for an already read slot\n  (slot 0) for Oracle.\n- extra_storage_write_untouched: Extra storage write for an unread slot\n  (slot 1) for Oracle.\n- extra_storage_write_uninvolved_account: Extra storage write for\n  uninvolved account (Charlie) that isn't accessed at all.\n- extra_account_access: Uninvolved account (Charlie) added to BAL entirely.\n- extra_storage_read: Extra storage read for Oracle (slot 999).\n\nBAL is corrupted with extraneous entries at various block_access_index\nvalues:\n- bal_index=1: current transaction\n- bal_index=2: system transaction (tx_count + 1)\n- bal_index=3: beyond system transaction (tx_count + 2)",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_invalid.py#L867",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_invalid.py#L867",
             "metadata": {
                 "opcode_count": {}
             },
@@ -8622,7 +8622,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test that clients reject blocks where BAL contains extraneous entries.\n\nAlice sends 100 wei to Oracle (1 transaction). Oracle reads storage slot 0.\nCharlie is uninvolved in this transaction.\nA valid BAL is created containing nonce change for Alice, balance change\nand storage read for Oracle which is further modified as:\n\n- extra_nonce: Extra nonce change for Oracle.\n- extra_balance: Extra balance change for uninvolved Charlie.\n- extra_code: Extra code change for Oracle.\n- extra_storage_write_touched: Extra storage write for an already read slot\n  (slot 0) for Oracle.\n- extra_storage_write_untouched: Extra storage write for an unread slot\n  (slot 1) for Oracle.\n- extra_storage_write_uninvolved_account: Extra storage write for\n  uninvolved account (Charlie) that isn't accessed at all.\n- extra_account_access: Uninvolved account (Charlie) added to BAL entirely.\n- extra_storage_read: Extra storage read for Oracle (slot 999).\n\nBAL is corrupted with extraneous entries at various block_access_index\nvalues:\n- bal_index=1: current transaction\n- bal_index=2: system transaction (tx_count + 1)\n- bal_index=3: beyond system transaction (tx_count + 2)",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_invalid.py#L867",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_invalid.py#L867",
             "metadata": {
                 "opcode_count": {}
             },
@@ -9046,7 +9046,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test that clients reject blocks where BAL contains extraneous entries.\n\nAlice sends 100 wei to Oracle (1 transaction). Oracle reads storage slot 0.\nCharlie is uninvolved in this transaction.\nA valid BAL is created containing nonce change for Alice, balance change\nand storage read for Oracle which is further modified as:\n\n- extra_nonce: Extra nonce change for Oracle.\n- extra_balance: Extra balance change for uninvolved Charlie.\n- extra_code: Extra code change for Oracle.\n- extra_storage_write_touched: Extra storage write for an already read slot\n  (slot 0) for Oracle.\n- extra_storage_write_untouched: Extra storage write for an unread slot\n  (slot 1) for Oracle.\n- extra_storage_write_uninvolved_account: Extra storage write for\n  uninvolved account (Charlie) that isn't accessed at all.\n- extra_account_access: Uninvolved account (Charlie) added to BAL entirely.\n- extra_storage_read: Extra storage read for Oracle (slot 999).\n\nBAL is corrupted with extraneous entries at various block_access_index\nvalues:\n- bal_index=1: current transaction\n- bal_index=2: system transaction (tx_count + 1)\n- bal_index=3: beyond system transaction (tx_count + 2)",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_invalid.py#L867",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_invalid.py#L867",
             "metadata": {
                 "opcode_count": {}
             },
@@ -9479,7 +9479,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test that clients reject blocks where BAL contains extraneous entries.\n\nAlice sends 100 wei to Oracle (1 transaction). Oracle reads storage slot 0.\nCharlie is uninvolved in this transaction.\nA valid BAL is created containing nonce change for Alice, balance change\nand storage read for Oracle which is further modified as:\n\n- extra_nonce: Extra nonce change for Oracle.\n- extra_balance: Extra balance change for uninvolved Charlie.\n- extra_code: Extra code change for Oracle.\n- extra_storage_write_touched: Extra storage write for an already read slot\n  (slot 0) for Oracle.\n- extra_storage_write_untouched: Extra storage write for an unread slot\n  (slot 1) for Oracle.\n- extra_storage_write_uninvolved_account: Extra storage write for\n  uninvolved account (Charlie) that isn't accessed at all.\n- extra_account_access: Uninvolved account (Charlie) added to BAL entirely.\n- extra_storage_read: Extra storage read for Oracle (slot 999).\n\nBAL is corrupted with extraneous entries at various block_access_index\nvalues:\n- bal_index=1: current transaction\n- bal_index=2: system transaction (tx_count + 1)\n- bal_index=3: beyond system transaction (tx_count + 2)",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_invalid.py#L867",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_invalid.py#L867",
             "metadata": {
                 "opcode_count": {}
             },
@@ -9920,7 +9920,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test that clients reject blocks where BAL contains extraneous entries.\n\nAlice sends 100 wei to Oracle (1 transaction). Oracle reads storage slot 0.\nCharlie is uninvolved in this transaction.\nA valid BAL is created containing nonce change for Alice, balance change\nand storage read for Oracle which is further modified as:\n\n- extra_nonce: Extra nonce change for Oracle.\n- extra_balance: Extra balance change for uninvolved Charlie.\n- extra_code: Extra code change for Oracle.\n- extra_storage_write_touched: Extra storage write for an already read slot\n  (slot 0) for Oracle.\n- extra_storage_write_untouched: Extra storage write for an unread slot\n  (slot 1) for Oracle.\n- extra_storage_write_uninvolved_account: Extra storage write for\n  uninvolved account (Charlie) that isn't accessed at all.\n- extra_account_access: Uninvolved account (Charlie) added to BAL entirely.\n- extra_storage_read: Extra storage read for Oracle (slot 999).\n\nBAL is corrupted with extraneous entries at various block_access_index\nvalues:\n- bal_index=1: current transaction\n- bal_index=2: system transaction (tx_count + 1)\n- bal_index=3: beyond system transaction (tx_count + 2)",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_invalid.py#L867",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_invalid.py#L867",
             "metadata": {
                 "opcode_count": {}
             },
@@ -10353,7 +10353,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test that clients reject blocks where BAL contains extraneous entries.\n\nAlice sends 100 wei to Oracle (1 transaction). Oracle reads storage slot 0.\nCharlie is uninvolved in this transaction.\nA valid BAL is created containing nonce change for Alice, balance change\nand storage read for Oracle which is further modified as:\n\n- extra_nonce: Extra nonce change for Oracle.\n- extra_balance: Extra balance change for uninvolved Charlie.\n- extra_code: Extra code change for Oracle.\n- extra_storage_write_touched: Extra storage write for an already read slot\n  (slot 0) for Oracle.\n- extra_storage_write_untouched: Extra storage write for an unread slot\n  (slot 1) for Oracle.\n- extra_storage_write_uninvolved_account: Extra storage write for\n  uninvolved account (Charlie) that isn't accessed at all.\n- extra_account_access: Uninvolved account (Charlie) added to BAL entirely.\n- extra_storage_read: Extra storage read for Oracle (slot 999).\n\nBAL is corrupted with extraneous entries at various block_access_index\nvalues:\n- bal_index=1: current transaction\n- bal_index=2: system transaction (tx_count + 1)\n- bal_index=3: beyond system transaction (tx_count + 2)",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_invalid.py#L867",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_invalid.py#L867",
             "metadata": {
                 "opcode_count": {}
             },

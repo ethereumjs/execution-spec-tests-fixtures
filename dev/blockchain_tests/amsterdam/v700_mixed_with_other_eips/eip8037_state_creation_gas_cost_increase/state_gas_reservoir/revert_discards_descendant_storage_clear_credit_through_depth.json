@@ -742,7 +742,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "A reverted ancestor must discard a clear-credit regardless of\nhow many successful frames sit between the X\u21920 source and the\nrevert.\n\ntop \u2192 reverter (REVERT)\n        \u2192 pass_1 \u2192 \u2026 \u2192 pass_k \u2192 inner (X\u21920)\n\nEach pass frame returns successfully, so the inner credit walks\nup through `incorporate_child_on_success` at every layer before\nlanding in the reverter, where it must be dropped on\n`incorporate_child_on_error`. The receipt invariant holds for\nevery `k`.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_reservoir.py#L1639",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_reservoir.py#L1639",
             "metadata": {
                 "opcode_count": {}
             },
@@ -1313,7 +1313,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "A reverted ancestor must discard a clear-credit regardless of\nhow many successful frames sit between the X\u21920 source and the\nrevert.\n\ntop \u2192 reverter (REVERT)\n        \u2192 pass_1 \u2192 \u2026 \u2192 pass_k \u2192 inner (X\u21920)\n\nEach pass frame returns successfully, so the inner credit walks\nup through `incorporate_child_on_success` at every layer before\nlanding in the reverter, where it must be dropped on\n`incorporate_child_on_error`. The receipt invariant holds for\nevery `k`.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_reservoir.py#L1639",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_reservoir.py#L1639",
             "metadata": {
                 "opcode_count": {}
             },
@@ -1924,7 +1924,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "A reverted ancestor must discard a clear-credit regardless of\nhow many successful frames sit between the X\u21920 source and the\nrevert.\n\ntop \u2192 reverter (REVERT)\n        \u2192 pass_1 \u2192 \u2026 \u2192 pass_k \u2192 inner (X\u21920)\n\nEach pass frame returns successfully, so the inner credit walks\nup through `incorporate_child_on_success` at every layer before\nlanding in the reverter, where it must be dropped on\n`incorporate_child_on_error`. The receipt invariant holds for\nevery `k`.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_reservoir.py#L1639",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_reservoir.py#L1639",
             "metadata": {
                 "opcode_count": {}
             },
@@ -2475,7 +2475,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "A reverted ancestor must discard a clear-credit regardless of\nhow many successful frames sit between the X\u21920 source and the\nrevert.\n\ntop \u2192 reverter (REVERT)\n        \u2192 pass_1 \u2192 \u2026 \u2192 pass_k \u2192 inner (X\u21920)\n\nEach pass frame returns successfully, so the inner credit walks\nup through `incorporate_child_on_success` at every layer before\nlanding in the reverter, where it must be dropped on\n`incorporate_child_on_error`. The receipt invariant holds for\nevery `k`.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_reservoir.py#L1639",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_reservoir.py#L1639",
             "metadata": {
                 "opcode_count": {}
             },

@@ -429,7 +429,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test parent state-gas pools after CREATE child failure.\n\nA factory invokes CREATE whose initcode performs an SSTORE\n(charging state gas) then either REVERTs or hits INVALID. The\nfactory's own SSTORE after the failed CREATE acts as the\ndiscriminator that the parent's state-gas accounting (reservoir\nand gas_left) is in the expected state.\n\nFour scenarios cover the gas-pool state space:\n\n- `with_reservoir x revert`: child state gas (new account +\n  initcode SSTORE) is fully refunded to the parent reservoir on\n  REVERT.\n- `with_reservoir x halt`: HALT resets the child frame to\n  `(0, R0_child)`; only the reservoir-portion entering the\n  initcode is returned, any spilled gas stays burned.\n- `no_reservoir x revert`: child state gas refunded forms a\n  fresh reservoir even though `R0_parent` started at 0.\n- `no_reservoir x halt`: no phantom reservoir may form; the\n  factory's post-CREATE SSTORE must spill from gas_left.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_create.py#L600",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_create.py#L600",
             "metadata": {
                 "opcode_count": {}
             },
@@ -867,7 +867,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test parent state-gas pools after CREATE child failure.\n\nA factory invokes CREATE whose initcode performs an SSTORE\n(charging state gas) then either REVERTs or hits INVALID. The\nfactory's own SSTORE after the failed CREATE acts as the\ndiscriminator that the parent's state-gas accounting (reservoir\nand gas_left) is in the expected state.\n\nFour scenarios cover the gas-pool state space:\n\n- `with_reservoir x revert`: child state gas (new account +\n  initcode SSTORE) is fully refunded to the parent reservoir on\n  REVERT.\n- `with_reservoir x halt`: HALT resets the child frame to\n  `(0, R0_child)`; only the reservoir-portion entering the\n  initcode is returned, any spilled gas stays burned.\n- `no_reservoir x revert`: child state gas refunded forms a\n  fresh reservoir even though `R0_parent` started at 0.\n- `no_reservoir x halt`: no phantom reservoir may form; the\n  factory's post-CREATE SSTORE must spill from gas_left.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_create.py#L600",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_create.py#L600",
             "metadata": {
                 "opcode_count": {}
             },
@@ -1305,7 +1305,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test parent state-gas pools after CREATE child failure.\n\nA factory invokes CREATE whose initcode performs an SSTORE\n(charging state gas) then either REVERTs or hits INVALID. The\nfactory's own SSTORE after the failed CREATE acts as the\ndiscriminator that the parent's state-gas accounting (reservoir\nand gas_left) is in the expected state.\n\nFour scenarios cover the gas-pool state space:\n\n- `with_reservoir x revert`: child state gas (new account +\n  initcode SSTORE) is fully refunded to the parent reservoir on\n  REVERT.\n- `with_reservoir x halt`: HALT resets the child frame to\n  `(0, R0_child)`; only the reservoir-portion entering the\n  initcode is returned, any spilled gas stays burned.\n- `no_reservoir x revert`: child state gas refunded forms a\n  fresh reservoir even though `R0_parent` started at 0.\n- `no_reservoir x halt`: no phantom reservoir may form; the\n  factory's post-CREATE SSTORE must spill from gas_left.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_create.py#L600",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_create.py#L600",
             "metadata": {
                 "opcode_count": {}
             },
@@ -1743,7 +1743,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test parent state-gas pools after CREATE child failure.\n\nA factory invokes CREATE whose initcode performs an SSTORE\n(charging state gas) then either REVERTs or hits INVALID. The\nfactory's own SSTORE after the failed CREATE acts as the\ndiscriminator that the parent's state-gas accounting (reservoir\nand gas_left) is in the expected state.\n\nFour scenarios cover the gas-pool state space:\n\n- `with_reservoir x revert`: child state gas (new account +\n  initcode SSTORE) is fully refunded to the parent reservoir on\n  REVERT.\n- `with_reservoir x halt`: HALT resets the child frame to\n  `(0, R0_child)`; only the reservoir-portion entering the\n  initcode is returned, any spilled gas stays burned.\n- `no_reservoir x revert`: child state gas refunded forms a\n  fresh reservoir even though `R0_parent` started at 0.\n- `no_reservoir x halt`: no phantom reservoir may form; the\n  factory's post-CREATE SSTORE must spill from gas_left.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_create.py#L600",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_create.py#L600",
             "metadata": {
                 "opcode_count": {}
             },

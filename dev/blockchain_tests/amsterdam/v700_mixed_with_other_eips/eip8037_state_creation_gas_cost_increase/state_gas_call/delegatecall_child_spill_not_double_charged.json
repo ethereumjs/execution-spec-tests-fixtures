@@ -482,7 +482,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test DELEGATECALL child state gas paid from `gas_left` is not recharged.\n\nWith gas below the Amsterdam tx gas cap, the top-level frame starts with\nno state gas reservoir and the child pays for SSTOREs by spilling from\n`gas_left`. The parent frame must not charge the same state growth again\nat frame end.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_call.py#L89",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_call.py#L89",
             "metadata": {
                 "opcode_count": {}
             },

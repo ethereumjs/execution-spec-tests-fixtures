@@ -452,7 +452,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Verify pre-charged CALL costs do not reduce the 63/64 forwarding budget.\n\nCALL charges access gas and memory expansion up front, before\ncomputing the 63/64 sub-call gas.  Those costs must not be\nsubtracted again during the forwarding calculation.\n\nA wrapper contract receives a precise gas budget and calls a child\nwith maximum gas and a large ret_size (triggering memory expansion).\nThe child does a cold zero-to-nonzero SSTORE as proof of execution.\nThe gas budget is tight enough that any double-counting of the\npre-charged costs (access gas, memory expansion, or both) causes\nthe child to OOG and the SSTORE to revert.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_call.py#L846",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_call.py#L846",
             "metadata": {
                 "opcode_count": {}
             },

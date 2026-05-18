@@ -480,7 +480,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Ensure BAL captures history storage writes during system call.\n\nBlock with 2 normal user transactions: Alice sends 10 wei to Charlie,\nBob sends 10 wei to Charlie. At block start (pre-execution),\nSYSTEM_ADDRESS calls HISTORY_STORAGE_ADDRESS to store parent block hash.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_eip2935.py#L56",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_eip2935.py#L56",
             "metadata": {
                 "opcode_count": {}
             },

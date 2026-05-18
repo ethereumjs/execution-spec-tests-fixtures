@@ -486,7 +486,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Verify the SSTORE 0 to x to 0 refund returns to the caller when an\nancestor frame (not the applying frame itself) reverts.\n\nInner frame applies the refund and returns successfully; its\n`state_gas_left` (inflated by the refund) propagates to middle\nvia `incorporate_child_on_success`.  Middle then REVERTs; the\nrefunded reservoir flows back to the caller via\n`incorporate_child_on_error`, so the caller's reservoir is\nreplenished by `sstore_state_gas`.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_sstore.py#L877",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_sstore.py#L877",
             "metadata": {
                 "opcode_count": {}
             },
@@ -981,7 +981,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Verify the SSTORE 0 to x to 0 refund returns to the caller when an\nancestor frame (not the applying frame itself) reverts.\n\nInner frame applies the refund and returns successfully; its\n`state_gas_left` (inflated by the refund) propagates to middle\nvia `incorporate_child_on_success`.  Middle then REVERTs; the\nrefunded reservoir flows back to the caller via\n`incorporate_child_on_error`, so the caller's reservoir is\nreplenished by `sstore_state_gas`.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_sstore.py#L877",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_sstore.py#L877",
             "metadata": {
                 "opcode_count": {}
             },
@@ -1476,7 +1476,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Verify the SSTORE 0 to x to 0 refund returns to the caller when an\nancestor frame (not the applying frame itself) reverts.\n\nInner frame applies the refund and returns successfully; its\n`state_gas_left` (inflated by the refund) propagates to middle\nvia `incorporate_child_on_success`.  Middle then REVERTs; the\nrefunded reservoir flows back to the caller via\n`incorporate_child_on_error`, so the caller's reservoir is\nreplenished by `sstore_state_gas`.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_sstore.py#L877",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_sstore.py#L877",
             "metadata": {
                 "opcode_count": {}
             },

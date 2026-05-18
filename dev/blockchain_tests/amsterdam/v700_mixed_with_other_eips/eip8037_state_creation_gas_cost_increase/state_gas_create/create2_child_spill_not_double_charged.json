@@ -486,7 +486,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test CREATE2 child state gas paid from `gas_left` is not recharged.\n\nThe factory executes below the Amsterdam tx gas cap, so the CREATE2 child\npays new-account and storage state gas by spilling from `gas_left`. The\nfactory must not charge the same state growth again at frame end.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_create.py#L148",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_create.py#L148",
             "metadata": {
                 "opcode_count": {}
             },

@@ -445,7 +445,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Verify sender billing distinguishes new vs existing account auth\non top-level failure.\n\nFor existing accounts, set_delegation refunds new-account state\ngas to the reservoir. On REVERT, the restored reservoir reduces\nthe sender's bill via the billing formula. The sender pays less\nthan in the new-account case by exactly the refund amount.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_set_code.py#L1365",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_set_code.py#L1376",
             "metadata": {
                 "opcode_count": {}
             },
@@ -893,7 +893,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Verify sender billing distinguishes new vs existing account auth\non top-level failure.\n\nFor existing accounts, set_delegation refunds new-account state\ngas to the reservoir. On REVERT, the restored reservoir reduces\nthe sender's bill via the billing formula. The sender pays less\nthan in the new-account case by exactly the refund amount.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_set_code.py#L1365",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_set_code.py#L1376",
             "metadata": {
                 "opcode_count": {}
             },

@@ -412,7 +412,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Ensure BAL handles EXTCODECOPY and OOG during EXTCODECOPY appropriately.\n\nTests various OOG scenarios:\n- success: EXTCODECOPY completes, target appears in BAL\n- oog_at_cold_access: OOG before cold access, target NOT in BAL\n- oog_at_memory_large_offset: OOG at memory expansion (large offset),\n  target NOT in BAL\n- oog_at_memory_boundary: OOG at memory expansion (boundary case),\n  target NOT in BAL\n\nGas for all components (cold access + copy + memory expansion) must be\nchecked BEFORE recording account access.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_opcodes.py#L1668",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_opcodes.py#L1669",
             "metadata": {
                 "opcode_count": {}
             },
@@ -833,7 +833,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Ensure BAL handles EXTCODECOPY and OOG during EXTCODECOPY appropriately.\n\nTests various OOG scenarios:\n- success: EXTCODECOPY completes, target appears in BAL\n- oog_at_cold_access: OOG before cold access, target NOT in BAL\n- oog_at_memory_large_offset: OOG at memory expansion (large offset),\n  target NOT in BAL\n- oog_at_memory_boundary: OOG at memory expansion (boundary case),\n  target NOT in BAL\n\nGas for all components (cold access + copy + memory expansion) must be\nchecked BEFORE recording account access.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_opcodes.py#L1668",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_opcodes.py#L1669",
             "metadata": {
                 "opcode_count": {}
             },
@@ -1254,7 +1254,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Ensure BAL handles EXTCODECOPY and OOG during EXTCODECOPY appropriately.\n\nTests various OOG scenarios:\n- success: EXTCODECOPY completes, target appears in BAL\n- oog_at_cold_access: OOG before cold access, target NOT in BAL\n- oog_at_memory_large_offset: OOG at memory expansion (large offset),\n  target NOT in BAL\n- oog_at_memory_boundary: OOG at memory expansion (boundary case),\n  target NOT in BAL\n\nGas for all components (cold access + copy + memory expansion) must be\nchecked BEFORE recording account access.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_opcodes.py#L1668",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_opcodes.py#L1669",
             "metadata": {
                 "opcode_count": {}
             },
@@ -1683,7 +1683,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Ensure BAL handles EXTCODECOPY and OOG during EXTCODECOPY appropriately.\n\nTests various OOG scenarios:\n- success: EXTCODECOPY completes, target appears in BAL\n- oog_at_cold_access: OOG before cold access, target NOT in BAL\n- oog_at_memory_large_offset: OOG at memory expansion (large offset),\n  target NOT in BAL\n- oog_at_memory_boundary: OOG at memory expansion (boundary case),\n  target NOT in BAL\n\nGas for all components (cold access + copy + memory expansion) must be\nchecked BEFORE recording account access.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_opcodes.py#L1668",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_opcodes.py#L1669",
             "metadata": {
                 "opcode_count": {}
             },

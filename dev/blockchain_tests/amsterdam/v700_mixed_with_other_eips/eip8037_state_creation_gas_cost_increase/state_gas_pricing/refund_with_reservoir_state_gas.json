@@ -402,7 +402,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test refund when state gas is drawn from reservoir.\n\nWhen state gas comes from the reservoir, the refund still applies.\nThe refund_counter accumulates state + regular gas refunds, and\nthe 1/5 cap uses tx_gas_used_before_refund which accounts for\nboth dimensions. An SSTORE zero-to-nonzero-to-zero sequence\nshould refund correctly.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_pricing.py#L233",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_pricing.py#L233",
             "metadata": {
                 "opcode_count": {}
             },

@@ -445,7 +445,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Ensure BAL captures withdrawal to self-destructed contract address.\n\nOracle contract starts with 100 gwei balance.\nAlice triggers Oracle to self-destruct, sending balance to Bob.\nOracle receives withdrawal of 50 gwei after self-destructing.\nOracle ends with 50 gwei (funded by withdrawal).",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_eip4895.py#L431",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_eip4895.py#L431",
             "metadata": {
                 "opcode_count": {}
             },

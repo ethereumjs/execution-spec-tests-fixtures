@@ -412,7 +412,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test that jumping to 0x5b after SWAPN succeeds (backward compat).\n\nBytecode: PUSH1(4) JUMP SWAPN[0x5b]\nHex: 6004 56 e7 5b\nPosition 4 contains 0x5b which is an INVALID immediate for SWAPN.\nPer EIP-8024, 0x5b is preserved as valid JUMPDEST for compatibility.\nThe SWAPN instruction is never executed due to the jump.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8024_dupn_swapn_exchange/test_swapn.py#L282",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8024_dupn_swapn_exchange/test_swapn.py#L282",
             "metadata": {
                 "opcode_count": {}
             },

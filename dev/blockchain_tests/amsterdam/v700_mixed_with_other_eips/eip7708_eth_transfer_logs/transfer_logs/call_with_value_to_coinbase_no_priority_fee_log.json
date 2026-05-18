@@ -417,7 +417,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Verify no Transfer log is emitted for the coinbase priority fee.\n\nA contract executes CALL with nonzero value to the coinbase address,\nand the transaction pays a nonzero priority fee to that same\ncoinbase. Only the CALL-with-value must produce a Transfer log; the\npriority fee crediting happens outside the EVM as a protocol-level\nbalance change and must not emit a log.\n\nAn implementation that hooks all balance additions (instead of only\nCALL / SELFDESTRUCT / tx-level value transfers) would emit an extra\nTransfer log for the fee and fail the exact-log assertion.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7708_eth_transfer_logs/test_transfer_logs.py#L1334",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7708_eth_transfer_logs/test_transfer_logs.py#L1334",
             "metadata": {
                 "opcode_count": {}
             },

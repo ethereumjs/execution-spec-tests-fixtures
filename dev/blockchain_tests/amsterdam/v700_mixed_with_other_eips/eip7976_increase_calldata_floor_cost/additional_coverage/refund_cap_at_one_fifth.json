@@ -502,7 +502,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test class documentation:\nTest that the 1/5 refund cap interacts correctly with floor cost.\n\n\nTest that refunds are capped at 1/5 of gas used.\n\nEven if the refund counter is high, the actual refund cannot exceed\ngas_used // 5. Use minimal calldata to avoid floor cost interference.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7976_increase_calldata_floor_cost/test_additional_coverage.py#L863",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7976_increase_calldata_floor_cost/test_additional_coverage.py#L863",
             "metadata": {
                 "opcode_count": {}
             },

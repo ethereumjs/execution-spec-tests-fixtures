@@ -412,7 +412,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test BAL with CREATE failure due to insufficient endowment.\n\nFactory (balance=50) attempts CREATE(value=100).\nFails before nonce increment (before track_address).\nDistinct from collision where address IS accessed.\n\nExpected BAL:\n- Alice: nonce_changes\n- Factory: storage_changes slot 0 (0xDEAD\u21920), NO nonce_changes\n- Contract address: MUST NOT appear (never accessed)",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_opcodes.py#L3114",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_opcodes.py#L3151",
             "metadata": {
                 "opcode_count": {}
             },

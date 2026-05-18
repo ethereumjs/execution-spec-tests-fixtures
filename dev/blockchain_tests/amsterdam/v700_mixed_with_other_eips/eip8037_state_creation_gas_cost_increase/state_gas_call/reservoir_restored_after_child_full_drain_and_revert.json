@@ -434,7 +434,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test reservoir restored when child exactly exhausts it then reverts.\n\nThe child performs exactly one SSTORE consuming the entire reservoir\n(no spill into gas_left), then REVERTs. The full reservoir is\nreturned to the parent.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_call.py#L311",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_call.py#L311",
             "metadata": {
                 "opcode_count": {}
             },

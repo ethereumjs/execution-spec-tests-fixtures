@@ -457,7 +457,7 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test code deposit is charged per-account, not per code hash.\n\nTwo CREATEs with identical init code deploy identical bytecode\nand so share a single ``code_hash``. The factory snapshots\n``gas_left`` around each CREATE via ``Op.GAS`` and stores\n``(g0 - g1) - (g1 - g2)`` in slot 0. Identical work must cost\nthe same \u2014 so the difference must be zero.\n\nRuntime measurement is required: the bug manifests as a\nchild-frame state-gas spillover into ``gas_left`` (a runtime\nquantity), which static helpers like ``bytecode.gas_cost()``\ndo not model.\n\nA non-zero result indicates ``compute_state_byte_diff`` is\nkeying code-deposit accounting by hash via ``code_writes``,\nsilently dropping the second CREATE's ``len(code) \u00d7 CPSB``\ncharge.",
-            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.0.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_create.py#L255",
+            "url": "https://github.com/ethereum/execution-specs/blob/tests-bal@v7.1.0/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_create.py#L255",
             "metadata": {
                 "opcode_count": {}
             },
