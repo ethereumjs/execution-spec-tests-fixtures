@@ -28,8 +28,8 @@ Test exclusions (file size limit GitHub):
 ## `dev` Fixtures
 
 The fixtures in `dev` currently consist of multiple consecutive releases to ease development (different release characteristics):
-- [bal@v7.3.2](https://github.com/ethereum/execution-specs/releases/tag/tests-bal%40v7.3.2) | Jun 15, 2026 | bal-devnet-7 | Various Amsterdam EIPs | BAL definitions included
-  - `blockchain_tests/amsterdam/v732_mixed_with_other_eips/`
+- [glamsterdam-devnet@v6.0.0](https://github.com/ethereum/execution-specs/releases/tag/tests-glamsterdam-devnet%40v6.0.0) | Jun 19, 2026 | glamsterdam-devnet | Various Amsterdam EIPs | BAL definitions included
+  - `blockchain_tests/amsterdam/glamsterdam_devnet_v600_mixed_with_other_eips/`
 - [bal@v3.0.1](https://github.com/ethereum/execution-spec-tests/releases/tag/bal%40v3.0.1) | Jan 13, 2026 | Only EIP-7928 Block Level Access Lists (BAL) | No mixture, no BAL definitions, already EVM tests passing
   - `blockchain_tests/amsterdam/v301_single_bal_no_bal_defs/eip7928_block_level_access_lists/`
 - [bal@v2.0.0](https://github.com/ethereum/execution-spec-tests/releases/tag/bal%40v2.0.0) | Dec 12, 2025 | Only EIP-7928 Block Level Access Lists (BAL) | No mixture, BAL definitions, somewhat outdated
