@@ -1,43 +1,48 @@
 # execution-spec-tests-fixtures
 
-Fixtures from the official Ethereum test releases from [execution-spec](https://github.com/ethereum/execution-specs) for internal consumption.
+Fixtures from official Ethereum test releases ([execution-specs](https://github.com/ethereum/execution-specs)) for EthereumJS consumption.
 
-Fixtures are separated into two "base" folders:
+Split by **EthereumJS support**, not upstream `_stable` / `_develop` names:
 
-- `stable`: Fixtures which are supported to work on latest EthereumJS `master` branch
-- `dev`: Fixtures for features and/or EIPs which are not yet fully supported (often for a future fork)
+- `stable/`: expected to pass on current EthereumJS `master`
+- `dev/`: upcoming fork / EIP work not yet fully supported
 
-Note that this can be distinct from the `_develop` and `_stable` releases from the EST repo and orients
-on the implementation state on the EthereumJS side.
+How we bump a snapshot: `packages/vm/DEVELOPER.md` in the monorepo (Updating fixtures). Glamsterdam mixed tests live at a **stable path** `dev/blockchain_tests/amsterdam/glamsterdam/` and are replaced in place on each glamsterdam-devnet bump.
 
 ## `stable` Fixtures
 
-Fixtures in `stable` are taken from the following releases:
-- [v5.4.0](https://github.com/ethereum/execution-spec-tests/releases/tag/v5.4.0) | Dec 7, 2025 | Osaka + some pre-Osaka tests
-  - `state_tests/osaka/`
-  - `state_tests/prague/`
-  - `state_tests/cancun/`
-  - `state_tests/shanghai/`
-  - `blockchain_tests/osaka/`
+From [v5.4.0](https://github.com/ethereum/execution-spec-tests/releases/tag/v5.4.0) | Dec 7, 2025 | Osaka + some pre-Osaka tests (293 JSON files):
 
-Test exclusions (file size limit GitHub):
+- `state_tests/osaka/`
+- `state_tests/prague/`
+- `state_tests/cancun/`
+- `state_tests/shanghai/`
+- `blockchain_tests/osaka/`
+
+Test exclusions (GitHub file size limit):
+
 - `blockchain_tests/osaka/eip7934_block_rlp_limit/test_block_at_rlp_size_limit_boundary.json` (101 MB)
 - `blockchain_tests/osaka/eip7934_block_rlp_limit/test_block_rlp_size_at_limit_with_all_typed_transactions.json` (168 MB)
 - `blockchain_tests/osaka/eip7934_block_rlp_limit/test_fork_transition_block_rlp_limit.json` (134 MB)
 
 ## `dev` Fixtures
 
-The fixtures in `dev` currently consist of multiple consecutive releases to ease development (different release characteristics):
-- [glamsterdam-devnet@v6.1.1](https://github.com/ethereum/execution-specs/releases/tag/tests-glamsterdam-devnet%40v6.1.1) | Jul 2, 2026 | glamsterdam-devnet | Various Amsterdam EIPs | BAL definitions included
-  - `blockchain_tests/amsterdam/glamsterdam_devnet_v611_mixed_with_other_eips/`
-- [bal@v3.0.1](https://github.com/ethereum/execution-spec-tests/releases/tag/bal%40v3.0.1) | Jan 13, 2026 | Only EIP-7928 Block Level Access Lists (BAL) | No mixture, no BAL definitions, already EVM tests passing
+- [tests-glamsterdam-devnet@v7.0.0](https://github.com/ethereum/execution-specs/releases/tag/tests-glamsterdam-devnet%40v7.0.0) | Jul 8, 2026 | glamsterdam-devnet-7 | Amsterdam EIP mix, BAL definitions included | **654 JSON files**
+  - `blockchain_tests/amsterdam/glamsterdam/` (replaced `glamsterdam_devnet_v611_mixed_with_other_eips/`; upstream path `blockchain_tests/for_amsterdam/amsterdam/`)
+- [bal@v3.0.1](https://github.com/ethereum/execution-spec-tests/releases/tag/bal%40v3.0.1) | Jan 13, 2026 | EIP-7928 only | No mixture, no BAL definitions, EVM tests passing | 110 JSON files
   - `blockchain_tests/amsterdam/v301_single_bal_no_bal_defs/eip7928_block_level_access_lists/`
-- [bal@v2.0.0](https://github.com/ethereum/execution-spec-tests/releases/tag/bal%40v2.0.0) | Dec 12, 2025 | Only EIP-7928 Block Level Access Lists (BAL) | No mixture, BAL definitions, somewhat outdated
+- [bal@v2.0.0](https://github.com/ethereum/execution-spec-tests/releases/tag/bal%40v2.0.0) | Dec 12, 2025 | EIP-7928 only | No mixture, BAL definitions, somewhat outdated | 102 JSON files
   - `blockchain_tests/amsterdam/v200_bal_defs_somewhat_outdated/eip7928_block_level_access_lists/`
+
+No files in this `dev/` glamsterdam set exceeded the GitHub ~100 MB limit.
 
 ## Notes
 
-Due to large file uploads local git config HTTP POST might need an update following [this answer](https://stackoverflow.com/questions/66366582/github-unexpected-disconnect-while-reading-sideband-packet):
+Upstream glamsterdam tarballs unpack as `fixtures/blockchain_tests/for_<fork>/…`. We copy only `state_tests` / `blockchain_tests` we consume (not engine-x, sync, or transaction tests).
+
+Local download cache (gitignored via `fixtures*`): `fixtures_*.tar.gz` and extract dirs. Do not re-download if the tarball is already present and the sha256 matches the GitHub asset.
+
+Large pushes may need a bigger HTTP buffer ([details](https://stackoverflow.com/questions/66366582/github-unexpected-disconnect-while-reading-sideband-packet)):
 
 ```shell
 git config --global http.postBuffer 157286400
