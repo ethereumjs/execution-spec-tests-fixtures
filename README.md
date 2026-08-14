@@ -27,9 +27,11 @@ Test exclusions (GitHub file size limit):
 
 ## `dev` Fixtures
 
-- [tests-glamsterdam-devnet@v7.2.1](https://github.com/ethereum/execution-specs/releases/tag/tests-glamsterdam-devnet%40v7.2.1) | Jul 24, 2026 | glamsterdam-devnet-7 | Amsterdam EIP mix, BAL definitions included | **661 JSON files**
-  - `blockchain_tests/amsterdam/glamsterdam/` (replaced in place from v7.0.0; upstream path `blockchain_tests/for_amsterdam/amsterdam/`)
-  - Supersedes [v7.1.0](https://github.com/ethereum/execution-specs/releases/tag/tests-glamsterdam-devnet%40v7.1.0) (EIP-7928: tx recipient excluded from BAL when EIP-7702 auth halt precedes load) and [v7.2.0](https://github.com/ethereum/execution-specs/releases/tag/tests-glamsterdam-devnet%40v7.2.0) (EIP-8037: calldata floor binds block regular-gas dimension). v7.2.1 adds EngineX fixtures upstream only; we do not consume them.
+- [tests-glamsterdam-devnet@v8.1.0](https://github.com/ethereum/execution-specs/releases/tag/tests-glamsterdam-devnet%40v8.1.0) | Aug 5, 2026 | glamsterdam-devnet-8 | Amsterdam EIP mix, BAL definitions included | **714 JSON files**
+  - `blockchain_tests/amsterdam/glamsterdam/` (replaced in place; upstream path `blockchain_tests/for_amsterdam/amsterdam/`)
+  - Supersedes [v7.2.1](https://github.com/ethereum/execution-specs/releases/tag/tests-glamsterdam-devnet%40v7.2.1) (glamsterdam-devnet-7). Skipped intermediate tags v8.0.0–v8.0.x in this snapshot; [v8.0.0](https://github.com/ethereum/execution-specs/releases/tag/tests-glamsterdam-devnet%40v8.0.0) carries the main spec deltas (see below). v8.1.0 adds EIP-8038 revised gas schedule and EIP-2780 intrinsic-gas coverage only; EngineX / eth/72 (EIP-8070) fixtures upstream are not consumed.
+  - **v8.0.0 spec deltas (included via v8.1.0):** EIP-2780 transfer-log cost folded into `TX_VALUE_COST`; EIP-8037 “regular gas” → “execution gas” (terminology); EIP-8038 access-list costs = cold minus `WARM_ACCESS` (2900 per address/key); EIP-8070 eth/72 sparse blobpool mandatory upstream (execute-only, not in tarball).
+  - **v8.1.0 spec delta:** EIP-8038 revised repricing schedule ([EIPs#12083](https://github.com/ethereum/EIPs/pull/12083)); EIP-2780 additional intrinsic-gas test coverage.
 - [bal@v3.0.1](https://github.com/ethereum/execution-spec-tests/releases/tag/bal%40v3.0.1) | Jan 13, 2026 | EIP-7928 only | No mixture, no BAL definitions, EVM tests passing | 110 JSON files
   - `blockchain_tests/amsterdam/v301_single_bal_no_bal_defs/eip7928_block_level_access_lists/`
 - [bal@v2.0.0](https://github.com/ethereum/execution-spec-tests/releases/tag/bal%40v2.0.0) | Dec 12, 2025 | EIP-7928 only | No mixture, BAL definitions, somewhat outdated | 102 JSON files

@@ -202,18 +202,18 @@
             },
             "0xf6c3a9edc1afa0ad5b720e4d42e1437c43d3b3ff": {
                 "nonce": "0x01",
-                "balance": "0x033b2e3c9fd0803ce7f934f0",
+                "balance": "0x033b2e3c9fd0803ce7f9fc28",
                 "code": "0x",
                 "storage": {}
             },
             "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba": {
                 "nonce": "0x00",
-                "balance": "0x0209b8",
+                "balance": "0x01cdf4",
                 "code": "0x",
                 "storage": {}
             }
         },
-        "lastblockhash": "0xd5b2372cae4d38422ce3dbbed9b29af155957d54e7e4b308208bd6d1e4830d63",
+        "lastblockhash": "0x8cdb6310b786e5921f94c1da0fd860c09cf4dc91290a7ad79048b61c5630e533",
         "config": {
             "network": "Amsterdam",
             "chainid": "0x01",
@@ -257,14 +257,14 @@
                     "parentHash": "0x73a049fe321fd480cbe07fc7a00cb2ee3f4d8c69a31ef125c4a2e974e0b1c18d",
                     "uncleHash": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "coinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
-                    "stateRoot": "0xa33f36427e36e8ea04f9926f4d27c8faab9eab82902e0b3f042e5579746e2516",
-                    "transactionsTrie": "0x1d8c017bebf3512cee1853bc6b4fa7da25d61dc7163cb8f8ed0586cd9a0edb81",
-                    "receiptTrie": "0x945784ac3e0b874e669d6435f58a1e2addc52bdf0d60e747591d7b4ecaa7f493",
+                    "stateRoot": "0x668c3bb8373435ee53e085ae0771d44df8e5555a251854fb968f9e6aefc91dff",
+                    "transactionsTrie": "0x589b37f6bd2afe08da598f3426b12495a11fdf29406f96fddd75e8add5fc395e",
+                    "receiptTrie": "0x887de163d2fd4a5325bea6ba3443e6be543965a2534c4f2a71eb399d7badff82",
                     "bloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
                     "difficulty": "0x00",
                     "number": "0x01",
                     "gasLimit": "0x07270e00",
-                    "gasUsed": "0xade8",
+                    "gasUsed": "0x99fc",
                     "timestamp": "0x03e8",
                     "extraData": "0x00",
                     "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -275,9 +275,9 @@
                     "excessBlobGas": "0x00",
                     "parentBeaconBlockRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
                     "requestsHash": "0xe3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-                    "blockAccessListHash": "0xeea361844b7d8237cbd4bddfb25903c077789b05ee7f37a813b10dfa3b2e08ea",
+                    "blockAccessListHash": "0x7f3eb80cf4dae3d0361076eca0f7c7e471cbb63c3b909dc7abded5abb8d26bdc",
                     "slotNumber": "0x00",
-                    "hash": "0xd5b2372cae4d38422ce3dbbed9b29af155957d54e7e4b308208bd6d1e4830d63"
+                    "hash": "0x8cdb6310b786e5921f94c1da0fd860c09cf4dc91290a7ad79048b61c5630e533"
                 },
                 "transactions": [
                     {
@@ -285,7 +285,7 @@
                         "chainId": "0x01",
                         "nonce": "0x00",
                         "gasPrice": "0x0a",
-                        "gasLimit": "0xade8",
+                        "gasLimit": "0x99fc",
                         "to": "0xc0f6dc9e5836f54caadbf59cc69346c508e1992b",
                         "value": "0x00",
                         "data": "0x",
@@ -302,8 +302,8 @@
                             }
                         ],
                         "v": "0x01",
-                        "r": "0x57195de7ecae58dc0860a84f2a09211bcce3f9e470ba896b6e4d4a9f5e47bac4",
-                        "s": "0x74f2483c1867015ba053f7dc87359ffc06833e97db61900242bafc0ba041c60a",
+                        "r": "0x16f0a4e680ec7c09cf002c539d23cecb51b32804aa5d997445ab1c12f06ed4f4",
+                        "s": "0x69b011758acce80c3f503a62a450153a5bdad7385604bb63ff86b66116c859e5",
                         "sender": "0xf6c3a9edc1afa0ad5b720e4d42e1437c43d3b3ff"
                     }
                 ],
@@ -311,13 +311,13 @@
                 "withdrawals": [],
                 "receipts": [
                     {
-                        "transactionHash": "0x757c614a6fe948cb8681d66e418d77a617bf4c01d3b03c4219dce3a26c0438aa",
+                        "transactionHash": "0xa26f69b042cbf7d955722682a164bd42553cbc517f999668b8b260dabf37c4df",
                         "type": "0x01",
-                        "cumulativeGasUsed": "0xade8",
+                        "cumulativeGasUsed": "0x99fc",
                         "bloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
                         "logs": [],
                         "status": true,
-                        "rlp": "0x01f901080182ade8b9010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000c0"
+                        "rlp": "0x01f90108018299fcb9010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000c0"
                     }
                 ],
                 "blockAccessList": [
@@ -417,7 +417,7 @@
                         "balanceChanges": [
                             {
                                 "blockAccessIndex": "0x01",
-                                "postBalance": "0x0209b8"
+                                "postBalance": "0x01cdf4"
                             }
                         ],
                         "codeChanges": [],
@@ -443,7 +443,7 @@
                         "balanceChanges": [
                             {
                                 "blockAccessIndex": "0x01",
-                                "postBalance": "0x033b2e3c9fd0803ce7f934f0"
+                                "postBalance": "0x033b2e3c9fd0803ce7f9fc28"
                             }
                         ],
                         "codeChanges": [],
@@ -451,78 +451,92 @@
                         "storageReads": []
                     }
                 ],
-                "rlp": "0xf903acf9027da073a049fe321fd480cbe07fc7a00cb2ee3f4d8c69a31ef125c4a2e974e0b1c18da01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa0a33f36427e36e8ea04f9926f4d27c8faab9eab82902e0b3f042e5579746e2516a01d8c017bebf3512cee1853bc6b4fa7da25d61dc7163cb8f8ed0586cd9a0edb81a0945784ac3e0b874e669d6435f58a1e2addc52bdf0d60e747591d7b4ecaa7f493b901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e0082ade88203e800a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a0eea361844b7d8237cbd4bddfb25903c077789b05ee7f37a813b10dfa3b2e08ea80f90127b9012401f9012001800a82ade894c0f6dc9e5836f54caadbf59cc69346c508e1992b8080f8bef8bc94fffffffffffffffffffffffffffffffffffffffff8a5a0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff01a057195de7ecae58dc0860a84f2a09211bcce3f9e470ba896b6e4d4a9f5e47bac4a074f2483c1867015ba053f7dc87359ffc06833e97db61900242bafc0ba041c60ac0c0",
+                "rlp": "0xf903acf9027da073a049fe321fd480cbe07fc7a00cb2ee3f4d8c69a31ef125c4a2e974e0b1c18da01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa0668c3bb8373435ee53e085ae0771d44df8e5555a251854fb968f9e6aefc91dffa0589b37f6bd2afe08da598f3426b12495a11fdf29406f96fddd75e8add5fc395ea0887de163d2fd4a5325bea6ba3443e6be543965a2534c4f2a71eb399d7badff82b901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e008299fc8203e800a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a07f3eb80cf4dae3d0361076eca0f7c7e471cbb63c3b909dc7abded5abb8d26bdc80f90127b9012401f9012001800a8299fc94c0f6dc9e5836f54caadbf59cc69346c508e1992b8080f8bef8bc94fffffffffffffffffffffffffffffffffffffffff8a5a0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff01a016f0a4e680ec7c09cf002c539d23cecb51b32804aa5d997445ab1c12f06ed4f4a069b011758acce80c3f503a62a450153a5bdad7385604bb63ff86b66116c859e5c0c0",
                 "blocknumber": "1"
             }
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x43c830da59929c0a559a63aa2f467d3d38628ba35057b593a4cf8752d7ee71b7",
+            "hash": "0x938a936085607902435dece5b7235fbeb811c3390d880d0e046306b63572e4a7",
             "fixture-format": "blockchain_test",
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test edge cases for access list data costs.\n\nTests include:\n- All zero bytes in access list\n- All non-zero bytes in access list",
-            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip7981_increase_access_list_cost/test_eip_mainnet.py#L95",
+            "url": "https://github.com/ethereum/execution-specs/blob/864fa03a155f2403653f828236b97d9131ca0228/tests/amsterdam/eip7981_increase_access_list_cost/test_eip_mainnet.py#L97",
             "metadata": {
                 "opcode_count": {
-                    "CALLER": 1,
-                    "PUSH20": 1,
-                    "EQ": 4,
-                    "PUSH1": 11,
-                    "JUMPI": 7,
-                    "JUMPDEST": 8,
-                    "SLOAD": 4,
-                    "DUP1": 3,
-                    "DUP3": 3,
-                    "SUB": 1,
-                    "GT": 2,
-                    "PUSH0": 8,
-                    "DUP2": 3,
-                    "PUSH2": 6,
-                    "SWAP2": 1,
-                    "ADD": 2,
-                    "SWAP3": 1,
-                    "SWAP1": 1,
-                    "POP": 3,
-                    "SSTORE": 4,
-                    "CALLDATASIZE": 1,
-                    "PUSH32": 1,
-                    "JUMP": 1,
-                    "MUL": 1,
-                    "RETURN": 1
+                    "CALLER": 6,
+                    "PUSH20": 6,
+                    "EQ": 18,
+                    "PUSH1": 45,
+                    "JUMPI": 28,
+                    "JUMPDEST": 34,
+                    "PUSH0": 34,
+                    "CALLDATALOAD": 2,
+                    "PUSH2": 25,
+                    "NUMBER": 1,
+                    "SUB": 5,
+                    "MOD": 2,
+                    "SSTORE": 19,
+                    "STOP": 2,
+                    "PUSH3": 2,
+                    "TIMESTAMP": 2,
+                    "DUP2": 11,
+                    "SWAP1": 5,
+                    "ADD": 9,
+                    "SLOAD": 16,
+                    "DUP1": 14,
+                    "DUP3": 12,
+                    "GT": 8,
+                    "SWAP2": 4,
+                    "SWAP3": 4,
+                    "POP": 12,
+                    "PUSH32": 4,
+                    "ISZERO": 2,
+                    "JUMP": 4,
+                    "MUL": 4,
+                    "RETURN": 4,
+                    "CALLDATASIZE": 2
                 },
                 "opcode_count_per_block": [
                     {
-                        "CALLER": 1,
-                        "PUSH20": 1,
-                        "EQ": 4,
-                        "PUSH1": 11,
-                        "JUMPI": 7,
-                        "JUMPDEST": 8,
-                        "SLOAD": 4,
-                        "DUP1": 3,
-                        "DUP3": 3,
-                        "SUB": 1,
-                        "GT": 2,
-                        "PUSH0": 8,
-                        "DUP2": 3,
-                        "PUSH2": 6,
-                        "SWAP2": 1,
-                        "ADD": 2,
-                        "SWAP3": 1,
-                        "SWAP1": 1,
-                        "POP": 3,
-                        "SSTORE": 4,
-                        "CALLDATASIZE": 1,
-                        "PUSH32": 1,
-                        "JUMP": 1,
-                        "MUL": 1,
-                        "RETURN": 1
+                        "CALLER": 6,
+                        "PUSH20": 6,
+                        "EQ": 18,
+                        "PUSH1": 45,
+                        "JUMPI": 28,
+                        "JUMPDEST": 34,
+                        "PUSH0": 34,
+                        "CALLDATALOAD": 2,
+                        "PUSH2": 25,
+                        "NUMBER": 1,
+                        "SUB": 5,
+                        "MOD": 2,
+                        "SSTORE": 19,
+                        "STOP": 2,
+                        "PUSH3": 2,
+                        "TIMESTAMP": 2,
+                        "DUP2": 11,
+                        "SWAP1": 5,
+                        "ADD": 9,
+                        "SLOAD": 16,
+                        "DUP1": 14,
+                        "DUP3": 12,
+                        "GT": 8,
+                        "SWAP2": 4,
+                        "SWAP3": 4,
+                        "POP": 12,
+                        "PUSH32": 4,
+                        "ISZERO": 2,
+                        "JUMP": 4,
+                        "MUL": 4,
+                        "RETURN": 4,
+                        "CALLDATASIZE": 2
                     }
                 ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7981.md",
-            "reference-spec-version": "954963fb6315dffadd9c40d48e4dae313e20cff5"
+            "reference-spec-version": "747b78c0edfdf04e9e2933ad1bec592d3318e1d9"
         }
     },
     "tests/amsterdam/eip7981_increase_access_list_cost/test_eip_mainnet.py::test_access_list_data_cost_edge_cases[fork_Amsterdam-tx_type_1-blockchain_test_from_state_test--all_zero_bytes]": {
@@ -728,18 +742,18 @@
             },
             "0xf6c3a9edc1afa0ad5b720e4d42e1437c43d3b3ff": {
                 "nonce": "0x01",
-                "balance": "0x033b2e3c9fd0803ce7f55b00",
+                "balance": "0x033b2e3c9fd0803ce7f6e588",
                 "code": "0x",
                 "storage": {}
             },
             "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba": {
                 "nonce": "0x00",
-                "balance": "0x033180",
+                "balance": "0x02bb24",
                 "code": "0x",
                 "storage": {}
             }
         },
-        "lastblockhash": "0x67177f00bdda1fb19d8b2d82bbf4e35beca42ab2c9cc0cd2525a42a963041a08",
+        "lastblockhash": "0xbbbaca6701112c7c486a4ddea3b097b15dde01cbd9816cd8634b8a13b6eab38f",
         "config": {
             "network": "Amsterdam",
             "chainid": "0x01",
@@ -783,14 +797,14 @@
                     "parentHash": "0x73a049fe321fd480cbe07fc7a00cb2ee3f4d8c69a31ef125c4a2e974e0b1c18d",
                     "uncleHash": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "coinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
-                    "stateRoot": "0x7d1f9ad020d1b662c8e46dc67c1581aafa5c6bed77bec67c0908068e756b7d7b",
-                    "transactionsTrie": "0xec083b9144365007c229d8a4d02ca14188a239fee179b56605dff51d801d4669",
-                    "receiptTrie": "0xf3838b29a3fd86b6410fd4929b47fc08f29e19d3cedd66287407bc0c322d3ec2",
+                    "stateRoot": "0x946253e3ef89b1773defb0c5eae114775de34b51f72dc0771a72eff6d141475c",
+                    "transactionsTrie": "0xfa7e818737ef4c4671d048b7e8e9103fdc18e127a7da678d4a81174b17697bb8",
+                    "receiptTrie": "0xa5e667c143c033d3218a7f14c27db977518d2f2f832a4203976700a889fcd3d1",
                     "bloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
                     "difficulty": "0x00",
                     "number": "0x01",
                     "gasLimit": "0x07270e00",
-                    "gasUsed": "0x011080",
+                    "gasUsed": "0xe90c",
                     "timestamp": "0x03e8",
                     "extraData": "0x00",
                     "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -801,9 +815,9 @@
                     "excessBlobGas": "0x00",
                     "parentBeaconBlockRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
                     "requestsHash": "0xe3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-                    "blockAccessListHash": "0x0bb6ffce1e20f8d1aca6ee5211a1219d2cd44da9ea65846b59a6399d705bf84d",
+                    "blockAccessListHash": "0x6b81b15ed7ac1d0dab2d1441a7e5f799a7e54ad77ab1136c49c1d4789e6af205",
                     "slotNumber": "0x00",
-                    "hash": "0x67177f00bdda1fb19d8b2d82bbf4e35beca42ab2c9cc0cd2525a42a963041a08"
+                    "hash": "0xbbbaca6701112c7c486a4ddea3b097b15dde01cbd9816cd8634b8a13b6eab38f"
                 },
                 "transactions": [
                     {
@@ -811,7 +825,7 @@
                         "chainId": "0x01",
                         "nonce": "0x00",
                         "gasPrice": "0x0a",
-                        "gasLimit": "0x011080",
+                        "gasLimit": "0xe90c",
                         "to": "0xc0f6dc9e5836f54caadbf59cc69346c508e1992b",
                         "value": "0x00",
                         "data": "0x",
@@ -832,9 +846,9 @@
                                 ]
                             }
                         ],
-                        "v": "0x00",
-                        "r": "0xa70b65568ee750d9a8bcc6a7592c03a3a06bdda3d690624941749875ffc424f6",
-                        "s": "0x420a56b4fdcac8d7d9fb8da22929819aa6d973cc93c28d6ec6f7a821104bf944",
+                        "v": "0x01",
+                        "r": "0x478ed952f4c5983f449280ce5940b05fdfc37a075dfc64532f342cd7dbf320e6",
+                        "s": "0x77382212a129f23b65e420b0c0840c91f81c849370ba29eb8f6b636ee070545b",
                         "sender": "0xf6c3a9edc1afa0ad5b720e4d42e1437c43d3b3ff"
                     }
                 ],
@@ -842,13 +856,13 @@
                 "withdrawals": [],
                 "receipts": [
                     {
-                        "transactionHash": "0x7f6a80d41436dcae3412ea460beccaf372492fc25e20f336131c2df4609ca479",
+                        "transactionHash": "0x85111538b337ad984a204ce1d8c09d2272ffbdd1e71588f0a4ba6dfa2cb5e6d0",
                         "type": "0x01",
-                        "cumulativeGasUsed": "0x011080",
+                        "cumulativeGasUsed": "0xe90c",
                         "bloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
                         "logs": [],
                         "status": true,
-                        "rlp": "0x01f901090183011080b9010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000c0"
+                        "rlp": "0x01f901080182e90cb9010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000c0"
                     }
                 ],
                 "blockAccessList": [
@@ -948,7 +962,7 @@
                         "balanceChanges": [
                             {
                                 "blockAccessIndex": "0x01",
-                                "postBalance": "0x033180"
+                                "postBalance": "0x02bb24"
                             }
                         ],
                         "codeChanges": [],
@@ -974,7 +988,7 @@
                         "balanceChanges": [
                             {
                                 "blockAccessIndex": "0x01",
-                                "postBalance": "0x033b2e3c9fd0803ce7f55b00"
+                                "postBalance": "0x033b2e3c9fd0803ce7f6e588"
                             }
                         ],
                         "codeChanges": [],
@@ -982,78 +996,92 @@
                         "storageReads": []
                     }
                 ],
-                "rlp": "0xf90456f9027ea073a049fe321fd480cbe07fc7a00cb2ee3f4d8c69a31ef125c4a2e974e0b1c18da01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa07d1f9ad020d1b662c8e46dc67c1581aafa5c6bed77bec67c0908068e756b7d7ba0ec083b9144365007c229d8a4d02ca14188a239fee179b56605dff51d801d4669a0f3838b29a3fd86b6410fd4929b47fc08f29e19d3cedd66287407bc0c322d3ec2b901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e00830110808203e800a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a00bb6ffce1e20f8d1aca6ee5211a1219d2cd44da9ea65846b59a6399d705bf84d80f901d0b901cd01f901c901800a8301108094c0f6dc9e5836f54caadbf59cc69346c508e1992b8080f90165f90162940000000000000000000000000000000000000000f9014aa00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a0000000000000000000000000000000000000000000000000000000000000000080a0a70b65568ee750d9a8bcc6a7592c03a3a06bdda3d690624941749875ffc424f6a0420a56b4fdcac8d7d9fb8da22929819aa6d973cc93c28d6ec6f7a821104bf944c0c0",
+                "rlp": "0xf90454f9027da073a049fe321fd480cbe07fc7a00cb2ee3f4d8c69a31ef125c4a2e974e0b1c18da01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa0946253e3ef89b1773defb0c5eae114775de34b51f72dc0771a72eff6d141475ca0fa7e818737ef4c4671d048b7e8e9103fdc18e127a7da678d4a81174b17697bb8a0a5e667c143c033d3218a7f14c27db977518d2f2f832a4203976700a889fcd3d1b901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e0082e90c8203e800a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a06b81b15ed7ac1d0dab2d1441a7e5f799a7e54ad77ab1136c49c1d4789e6af20580f901cfb901cc01f901c801800a82e90c94c0f6dc9e5836f54caadbf59cc69346c508e1992b8080f90165f90162940000000000000000000000000000000000000000f9014aa00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a0000000000000000000000000000000000000000000000000000000000000000001a0478ed952f4c5983f449280ce5940b05fdfc37a075dfc64532f342cd7dbf320e6a077382212a129f23b65e420b0c0840c91f81c849370ba29eb8f6b636ee070545bc0c0",
                 "blocknumber": "1"
             }
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x9b4b02520fdb730602a3ddb6388fb27dfd0807e645e8afb662b199a27a8c168b",
+            "hash": "0xc36350e0e3b59f6b2f1d601d2c03d2bf2f24d5001c8bbcb2714c50fafd3be3b4",
             "fixture-format": "blockchain_test",
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test edge cases for access list data costs.\n\nTests include:\n- All zero bytes in access list\n- All non-zero bytes in access list",
-            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip7981_increase_access_list_cost/test_eip_mainnet.py#L95",
+            "url": "https://github.com/ethereum/execution-specs/blob/864fa03a155f2403653f828236b97d9131ca0228/tests/amsterdam/eip7981_increase_access_list_cost/test_eip_mainnet.py#L97",
             "metadata": {
                 "opcode_count": {
-                    "CALLER": 1,
-                    "PUSH20": 1,
-                    "EQ": 4,
-                    "PUSH1": 11,
-                    "JUMPI": 7,
-                    "JUMPDEST": 8,
-                    "SLOAD": 4,
-                    "DUP1": 3,
-                    "DUP3": 3,
-                    "SUB": 1,
-                    "GT": 2,
-                    "PUSH0": 8,
-                    "DUP2": 3,
-                    "PUSH2": 6,
-                    "SWAP2": 1,
-                    "ADD": 2,
-                    "SWAP3": 1,
-                    "SWAP1": 1,
-                    "POP": 3,
-                    "SSTORE": 4,
-                    "CALLDATASIZE": 1,
-                    "PUSH32": 1,
-                    "JUMP": 1,
-                    "MUL": 1,
-                    "RETURN": 1
+                    "CALLER": 6,
+                    "PUSH20": 6,
+                    "EQ": 18,
+                    "PUSH1": 45,
+                    "JUMPI": 28,
+                    "JUMPDEST": 34,
+                    "PUSH0": 34,
+                    "CALLDATALOAD": 2,
+                    "PUSH2": 25,
+                    "NUMBER": 1,
+                    "SUB": 5,
+                    "MOD": 2,
+                    "SSTORE": 19,
+                    "STOP": 2,
+                    "PUSH3": 2,
+                    "TIMESTAMP": 2,
+                    "DUP2": 11,
+                    "SWAP1": 5,
+                    "ADD": 9,
+                    "SLOAD": 16,
+                    "DUP1": 14,
+                    "DUP3": 12,
+                    "GT": 8,
+                    "SWAP2": 4,
+                    "SWAP3": 4,
+                    "POP": 12,
+                    "PUSH32": 4,
+                    "ISZERO": 2,
+                    "JUMP": 4,
+                    "MUL": 4,
+                    "RETURN": 4,
+                    "CALLDATASIZE": 2
                 },
                 "opcode_count_per_block": [
                     {
-                        "CALLER": 1,
-                        "PUSH20": 1,
-                        "EQ": 4,
-                        "PUSH1": 11,
-                        "JUMPI": 7,
-                        "JUMPDEST": 8,
-                        "SLOAD": 4,
-                        "DUP1": 3,
-                        "DUP3": 3,
-                        "SUB": 1,
-                        "GT": 2,
-                        "PUSH0": 8,
-                        "DUP2": 3,
-                        "PUSH2": 6,
-                        "SWAP2": 1,
-                        "ADD": 2,
-                        "SWAP3": 1,
-                        "SWAP1": 1,
-                        "POP": 3,
-                        "SSTORE": 4,
-                        "CALLDATASIZE": 1,
-                        "PUSH32": 1,
-                        "JUMP": 1,
-                        "MUL": 1,
-                        "RETURN": 1
+                        "CALLER": 6,
+                        "PUSH20": 6,
+                        "EQ": 18,
+                        "PUSH1": 45,
+                        "JUMPI": 28,
+                        "JUMPDEST": 34,
+                        "PUSH0": 34,
+                        "CALLDATALOAD": 2,
+                        "PUSH2": 25,
+                        "NUMBER": 1,
+                        "SUB": 5,
+                        "MOD": 2,
+                        "SSTORE": 19,
+                        "STOP": 2,
+                        "PUSH3": 2,
+                        "TIMESTAMP": 2,
+                        "DUP2": 11,
+                        "SWAP1": 5,
+                        "ADD": 9,
+                        "SLOAD": 16,
+                        "DUP1": 14,
+                        "DUP3": 12,
+                        "GT": 8,
+                        "SWAP2": 4,
+                        "SWAP3": 4,
+                        "POP": 12,
+                        "PUSH32": 4,
+                        "ISZERO": 2,
+                        "JUMP": 4,
+                        "MUL": 4,
+                        "RETURN": 4,
+                        "CALLDATASIZE": 2
                     }
                 ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7981.md",
-            "reference-spec-version": "954963fb6315dffadd9c40d48e4dae313e20cff5"
+            "reference-spec-version": "747b78c0edfdf04e9e2933ad1bec592d3318e1d9"
         }
     },
     "tests/amsterdam/eip7981_increase_access_list_cost/test_eip_mainnet.py::test_access_list_data_cost_edge_cases[fork_Amsterdam-tx_type_2-blockchain_test_from_state_test--all_nonzero_bytes]": {
@@ -1259,12 +1287,12 @@
             },
             "0xf6c3a9edc1afa0ad5b720e4d42e1437c43d3b3ff": {
                 "nonce": "0x01",
-                "balance": "0x033b2e3c9fd0803ce7fb3ea8",
+                "balance": "0x033b2e3c9fd0803ce7fbca1c",
                 "code": "0x",
                 "storage": {}
             }
         },
-        "lastblockhash": "0x0d1b43757142e7909441ed5e48b7e23d197a4bc1f4396929068c6633f09f911b",
+        "lastblockhash": "0xf755fc1c35f6fce22418ded7495b282be43ca3041deab609d061ca9b29f8d51a",
         "config": {
             "network": "Amsterdam",
             "chainid": "0x01",
@@ -1308,14 +1336,14 @@
                     "parentHash": "0x73a049fe321fd480cbe07fc7a00cb2ee3f4d8c69a31ef125c4a2e974e0b1c18d",
                     "uncleHash": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "coinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
-                    "stateRoot": "0x56ae66a509a50354f195ee9e210ab70ac6ba1aef2d030c8b33581ae3e091517d",
-                    "transactionsTrie": "0xc1a0bf58ed638df66ac651ed0d327c0ef97d4dcd67b3d045d5d020ab0c5a833f",
-                    "receiptTrie": "0x78788acf5ca9c4456c67192dd60412db22e6ba5eb151c1473dadae6448a6f45f",
+                    "stateRoot": "0x095b606a703817c98c4f9f6797be8125b7d663d707ea2ece8ad286377e3f9b52",
+                    "transactionsTrie": "0x79f0978e3dfcd8e975db61bfb3607950ab7a232b9a1b0739f8e6f78d6b52e125",
+                    "receiptTrie": "0xd886ab7da4d3c24b0f085191e3789f36aab62e8182b8a67c80a649005d583ba9",
                     "bloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
                     "difficulty": "0x00",
                     "number": "0x01",
                     "gasLimit": "0x07270e00",
-                    "gasUsed": "0xade8",
+                    "gasUsed": "0x99fc",
                     "timestamp": "0x03e8",
                     "extraData": "0x00",
                     "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -1326,9 +1354,9 @@
                     "excessBlobGas": "0x00",
                     "parentBeaconBlockRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
                     "requestsHash": "0xe3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-                    "blockAccessListHash": "0xd7d98dd8c89ddb6af2aa27b00d030292f86c7e19169de8fc8ce056bfd7c5c454",
+                    "blockAccessListHash": "0xf1fc477946cdd522c403be9ecb4002d525b44ce2ce22ecf6cb7eb82dd9d35797",
                     "slotNumber": "0x00",
-                    "hash": "0x0d1b43757142e7909441ed5e48b7e23d197a4bc1f4396929068c6633f09f911b"
+                    "hash": "0xf755fc1c35f6fce22418ded7495b282be43ca3041deab609d061ca9b29f8d51a"
                 },
                 "transactions": [
                     {
@@ -1337,7 +1365,7 @@
                         "nonce": "0x00",
                         "maxPriorityFeePerGas": "0x00",
                         "maxFeePerGas": "0x07",
-                        "gasLimit": "0xade8",
+                        "gasLimit": "0x99fc",
                         "to": "0xc0f6dc9e5836f54caadbf59cc69346c508e1992b",
                         "value": "0x00",
                         "data": "0x",
@@ -1354,8 +1382,8 @@
                             }
                         ],
                         "v": "0x01",
-                        "r": "0x4698a5d016d91199f7839d78f937d3eb415b3e9767c4dbd170479118280f6f79",
-                        "s": "0x0b85036054b2ef4b65af5dab1e79f7e4b0d6f603cab0f10eead0bbfc7fdbf0a0",
+                        "r": "0x6170cb3f24c896826b7fa8b883a3a1e1321f270570f03bd21425dec2e09d0b4f",
+                        "s": "0x481514a92f9626e16f73759c1a84c84e7ba122d8fc8e63a59026bb8265c2df2f",
                         "sender": "0xf6c3a9edc1afa0ad5b720e4d42e1437c43d3b3ff"
                     }
                 ],
@@ -1363,13 +1391,13 @@
                 "withdrawals": [],
                 "receipts": [
                     {
-                        "transactionHash": "0xc2174dd39b93b842782031cbf29eb4698ddffb69c16e021772de35e436315093",
+                        "transactionHash": "0xbceb008b222ff5766ae9a33f5abf7f732b9c1c66c8207500f111201940afd563",
                         "type": "0x02",
-                        "cumulativeGasUsed": "0xade8",
+                        "cumulativeGasUsed": "0x99fc",
                         "bloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
                         "logs": [],
                         "status": true,
-                        "rlp": "0x02f901080182ade8b9010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000c0"
+                        "rlp": "0x02f90108018299fcb9010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000c0"
                     }
                 ],
                 "blockAccessList": [
@@ -1490,7 +1518,7 @@
                         "balanceChanges": [
                             {
                                 "blockAccessIndex": "0x01",
-                                "postBalance": "0x033b2e3c9fd0803ce7fb3ea8"
+                                "postBalance": "0x033b2e3c9fd0803ce7fbca1c"
                             }
                         ],
                         "codeChanges": [],
@@ -1498,78 +1526,92 @@
                         "storageReads": []
                     }
                 ],
-                "rlp": "0xf903adf9027da073a049fe321fd480cbe07fc7a00cb2ee3f4d8c69a31ef125c4a2e974e0b1c18da01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa056ae66a509a50354f195ee9e210ab70ac6ba1aef2d030c8b33581ae3e091517da0c1a0bf58ed638df66ac651ed0d327c0ef97d4dcd67b3d045d5d020ab0c5a833fa078788acf5ca9c4456c67192dd60412db22e6ba5eb151c1473dadae6448a6f45fb901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e0082ade88203e800a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a0d7d98dd8c89ddb6af2aa27b00d030292f86c7e19169de8fc8ce056bfd7c5c45480f90128b9012502f901210180800782ade894c0f6dc9e5836f54caadbf59cc69346c508e1992b8080f8bef8bc94fffffffffffffffffffffffffffffffffffffffff8a5a0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff01a04698a5d016d91199f7839d78f937d3eb415b3e9767c4dbd170479118280f6f79a00b85036054b2ef4b65af5dab1e79f7e4b0d6f603cab0f10eead0bbfc7fdbf0a0c0c0",
+                "rlp": "0xf903adf9027da073a049fe321fd480cbe07fc7a00cb2ee3f4d8c69a31ef125c4a2e974e0b1c18da01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa0095b606a703817c98c4f9f6797be8125b7d663d707ea2ece8ad286377e3f9b52a079f0978e3dfcd8e975db61bfb3607950ab7a232b9a1b0739f8e6f78d6b52e125a0d886ab7da4d3c24b0f085191e3789f36aab62e8182b8a67c80a649005d583ba9b901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e008299fc8203e800a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a0f1fc477946cdd522c403be9ecb4002d525b44ce2ce22ecf6cb7eb82dd9d3579780f90128b9012502f90121018080078299fc94c0f6dc9e5836f54caadbf59cc69346c508e1992b8080f8bef8bc94fffffffffffffffffffffffffffffffffffffffff8a5a0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff01a06170cb3f24c896826b7fa8b883a3a1e1321f270570f03bd21425dec2e09d0b4fa0481514a92f9626e16f73759c1a84c84e7ba122d8fc8e63a59026bb8265c2df2fc0c0",
                 "blocknumber": "1"
             }
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x26ea25fa013a8330a1215b49d7f0e0062bc6c2fa29c2bfbd3b20aaf16f3b433f",
+            "hash": "0x26e81635487099d009ba26d45ad20f3b4dc21f038b9f771c5d7d48e2317d0523",
             "fixture-format": "blockchain_test",
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test edge cases for access list data costs.\n\nTests include:\n- All zero bytes in access list\n- All non-zero bytes in access list",
-            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip7981_increase_access_list_cost/test_eip_mainnet.py#L95",
+            "url": "https://github.com/ethereum/execution-specs/blob/864fa03a155f2403653f828236b97d9131ca0228/tests/amsterdam/eip7981_increase_access_list_cost/test_eip_mainnet.py#L97",
             "metadata": {
                 "opcode_count": {
-                    "CALLER": 1,
-                    "PUSH20": 1,
-                    "EQ": 4,
-                    "PUSH1": 11,
-                    "JUMPI": 7,
-                    "JUMPDEST": 8,
-                    "SLOAD": 4,
-                    "DUP1": 3,
-                    "DUP3": 3,
-                    "SUB": 1,
-                    "GT": 2,
-                    "PUSH0": 8,
-                    "DUP2": 3,
-                    "PUSH2": 6,
-                    "SWAP2": 1,
-                    "ADD": 2,
-                    "SWAP3": 1,
-                    "SWAP1": 1,
-                    "POP": 3,
-                    "SSTORE": 4,
-                    "CALLDATASIZE": 1,
-                    "PUSH32": 1,
-                    "JUMP": 1,
-                    "MUL": 1,
-                    "RETURN": 1
+                    "CALLER": 6,
+                    "PUSH20": 6,
+                    "EQ": 18,
+                    "PUSH1": 45,
+                    "JUMPI": 28,
+                    "JUMPDEST": 34,
+                    "PUSH0": 34,
+                    "CALLDATALOAD": 2,
+                    "PUSH2": 25,
+                    "NUMBER": 1,
+                    "SUB": 5,
+                    "MOD": 2,
+                    "SSTORE": 19,
+                    "STOP": 2,
+                    "PUSH3": 2,
+                    "TIMESTAMP": 2,
+                    "DUP2": 11,
+                    "SWAP1": 5,
+                    "ADD": 9,
+                    "SLOAD": 16,
+                    "DUP1": 14,
+                    "DUP3": 12,
+                    "GT": 8,
+                    "SWAP2": 4,
+                    "SWAP3": 4,
+                    "POP": 12,
+                    "PUSH32": 4,
+                    "ISZERO": 2,
+                    "JUMP": 4,
+                    "MUL": 4,
+                    "RETURN": 4,
+                    "CALLDATASIZE": 2
                 },
                 "opcode_count_per_block": [
                     {
-                        "CALLER": 1,
-                        "PUSH20": 1,
-                        "EQ": 4,
-                        "PUSH1": 11,
-                        "JUMPI": 7,
-                        "JUMPDEST": 8,
-                        "SLOAD": 4,
-                        "DUP1": 3,
-                        "DUP3": 3,
-                        "SUB": 1,
-                        "GT": 2,
-                        "PUSH0": 8,
-                        "DUP2": 3,
-                        "PUSH2": 6,
-                        "SWAP2": 1,
-                        "ADD": 2,
-                        "SWAP3": 1,
-                        "SWAP1": 1,
-                        "POP": 3,
-                        "SSTORE": 4,
-                        "CALLDATASIZE": 1,
-                        "PUSH32": 1,
-                        "JUMP": 1,
-                        "MUL": 1,
-                        "RETURN": 1
+                        "CALLER": 6,
+                        "PUSH20": 6,
+                        "EQ": 18,
+                        "PUSH1": 45,
+                        "JUMPI": 28,
+                        "JUMPDEST": 34,
+                        "PUSH0": 34,
+                        "CALLDATALOAD": 2,
+                        "PUSH2": 25,
+                        "NUMBER": 1,
+                        "SUB": 5,
+                        "MOD": 2,
+                        "SSTORE": 19,
+                        "STOP": 2,
+                        "PUSH3": 2,
+                        "TIMESTAMP": 2,
+                        "DUP2": 11,
+                        "SWAP1": 5,
+                        "ADD": 9,
+                        "SLOAD": 16,
+                        "DUP1": 14,
+                        "DUP3": 12,
+                        "GT": 8,
+                        "SWAP2": 4,
+                        "SWAP3": 4,
+                        "POP": 12,
+                        "PUSH32": 4,
+                        "ISZERO": 2,
+                        "JUMP": 4,
+                        "MUL": 4,
+                        "RETURN": 4,
+                        "CALLDATASIZE": 2
                     }
                 ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7981.md",
-            "reference-spec-version": "954963fb6315dffadd9c40d48e4dae313e20cff5"
+            "reference-spec-version": "747b78c0edfdf04e9e2933ad1bec592d3318e1d9"
         }
     },
     "tests/amsterdam/eip7981_increase_access_list_cost/test_eip_mainnet.py::test_access_list_data_cost_edge_cases[fork_Amsterdam-tx_type_2-blockchain_test_from_state_test--all_zero_bytes]": {
@@ -1775,12 +1817,12 @@
             },
             "0xf6c3a9edc1afa0ad5b720e4d42e1437c43d3b3ff": {
                 "nonce": "0x01",
-                "balance": "0x033b2e3c9fd0803ce7f88c80",
+                "balance": "0x033b2e3c9fd0803ce7f9a0ac",
                 "code": "0x",
                 "storage": {}
             }
         },
-        "lastblockhash": "0x5e8049d8388662195afb7bbd68743b01133182a28c3216dc1886dfb9fd503082",
+        "lastblockhash": "0xdf164dd81f7987c483ccb60d1eb87af970ba0dad677e4c42952e5eb5de7bbb6a",
         "config": {
             "network": "Amsterdam",
             "chainid": "0x01",
@@ -1824,14 +1866,14 @@
                     "parentHash": "0x73a049fe321fd480cbe07fc7a00cb2ee3f4d8c69a31ef125c4a2e974e0b1c18d",
                     "uncleHash": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "coinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
-                    "stateRoot": "0xc74c5cdfbf915e972d834a232bb8e53ec07874f6c22abd8ef8d26458ed68ba9e",
-                    "transactionsTrie": "0xb6ccccba4ee2b01a7f0a21b23845564c9c28ed714e2fa3ddcce361f04362fc9d",
-                    "receiptTrie": "0xbeffd218bdab8dec656423fa9cd7bfabed184f32ff6d0e270474f42028ab2c71",
+                    "stateRoot": "0x546f8abb4dd4fa6ac6ea4dee015aedf902826007d398cf9cbbb7bc3ef0e931fd",
+                    "transactionsTrie": "0x19238b7a0f4cd85d6628624722e8ba57ce1edb6528a8461f29bf4671b7cc86d1",
+                    "receiptTrie": "0xcfe002ebdcd3788f2af9d2a9457e4ef13280e0e900204d30976915f670a4f8d6",
                     "bloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
                     "difficulty": "0x00",
                     "number": "0x01",
                     "gasLimit": "0x07270e00",
-                    "gasUsed": "0x011080",
+                    "gasUsed": "0xe90c",
                     "timestamp": "0x03e8",
                     "extraData": "0x00",
                     "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -1842,9 +1884,9 @@
                     "excessBlobGas": "0x00",
                     "parentBeaconBlockRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
                     "requestsHash": "0xe3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-                    "blockAccessListHash": "0x133a5b7ca6075185f0492262b9d19d390aa2c40323937593984f3fa9317c8e1c",
+                    "blockAccessListHash": "0x5d9f97791982f576dc783dc47582140e9b2093bf7f97792db1a208dfe96dc55c",
                     "slotNumber": "0x00",
-                    "hash": "0x5e8049d8388662195afb7bbd68743b01133182a28c3216dc1886dfb9fd503082"
+                    "hash": "0xdf164dd81f7987c483ccb60d1eb87af970ba0dad677e4c42952e5eb5de7bbb6a"
                 },
                 "transactions": [
                     {
@@ -1853,7 +1895,7 @@
                         "nonce": "0x00",
                         "maxPriorityFeePerGas": "0x00",
                         "maxFeePerGas": "0x07",
-                        "gasLimit": "0x011080",
+                        "gasLimit": "0xe90c",
                         "to": "0xc0f6dc9e5836f54caadbf59cc69346c508e1992b",
                         "value": "0x00",
                         "data": "0x",
@@ -1874,9 +1916,9 @@
                                 ]
                             }
                         ],
-                        "v": "0x00",
-                        "r": "0xd3b83d208f02a445d5899dee067b373b764ffa4d966fb43a9d3eff5f0dd32912",
-                        "s": "0x6fda3acd3e3cf482e36f5cfddfb822ce04f2edfbee558798f02f3d5acdcc4a67",
+                        "v": "0x01",
+                        "r": "0xeb816a97c42db809932873edf550597b43f84d36e212105da6fd2d0efbf04295",
+                        "s": "0x1f6b97124977512577a808e67f9c872e0ba8d8a5276fec8b8277fef99bcd4809",
                         "sender": "0xf6c3a9edc1afa0ad5b720e4d42e1437c43d3b3ff"
                     }
                 ],
@@ -1884,13 +1926,13 @@
                 "withdrawals": [],
                 "receipts": [
                     {
-                        "transactionHash": "0xb4cfd951b6930e6f61173c3168a6b66beb013f7674d92569593ada4865919e8e",
+                        "transactionHash": "0x38f5254c555e1f8126eb0a938cadb6d9312f70a5cc3c970e435f44cae2dcb7cd",
                         "type": "0x02",
-                        "cumulativeGasUsed": "0x011080",
+                        "cumulativeGasUsed": "0xe90c",
                         "bloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
                         "logs": [],
                         "status": true,
-                        "rlp": "0x02f901090183011080b9010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000c0"
+                        "rlp": "0x02f901080182e90cb9010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000c0"
                     }
                 ],
                 "blockAccessList": [
@@ -2011,7 +2053,7 @@
                         "balanceChanges": [
                             {
                                 "blockAccessIndex": "0x01",
-                                "postBalance": "0x033b2e3c9fd0803ce7f88c80"
+                                "postBalance": "0x033b2e3c9fd0803ce7f9a0ac"
                             }
                         ],
                         "codeChanges": [],
@@ -2019,78 +2061,92 @@
                         "storageReads": []
                     }
                 ],
-                "rlp": "0xf90457f9027ea073a049fe321fd480cbe07fc7a00cb2ee3f4d8c69a31ef125c4a2e974e0b1c18da01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa0c74c5cdfbf915e972d834a232bb8e53ec07874f6c22abd8ef8d26458ed68ba9ea0b6ccccba4ee2b01a7f0a21b23845564c9c28ed714e2fa3ddcce361f04362fc9da0beffd218bdab8dec656423fa9cd7bfabed184f32ff6d0e270474f42028ab2c71b901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e00830110808203e800a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a0133a5b7ca6075185f0492262b9d19d390aa2c40323937593984f3fa9317c8e1c80f901d1b901ce02f901ca018080078301108094c0f6dc9e5836f54caadbf59cc69346c508e1992b8080f90165f90162940000000000000000000000000000000000000000f9014aa00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a0000000000000000000000000000000000000000000000000000000000000000080a0d3b83d208f02a445d5899dee067b373b764ffa4d966fb43a9d3eff5f0dd32912a06fda3acd3e3cf482e36f5cfddfb822ce04f2edfbee558798f02f3d5acdcc4a67c0c0",
+                "rlp": "0xf90455f9027da073a049fe321fd480cbe07fc7a00cb2ee3f4d8c69a31ef125c4a2e974e0b1c18da01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa0546f8abb4dd4fa6ac6ea4dee015aedf902826007d398cf9cbbb7bc3ef0e931fda019238b7a0f4cd85d6628624722e8ba57ce1edb6528a8461f29bf4671b7cc86d1a0cfe002ebdcd3788f2af9d2a9457e4ef13280e0e900204d30976915f670a4f8d6b901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e0082e90c8203e800a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a05d9f97791982f576dc783dc47582140e9b2093bf7f97792db1a208dfe96dc55c80f901d0b901cd02f901c90180800782e90c94c0f6dc9e5836f54caadbf59cc69346c508e1992b8080f90165f90162940000000000000000000000000000000000000000f9014aa00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a0000000000000000000000000000000000000000000000000000000000000000001a0eb816a97c42db809932873edf550597b43f84d36e212105da6fd2d0efbf04295a01f6b97124977512577a808e67f9c872e0ba8d8a5276fec8b8277fef99bcd4809c0c0",
                 "blocknumber": "1"
             }
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xbffded932d7f552b328e5853cafa2948adc45e074fa72dc17cbc8658d19fbec1",
+            "hash": "0x60a53ef5da59c8e64d30ae22a38e0a2453351ddc54e5a03a9356467f3a400a8b",
             "fixture-format": "blockchain_test",
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test edge cases for access list data costs.\n\nTests include:\n- All zero bytes in access list\n- All non-zero bytes in access list",
-            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip7981_increase_access_list_cost/test_eip_mainnet.py#L95",
+            "url": "https://github.com/ethereum/execution-specs/blob/864fa03a155f2403653f828236b97d9131ca0228/tests/amsterdam/eip7981_increase_access_list_cost/test_eip_mainnet.py#L97",
             "metadata": {
                 "opcode_count": {
-                    "CALLER": 1,
-                    "PUSH20": 1,
-                    "EQ": 4,
-                    "PUSH1": 11,
-                    "JUMPI": 7,
-                    "JUMPDEST": 8,
-                    "SLOAD": 4,
-                    "DUP1": 3,
-                    "DUP3": 3,
-                    "SUB": 1,
-                    "GT": 2,
-                    "PUSH0": 8,
-                    "DUP2": 3,
-                    "PUSH2": 6,
-                    "SWAP2": 1,
-                    "ADD": 2,
-                    "SWAP3": 1,
-                    "SWAP1": 1,
-                    "POP": 3,
-                    "SSTORE": 4,
-                    "CALLDATASIZE": 1,
-                    "PUSH32": 1,
-                    "JUMP": 1,
-                    "MUL": 1,
-                    "RETURN": 1
+                    "CALLER": 6,
+                    "PUSH20": 6,
+                    "EQ": 18,
+                    "PUSH1": 45,
+                    "JUMPI": 28,
+                    "JUMPDEST": 34,
+                    "PUSH0": 34,
+                    "CALLDATALOAD": 2,
+                    "PUSH2": 25,
+                    "NUMBER": 1,
+                    "SUB": 5,
+                    "MOD": 2,
+                    "SSTORE": 19,
+                    "STOP": 2,
+                    "PUSH3": 2,
+                    "TIMESTAMP": 2,
+                    "DUP2": 11,
+                    "SWAP1": 5,
+                    "ADD": 9,
+                    "SLOAD": 16,
+                    "DUP1": 14,
+                    "DUP3": 12,
+                    "GT": 8,
+                    "SWAP2": 4,
+                    "SWAP3": 4,
+                    "POP": 12,
+                    "PUSH32": 4,
+                    "ISZERO": 2,
+                    "JUMP": 4,
+                    "MUL": 4,
+                    "RETURN": 4,
+                    "CALLDATASIZE": 2
                 },
                 "opcode_count_per_block": [
                     {
-                        "CALLER": 1,
-                        "PUSH20": 1,
-                        "EQ": 4,
-                        "PUSH1": 11,
-                        "JUMPI": 7,
-                        "JUMPDEST": 8,
-                        "SLOAD": 4,
-                        "DUP1": 3,
-                        "DUP3": 3,
-                        "SUB": 1,
-                        "GT": 2,
-                        "PUSH0": 8,
-                        "DUP2": 3,
-                        "PUSH2": 6,
-                        "SWAP2": 1,
-                        "ADD": 2,
-                        "SWAP3": 1,
-                        "SWAP1": 1,
-                        "POP": 3,
-                        "SSTORE": 4,
-                        "CALLDATASIZE": 1,
-                        "PUSH32": 1,
-                        "JUMP": 1,
-                        "MUL": 1,
-                        "RETURN": 1
+                        "CALLER": 6,
+                        "PUSH20": 6,
+                        "EQ": 18,
+                        "PUSH1": 45,
+                        "JUMPI": 28,
+                        "JUMPDEST": 34,
+                        "PUSH0": 34,
+                        "CALLDATALOAD": 2,
+                        "PUSH2": 25,
+                        "NUMBER": 1,
+                        "SUB": 5,
+                        "MOD": 2,
+                        "SSTORE": 19,
+                        "STOP": 2,
+                        "PUSH3": 2,
+                        "TIMESTAMP": 2,
+                        "DUP2": 11,
+                        "SWAP1": 5,
+                        "ADD": 9,
+                        "SLOAD": 16,
+                        "DUP1": 14,
+                        "DUP3": 12,
+                        "GT": 8,
+                        "SWAP2": 4,
+                        "SWAP3": 4,
+                        "POP": 12,
+                        "PUSH32": 4,
+                        "ISZERO": 2,
+                        "JUMP": 4,
+                        "MUL": 4,
+                        "RETURN": 4,
+                        "CALLDATASIZE": 2
                     }
                 ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7981.md",
-            "reference-spec-version": "954963fb6315dffadd9c40d48e4dae313e20cff5"
+            "reference-spec-version": "747b78c0edfdf04e9e2933ad1bec592d3318e1d9"
         }
     },
     "tests/amsterdam/eip7981_increase_access_list_cost/test_eip_mainnet.py::test_access_list_data_cost_edge_cases[fork_Amsterdam-tx_type_3-blockchain_test_from_state_test--all_nonzero_bytes]": {
@@ -2296,12 +2352,12 @@
             },
             "0xf6c3a9edc1afa0ad5b720e4d42e1437c43d3b3ff": {
                 "nonce": "0x01",
-                "balance": "0x033b2e3c9fd0803ce7f93ea8",
+                "balance": "0x033b2e3c9fd0803ce7f9ca1c",
                 "code": "0x",
                 "storage": {}
             }
         },
-        "lastblockhash": "0xb7b4daa1e329bd42c066a32bea17cb9a55cc95df88f8c185841dbf732afe90a0",
+        "lastblockhash": "0x6df9f66bcc56da79c86d3975ab6146d7dad1f679621a17aa2182d213a6bc2cd2",
         "config": {
             "network": "Amsterdam",
             "chainid": "0x01",
@@ -2345,14 +2401,14 @@
                     "parentHash": "0x73a049fe321fd480cbe07fc7a00cb2ee3f4d8c69a31ef125c4a2e974e0b1c18d",
                     "uncleHash": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "coinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
-                    "stateRoot": "0xd151e30ee4c4a2bf71b65a94eccb8b5b3a42abb53943503cc8118ad52d4f816f",
-                    "transactionsTrie": "0x6bb8795020eb2b4c5101cac02bd999f12f73588f1321180b3b59231a8c95962c",
-                    "receiptTrie": "0x75a36545e0132122516dde1d7a1fb7853445188b3ef2aaddfe0554b7e629d414",
+                    "stateRoot": "0x012fc91c14bc0a5ef492c295aab5aefae2f7bfab7ba8d1362015c8e9610921de",
+                    "transactionsTrie": "0xccb72f53ddc0276b39b87917783b6e8e4d8feedf4f14943424024f472013cd14",
+                    "receiptTrie": "0xf060a0a650ff79e0ec8e24617e9d88038d2dded464aadae2d92ad525063a8e7d",
                     "bloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
                     "difficulty": "0x00",
                     "number": "0x01",
                     "gasLimit": "0x07270e00",
-                    "gasUsed": "0xade8",
+                    "gasUsed": "0x99fc",
                     "timestamp": "0x03e8",
                     "extraData": "0x00",
                     "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -2363,9 +2419,9 @@
                     "excessBlobGas": "0x00",
                     "parentBeaconBlockRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
                     "requestsHash": "0xe3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-                    "blockAccessListHash": "0xc306d9617307edbba0c778f8d6fef948a64a0f07fd005c4af36f1020767b570b",
+                    "blockAccessListHash": "0x5bd648efd0824f9d564cf269622d3afe3ede90d7ab8df4758a07a2062a5d82d7",
                     "slotNumber": "0x00",
-                    "hash": "0xb7b4daa1e329bd42c066a32bea17cb9a55cc95df88f8c185841dbf732afe90a0"
+                    "hash": "0x6df9f66bcc56da79c86d3975ab6146d7dad1f679621a17aa2182d213a6bc2cd2"
                 },
                 "transactions": [
                     {
@@ -2374,7 +2430,7 @@
                         "nonce": "0x00",
                         "maxPriorityFeePerGas": "0x00",
                         "maxFeePerGas": "0x07",
-                        "gasLimit": "0xade8",
+                        "gasLimit": "0x99fc",
                         "to": "0xc0f6dc9e5836f54caadbf59cc69346c508e1992b",
                         "value": "0x00",
                         "data": "0x",
@@ -2395,8 +2451,8 @@
                             "0x0100000000000000000000000000000000000000000000000000000000000001"
                         ],
                         "v": "0x00",
-                        "r": "0x60d887bc0b175c79b823db89096caf275a38338fc88a255759adf255b4f95895",
-                        "s": "0x6729c3c736bc2c2f9b5fe2d8b901d09876f9bfc41c8904ba9579793445e72f9d",
+                        "r": "0xdc89d73c9f6c485e0b1c287c295d93976ad1034ed659b763de39dfece30eb5e4",
+                        "s": "0x524899576de03d80de056692b5ec86d739c5a82db5f3ca66245c2779689f4f02",
                         "sender": "0xf6c3a9edc1afa0ad5b720e4d42e1437c43d3b3ff"
                     }
                 ],
@@ -2404,13 +2460,13 @@
                 "withdrawals": [],
                 "receipts": [
                     {
-                        "transactionHash": "0xf1f1a292cc3fd5cd98a8ee478ca47391854a6068e109dff0d8d97b7878aee897",
+                        "transactionHash": "0x92c45bbca224155dd3e115786d410ab4bd0a0c92c2811b0b2885a69e6e6c1a2b",
                         "type": "0x03",
-                        "cumulativeGasUsed": "0xade8",
+                        "cumulativeGasUsed": "0x99fc",
                         "bloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
                         "logs": [],
                         "status": true,
-                        "rlp": "0x03f901080182ade8b9010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000c0"
+                        "rlp": "0x03f90108018299fcb9010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000c0"
                     }
                 ],
                 "blockAccessList": [
@@ -2531,7 +2587,7 @@
                         "balanceChanges": [
                             {
                                 "blockAccessIndex": "0x01",
-                                "postBalance": "0x033b2e3c9fd0803ce7f93ea8"
+                                "postBalance": "0x033b2e3c9fd0803ce7f9ca1c"
                             }
                         ],
                         "codeChanges": [],
@@ -2539,78 +2595,92 @@
                         "storageReads": []
                     }
                 ],
-                "rlp": "0xf903d3f90280a073a049fe321fd480cbe07fc7a00cb2ee3f4d8c69a31ef125c4a2e974e0b1c18da01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa0d151e30ee4c4a2bf71b65a94eccb8b5b3a42abb53943503cc8118ad52d4f816fa06bb8795020eb2b4c5101cac02bd999f12f73588f1321180b3b59231a8c95962ca075a36545e0132122516dde1d7a1fb7853445188b3ef2aaddfe0554b7e629d414b901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e0082ade88203e800a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218302000080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a0c306d9617307edbba0c778f8d6fef948a64a0f07fd005c4af36f1020767b570b80f9014bb9014803f901440180800782ade894c0f6dc9e5836f54caadbf59cc69346c508e1992b8080f8bef8bc94fffffffffffffffffffffffffffffffffffffffff8a5a0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff01e1a0010000000000000000000000000000000000000000000000000000000000000180a060d887bc0b175c79b823db89096caf275a38338fc88a255759adf255b4f95895a06729c3c736bc2c2f9b5fe2d8b901d09876f9bfc41c8904ba9579793445e72f9dc0c0",
+                "rlp": "0xf903d3f90280a073a049fe321fd480cbe07fc7a00cb2ee3f4d8c69a31ef125c4a2e974e0b1c18da01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa0012fc91c14bc0a5ef492c295aab5aefae2f7bfab7ba8d1362015c8e9610921dea0ccb72f53ddc0276b39b87917783b6e8e4d8feedf4f14943424024f472013cd14a0f060a0a650ff79e0ec8e24617e9d88038d2dded464aadae2d92ad525063a8e7db901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e008299fc8203e800a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218302000080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a05bd648efd0824f9d564cf269622d3afe3ede90d7ab8df4758a07a2062a5d82d780f9014bb9014803f90144018080078299fc94c0f6dc9e5836f54caadbf59cc69346c508e1992b8080f8bef8bc94fffffffffffffffffffffffffffffffffffffffff8a5a0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff01e1a0010000000000000000000000000000000000000000000000000000000000000180a0dc89d73c9f6c485e0b1c287c295d93976ad1034ed659b763de39dfece30eb5e4a0524899576de03d80de056692b5ec86d739c5a82db5f3ca66245c2779689f4f02c0c0",
                 "blocknumber": "1"
             }
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xecdac31c8bac1ea4dbe18302cb9615afafaba05abbb73380a02e6fb777abe96f",
+            "hash": "0x2367834a20f41dde2563c483969ee2ee0dea06b2a6f52e21d03e3726d3604d1f",
             "fixture-format": "blockchain_test",
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test edge cases for access list data costs.\n\nTests include:\n- All zero bytes in access list\n- All non-zero bytes in access list",
-            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip7981_increase_access_list_cost/test_eip_mainnet.py#L95",
+            "url": "https://github.com/ethereum/execution-specs/blob/864fa03a155f2403653f828236b97d9131ca0228/tests/amsterdam/eip7981_increase_access_list_cost/test_eip_mainnet.py#L97",
             "metadata": {
                 "opcode_count": {
-                    "CALLER": 1,
-                    "PUSH20": 1,
-                    "EQ": 4,
-                    "PUSH1": 11,
-                    "JUMPI": 7,
-                    "JUMPDEST": 8,
-                    "SLOAD": 4,
-                    "DUP1": 3,
-                    "DUP3": 3,
-                    "SUB": 1,
-                    "GT": 2,
-                    "PUSH0": 8,
-                    "DUP2": 3,
-                    "PUSH2": 6,
-                    "SWAP2": 1,
-                    "ADD": 2,
-                    "SWAP3": 1,
-                    "SWAP1": 1,
-                    "POP": 3,
-                    "SSTORE": 4,
-                    "CALLDATASIZE": 1,
-                    "PUSH32": 1,
-                    "JUMP": 1,
-                    "MUL": 1,
-                    "RETURN": 1
+                    "CALLER": 6,
+                    "PUSH20": 6,
+                    "EQ": 18,
+                    "PUSH1": 45,
+                    "JUMPI": 28,
+                    "JUMPDEST": 34,
+                    "PUSH0": 34,
+                    "CALLDATALOAD": 2,
+                    "PUSH2": 25,
+                    "NUMBER": 1,
+                    "SUB": 5,
+                    "MOD": 2,
+                    "SSTORE": 19,
+                    "STOP": 2,
+                    "PUSH3": 2,
+                    "TIMESTAMP": 2,
+                    "DUP2": 11,
+                    "SWAP1": 5,
+                    "ADD": 9,
+                    "SLOAD": 16,
+                    "DUP1": 14,
+                    "DUP3": 12,
+                    "GT": 8,
+                    "SWAP2": 4,
+                    "SWAP3": 4,
+                    "POP": 12,
+                    "PUSH32": 4,
+                    "ISZERO": 2,
+                    "JUMP": 4,
+                    "MUL": 4,
+                    "RETURN": 4,
+                    "CALLDATASIZE": 2
                 },
                 "opcode_count_per_block": [
                     {
-                        "CALLER": 1,
-                        "PUSH20": 1,
-                        "EQ": 4,
-                        "PUSH1": 11,
-                        "JUMPI": 7,
-                        "JUMPDEST": 8,
-                        "SLOAD": 4,
-                        "DUP1": 3,
-                        "DUP3": 3,
-                        "SUB": 1,
-                        "GT": 2,
-                        "PUSH0": 8,
-                        "DUP2": 3,
-                        "PUSH2": 6,
-                        "SWAP2": 1,
-                        "ADD": 2,
-                        "SWAP3": 1,
-                        "SWAP1": 1,
-                        "POP": 3,
-                        "SSTORE": 4,
-                        "CALLDATASIZE": 1,
-                        "PUSH32": 1,
-                        "JUMP": 1,
-                        "MUL": 1,
-                        "RETURN": 1
+                        "CALLER": 6,
+                        "PUSH20": 6,
+                        "EQ": 18,
+                        "PUSH1": 45,
+                        "JUMPI": 28,
+                        "JUMPDEST": 34,
+                        "PUSH0": 34,
+                        "CALLDATALOAD": 2,
+                        "PUSH2": 25,
+                        "NUMBER": 1,
+                        "SUB": 5,
+                        "MOD": 2,
+                        "SSTORE": 19,
+                        "STOP": 2,
+                        "PUSH3": 2,
+                        "TIMESTAMP": 2,
+                        "DUP2": 11,
+                        "SWAP1": 5,
+                        "ADD": 9,
+                        "SLOAD": 16,
+                        "DUP1": 14,
+                        "DUP3": 12,
+                        "GT": 8,
+                        "SWAP2": 4,
+                        "SWAP3": 4,
+                        "POP": 12,
+                        "PUSH32": 4,
+                        "ISZERO": 2,
+                        "JUMP": 4,
+                        "MUL": 4,
+                        "RETURN": 4,
+                        "CALLDATASIZE": 2
                     }
                 ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7981.md",
-            "reference-spec-version": "954963fb6315dffadd9c40d48e4dae313e20cff5"
+            "reference-spec-version": "747b78c0edfdf04e9e2933ad1bec592d3318e1d9"
         }
     },
     "tests/amsterdam/eip7981_increase_access_list_cost/test_eip_mainnet.py::test_access_list_data_cost_edge_cases[fork_Amsterdam-tx_type_3-blockchain_test_from_state_test--all_zero_bytes]": {
@@ -2816,12 +2886,12 @@
             },
             "0xf6c3a9edc1afa0ad5b720e4d42e1437c43d3b3ff": {
                 "nonce": "0x01",
-                "balance": "0x033b2e3c9fd0803ce7f68c80",
+                "balance": "0x033b2e3c9fd0803ce7f7a0ac",
                 "code": "0x",
                 "storage": {}
             }
         },
-        "lastblockhash": "0x43faa2887b310c5f41b5cadd1cd9d2a41514adf741b12d070a0cae5947dc40a4",
+        "lastblockhash": "0x1cd338418cc80bb2921f02f325664fdf861a45b261178ca9b9696c0845c575e3",
         "config": {
             "network": "Amsterdam",
             "chainid": "0x01",
@@ -2865,14 +2935,14 @@
                     "parentHash": "0x73a049fe321fd480cbe07fc7a00cb2ee3f4d8c69a31ef125c4a2e974e0b1c18d",
                     "uncleHash": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "coinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
-                    "stateRoot": "0xac72ef3b55e6ca854a26225b50ad5d088309e51c0825755452a0eac4879e685d",
-                    "transactionsTrie": "0x16c9146adf8dd94da30e7771c46e5436483ffba55f8e4d2b061f9cf4cd1b1bb2",
-                    "receiptTrie": "0xc49b457b770940a02a4eb0a7f83f1438bc6081a97a061431e41c127742edb517",
+                    "stateRoot": "0x62615cfe3b239bf453f9c304eb2839dee8a93efebc941b01f20b255baf88bb2c",
+                    "transactionsTrie": "0xbd39d16e7b1ee5c48bbf22b263774612db8ab862bd265f6ea90087837bd15a8e",
+                    "receiptTrie": "0x4f59a491be88a96f1c79810c683e358d8226ff2624815851aac66270426ded61",
                     "bloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
                     "difficulty": "0x00",
                     "number": "0x01",
                     "gasLimit": "0x07270e00",
-                    "gasUsed": "0x011080",
+                    "gasUsed": "0xe90c",
                     "timestamp": "0x03e8",
                     "extraData": "0x00",
                     "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -2883,9 +2953,9 @@
                     "excessBlobGas": "0x00",
                     "parentBeaconBlockRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
                     "requestsHash": "0xe3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-                    "blockAccessListHash": "0x5d05d22df5d9182190fc6ca43574602817ab49248635bda7d62680477bf3cec2",
+                    "blockAccessListHash": "0x4795af1b2704f01e409e9a773749816132ecb06e671d0b6f8e46acb16bbdc23a",
                     "slotNumber": "0x00",
-                    "hash": "0x43faa2887b310c5f41b5cadd1cd9d2a41514adf741b12d070a0cae5947dc40a4"
+                    "hash": "0x1cd338418cc80bb2921f02f325664fdf861a45b261178ca9b9696c0845c575e3"
                 },
                 "transactions": [
                     {
@@ -2894,7 +2964,7 @@
                         "nonce": "0x00",
                         "maxPriorityFeePerGas": "0x00",
                         "maxFeePerGas": "0x07",
-                        "gasLimit": "0x011080",
+                        "gasLimit": "0xe90c",
                         "to": "0xc0f6dc9e5836f54caadbf59cc69346c508e1992b",
                         "value": "0x00",
                         "data": "0x",
@@ -2920,8 +2990,8 @@
                             "0x0100000000000000000000000000000000000000000000000000000000000001"
                         ],
                         "v": "0x00",
-                        "r": "0x45a730afbf740dcdcfb0dbacf0b50aea4580392b86e2df014361769551fe4ec9",
-                        "s": "0x7b33300095bc13a1e7ff3b36dc8e3d88e983e79af9dbff57ae86faf9d33753c0",
+                        "r": "0x632871d7cd70c26702c0b188a7891b062d9c8a7f1f9fe1152712c565eabab6a7",
+                        "s": "0x18fb8621c76c2553a8603f701610777e113dce897551b11837449dc80dfcde9a",
                         "sender": "0xf6c3a9edc1afa0ad5b720e4d42e1437c43d3b3ff"
                     }
                 ],
@@ -2929,13 +2999,13 @@
                 "withdrawals": [],
                 "receipts": [
                     {
-                        "transactionHash": "0xed43485040765233832add70030df729642c5451a9b6110dc07aa6b54a6b98b1",
+                        "transactionHash": "0x1e36397fee40326da1a17e3587edaf1b9097e339d4a6a989a23480413c9701ac",
                         "type": "0x03",
-                        "cumulativeGasUsed": "0x011080",
+                        "cumulativeGasUsed": "0xe90c",
                         "bloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
                         "logs": [],
                         "status": true,
-                        "rlp": "0x03f901090183011080b9010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000c0"
+                        "rlp": "0x03f901080182e90cb9010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000c0"
                     }
                 ],
                 "blockAccessList": [
@@ -3056,7 +3126,7 @@
                         "balanceChanges": [
                             {
                                 "blockAccessIndex": "0x01",
-                                "postBalance": "0x033b2e3c9fd0803ce7f68c80"
+                                "postBalance": "0x033b2e3c9fd0803ce7f7a0ac"
                             }
                         ],
                         "codeChanges": [],
@@ -3064,78 +3134,92 @@
                         "storageReads": []
                     }
                 ],
-                "rlp": "0xf9047df90281a073a049fe321fd480cbe07fc7a00cb2ee3f4d8c69a31ef125c4a2e974e0b1c18da01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa0ac72ef3b55e6ca854a26225b50ad5d088309e51c0825755452a0eac4879e685da016c9146adf8dd94da30e7771c46e5436483ffba55f8e4d2b061f9cf4cd1b1bb2a0c49b457b770940a02a4eb0a7f83f1438bc6081a97a061431e41c127742edb517b901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e00830110808203e800a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218302000080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a05d05d22df5d9182190fc6ca43574602817ab49248635bda7d62680477bf3cec280f901f4b901f103f901ed018080078301108094c0f6dc9e5836f54caadbf59cc69346c508e1992b8080f90165f90162940000000000000000000000000000000000000000f9014aa00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a0000000000000000000000000000000000000000000000000000000000000000001e1a0010000000000000000000000000000000000000000000000000000000000000180a045a730afbf740dcdcfb0dbacf0b50aea4580392b86e2df014361769551fe4ec9a07b33300095bc13a1e7ff3b36dc8e3d88e983e79af9dbff57ae86faf9d33753c0c0c0",
+                "rlp": "0xf9047bf90280a073a049fe321fd480cbe07fc7a00cb2ee3f4d8c69a31ef125c4a2e974e0b1c18da01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa062615cfe3b239bf453f9c304eb2839dee8a93efebc941b01f20b255baf88bb2ca0bd39d16e7b1ee5c48bbf22b263774612db8ab862bd265f6ea90087837bd15a8ea04f59a491be88a96f1c79810c683e358d8226ff2624815851aac66270426ded61b901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e0082e90c8203e800a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218302000080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a04795af1b2704f01e409e9a773749816132ecb06e671d0b6f8e46acb16bbdc23a80f901f3b901f003f901ec0180800782e90c94c0f6dc9e5836f54caadbf59cc69346c508e1992b8080f90165f90162940000000000000000000000000000000000000000f9014aa00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a0000000000000000000000000000000000000000000000000000000000000000001e1a0010000000000000000000000000000000000000000000000000000000000000180a0632871d7cd70c26702c0b188a7891b062d9c8a7f1f9fe1152712c565eabab6a7a018fb8621c76c2553a8603f701610777e113dce897551b11837449dc80dfcde9ac0c0",
                 "blocknumber": "1"
             }
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x239d5b8283b5a05684d1dff34478a8363263253f3fae0d286f86c8e0d80af1f3",
+            "hash": "0xc1afb79e014fffe35b4c90ff38bd3c38c7d639b6f42979439350d2e28058ce45",
             "fixture-format": "blockchain_test",
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test edge cases for access list data costs.\n\nTests include:\n- All zero bytes in access list\n- All non-zero bytes in access list",
-            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip7981_increase_access_list_cost/test_eip_mainnet.py#L95",
+            "url": "https://github.com/ethereum/execution-specs/blob/864fa03a155f2403653f828236b97d9131ca0228/tests/amsterdam/eip7981_increase_access_list_cost/test_eip_mainnet.py#L97",
             "metadata": {
                 "opcode_count": {
-                    "CALLER": 1,
-                    "PUSH20": 1,
-                    "EQ": 4,
-                    "PUSH1": 11,
-                    "JUMPI": 7,
-                    "JUMPDEST": 8,
-                    "SLOAD": 4,
-                    "DUP1": 3,
-                    "DUP3": 3,
-                    "SUB": 1,
-                    "GT": 2,
-                    "PUSH0": 8,
-                    "DUP2": 3,
-                    "PUSH2": 6,
-                    "SWAP2": 1,
-                    "ADD": 2,
-                    "SWAP3": 1,
-                    "SWAP1": 1,
-                    "POP": 3,
-                    "SSTORE": 4,
-                    "CALLDATASIZE": 1,
-                    "PUSH32": 1,
-                    "JUMP": 1,
-                    "MUL": 1,
-                    "RETURN": 1
+                    "CALLER": 6,
+                    "PUSH20": 6,
+                    "EQ": 18,
+                    "PUSH1": 45,
+                    "JUMPI": 28,
+                    "JUMPDEST": 34,
+                    "PUSH0": 34,
+                    "CALLDATALOAD": 2,
+                    "PUSH2": 25,
+                    "NUMBER": 1,
+                    "SUB": 5,
+                    "MOD": 2,
+                    "SSTORE": 19,
+                    "STOP": 2,
+                    "PUSH3": 2,
+                    "TIMESTAMP": 2,
+                    "DUP2": 11,
+                    "SWAP1": 5,
+                    "ADD": 9,
+                    "SLOAD": 16,
+                    "DUP1": 14,
+                    "DUP3": 12,
+                    "GT": 8,
+                    "SWAP2": 4,
+                    "SWAP3": 4,
+                    "POP": 12,
+                    "PUSH32": 4,
+                    "ISZERO": 2,
+                    "JUMP": 4,
+                    "MUL": 4,
+                    "RETURN": 4,
+                    "CALLDATASIZE": 2
                 },
                 "opcode_count_per_block": [
                     {
-                        "CALLER": 1,
-                        "PUSH20": 1,
-                        "EQ": 4,
-                        "PUSH1": 11,
-                        "JUMPI": 7,
-                        "JUMPDEST": 8,
-                        "SLOAD": 4,
-                        "DUP1": 3,
-                        "DUP3": 3,
-                        "SUB": 1,
-                        "GT": 2,
-                        "PUSH0": 8,
-                        "DUP2": 3,
-                        "PUSH2": 6,
-                        "SWAP2": 1,
-                        "ADD": 2,
-                        "SWAP3": 1,
-                        "SWAP1": 1,
-                        "POP": 3,
-                        "SSTORE": 4,
-                        "CALLDATASIZE": 1,
-                        "PUSH32": 1,
-                        "JUMP": 1,
-                        "MUL": 1,
-                        "RETURN": 1
+                        "CALLER": 6,
+                        "PUSH20": 6,
+                        "EQ": 18,
+                        "PUSH1": 45,
+                        "JUMPI": 28,
+                        "JUMPDEST": 34,
+                        "PUSH0": 34,
+                        "CALLDATALOAD": 2,
+                        "PUSH2": 25,
+                        "NUMBER": 1,
+                        "SUB": 5,
+                        "MOD": 2,
+                        "SSTORE": 19,
+                        "STOP": 2,
+                        "PUSH3": 2,
+                        "TIMESTAMP": 2,
+                        "DUP2": 11,
+                        "SWAP1": 5,
+                        "ADD": 9,
+                        "SLOAD": 16,
+                        "DUP1": 14,
+                        "DUP3": 12,
+                        "GT": 8,
+                        "SWAP2": 4,
+                        "SWAP3": 4,
+                        "POP": 12,
+                        "PUSH32": 4,
+                        "ISZERO": 2,
+                        "JUMP": 4,
+                        "MUL": 4,
+                        "RETURN": 4,
+                        "CALLDATASIZE": 2
                     }
                 ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7981.md",
-            "reference-spec-version": "954963fb6315dffadd9c40d48e4dae313e20cff5"
+            "reference-spec-version": "747b78c0edfdf04e9e2933ad1bec592d3318e1d9"
         }
     },
     "tests/amsterdam/eip7981_increase_access_list_cost/test_eip_mainnet.py::test_access_list_data_cost_edge_cases[fork_Amsterdam-tx_type_4-blockchain_test_from_state_test--all_nonzero_bytes]": {
@@ -3341,12 +3425,12 @@
             },
             "0xf6c3a9edc1afa0ad5b720e4d42e1437c43d3b3ff": {
                 "nonce": "0x01",
-                "balance": "0x033b2e3c9fd0803ce7fa68f0",
+                "balance": "0x033b2e3c9fd0803ce7faf464",
                 "code": "0x",
                 "storage": {}
             }
         },
-        "lastblockhash": "0x25417aff239e1d5ef763172d1613631491df850ef745780c0a119da73572e7df",
+        "lastblockhash": "0x682c9f0ecce9a71da34b7b5aef4c169f5ae5e033e049e58992ae214da3129fe2",
         "config": {
             "network": "Amsterdam",
             "chainid": "0x01",
@@ -3390,14 +3474,14 @@
                     "parentHash": "0x73a049fe321fd480cbe07fc7a00cb2ee3f4d8c69a31ef125c4a2e974e0b1c18d",
                     "uncleHash": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "coinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
-                    "stateRoot": "0xb2f1b380817d20b200f5a37c329f7113cf0f2dda89f1a48855b1d1ca3078b4ca",
-                    "transactionsTrie": "0x5d1b84b8f540ee7fe1053eeebdb20b46e93292923f3a6b03d92527ed3bb325cb",
-                    "receiptTrie": "0x22b967dc5166e7a3778b75e413c99524cc7d189df0083f503ad0f5e04fbd94f1",
+                    "stateRoot": "0xfa5d450c8536d0faa689e86558be2ed21dddcaf3902b9be7f28542e64147446f",
+                    "transactionsTrie": "0xe830b748c2581f5e5b4dc102df81a94b3cfef1237eca35f534dcce616a7f9d7b",
+                    "receiptTrie": "0x5cc0dbe9739b765e1c06ab5593870ac283f94c7a642c17bc1d7cf72a2c292f94",
                     "bloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
                     "difficulty": "0x00",
                     "number": "0x01",
                     "gasLimit": "0x07270e00",
-                    "gasUsed": "0xcc70",
+                    "gasUsed": "0xb884",
                     "timestamp": "0x03e8",
                     "extraData": "0x00",
                     "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -3408,9 +3492,9 @@
                     "excessBlobGas": "0x00",
                     "parentBeaconBlockRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
                     "requestsHash": "0xe3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-                    "blockAccessListHash": "0xbd60ea8676a230dfda2d9e7a0e2b8b05d0256b6563d7f8d0f0e48d22e86d645b",
+                    "blockAccessListHash": "0x36e3b7df9a7e4ed6cd67be1e9faa5b187c16f76d57cc44c2d340367f9a643418",
                     "slotNumber": "0x00",
-                    "hash": "0x25417aff239e1d5ef763172d1613631491df850ef745780c0a119da73572e7df"
+                    "hash": "0x682c9f0ecce9a71da34b7b5aef4c169f5ae5e033e049e58992ae214da3129fe2"
                 },
                 "transactions": [
                     {
@@ -3419,7 +3503,7 @@
                         "nonce": "0x00",
                         "maxPriorityFeePerGas": "0x00",
                         "maxFeePerGas": "0x07",
-                        "gasLimit": "0xcc70",
+                        "gasLimit": "0xb884",
                         "to": "0xc0f6dc9e5836f54caadbf59cc69346c508e1992b",
                         "value": "0x00",
                         "data": "0x",
@@ -3435,9 +3519,9 @@
                                 ]
                             }
                         ],
-                        "v": "0x00",
-                        "r": "0xf80c802772549681c9ca7c411059300a3afa2eb41b542263fd89a0b5a533252c",
-                        "s": "0x5a9e7adc51bec50a1154ab9cea1510ed6bf51685f8f9b81db3e85bf081927de4",
+                        "v": "0x01",
+                        "r": "0x8f038ba82256b52d5831dfe33f641721fb15eada9c58f14776326b433fb0ed1d",
+                        "s": "0x47af88aed4e5a1315a89c738624f0f646e6d08af9e681775afa361370a6cddad",
                         "sender": "0xf6c3a9edc1afa0ad5b720e4d42e1437c43d3b3ff",
                         "authorizationList": [
                             {
@@ -3457,13 +3541,13 @@
                 "withdrawals": [],
                 "receipts": [
                     {
-                        "transactionHash": "0xb03d4b8cd8f2bfff5983c983536a51eec6d6a605a3c196f59bef71c627e55237",
+                        "transactionHash": "0x3b958c53b6dfebe52feb815f862889a00f76dbbd98017ef8878f3b6257097eae",
                         "type": "0x04",
-                        "cumulativeGasUsed": "0xcc70",
+                        "cumulativeGasUsed": "0xb884",
                         "bloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
                         "logs": [],
                         "status": false,
-                        "rlp": "0x04f901088082cc70b9010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000c0"
+                        "rlp": "0x04f901088082b884b9010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000c0"
                     }
                 ],
                 "blockAccessList": [
@@ -3584,7 +3668,7 @@
                         "balanceChanges": [
                             {
                                 "blockAccessIndex": "0x01",
-                                "postBalance": "0x033b2e3c9fd0803ce7fa68f0"
+                                "postBalance": "0x033b2e3c9fd0803ce7faf464"
                             }
                         ],
                         "codeChanges": [],
@@ -3592,78 +3676,92 @@
                         "storageReads": []
                     }
                 ],
-                "rlp": "0xf9040bf9027da073a049fe321fd480cbe07fc7a00cb2ee3f4d8c69a31ef125c4a2e974e0b1c18da01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa0b2f1b380817d20b200f5a37c329f7113cf0f2dda89f1a48855b1d1ca3078b4caa05d1b84b8f540ee7fe1053eeebdb20b46e93292923f3a6b03d92527ed3bb325cba022b967dc5166e7a3778b75e413c99524cc7d189df0083f503ad0f5e04fbd94f1b901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e0082cc708203e800a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a0bd60ea8676a230dfda2d9e7a0e2b8b05d0256b6563d7f8d0f0e48d22e86d645b80f90186b9018304f9017f0180800782cc7094c0f6dc9e5836f54caadbf59cc69346c508e1992b8080f8bef8bc94fffffffffffffffffffffffffffffffffffffffff8a5a0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff85cf85a809400000000000000000000000000000000000000018080a02a82d26bac18a7a717fc6312efdc69a1dbcafaf5e830eb09c282c266d8ce74b9a035d7bd95b5a245932b650cecc6e00d5eef05c6c60a73dcd1cf5dad66cde4008480a0f80c802772549681c9ca7c411059300a3afa2eb41b542263fd89a0b5a533252ca05a9e7adc51bec50a1154ab9cea1510ed6bf51685f8f9b81db3e85bf081927de4c0c0",
+                "rlp": "0xf9040bf9027da073a049fe321fd480cbe07fc7a00cb2ee3f4d8c69a31ef125c4a2e974e0b1c18da01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa0fa5d450c8536d0faa689e86558be2ed21dddcaf3902b9be7f28542e64147446fa0e830b748c2581f5e5b4dc102df81a94b3cfef1237eca35f534dcce616a7f9d7ba05cc0dbe9739b765e1c06ab5593870ac283f94c7a642c17bc1d7cf72a2c292f94b901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e0082b8848203e800a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a036e3b7df9a7e4ed6cd67be1e9faa5b187c16f76d57cc44c2d340367f9a64341880f90186b9018304f9017f0180800782b88494c0f6dc9e5836f54caadbf59cc69346c508e1992b8080f8bef8bc94fffffffffffffffffffffffffffffffffffffffff8a5a0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff85cf85a809400000000000000000000000000000000000000018080a02a82d26bac18a7a717fc6312efdc69a1dbcafaf5e830eb09c282c266d8ce74b9a035d7bd95b5a245932b650cecc6e00d5eef05c6c60a73dcd1cf5dad66cde4008401a08f038ba82256b52d5831dfe33f641721fb15eada9c58f14776326b433fb0ed1da047af88aed4e5a1315a89c738624f0f646e6d08af9e681775afa361370a6cddadc0c0",
                 "blocknumber": "1"
             }
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x82b16868b2bba6776469520e614cda3f07309fe04d74915f831f4128576e173b",
+            "hash": "0xb4b9f48977bb4b28d7bcfed61a325983c2a28d9f95285e66a6118d886f52a491",
             "fixture-format": "blockchain_test",
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test edge cases for access list data costs.\n\nTests include:\n- All zero bytes in access list\n- All non-zero bytes in access list",
-            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip7981_increase_access_list_cost/test_eip_mainnet.py#L95",
+            "url": "https://github.com/ethereum/execution-specs/blob/864fa03a155f2403653f828236b97d9131ca0228/tests/amsterdam/eip7981_increase_access_list_cost/test_eip_mainnet.py#L97",
             "metadata": {
                 "opcode_count": {
-                    "CALLER": 1,
-                    "PUSH20": 1,
-                    "EQ": 4,
-                    "PUSH1": 11,
-                    "JUMPI": 7,
-                    "JUMPDEST": 8,
-                    "SLOAD": 4,
-                    "DUP1": 3,
-                    "DUP3": 3,
-                    "SUB": 1,
-                    "GT": 2,
-                    "PUSH0": 8,
-                    "DUP2": 3,
-                    "PUSH2": 6,
-                    "SWAP2": 1,
-                    "ADD": 2,
-                    "SWAP3": 1,
-                    "SWAP1": 1,
-                    "POP": 3,
-                    "SSTORE": 4,
-                    "CALLDATASIZE": 1,
-                    "PUSH32": 1,
-                    "JUMP": 1,
-                    "MUL": 1,
-                    "RETURN": 1
+                    "CALLER": 6,
+                    "PUSH20": 6,
+                    "EQ": 18,
+                    "PUSH1": 45,
+                    "JUMPI": 28,
+                    "JUMPDEST": 34,
+                    "PUSH0": 34,
+                    "CALLDATALOAD": 2,
+                    "PUSH2": 25,
+                    "NUMBER": 1,
+                    "SUB": 5,
+                    "MOD": 2,
+                    "SSTORE": 19,
+                    "STOP": 2,
+                    "PUSH3": 2,
+                    "TIMESTAMP": 2,
+                    "DUP2": 11,
+                    "SWAP1": 5,
+                    "ADD": 9,
+                    "SLOAD": 16,
+                    "DUP1": 14,
+                    "DUP3": 12,
+                    "GT": 8,
+                    "SWAP2": 4,
+                    "SWAP3": 4,
+                    "POP": 12,
+                    "PUSH32": 4,
+                    "ISZERO": 2,
+                    "JUMP": 4,
+                    "MUL": 4,
+                    "RETURN": 4,
+                    "CALLDATASIZE": 2
                 },
                 "opcode_count_per_block": [
                     {
-                        "CALLER": 1,
-                        "PUSH20": 1,
-                        "EQ": 4,
-                        "PUSH1": 11,
-                        "JUMPI": 7,
-                        "JUMPDEST": 8,
-                        "SLOAD": 4,
-                        "DUP1": 3,
-                        "DUP3": 3,
-                        "SUB": 1,
-                        "GT": 2,
-                        "PUSH0": 8,
-                        "DUP2": 3,
-                        "PUSH2": 6,
-                        "SWAP2": 1,
-                        "ADD": 2,
-                        "SWAP3": 1,
-                        "SWAP1": 1,
-                        "POP": 3,
-                        "SSTORE": 4,
-                        "CALLDATASIZE": 1,
-                        "PUSH32": 1,
-                        "JUMP": 1,
-                        "MUL": 1,
-                        "RETURN": 1
+                        "CALLER": 6,
+                        "PUSH20": 6,
+                        "EQ": 18,
+                        "PUSH1": 45,
+                        "JUMPI": 28,
+                        "JUMPDEST": 34,
+                        "PUSH0": 34,
+                        "CALLDATALOAD": 2,
+                        "PUSH2": 25,
+                        "NUMBER": 1,
+                        "SUB": 5,
+                        "MOD": 2,
+                        "SSTORE": 19,
+                        "STOP": 2,
+                        "PUSH3": 2,
+                        "TIMESTAMP": 2,
+                        "DUP2": 11,
+                        "SWAP1": 5,
+                        "ADD": 9,
+                        "SLOAD": 16,
+                        "DUP1": 14,
+                        "DUP3": 12,
+                        "GT": 8,
+                        "SWAP2": 4,
+                        "SWAP3": 4,
+                        "POP": 12,
+                        "PUSH32": 4,
+                        "ISZERO": 2,
+                        "JUMP": 4,
+                        "MUL": 4,
+                        "RETURN": 4,
+                        "CALLDATASIZE": 2
                     }
                 ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7981.md",
-            "reference-spec-version": "954963fb6315dffadd9c40d48e4dae313e20cff5"
+            "reference-spec-version": "747b78c0edfdf04e9e2933ad1bec592d3318e1d9"
         }
     },
     "tests/amsterdam/eip7981_increase_access_list_cost/test_eip_mainnet.py::test_access_list_data_cost_edge_cases[fork_Amsterdam-tx_type_4-blockchain_test_from_state_test--all_zero_bytes]": {
@@ -3869,12 +3967,12 @@
             },
             "0xf6c3a9edc1afa0ad5b720e4d42e1437c43d3b3ff": {
                 "nonce": "0x01",
-                "balance": "0x033b2e3c9fd0803ce7f7b6c8",
+                "balance": "0x033b2e3c9fd0803ce7f8caf4",
                 "code": "0x",
                 "storage": {}
             }
         },
-        "lastblockhash": "0x706e7dd69a27d81c72bb13cf6ec6b1c5ffb1c51692838cd2855a38c978189dbc",
+        "lastblockhash": "0x27ce50b9e7ace808cf4d97edc8ac72813fc8a7a8f29dd456de95153206e12e2d",
         "config": {
             "network": "Amsterdam",
             "chainid": "0x01",
@@ -3918,14 +4016,14 @@
                     "parentHash": "0x73a049fe321fd480cbe07fc7a00cb2ee3f4d8c69a31ef125c4a2e974e0b1c18d",
                     "uncleHash": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "coinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
-                    "stateRoot": "0x3d4027b42a71027e5b5148d2002707cf9dbe13f4dd33f81533245de226ce4933",
-                    "transactionsTrie": "0x6b0d4d20ddbcb499d8f1a5b557e9440c0ca7959a4f71d9194f9d110d522f5f8d",
-                    "receiptTrie": "0x6833f59e625fa500d9f676d0e0c561b712cf1a9f6e2accc2170405ec9bc9a424",
+                    "stateRoot": "0xcf29faa15efd74c7ef006e71c84243a2d1e574edefc8e3f0d55604efc2cc1f3b",
+                    "transactionsTrie": "0x289325abfa103d5b264bd30e3f10ec800d19f21d1575035228774856ccfb5926",
+                    "receiptTrie": "0x9dcaac9b657b1a2bee964d4b681f1836a4e7d2174f52039a11a6b520f8c503b1",
                     "bloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
                     "difficulty": "0x00",
                     "number": "0x01",
                     "gasLimit": "0x07270e00",
-                    "gasUsed": "0x012f08",
+                    "gasUsed": "0x010794",
                     "timestamp": "0x03e8",
                     "extraData": "0x00",
                     "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -3936,9 +4034,9 @@
                     "excessBlobGas": "0x00",
                     "parentBeaconBlockRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
                     "requestsHash": "0xe3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-                    "blockAccessListHash": "0xe503a283cd4c8247aa93d36640d597cc219aff56367ffea99b16feabff60bce3",
+                    "blockAccessListHash": "0x9d898ec216f92f265c9998e62f64fa86a23c304634b18e4f71e2ea844a8e9c13",
                     "slotNumber": "0x00",
-                    "hash": "0x706e7dd69a27d81c72bb13cf6ec6b1c5ffb1c51692838cd2855a38c978189dbc"
+                    "hash": "0x27ce50b9e7ace808cf4d97edc8ac72813fc8a7a8f29dd456de95153206e12e2d"
                 },
                 "transactions": [
                     {
@@ -3947,7 +4045,7 @@
                         "nonce": "0x00",
                         "maxPriorityFeePerGas": "0x00",
                         "maxFeePerGas": "0x07",
-                        "gasLimit": "0x012f08",
+                        "gasLimit": "0x010794",
                         "to": "0xc0f6dc9e5836f54caadbf59cc69346c508e1992b",
                         "value": "0x00",
                         "data": "0x",
@@ -3968,9 +4066,9 @@
                                 ]
                             }
                         ],
-                        "v": "0x01",
-                        "r": "0x9a0dff04a0927cc94858b520b574f1e059110caeb9390d590a3c5b7ee350b088",
-                        "s": "0x106bcca3f9e6333c91d1c8c29c5197b5ed7f35332ac90d3d6c69f71af6724c82",
+                        "v": "0x00",
+                        "r": "0x34934c55d4e3e8c648610dc92509220ad112ebbcf8229d5573fe76ee04b5a23e",
+                        "s": "0x6bf9f6eda18636ef36d71b6a1e72ae488df281eb503e4a396afcafdda7e656bd",
                         "sender": "0xf6c3a9edc1afa0ad5b720e4d42e1437c43d3b3ff",
                         "authorizationList": [
                             {
@@ -3990,13 +4088,13 @@
                 "withdrawals": [],
                 "receipts": [
                     {
-                        "transactionHash": "0x1778b0fc16daa8f7143bf3b1f7cc560645c743f65feddb6f2ccb26bc3ab20e12",
+                        "transactionHash": "0x9b33c82773026d0dbca4f729cd1947a5975bf99bae30405571e71cc9a498c801",
                         "type": "0x04",
-                        "cumulativeGasUsed": "0x012f08",
+                        "cumulativeGasUsed": "0x010794",
                         "bloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
                         "logs": [],
                         "status": false,
-                        "rlp": "0x04f901098083012f08b9010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000c0"
+                        "rlp": "0x04f901098083010794b9010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000c0"
                     }
                 ],
                 "blockAccessList": [
@@ -4117,7 +4215,7 @@
                         "balanceChanges": [
                             {
                                 "blockAccessIndex": "0x01",
-                                "postBalance": "0x033b2e3c9fd0803ce7f7b6c8"
+                                "postBalance": "0x033b2e3c9fd0803ce7f8caf4"
                             }
                         ],
                         "codeChanges": [],
@@ -4125,78 +4223,92 @@
                         "storageReads": []
                     }
                 ],
-                "rlp": "0xf904b5f9027ea073a049fe321fd480cbe07fc7a00cb2ee3f4d8c69a31ef125c4a2e974e0b1c18da01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa03d4027b42a71027e5b5148d2002707cf9dbe13f4dd33f81533245de226ce4933a06b0d4d20ddbcb499d8f1a5b557e9440c0ca7959a4f71d9194f9d110d522f5f8da06833f59e625fa500d9f676d0e0c561b712cf1a9f6e2accc2170405ec9bc9a424b901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e0083012f088203e800a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a0e503a283cd4c8247aa93d36640d597cc219aff56367ffea99b16feabff60bce380f9022fb9022c04f902280180800783012f0894c0f6dc9e5836f54caadbf59cc69346c508e1992b8080f90165f90162940000000000000000000000000000000000000000f9014aa00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000f85cf85a809400000000000000000000000000000000000000018080a02a82d26bac18a7a717fc6312efdc69a1dbcafaf5e830eb09c282c266d8ce74b9a035d7bd95b5a245932b650cecc6e00d5eef05c6c60a73dcd1cf5dad66cde4008401a09a0dff04a0927cc94858b520b574f1e059110caeb9390d590a3c5b7ee350b088a0106bcca3f9e6333c91d1c8c29c5197b5ed7f35332ac90d3d6c69f71af6724c82c0c0",
+                "rlp": "0xf904b5f9027ea073a049fe321fd480cbe07fc7a00cb2ee3f4d8c69a31ef125c4a2e974e0b1c18da01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa0cf29faa15efd74c7ef006e71c84243a2d1e574edefc8e3f0d55604efc2cc1f3ba0289325abfa103d5b264bd30e3f10ec800d19f21d1575035228774856ccfb5926a09dcaac9b657b1a2bee964d4b681f1836a4e7d2174f52039a11a6b520f8c503b1b901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e00830107948203e800a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a09d898ec216f92f265c9998e62f64fa86a23c304634b18e4f71e2ea844a8e9c1380f9022fb9022c04f90228018080078301079494c0f6dc9e5836f54caadbf59cc69346c508e1992b8080f90165f90162940000000000000000000000000000000000000000f9014aa00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000f85cf85a809400000000000000000000000000000000000000018080a02a82d26bac18a7a717fc6312efdc69a1dbcafaf5e830eb09c282c266d8ce74b9a035d7bd95b5a245932b650cecc6e00d5eef05c6c60a73dcd1cf5dad66cde4008480a034934c55d4e3e8c648610dc92509220ad112ebbcf8229d5573fe76ee04b5a23ea06bf9f6eda18636ef36d71b6a1e72ae488df281eb503e4a396afcafdda7e656bdc0c0",
                 "blocknumber": "1"
             }
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xd37cb5f091fae0a75f61cec43693c2b0d042fd8b4ff8a3362f4914271eaec1a4",
+            "hash": "0xaad0416fc0ca624fd70b93f24af9ec6561aee98952cb8b5806d0cf858fe3ce35",
             "fixture-format": "blockchain_test",
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test edge cases for access list data costs.\n\nTests include:\n- All zero bytes in access list\n- All non-zero bytes in access list",
-            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip7981_increase_access_list_cost/test_eip_mainnet.py#L95",
+            "url": "https://github.com/ethereum/execution-specs/blob/864fa03a155f2403653f828236b97d9131ca0228/tests/amsterdam/eip7981_increase_access_list_cost/test_eip_mainnet.py#L97",
             "metadata": {
                 "opcode_count": {
-                    "CALLER": 1,
-                    "PUSH20": 1,
-                    "EQ": 4,
-                    "PUSH1": 11,
-                    "JUMPI": 7,
-                    "JUMPDEST": 8,
-                    "SLOAD": 4,
-                    "DUP1": 3,
-                    "DUP3": 3,
-                    "SUB": 1,
-                    "GT": 2,
-                    "PUSH0": 8,
-                    "DUP2": 3,
-                    "PUSH2": 6,
-                    "SWAP2": 1,
-                    "ADD": 2,
-                    "SWAP3": 1,
-                    "SWAP1": 1,
-                    "POP": 3,
-                    "SSTORE": 4,
-                    "CALLDATASIZE": 1,
-                    "PUSH32": 1,
-                    "JUMP": 1,
-                    "MUL": 1,
-                    "RETURN": 1
+                    "CALLER": 6,
+                    "PUSH20": 6,
+                    "EQ": 18,
+                    "PUSH1": 45,
+                    "JUMPI": 28,
+                    "JUMPDEST": 34,
+                    "PUSH0": 34,
+                    "CALLDATALOAD": 2,
+                    "PUSH2": 25,
+                    "NUMBER": 1,
+                    "SUB": 5,
+                    "MOD": 2,
+                    "SSTORE": 19,
+                    "STOP": 2,
+                    "PUSH3": 2,
+                    "TIMESTAMP": 2,
+                    "DUP2": 11,
+                    "SWAP1": 5,
+                    "ADD": 9,
+                    "SLOAD": 16,
+                    "DUP1": 14,
+                    "DUP3": 12,
+                    "GT": 8,
+                    "SWAP2": 4,
+                    "SWAP3": 4,
+                    "POP": 12,
+                    "PUSH32": 4,
+                    "ISZERO": 2,
+                    "JUMP": 4,
+                    "MUL": 4,
+                    "RETURN": 4,
+                    "CALLDATASIZE": 2
                 },
                 "opcode_count_per_block": [
                     {
-                        "CALLER": 1,
-                        "PUSH20": 1,
-                        "EQ": 4,
-                        "PUSH1": 11,
-                        "JUMPI": 7,
-                        "JUMPDEST": 8,
-                        "SLOAD": 4,
-                        "DUP1": 3,
-                        "DUP3": 3,
-                        "SUB": 1,
-                        "GT": 2,
-                        "PUSH0": 8,
-                        "DUP2": 3,
-                        "PUSH2": 6,
-                        "SWAP2": 1,
-                        "ADD": 2,
-                        "SWAP3": 1,
-                        "SWAP1": 1,
-                        "POP": 3,
-                        "SSTORE": 4,
-                        "CALLDATASIZE": 1,
-                        "PUSH32": 1,
-                        "JUMP": 1,
-                        "MUL": 1,
-                        "RETURN": 1
+                        "CALLER": 6,
+                        "PUSH20": 6,
+                        "EQ": 18,
+                        "PUSH1": 45,
+                        "JUMPI": 28,
+                        "JUMPDEST": 34,
+                        "PUSH0": 34,
+                        "CALLDATALOAD": 2,
+                        "PUSH2": 25,
+                        "NUMBER": 1,
+                        "SUB": 5,
+                        "MOD": 2,
+                        "SSTORE": 19,
+                        "STOP": 2,
+                        "PUSH3": 2,
+                        "TIMESTAMP": 2,
+                        "DUP2": 11,
+                        "SWAP1": 5,
+                        "ADD": 9,
+                        "SLOAD": 16,
+                        "DUP1": 14,
+                        "DUP3": 12,
+                        "GT": 8,
+                        "SWAP2": 4,
+                        "SWAP3": 4,
+                        "POP": 12,
+                        "PUSH32": 4,
+                        "ISZERO": 2,
+                        "JUMP": 4,
+                        "MUL": 4,
+                        "RETURN": 4,
+                        "CALLDATASIZE": 2
                     }
                 ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7981.md",
-            "reference-spec-version": "954963fb6315dffadd9c40d48e4dae313e20cff5"
+            "reference-spec-version": "747b78c0edfdf04e9e2933ad1bec592d3318e1d9"
         }
     }
 }
