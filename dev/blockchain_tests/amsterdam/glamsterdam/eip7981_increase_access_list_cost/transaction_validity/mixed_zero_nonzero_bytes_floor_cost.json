@@ -507,9 +507,64 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test floor cost calculation with mixed zero and non-zero bytes.\n\nThis ensures floor gas uses floor token counting:\n- Each data byte contributes 4 floor tokens",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip7981_increase_access_list_cost/test_transaction_validity.py#L171",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip7981_increase_access_list_cost/test_transaction_validity.py#L171",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "CALLER": 1,
+                    "PUSH20": 1,
+                    "EQ": 4,
+                    "PUSH1": 11,
+                    "JUMPI": 7,
+                    "JUMPDEST": 8,
+                    "SLOAD": 4,
+                    "DUP1": 3,
+                    "DUP3": 3,
+                    "SUB": 1,
+                    "GT": 2,
+                    "PUSH0": 8,
+                    "DUP2": 3,
+                    "PUSH2": 6,
+                    "SWAP2": 1,
+                    "ADD": 2,
+                    "SWAP3": 1,
+                    "SWAP1": 1,
+                    "POP": 3,
+                    "SSTORE": 4,
+                    "CALLDATASIZE": 1,
+                    "PUSH32": 1,
+                    "JUMP": 1,
+                    "MUL": 1,
+                    "RETURN": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "CALLER": 1,
+                        "PUSH20": 1,
+                        "EQ": 4,
+                        "PUSH1": 11,
+                        "JUMPI": 7,
+                        "JUMPDEST": 8,
+                        "SLOAD": 4,
+                        "DUP1": 3,
+                        "DUP3": 3,
+                        "SUB": 1,
+                        "GT": 2,
+                        "PUSH0": 8,
+                        "DUP2": 3,
+                        "PUSH2": 6,
+                        "SWAP2": 1,
+                        "ADD": 2,
+                        "SWAP3": 1,
+                        "SWAP1": 1,
+                        "POP": 3,
+                        "SSTORE": 4,
+                        "CALLDATASIZE": 1,
+                        "PUSH32": 1,
+                        "JUMP": 1,
+                        "MUL": 1,
+                        "RETURN": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7981.md",
             "reference-spec-version": "954963fb6315dffadd9c40d48e4dae313e20cff5"
@@ -1073,9 +1128,64 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test floor cost calculation with mixed zero and non-zero bytes.\n\nThis ensures floor gas uses floor token counting:\n- Each data byte contributes 4 floor tokens",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip7981_increase_access_list_cost/test_transaction_validity.py#L171",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip7981_increase_access_list_cost/test_transaction_validity.py#L171",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "CALLER": 1,
+                    "PUSH20": 1,
+                    "EQ": 4,
+                    "PUSH1": 11,
+                    "JUMPI": 7,
+                    "JUMPDEST": 8,
+                    "SLOAD": 4,
+                    "DUP1": 3,
+                    "DUP3": 3,
+                    "SUB": 1,
+                    "GT": 2,
+                    "PUSH0": 8,
+                    "DUP2": 3,
+                    "PUSH2": 6,
+                    "SWAP2": 1,
+                    "ADD": 2,
+                    "SWAP3": 1,
+                    "SWAP1": 1,
+                    "POP": 3,
+                    "SSTORE": 4,
+                    "CALLDATASIZE": 1,
+                    "PUSH32": 1,
+                    "JUMP": 1,
+                    "MUL": 1,
+                    "RETURN": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "CALLER": 1,
+                        "PUSH20": 1,
+                        "EQ": 4,
+                        "PUSH1": 11,
+                        "JUMPI": 7,
+                        "JUMPDEST": 8,
+                        "SLOAD": 4,
+                        "DUP1": 3,
+                        "DUP3": 3,
+                        "SUB": 1,
+                        "GT": 2,
+                        "PUSH0": 8,
+                        "DUP2": 3,
+                        "PUSH2": 6,
+                        "SWAP2": 1,
+                        "ADD": 2,
+                        "SWAP3": 1,
+                        "SWAP1": 1,
+                        "POP": 3,
+                        "SSTORE": 4,
+                        "CALLDATASIZE": 1,
+                        "PUSH32": 1,
+                        "JUMP": 1,
+                        "MUL": 1,
+                        "RETURN": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7981.md",
             "reference-spec-version": "954963fb6315dffadd9c40d48e4dae313e20cff5"
@@ -1579,9 +1689,64 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test floor cost calculation with mixed zero and non-zero bytes.\n\nThis ensures floor gas uses floor token counting:\n- Each data byte contributes 4 floor tokens",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip7981_increase_access_list_cost/test_transaction_validity.py#L171",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip7981_increase_access_list_cost/test_transaction_validity.py#L171",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "CALLER": 1,
+                    "PUSH20": 1,
+                    "EQ": 4,
+                    "PUSH1": 11,
+                    "JUMPI": 7,
+                    "JUMPDEST": 8,
+                    "SLOAD": 4,
+                    "DUP1": 3,
+                    "DUP3": 3,
+                    "SUB": 1,
+                    "GT": 2,
+                    "PUSH0": 8,
+                    "DUP2": 3,
+                    "PUSH2": 6,
+                    "SWAP2": 1,
+                    "ADD": 2,
+                    "SWAP3": 1,
+                    "SWAP1": 1,
+                    "POP": 3,
+                    "SSTORE": 4,
+                    "CALLDATASIZE": 1,
+                    "PUSH32": 1,
+                    "JUMP": 1,
+                    "MUL": 1,
+                    "RETURN": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "CALLER": 1,
+                        "PUSH20": 1,
+                        "EQ": 4,
+                        "PUSH1": 11,
+                        "JUMPI": 7,
+                        "JUMPDEST": 8,
+                        "SLOAD": 4,
+                        "DUP1": 3,
+                        "DUP3": 3,
+                        "SUB": 1,
+                        "GT": 2,
+                        "PUSH0": 8,
+                        "DUP2": 3,
+                        "PUSH2": 6,
+                        "SWAP2": 1,
+                        "ADD": 2,
+                        "SWAP3": 1,
+                        "SWAP1": 1,
+                        "POP": 3,
+                        "SSTORE": 4,
+                        "CALLDATASIZE": 1,
+                        "PUSH32": 1,
+                        "JUMP": 1,
+                        "MUL": 1,
+                        "RETURN": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7981.md",
             "reference-spec-version": "954963fb6315dffadd9c40d48e4dae313e20cff5"
@@ -2135,9 +2300,64 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test floor cost calculation with mixed zero and non-zero bytes.\n\nThis ensures floor gas uses floor token counting:\n- Each data byte contributes 4 floor tokens",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip7981_increase_access_list_cost/test_transaction_validity.py#L171",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip7981_increase_access_list_cost/test_transaction_validity.py#L171",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "CALLER": 1,
+                    "PUSH20": 1,
+                    "EQ": 4,
+                    "PUSH1": 11,
+                    "JUMPI": 7,
+                    "JUMPDEST": 8,
+                    "SLOAD": 4,
+                    "DUP1": 3,
+                    "DUP3": 3,
+                    "SUB": 1,
+                    "GT": 2,
+                    "PUSH0": 8,
+                    "DUP2": 3,
+                    "PUSH2": 6,
+                    "SWAP2": 1,
+                    "ADD": 2,
+                    "SWAP3": 1,
+                    "SWAP1": 1,
+                    "POP": 3,
+                    "SSTORE": 4,
+                    "CALLDATASIZE": 1,
+                    "PUSH32": 1,
+                    "JUMP": 1,
+                    "MUL": 1,
+                    "RETURN": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "CALLER": 1,
+                        "PUSH20": 1,
+                        "EQ": 4,
+                        "PUSH1": 11,
+                        "JUMPI": 7,
+                        "JUMPDEST": 8,
+                        "SLOAD": 4,
+                        "DUP1": 3,
+                        "DUP3": 3,
+                        "SUB": 1,
+                        "GT": 2,
+                        "PUSH0": 8,
+                        "DUP2": 3,
+                        "PUSH2": 6,
+                        "SWAP2": 1,
+                        "ADD": 2,
+                        "SWAP3": 1,
+                        "SWAP1": 1,
+                        "POP": 3,
+                        "SSTORE": 4,
+                        "CALLDATASIZE": 1,
+                        "PUSH32": 1,
+                        "JUMP": 1,
+                        "MUL": 1,
+                        "RETURN": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7981.md",
             "reference-spec-version": "954963fb6315dffadd9c40d48e4dae313e20cff5"
@@ -2645,9 +2865,64 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test floor cost calculation with mixed zero and non-zero bytes.\n\nThis ensures floor gas uses floor token counting:\n- Each data byte contributes 4 floor tokens",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip7981_increase_access_list_cost/test_transaction_validity.py#L171",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip7981_increase_access_list_cost/test_transaction_validity.py#L171",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "CALLER": 1,
+                    "PUSH20": 1,
+                    "EQ": 4,
+                    "PUSH1": 11,
+                    "JUMPI": 7,
+                    "JUMPDEST": 8,
+                    "SLOAD": 4,
+                    "DUP1": 3,
+                    "DUP3": 3,
+                    "SUB": 1,
+                    "GT": 2,
+                    "PUSH0": 8,
+                    "DUP2": 3,
+                    "PUSH2": 6,
+                    "SWAP2": 1,
+                    "ADD": 2,
+                    "SWAP3": 1,
+                    "SWAP1": 1,
+                    "POP": 3,
+                    "SSTORE": 4,
+                    "CALLDATASIZE": 1,
+                    "PUSH32": 1,
+                    "JUMP": 1,
+                    "MUL": 1,
+                    "RETURN": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "CALLER": 1,
+                        "PUSH20": 1,
+                        "EQ": 4,
+                        "PUSH1": 11,
+                        "JUMPI": 7,
+                        "JUMPDEST": 8,
+                        "SLOAD": 4,
+                        "DUP1": 3,
+                        "DUP3": 3,
+                        "SUB": 1,
+                        "GT": 2,
+                        "PUSH0": 8,
+                        "DUP2": 3,
+                        "PUSH2": 6,
+                        "SWAP2": 1,
+                        "ADD": 2,
+                        "SWAP3": 1,
+                        "SWAP1": 1,
+                        "POP": 3,
+                        "SSTORE": 4,
+                        "CALLDATASIZE": 1,
+                        "PUSH32": 1,
+                        "JUMP": 1,
+                        "MUL": 1,
+                        "RETURN": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7981.md",
             "reference-spec-version": "954963fb6315dffadd9c40d48e4dae313e20cff5"
@@ -3205,9 +3480,64 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test floor cost calculation with mixed zero and non-zero bytes.\n\nThis ensures floor gas uses floor token counting:\n- Each data byte contributes 4 floor tokens",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip7981_increase_access_list_cost/test_transaction_validity.py#L171",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip7981_increase_access_list_cost/test_transaction_validity.py#L171",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "CALLER": 1,
+                    "PUSH20": 1,
+                    "EQ": 4,
+                    "PUSH1": 11,
+                    "JUMPI": 7,
+                    "JUMPDEST": 8,
+                    "SLOAD": 4,
+                    "DUP1": 3,
+                    "DUP3": 3,
+                    "SUB": 1,
+                    "GT": 2,
+                    "PUSH0": 8,
+                    "DUP2": 3,
+                    "PUSH2": 6,
+                    "SWAP2": 1,
+                    "ADD": 2,
+                    "SWAP3": 1,
+                    "SWAP1": 1,
+                    "POP": 3,
+                    "SSTORE": 4,
+                    "CALLDATASIZE": 1,
+                    "PUSH32": 1,
+                    "JUMP": 1,
+                    "MUL": 1,
+                    "RETURN": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "CALLER": 1,
+                        "PUSH20": 1,
+                        "EQ": 4,
+                        "PUSH1": 11,
+                        "JUMPI": 7,
+                        "JUMPDEST": 8,
+                        "SLOAD": 4,
+                        "DUP1": 3,
+                        "DUP3": 3,
+                        "SUB": 1,
+                        "GT": 2,
+                        "PUSH0": 8,
+                        "DUP2": 3,
+                        "PUSH2": 6,
+                        "SWAP2": 1,
+                        "ADD": 2,
+                        "SWAP3": 1,
+                        "SWAP1": 1,
+                        "POP": 3,
+                        "SSTORE": 4,
+                        "CALLDATASIZE": 1,
+                        "PUSH32": 1,
+                        "JUMP": 1,
+                        "MUL": 1,
+                        "RETURN": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7981.md",
             "reference-spec-version": "954963fb6315dffadd9c40d48e4dae313e20cff5"
@@ -3421,7 +3751,7 @@
                 "storage": {}
             }
         },
-        "lastblockhash": "0xb1dfd4530bd61dd18ae11c6a5e21c8971c37fd9d3c36eb6bd15f7c53a76f16eb",
+        "lastblockhash": "0x1ab68a065d1588723f8b7d4e63e707586e41c755bb2f991759602012d19f885d",
         "config": {
             "network": "Amsterdam",
             "chainid": "0x01",
@@ -3483,9 +3813,9 @@
                     "excessBlobGas": "0x00",
                     "parentBeaconBlockRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
                     "requestsHash": "0xe3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-                    "blockAccessListHash": "0xed34dd4ea71923e08281587fb91a4b535dfc3d47f13c40123e1db01f578dfef0",
+                    "blockAccessListHash": "0x0d0bd6aae69739dbe9e1e4b0bb6990b04f1660133d1681248ec1be568d6dce67",
                     "slotNumber": "0x00",
-                    "hash": "0xb1dfd4530bd61dd18ae11c6a5e21c8971c37fd9d3c36eb6bd15f7c53a76f16eb"
+                    "hash": "0x1ab68a065d1588723f8b7d4e63e707586e41c755bb2f991759602012d19f885d"
                 },
                 "transactions": [
                     {
@@ -3694,14 +4024,6 @@
                         "storageReads": []
                     },
                     {
-                        "address": "0xc0f6dc9e5836f54caadbf59cc69346c508e1992b",
-                        "nonceChanges": [],
-                        "balanceChanges": [],
-                        "codeChanges": [],
-                        "storageChanges": [],
-                        "storageReads": []
-                    },
-                    {
                         "address": "0xf6c3a9edc1afa0ad5b720e4d42e1437c43d3b3ff",
                         "nonceChanges": [
                             {
@@ -3720,20 +4042,75 @@
                         "storageReads": []
                     }
                 ],
-                "rlp": "0xf90bd3f9027ea073a049fe321fd480cbe07fc7a00cb2ee3f4d8c69a31ef125c4a2e974e0b1c18da01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa07127e5d6e89d63db2b73ce4bf18a57bc46a5ade467505bd4414922b0f616c453a09bac85483ca5fc77acf32192096a80e247e2b861bd14f2a94459bf3632e3e7d3a01183b225c0c142004afb7b8191f2769f027b00ac78f0a6acdc3ab3f982f8ee1fb901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e00830463088203e800a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a0ed34dd4ea71923e08281587fb91a4b535dfc3d47f13c40123e1db01f578dfef080f9094db9094a04f90946018080078304630894c0f6dc9e5836f54caadbf59cc69346c508e1992b80b901f4fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9068df9068a94fffffffffffffffffffffffffffffffffffffffff90672a0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff85cf85a809400000000000000000000000000000000000000018080a02a82d26bac18a7a717fc6312efdc69a1dbcafaf5e830eb09c282c266d8ce74b9a035d7bd95b5a245932b650cecc6e00d5eef05c6c60a73dcd1cf5dad66cde4008401a07c942ec56c1c8f074f450367b853f0ee0739db3e311c6c5617a1e7545defbc86a02f056361af7d59ae79266de3703c2a770e4812a1c9f2f318688599918929e135c0c0",
+                "rlp": "0xf90bd3f9027ea073a049fe321fd480cbe07fc7a00cb2ee3f4d8c69a31ef125c4a2e974e0b1c18da01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa07127e5d6e89d63db2b73ce4bf18a57bc46a5ade467505bd4414922b0f616c453a09bac85483ca5fc77acf32192096a80e247e2b861bd14f2a94459bf3632e3e7d3a01183b225c0c142004afb7b8191f2769f027b00ac78f0a6acdc3ab3f982f8ee1fb901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e00830463088203e800a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a00d0bd6aae69739dbe9e1e4b0bb6990b04f1660133d1681248ec1be568d6dce6780f9094db9094a04f90946018080078304630894c0f6dc9e5836f54caadbf59cc69346c508e1992b80b901f4fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9068df9068a94fffffffffffffffffffffffffffffffffffffffff90672a0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa0fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff85cf85a809400000000000000000000000000000000000000018080a02a82d26bac18a7a717fc6312efdc69a1dbcafaf5e830eb09c282c266d8ce74b9a035d7bd95b5a245932b650cecc6e00d5eef05c6c60a73dcd1cf5dad66cde4008401a07c942ec56c1c8f074f450367b853f0ee0739db3e311c6c5617a1e7545defbc86a02f056361af7d59ae79266de3703c2a770e4812a1c9f2f318688599918929e135c0c0",
                 "blocknumber": "1"
             }
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x262f000d8eaca267f8eef23a9bd904230f55a007717bd8916594fb2ec09901d4",
+            "hash": "0xc938288df03d737c662be2dcd50eeb4e15a2cdbc05a41fd61f2d2c4d0754d277",
             "fixture-format": "blockchain_test",
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test floor cost calculation with mixed zero and non-zero bytes.\n\nThis ensures floor gas uses floor token counting:\n- Each data byte contributes 4 floor tokens",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip7981_increase_access_list_cost/test_transaction_validity.py#L171",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip7981_increase_access_list_cost/test_transaction_validity.py#L171",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "CALLER": 1,
+                    "PUSH20": 1,
+                    "EQ": 4,
+                    "PUSH1": 11,
+                    "JUMPI": 7,
+                    "JUMPDEST": 8,
+                    "SLOAD": 4,
+                    "DUP1": 3,
+                    "DUP3": 3,
+                    "SUB": 1,
+                    "GT": 2,
+                    "PUSH0": 8,
+                    "DUP2": 3,
+                    "PUSH2": 6,
+                    "SWAP2": 1,
+                    "ADD": 2,
+                    "SWAP3": 1,
+                    "SWAP1": 1,
+                    "POP": 3,
+                    "SSTORE": 4,
+                    "CALLDATASIZE": 1,
+                    "PUSH32": 1,
+                    "JUMP": 1,
+                    "MUL": 1,
+                    "RETURN": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "CALLER": 1,
+                        "PUSH20": 1,
+                        "EQ": 4,
+                        "PUSH1": 11,
+                        "JUMPI": 7,
+                        "JUMPDEST": 8,
+                        "SLOAD": 4,
+                        "DUP1": 3,
+                        "DUP3": 3,
+                        "SUB": 1,
+                        "GT": 2,
+                        "PUSH0": 8,
+                        "DUP2": 3,
+                        "PUSH2": 6,
+                        "SWAP2": 1,
+                        "ADD": 2,
+                        "SWAP3": 1,
+                        "SWAP1": 1,
+                        "POP": 3,
+                        "SSTORE": 4,
+                        "CALLDATASIZE": 1,
+                        "PUSH32": 1,
+                        "JUMP": 1,
+                        "MUL": 1,
+                        "RETURN": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7981.md",
             "reference-spec-version": "954963fb6315dffadd9c40d48e4dae313e20cff5"
@@ -3947,7 +4324,7 @@
                 "storage": {}
             }
         },
-        "lastblockhash": "0x6d6555fb7bb1f563f5b8bc686fda8768ca15376b900ff2677b3eafad1ecf45c6",
+        "lastblockhash": "0x2b28889e7b5f570037d64393be92869f4f924c0d335f0d2687690e52f48e7481",
         "config": {
             "network": "Amsterdam",
             "chainid": "0x01",
@@ -4009,9 +4386,9 @@
                     "excessBlobGas": "0x00",
                     "parentBeaconBlockRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
                     "requestsHash": "0xe3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-                    "blockAccessListHash": "0x8260cad142a23ed2dab3527885b62924491813e3aac677786af4c8730714c32c",
+                    "blockAccessListHash": "0xf9459c5458ae9b2f9b82d7b35e231f3c4e54cca4712354f76871c91f1c3fcebf",
                     "slotNumber": "0x00",
-                    "hash": "0x6d6555fb7bb1f563f5b8bc686fda8768ca15376b900ff2677b3eafad1ecf45c6"
+                    "hash": "0x2b28889e7b5f570037d64393be92869f4f924c0d335f0d2687690e52f48e7481"
                 },
                 "transactions": [
                     {
@@ -4270,14 +4647,6 @@
                         "storageReads": []
                     },
                     {
-                        "address": "0xc0f6dc9e5836f54caadbf59cc69346c508e1992b",
-                        "nonceChanges": [],
-                        "balanceChanges": [],
-                        "codeChanges": [],
-                        "storageChanges": [],
-                        "storageReads": []
-                    },
-                    {
                         "address": "0xf6c3a9edc1afa0ad5b720e4d42e1437c43d3b3ff",
                         "nonceChanges": [
                             {
@@ -4296,20 +4665,75 @@
                         "storageReads": []
                     }
                 ],
-                "rlp": "0xf91439f9027ea073a049fe321fd480cbe07fc7a00cb2ee3f4d8c69a31ef125c4a2e974e0b1c18da01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa0192771dc7877f0461c5bda4bee8247239e07ceadb8a4568928e172430ac7e997a012289f0984f1cdf60f9de7866556bc560d031dc7d3bc28b94850c389e16aee8ea0219739a0b6afb88331fd8b3e6356cbf3e0c22f9fce0e017e8a4527beb42ee90ab901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e0083082d588203e800a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a08260cad142a23ed2dab3527885b62924491813e3aac677786af4c8730714c32c80f911b3b911b004f911ac0180800783082d5894c0f6dc9e5836f54caadbf59cc69346c508e1992b80b903e800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000f90cfff90cfc940000000000000000000000000000000000000000f90ce4a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000f85cf85a809400000000000000000000000000000000000000018080a02a82d26bac18a7a717fc6312efdc69a1dbcafaf5e830eb09c282c266d8ce74b9a035d7bd95b5a245932b650cecc6e00d5eef05c6c60a73dcd1cf5dad66cde4008401a04aa5a4cc965d8a7ac65151f50aaa6caca76ca3718234e5aa082e0a9dc5691fb5a063fb1fe4ee8a9c18f24485f16ed86c820fb3f74c68e22745f452bf27052885f2c0c0",
+                "rlp": "0xf91439f9027ea073a049fe321fd480cbe07fc7a00cb2ee3f4d8c69a31ef125c4a2e974e0b1c18da01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa0192771dc7877f0461c5bda4bee8247239e07ceadb8a4568928e172430ac7e997a012289f0984f1cdf60f9de7866556bc560d031dc7d3bc28b94850c389e16aee8ea0219739a0b6afb88331fd8b3e6356cbf3e0c22f9fce0e017e8a4527beb42ee90ab901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e0083082d588203e800a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a0f9459c5458ae9b2f9b82d7b35e231f3c4e54cca4712354f76871c91f1c3fcebf80f911b3b911b004f911ac0180800783082d5894c0f6dc9e5836f54caadbf59cc69346c508e1992b80b903e800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000f90cfff90cfc940000000000000000000000000000000000000000f90ce4a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000f85cf85a809400000000000000000000000000000000000000018080a02a82d26bac18a7a717fc6312efdc69a1dbcafaf5e830eb09c282c266d8ce74b9a035d7bd95b5a245932b650cecc6e00d5eef05c6c60a73dcd1cf5dad66cde4008401a04aa5a4cc965d8a7ac65151f50aaa6caca76ca3718234e5aa082e0a9dc5691fb5a063fb1fe4ee8a9c18f24485f16ed86c820fb3f74c68e22745f452bf27052885f2c0c0",
                 "blocknumber": "1"
             }
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x49d1eaac6d7f2ee0033c722322085c14316ae513ea5c62d33a4cf7b884970a99",
+            "hash": "0x33ca075b4157116384deeabba53dfa5d3e8b785310b726fa340899cb7a5f756d",
             "fixture-format": "blockchain_test",
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test floor cost calculation with mixed zero and non-zero bytes.\n\nThis ensures floor gas uses floor token counting:\n- Each data byte contributes 4 floor tokens",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip7981_increase_access_list_cost/test_transaction_validity.py#L171",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip7981_increase_access_list_cost/test_transaction_validity.py#L171",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "CALLER": 1,
+                    "PUSH20": 1,
+                    "EQ": 4,
+                    "PUSH1": 11,
+                    "JUMPI": 7,
+                    "JUMPDEST": 8,
+                    "SLOAD": 4,
+                    "DUP1": 3,
+                    "DUP3": 3,
+                    "SUB": 1,
+                    "GT": 2,
+                    "PUSH0": 8,
+                    "DUP2": 3,
+                    "PUSH2": 6,
+                    "SWAP2": 1,
+                    "ADD": 2,
+                    "SWAP3": 1,
+                    "SWAP1": 1,
+                    "POP": 3,
+                    "SSTORE": 4,
+                    "CALLDATASIZE": 1,
+                    "PUSH32": 1,
+                    "JUMP": 1,
+                    "MUL": 1,
+                    "RETURN": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "CALLER": 1,
+                        "PUSH20": 1,
+                        "EQ": 4,
+                        "PUSH1": 11,
+                        "JUMPI": 7,
+                        "JUMPDEST": 8,
+                        "SLOAD": 4,
+                        "DUP1": 3,
+                        "DUP3": 3,
+                        "SUB": 1,
+                        "GT": 2,
+                        "PUSH0": 8,
+                        "DUP2": 3,
+                        "PUSH2": 6,
+                        "SWAP2": 1,
+                        "ADD": 2,
+                        "SWAP3": 1,
+                        "SWAP1": 1,
+                        "POP": 3,
+                        "SSTORE": 4,
+                        "CALLDATASIZE": 1,
+                        "PUSH32": 1,
+                        "JUMP": 1,
+                        "MUL": 1,
+                        "RETURN": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7981.md",
             "reference-spec-version": "954963fb6315dffadd9c40d48e4dae313e20cff5"

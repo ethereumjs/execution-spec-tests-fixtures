@@ -323,9 +323,22 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test system contract raising different errors when called by the system\naccount at the end of the block execution.\n\nTo see the list of generated tests, please refer to the\n`generate_system_contract_error_test` decorator definition.",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/packages/testing/src/execution_testing/tools/utility/generators.py#L382 called via `test_system_contract_errors()` in https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip8282_builder_execution_requests/test_modified_builder_contract.py",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/packages/testing/src/execution_testing/tools/utility/generators.py#L382 called via `test_system_contract_errors()` in https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip8282_builder_execution_requests/test_modified_builder_contract.py",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "PUSH1": 540,
+                    "SSTORE": 284,
+                    "PUSH2": 28,
+                    "JUMPDEST": 63737
+                },
+                "opcode_count_per_block": [
+                    {
+                        "PUSH1": 540,
+                        "SSTORE": 284,
+                        "PUSH2": 28,
+                        "JUMPDEST": 63737
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-8282.md",
             "reference-spec-version": "35ab20cb31a416c50600da00125d262e1756850c"
@@ -655,9 +668,22 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test system contract raising different errors when called by the system\naccount at the end of the block execution.\n\nTo see the list of generated tests, please refer to the\n`generate_system_contract_error_test` decorator definition.",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/packages/testing/src/execution_testing/tools/utility/generators.py#L382 called via `test_system_contract_errors()` in https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip8282_builder_execution_requests/test_modified_builder_contract.py",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/packages/testing/src/execution_testing/tools/utility/generators.py#L382 called via `test_system_contract_errors()` in https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip8282_builder_execution_requests/test_modified_builder_contract.py",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "PUSH1": 540,
+                    "SSTORE": 284,
+                    "PUSH2": 28,
+                    "JUMPDEST": 63737
+                },
+                "opcode_count_per_block": [
+                    {
+                        "PUSH1": 540,
+                        "SSTORE": 284,
+                        "PUSH2": 28,
+                        "JUMPDEST": 63737
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-8282.md",
             "reference-spec-version": "35ab20cb31a416c50600da00125d262e1756850c"
@@ -3972,9 +3998,64 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test system contract raising different errors when called by the system\naccount at the end of the block execution.\n\nTo see the list of generated tests, please refer to the\n`generate_system_contract_error_test` decorator definition.",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/packages/testing/src/execution_testing/tools/utility/generators.py#L382 called via `test_system_contract_errors()` in https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip8282_builder_execution_requests/test_modified_builder_contract.py",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/packages/testing/src/execution_testing/tools/utility/generators.py#L382 called via `test_system_contract_errors()` in https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip8282_builder_execution_requests/test_modified_builder_contract.py",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "CALLER": 1,
+                    "PUSH20": 1,
+                    "EQ": 4,
+                    "PUSH1": 11,
+                    "JUMPI": 7,
+                    "JUMPDEST": 8,
+                    "SLOAD": 4,
+                    "DUP1": 3,
+                    "DUP3": 3,
+                    "SUB": 1,
+                    "GT": 2,
+                    "PUSH0": 8,
+                    "DUP2": 3,
+                    "PUSH2": 6,
+                    "SWAP2": 1,
+                    "ADD": 2,
+                    "SWAP3": 1,
+                    "SWAP1": 1,
+                    "POP": 3,
+                    "SSTORE": 4,
+                    "CALLDATASIZE": 1,
+                    "PUSH32": 1,
+                    "JUMP": 1,
+                    "MUL": 1,
+                    "RETURN": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "CALLER": 1,
+                        "PUSH20": 1,
+                        "EQ": 4,
+                        "PUSH1": 11,
+                        "JUMPI": 7,
+                        "JUMPDEST": 8,
+                        "SLOAD": 4,
+                        "DUP1": 3,
+                        "DUP3": 3,
+                        "SUB": 1,
+                        "GT": 2,
+                        "PUSH0": 8,
+                        "DUP2": 3,
+                        "PUSH2": 6,
+                        "SWAP2": 1,
+                        "ADD": 2,
+                        "SWAP3": 1,
+                        "SWAP1": 1,
+                        "POP": 3,
+                        "SSTORE": 4,
+                        "CALLDATASIZE": 1,
+                        "PUSH32": 1,
+                        "JUMP": 1,
+                        "MUL": 1,
+                        "RETURN": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-8282.md",
             "reference-spec-version": "35ab20cb31a416c50600da00125d262e1756850c"
@@ -7289,9 +7370,24 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test system contract raising different errors when called by the system\naccount at the end of the block execution.\n\nTo see the list of generated tests, please refer to the\n`generate_system_contract_error_test` decorator definition.",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/packages/testing/src/execution_testing/tools/utility/generators.py#L382 called via `test_system_contract_errors()` in https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip8282_builder_execution_requests/test_modified_builder_contract.py",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/packages/testing/src/execution_testing/tools/utility/generators.py#L382 called via `test_system_contract_errors()` in https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip8282_builder_execution_requests/test_modified_builder_contract.py",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "PUSH1": 540,
+                    "SSTORE": 284,
+                    "PUSH2": 28,
+                    "JUMPDEST": 63736,
+                    "STOP": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "PUSH1": 540,
+                        "SSTORE": 284,
+                        "PUSH2": 28,
+                        "JUMPDEST": 63736,
+                        "STOP": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-8282.md",
             "reference-spec-version": "35ab20cb31a416c50600da00125d262e1756850c"
@@ -7621,9 +7717,18 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test system contract raising different errors when called by the system\naccount at the end of the block execution.\n\nTo see the list of generated tests, please refer to the\n`generate_system_contract_error_test` decorator definition.",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/packages/testing/src/execution_testing/tools/utility/generators.py#L382 called via `test_system_contract_errors()` in https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip8282_builder_execution_requests/test_modified_builder_contract.py",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/packages/testing/src/execution_testing/tools/utility/generators.py#L382 called via `test_system_contract_errors()` in https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip8282_builder_execution_requests/test_modified_builder_contract.py",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "PUSH1": 2,
+                    "REVERT": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "PUSH1": 2,
+                        "REVERT": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-8282.md",
             "reference-spec-version": "35ab20cb31a416c50600da00125d262e1756850c"
@@ -7953,9 +8058,18 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test system contract raising different errors when called by the system\naccount at the end of the block execution.\n\nTo see the list of generated tests, please refer to the\n`generate_system_contract_error_test` decorator definition.",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/packages/testing/src/execution_testing/tools/utility/generators.py#L382 called via `test_system_contract_errors()` in https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip8282_builder_execution_requests/test_modified_builder_contract.py",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/packages/testing/src/execution_testing/tools/utility/generators.py#L382 called via `test_system_contract_errors()` in https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip8282_builder_execution_requests/test_modified_builder_contract.py",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "PUSH1": 2,
+                    "REVERT": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "PUSH1": 2,
+                        "REVERT": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-8282.md",
             "reference-spec-version": "35ab20cb31a416c50600da00125d262e1756850c"
@@ -8285,9 +8399,64 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test system contract raising different errors when called by the system\naccount at the end of the block execution.\n\nTo see the list of generated tests, please refer to the\n`generate_system_contract_error_test` decorator definition.",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/packages/testing/src/execution_testing/tools/utility/generators.py#L382 called via `test_system_contract_errors()` in https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip8282_builder_execution_requests/test_modified_builder_contract.py",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/packages/testing/src/execution_testing/tools/utility/generators.py#L382 called via `test_system_contract_errors()` in https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip8282_builder_execution_requests/test_modified_builder_contract.py",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "CALLER": 1,
+                    "PUSH20": 1,
+                    "EQ": 4,
+                    "PUSH1": 11,
+                    "JUMPI": 6,
+                    "JUMPDEST": 8,
+                    "SLOAD": 4,
+                    "DUP1": 4,
+                    "DUP3": 3,
+                    "SUB": 1,
+                    "GT": 2,
+                    "PUSH0": 8,
+                    "DUP2": 2,
+                    "PUSH2": 5,
+                    "SWAP2": 1,
+                    "ADD": 2,
+                    "SWAP3": 1,
+                    "SWAP1": 1,
+                    "POP": 3,
+                    "SSTORE": 4,
+                    "PUSH32": 1,
+                    "ISZERO": 1,
+                    "JUMP": 1,
+                    "MUL": 1,
+                    "RETURN": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "CALLER": 1,
+                        "PUSH20": 1,
+                        "EQ": 4,
+                        "PUSH1": 11,
+                        "JUMPI": 6,
+                        "JUMPDEST": 8,
+                        "SLOAD": 4,
+                        "DUP1": 4,
+                        "DUP3": 3,
+                        "SUB": 1,
+                        "GT": 2,
+                        "PUSH0": 8,
+                        "DUP2": 2,
+                        "PUSH2": 5,
+                        "SWAP2": 1,
+                        "ADD": 2,
+                        "SWAP3": 1,
+                        "SWAP1": 1,
+                        "POP": 3,
+                        "SSTORE": 4,
+                        "PUSH32": 1,
+                        "ISZERO": 1,
+                        "JUMP": 1,
+                        "MUL": 1,
+                        "RETURN": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-8282.md",
             "reference-spec-version": "35ab20cb31a416c50600da00125d262e1756850c"
@@ -8617,9 +8786,64 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test system contract raising different errors when called by the system\naccount at the end of the block execution.\n\nTo see the list of generated tests, please refer to the\n`generate_system_contract_error_test` decorator definition.",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/packages/testing/src/execution_testing/tools/utility/generators.py#L382 called via `test_system_contract_errors()` in https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip8282_builder_execution_requests/test_modified_builder_contract.py",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/packages/testing/src/execution_testing/tools/utility/generators.py#L382 called via `test_system_contract_errors()` in https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip8282_builder_execution_requests/test_modified_builder_contract.py",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "CALLER": 1,
+                    "PUSH20": 1,
+                    "EQ": 4,
+                    "PUSH2": 8,
+                    "JUMPI": 7,
+                    "JUMPDEST": 8,
+                    "PUSH1": 9,
+                    "SLOAD": 4,
+                    "DUP1": 3,
+                    "DUP3": 3,
+                    "SUB": 1,
+                    "GT": 2,
+                    "PUSH0": 8,
+                    "DUP2": 3,
+                    "SWAP2": 1,
+                    "ADD": 2,
+                    "SWAP3": 1,
+                    "SWAP1": 1,
+                    "POP": 3,
+                    "SSTORE": 4,
+                    "CALLDATASIZE": 1,
+                    "PUSH32": 1,
+                    "JUMP": 1,
+                    "MUL": 1,
+                    "RETURN": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "CALLER": 1,
+                        "PUSH20": 1,
+                        "EQ": 4,
+                        "PUSH2": 8,
+                        "JUMPI": 7,
+                        "JUMPDEST": 8,
+                        "PUSH1": 9,
+                        "SLOAD": 4,
+                        "DUP1": 3,
+                        "DUP3": 3,
+                        "SUB": 1,
+                        "GT": 2,
+                        "PUSH0": 8,
+                        "DUP2": 3,
+                        "SWAP2": 1,
+                        "ADD": 2,
+                        "SWAP3": 1,
+                        "SWAP1": 1,
+                        "POP": 3,
+                        "SSTORE": 4,
+                        "CALLDATASIZE": 1,
+                        "PUSH32": 1,
+                        "JUMP": 1,
+                        "MUL": 1,
+                        "RETURN": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-8282.md",
             "reference-spec-version": "35ab20cb31a416c50600da00125d262e1756850c"

@@ -458,9 +458,64 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test that the floor cost correctly accounts for both access list\nand calldata tokens.\n\nAccording to EIP-7981:\n- total_floor_data_tokens =\n  floor_tokens_in_calldata + floor_tokens_in_access_list\n- floor_gas =\n  TX_BASE_COST + total_floor_data_tokens * TOTAL_COST_FLOOR_PER_TOKEN",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip7981_increase_access_list_cost/test_access_list_cost.py#L140",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip7981_increase_access_list_cost/test_access_list_cost.py#L140",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "CALLER": 1,
+                    "PUSH20": 1,
+                    "EQ": 4,
+                    "PUSH1": 11,
+                    "JUMPI": 7,
+                    "JUMPDEST": 8,
+                    "SLOAD": 4,
+                    "DUP1": 3,
+                    "DUP3": 3,
+                    "SUB": 1,
+                    "GT": 2,
+                    "PUSH0": 8,
+                    "DUP2": 3,
+                    "PUSH2": 6,
+                    "SWAP2": 1,
+                    "ADD": 2,
+                    "SWAP3": 1,
+                    "SWAP1": 1,
+                    "POP": 3,
+                    "SSTORE": 4,
+                    "CALLDATASIZE": 1,
+                    "PUSH32": 1,
+                    "JUMP": 1,
+                    "MUL": 1,
+                    "RETURN": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "CALLER": 1,
+                        "PUSH20": 1,
+                        "EQ": 4,
+                        "PUSH1": 11,
+                        "JUMPI": 7,
+                        "JUMPDEST": 8,
+                        "SLOAD": 4,
+                        "DUP1": 3,
+                        "DUP3": 3,
+                        "SUB": 1,
+                        "GT": 2,
+                        "PUSH0": 8,
+                        "DUP2": 3,
+                        "PUSH2": 6,
+                        "SWAP2": 1,
+                        "ADD": 2,
+                        "SWAP3": 1,
+                        "SWAP1": 1,
+                        "POP": 3,
+                        "SSTORE": 4,
+                        "CALLDATASIZE": 1,
+                        "PUSH32": 1,
+                        "JUMP": 1,
+                        "MUL": 1,
+                        "RETURN": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7981.md",
             "reference-spec-version": "954963fb6315dffadd9c40d48e4dae313e20cff5"
@@ -934,9 +989,64 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test that the floor cost correctly accounts for both access list\nand calldata tokens.\n\nAccording to EIP-7981:\n- total_floor_data_tokens =\n  floor_tokens_in_calldata + floor_tokens_in_access_list\n- floor_gas =\n  TX_BASE_COST + total_floor_data_tokens * TOTAL_COST_FLOOR_PER_TOKEN",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip7981_increase_access_list_cost/test_access_list_cost.py#L140",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip7981_increase_access_list_cost/test_access_list_cost.py#L140",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "CALLER": 1,
+                    "PUSH20": 1,
+                    "EQ": 4,
+                    "PUSH1": 11,
+                    "JUMPI": 7,
+                    "JUMPDEST": 8,
+                    "SLOAD": 4,
+                    "DUP1": 3,
+                    "DUP3": 3,
+                    "SUB": 1,
+                    "GT": 2,
+                    "PUSH0": 8,
+                    "DUP2": 3,
+                    "PUSH2": 6,
+                    "SWAP2": 1,
+                    "ADD": 2,
+                    "SWAP3": 1,
+                    "SWAP1": 1,
+                    "POP": 3,
+                    "SSTORE": 4,
+                    "CALLDATASIZE": 1,
+                    "PUSH32": 1,
+                    "JUMP": 1,
+                    "MUL": 1,
+                    "RETURN": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "CALLER": 1,
+                        "PUSH20": 1,
+                        "EQ": 4,
+                        "PUSH1": 11,
+                        "JUMPI": 7,
+                        "JUMPDEST": 8,
+                        "SLOAD": 4,
+                        "DUP1": 3,
+                        "DUP3": 3,
+                        "SUB": 1,
+                        "GT": 2,
+                        "PUSH0": 8,
+                        "DUP2": 3,
+                        "PUSH2": 6,
+                        "SWAP2": 1,
+                        "ADD": 2,
+                        "SWAP3": 1,
+                        "SWAP1": 1,
+                        "POP": 3,
+                        "SSTORE": 4,
+                        "CALLDATASIZE": 1,
+                        "PUSH32": 1,
+                        "JUMP": 1,
+                        "MUL": 1,
+                        "RETURN": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7981.md",
             "reference-spec-version": "954963fb6315dffadd9c40d48e4dae313e20cff5"
@@ -1391,9 +1501,64 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test that the floor cost correctly accounts for both access list\nand calldata tokens.\n\nAccording to EIP-7981:\n- total_floor_data_tokens =\n  floor_tokens_in_calldata + floor_tokens_in_access_list\n- floor_gas =\n  TX_BASE_COST + total_floor_data_tokens * TOTAL_COST_FLOOR_PER_TOKEN",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip7981_increase_access_list_cost/test_access_list_cost.py#L140",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip7981_increase_access_list_cost/test_access_list_cost.py#L140",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "CALLER": 1,
+                    "PUSH20": 1,
+                    "EQ": 4,
+                    "PUSH1": 11,
+                    "JUMPI": 7,
+                    "JUMPDEST": 8,
+                    "SLOAD": 4,
+                    "DUP1": 3,
+                    "DUP3": 3,
+                    "SUB": 1,
+                    "GT": 2,
+                    "PUSH0": 8,
+                    "DUP2": 3,
+                    "PUSH2": 6,
+                    "SWAP2": 1,
+                    "ADD": 2,
+                    "SWAP3": 1,
+                    "SWAP1": 1,
+                    "POP": 3,
+                    "SSTORE": 4,
+                    "CALLDATASIZE": 1,
+                    "PUSH32": 1,
+                    "JUMP": 1,
+                    "MUL": 1,
+                    "RETURN": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "CALLER": 1,
+                        "PUSH20": 1,
+                        "EQ": 4,
+                        "PUSH1": 11,
+                        "JUMPI": 7,
+                        "JUMPDEST": 8,
+                        "SLOAD": 4,
+                        "DUP1": 3,
+                        "DUP3": 3,
+                        "SUB": 1,
+                        "GT": 2,
+                        "PUSH0": 8,
+                        "DUP2": 3,
+                        "PUSH2": 6,
+                        "SWAP2": 1,
+                        "ADD": 2,
+                        "SWAP3": 1,
+                        "SWAP1": 1,
+                        "POP": 3,
+                        "SSTORE": 4,
+                        "CALLDATASIZE": 1,
+                        "PUSH32": 1,
+                        "JUMP": 1,
+                        "MUL": 1,
+                        "RETURN": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7981.md",
             "reference-spec-version": "954963fb6315dffadd9c40d48e4dae313e20cff5"
@@ -1857,9 +2022,64 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test that the floor cost correctly accounts for both access list\nand calldata tokens.\n\nAccording to EIP-7981:\n- total_floor_data_tokens =\n  floor_tokens_in_calldata + floor_tokens_in_access_list\n- floor_gas =\n  TX_BASE_COST + total_floor_data_tokens * TOTAL_COST_FLOOR_PER_TOKEN",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip7981_increase_access_list_cost/test_access_list_cost.py#L140",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip7981_increase_access_list_cost/test_access_list_cost.py#L140",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "CALLER": 1,
+                    "PUSH20": 1,
+                    "EQ": 4,
+                    "PUSH1": 11,
+                    "JUMPI": 7,
+                    "JUMPDEST": 8,
+                    "SLOAD": 4,
+                    "DUP1": 3,
+                    "DUP3": 3,
+                    "SUB": 1,
+                    "GT": 2,
+                    "PUSH0": 8,
+                    "DUP2": 3,
+                    "PUSH2": 6,
+                    "SWAP2": 1,
+                    "ADD": 2,
+                    "SWAP3": 1,
+                    "SWAP1": 1,
+                    "POP": 3,
+                    "SSTORE": 4,
+                    "CALLDATASIZE": 1,
+                    "PUSH32": 1,
+                    "JUMP": 1,
+                    "MUL": 1,
+                    "RETURN": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "CALLER": 1,
+                        "PUSH20": 1,
+                        "EQ": 4,
+                        "PUSH1": 11,
+                        "JUMPI": 7,
+                        "JUMPDEST": 8,
+                        "SLOAD": 4,
+                        "DUP1": 3,
+                        "DUP3": 3,
+                        "SUB": 1,
+                        "GT": 2,
+                        "PUSH0": 8,
+                        "DUP2": 3,
+                        "PUSH2": 6,
+                        "SWAP2": 1,
+                        "ADD": 2,
+                        "SWAP3": 1,
+                        "SWAP1": 1,
+                        "POP": 3,
+                        "SSTORE": 4,
+                        "CALLDATASIZE": 1,
+                        "PUSH32": 1,
+                        "JUMP": 1,
+                        "MUL": 1,
+                        "RETURN": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7981.md",
             "reference-spec-version": "954963fb6315dffadd9c40d48e4dae313e20cff5"
@@ -2318,9 +2538,64 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test that the floor cost correctly accounts for both access list\nand calldata tokens.\n\nAccording to EIP-7981:\n- total_floor_data_tokens =\n  floor_tokens_in_calldata + floor_tokens_in_access_list\n- floor_gas =\n  TX_BASE_COST + total_floor_data_tokens * TOTAL_COST_FLOOR_PER_TOKEN",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip7981_increase_access_list_cost/test_access_list_cost.py#L140",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip7981_increase_access_list_cost/test_access_list_cost.py#L140",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "CALLER": 1,
+                    "PUSH20": 1,
+                    "EQ": 4,
+                    "PUSH1": 11,
+                    "JUMPI": 7,
+                    "JUMPDEST": 8,
+                    "SLOAD": 4,
+                    "DUP1": 3,
+                    "DUP3": 3,
+                    "SUB": 1,
+                    "GT": 2,
+                    "PUSH0": 8,
+                    "DUP2": 3,
+                    "PUSH2": 6,
+                    "SWAP2": 1,
+                    "ADD": 2,
+                    "SWAP3": 1,
+                    "SWAP1": 1,
+                    "POP": 3,
+                    "SSTORE": 4,
+                    "CALLDATASIZE": 1,
+                    "PUSH32": 1,
+                    "JUMP": 1,
+                    "MUL": 1,
+                    "RETURN": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "CALLER": 1,
+                        "PUSH20": 1,
+                        "EQ": 4,
+                        "PUSH1": 11,
+                        "JUMPI": 7,
+                        "JUMPDEST": 8,
+                        "SLOAD": 4,
+                        "DUP1": 3,
+                        "DUP3": 3,
+                        "SUB": 1,
+                        "GT": 2,
+                        "PUSH0": 8,
+                        "DUP2": 3,
+                        "PUSH2": 6,
+                        "SWAP2": 1,
+                        "ADD": 2,
+                        "SWAP3": 1,
+                        "SWAP1": 1,
+                        "POP": 3,
+                        "SSTORE": 4,
+                        "CALLDATASIZE": 1,
+                        "PUSH32": 1,
+                        "JUMP": 1,
+                        "MUL": 1,
+                        "RETURN": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7981.md",
             "reference-spec-version": "954963fb6315dffadd9c40d48e4dae313e20cff5"
@@ -2788,9 +3063,64 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test that the floor cost correctly accounts for both access list\nand calldata tokens.\n\nAccording to EIP-7981:\n- total_floor_data_tokens =\n  floor_tokens_in_calldata + floor_tokens_in_access_list\n- floor_gas =\n  TX_BASE_COST + total_floor_data_tokens * TOTAL_COST_FLOOR_PER_TOKEN",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip7981_increase_access_list_cost/test_access_list_cost.py#L140",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip7981_increase_access_list_cost/test_access_list_cost.py#L140",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "CALLER": 1,
+                    "PUSH20": 1,
+                    "EQ": 4,
+                    "PUSH1": 11,
+                    "JUMPI": 7,
+                    "JUMPDEST": 8,
+                    "SLOAD": 4,
+                    "DUP1": 3,
+                    "DUP3": 3,
+                    "SUB": 1,
+                    "GT": 2,
+                    "PUSH0": 8,
+                    "DUP2": 3,
+                    "PUSH2": 6,
+                    "SWAP2": 1,
+                    "ADD": 2,
+                    "SWAP3": 1,
+                    "SWAP1": 1,
+                    "POP": 3,
+                    "SSTORE": 4,
+                    "CALLDATASIZE": 1,
+                    "PUSH32": 1,
+                    "JUMP": 1,
+                    "MUL": 1,
+                    "RETURN": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "CALLER": 1,
+                        "PUSH20": 1,
+                        "EQ": 4,
+                        "PUSH1": 11,
+                        "JUMPI": 7,
+                        "JUMPDEST": 8,
+                        "SLOAD": 4,
+                        "DUP1": 3,
+                        "DUP3": 3,
+                        "SUB": 1,
+                        "GT": 2,
+                        "PUSH0": 8,
+                        "DUP2": 3,
+                        "PUSH2": 6,
+                        "SWAP2": 1,
+                        "ADD": 2,
+                        "SWAP3": 1,
+                        "SWAP1": 1,
+                        "POP": 3,
+                        "SSTORE": 4,
+                        "CALLDATASIZE": 1,
+                        "PUSH32": 1,
+                        "JUMP": 1,
+                        "MUL": 1,
+                        "RETURN": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7981.md",
             "reference-spec-version": "954963fb6315dffadd9c40d48e4dae313e20cff5"
@@ -3004,7 +3334,7 @@
                 "storage": {}
             }
         },
-        "lastblockhash": "0x9ecb4ae69a737ad7a233f390110b998dbd68ff06e999bb9e1e70517cd1c77650",
+        "lastblockhash": "0x605c00ce544f6ebcd6932a57bd72a47db097cbe5f51e9a5e5ee85f9448699137",
         "config": {
             "network": "Amsterdam",
             "chainid": "0x01",
@@ -3066,9 +3396,9 @@
                     "excessBlobGas": "0x00",
                     "parentBeaconBlockRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
                     "requestsHash": "0xe3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-                    "blockAccessListHash": "0xb1058027950ab40bc661b9b7b9338dc438f166a337649377c98f5bfc16f5a5a2",
+                    "blockAccessListHash": "0xbfce8e24c8f86c623b1088ac25fbde4dc44eb5ac1aa8344d98b992b6a96bc2cd",
                     "slotNumber": "0x00",
-                    "hash": "0x9ecb4ae69a737ad7a233f390110b998dbd68ff06e999bb9e1e70517cd1c77650"
+                    "hash": "0x605c00ce544f6ebcd6932a57bd72a47db097cbe5f51e9a5e5ee85f9448699137"
                 },
                 "transactions": [
                     {
@@ -3228,14 +3558,6 @@
                         "storageReads": []
                     },
                     {
-                        "address": "0xc0f6dc9e5836f54caadbf59cc69346c508e1992b",
-                        "nonceChanges": [],
-                        "balanceChanges": [],
-                        "codeChanges": [],
-                        "storageChanges": [],
-                        "storageReads": []
-                    },
-                    {
                         "address": "0xf6c3a9edc1afa0ad5b720e4d42e1437c43d3b3ff",
                         "nonceChanges": [
                             {
@@ -3254,20 +3576,75 @@
                         "storageReads": []
                     }
                 ],
-                "rlp": "0xf903eaf9027da073a049fe321fd480cbe07fc7a00cb2ee3f4d8c69a31ef125c4a2e974e0b1c18da01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa045477533333182136bbac5b10c8a9dae7e0e33e6ae43616900abcb5cf5714649a0f49411272f158a3e9e8c26d63a45f7be1bea421d210f3e9793f2954c00b4283ca0ac82ad1e59b12fe78bf89c337ab27c4252cb2c2d9d869c7d7fdeb52c38a46d11b901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e008283d08203e800a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a0b1058027950ab40bc661b9b7b9338dc438f166a337649377c98f5bfc16f5a5a280f90165b9016204f9015e018080078283d094c0f6dc9e5836f54caadbf59cc69346c508e1992b80b86401010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101f838f7940000000000000000000000000000000000000001e1a00000000000000000000000000000000000000000000000000000000000000000f85cf85a809400000000000000000000000000000000000000018080a02a82d26bac18a7a717fc6312efdc69a1dbcafaf5e830eb09c282c266d8ce74b9a035d7bd95b5a245932b650cecc6e00d5eef05c6c60a73dcd1cf5dad66cde4008401a0de9a3e518be7646f34f7ea0161ff35fe4f8ef47184c122d981a395014d060381a07c984083062610c203506f5cb788f4b01ae62f91179e9fec0bb85473cb388f4fc0c0",
+                "rlp": "0xf903eaf9027da073a049fe321fd480cbe07fc7a00cb2ee3f4d8c69a31ef125c4a2e974e0b1c18da01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa045477533333182136bbac5b10c8a9dae7e0e33e6ae43616900abcb5cf5714649a0f49411272f158a3e9e8c26d63a45f7be1bea421d210f3e9793f2954c00b4283ca0ac82ad1e59b12fe78bf89c337ab27c4252cb2c2d9d869c7d7fdeb52c38a46d11b901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e008283d08203e800a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a0bfce8e24c8f86c623b1088ac25fbde4dc44eb5ac1aa8344d98b992b6a96bc2cd80f90165b9016204f9015e018080078283d094c0f6dc9e5836f54caadbf59cc69346c508e1992b80b86401010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101f838f7940000000000000000000000000000000000000001e1a00000000000000000000000000000000000000000000000000000000000000000f85cf85a809400000000000000000000000000000000000000018080a02a82d26bac18a7a717fc6312efdc69a1dbcafaf5e830eb09c282c266d8ce74b9a035d7bd95b5a245932b650cecc6e00d5eef05c6c60a73dcd1cf5dad66cde4008401a0de9a3e518be7646f34f7ea0161ff35fe4f8ef47184c122d981a395014d060381a07c984083062610c203506f5cb788f4b01ae62f91179e9fec0bb85473cb388f4fc0c0",
                 "blocknumber": "1"
             }
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xa5fb3c7edcd06d786e15111d01ae6e5863f8181e5e990144060c548dbeb105bf",
+            "hash": "0xe27067db63fd65fb2a0cb3e7e085857220a682273f66914423e8dd9d69feae46",
             "fixture-format": "blockchain_test",
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test that the floor cost correctly accounts for both access list\nand calldata tokens.\n\nAccording to EIP-7981:\n- total_floor_data_tokens =\n  floor_tokens_in_calldata + floor_tokens_in_access_list\n- floor_gas =\n  TX_BASE_COST + total_floor_data_tokens * TOTAL_COST_FLOOR_PER_TOKEN",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip7981_increase_access_list_cost/test_access_list_cost.py#L140",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip7981_increase_access_list_cost/test_access_list_cost.py#L140",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "CALLER": 1,
+                    "PUSH20": 1,
+                    "EQ": 4,
+                    "PUSH1": 11,
+                    "JUMPI": 7,
+                    "JUMPDEST": 8,
+                    "SLOAD": 4,
+                    "DUP1": 3,
+                    "DUP3": 3,
+                    "SUB": 1,
+                    "GT": 2,
+                    "PUSH0": 8,
+                    "DUP2": 3,
+                    "PUSH2": 6,
+                    "SWAP2": 1,
+                    "ADD": 2,
+                    "SWAP3": 1,
+                    "SWAP1": 1,
+                    "POP": 3,
+                    "SSTORE": 4,
+                    "CALLDATASIZE": 1,
+                    "PUSH32": 1,
+                    "JUMP": 1,
+                    "MUL": 1,
+                    "RETURN": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "CALLER": 1,
+                        "PUSH20": 1,
+                        "EQ": 4,
+                        "PUSH1": 11,
+                        "JUMPI": 7,
+                        "JUMPDEST": 8,
+                        "SLOAD": 4,
+                        "DUP1": 3,
+                        "DUP3": 3,
+                        "SUB": 1,
+                        "GT": 2,
+                        "PUSH0": 8,
+                        "DUP2": 3,
+                        "PUSH2": 6,
+                        "SWAP2": 1,
+                        "ADD": 2,
+                        "SWAP3": 1,
+                        "SWAP1": 1,
+                        "POP": 3,
+                        "SSTORE": 4,
+                        "CALLDATASIZE": 1,
+                        "PUSH32": 1,
+                        "JUMP": 1,
+                        "MUL": 1,
+                        "RETURN": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7981.md",
             "reference-spec-version": "954963fb6315dffadd9c40d48e4dae313e20cff5"
@@ -3481,7 +3858,7 @@
                 "storage": {}
             }
         },
-        "lastblockhash": "0x137b2f399cfb41aa944d19b23330069c9a4926644190e2a190ae0879ffcdf0f6",
+        "lastblockhash": "0x9f50f285cd28a34374d2eb3f1a15feb0bb0a0df3e37e3fdbf36556c1c1597083",
         "config": {
             "network": "Amsterdam",
             "chainid": "0x01",
@@ -3543,9 +3920,9 @@
                     "excessBlobGas": "0x00",
                     "parentBeaconBlockRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
                     "requestsHash": "0xe3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-                    "blockAccessListHash": "0x648f91ab300847e4bba752c4852dda62cddf5b9819aa48a8f36efc9dec543e6f",
+                    "blockAccessListHash": "0x1eef3d1503b87d2c1fe8cad12048a2779f438a8f10e199a77d19c0ec685f291e",
                     "slotNumber": "0x00",
-                    "hash": "0x137b2f399cfb41aa944d19b23330069c9a4926644190e2a190ae0879ffcdf0f6"
+                    "hash": "0x9f50f285cd28a34374d2eb3f1a15feb0bb0a0df3e37e3fdbf36556c1c1597083"
                 },
                 "transactions": [
                     {
@@ -3714,14 +4091,6 @@
                         "storageReads": []
                     },
                     {
-                        "address": "0xc0f6dc9e5836f54caadbf59cc69346c508e1992b",
-                        "nonceChanges": [],
-                        "balanceChanges": [],
-                        "codeChanges": [],
-                        "storageChanges": [],
-                        "storageReads": []
-                    },
-                    {
                         "address": "0xf6c3a9edc1afa0ad5b720e4d42e1437c43d3b3ff",
                         "nonceChanges": [
                             {
@@ -3740,20 +4109,75 @@
                         "storageReads": []
                     }
                 ],
-                "rlp": "0xf9051af9027ea073a049fe321fd480cbe07fc7a00cb2ee3f4d8c69a31ef125c4a2e974e0b1c18da01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa08f9ccf60d3ff06d044df78300986e28626b70f685eeb1a93daa83f812e9cc5d0a0a2c07b0bc68575523713655aa31dd310961720507fd7a697a4a77beb86372513a0bf2a95e78241aa635fc4f5e36b6c10c6e092cf567f5ff4a7a72e413872a84f18b901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e00830132f08203e800a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a0648f91ab300847e4bba752c4852dda62cddf5b9819aa48a8f36efc9dec543e6f80f90294b9029104f9028d01808007830132f094c0f6dc9e5836f54caadbf59cc69346c508e1992b80b86400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101f90165f90162940000000000000000000000000000000000000001f9014aa00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000001a00000000000000000000000000000000000000000000000000000000000000002a00000000000000000000000000000000000000000000000000000000000000003a00000000000000000000000000000000000000000000000000000000000000004a00000000000000000000000000000000000000000000000000000000000000005a00000000000000000000000000000000000000000000000000000000000000006a00000000000000000000000000000000000000000000000000000000000000007a00000000000000000000000000000000000000000000000000000000000000008a00000000000000000000000000000000000000000000000000000000000000009f85cf85a809400000000000000000000000000000000000000018080a02a82d26bac18a7a717fc6312efdc69a1dbcafaf5e830eb09c282c266d8ce74b9a035d7bd95b5a245932b650cecc6e00d5eef05c6c60a73dcd1cf5dad66cde4008401a014d66e23d6f483579425fb293e0716a20c89fc29c465b0d3ec474f807be67ecca04ebab4bdf08756e5ac4b6d7e309c7068795f10dfb695e5070623ef55b831190bc0c0",
+                "rlp": "0xf9051af9027ea073a049fe321fd480cbe07fc7a00cb2ee3f4d8c69a31ef125c4a2e974e0b1c18da01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa08f9ccf60d3ff06d044df78300986e28626b70f685eeb1a93daa83f812e9cc5d0a0a2c07b0bc68575523713655aa31dd310961720507fd7a697a4a77beb86372513a0bf2a95e78241aa635fc4f5e36b6c10c6e092cf567f5ff4a7a72e413872a84f18b901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e00830132f08203e800a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a01eef3d1503b87d2c1fe8cad12048a2779f438a8f10e199a77d19c0ec685f291e80f90294b9029104f9028d01808007830132f094c0f6dc9e5836f54caadbf59cc69346c508e1992b80b86400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101f90165f90162940000000000000000000000000000000000000001f9014aa00000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000001a00000000000000000000000000000000000000000000000000000000000000002a00000000000000000000000000000000000000000000000000000000000000003a00000000000000000000000000000000000000000000000000000000000000004a00000000000000000000000000000000000000000000000000000000000000005a00000000000000000000000000000000000000000000000000000000000000006a00000000000000000000000000000000000000000000000000000000000000007a00000000000000000000000000000000000000000000000000000000000000008a00000000000000000000000000000000000000000000000000000000000000009f85cf85a809400000000000000000000000000000000000000018080a02a82d26bac18a7a717fc6312efdc69a1dbcafaf5e830eb09c282c266d8ce74b9a035d7bd95b5a245932b650cecc6e00d5eef05c6c60a73dcd1cf5dad66cde4008401a014d66e23d6f483579425fb293e0716a20c89fc29c465b0d3ec474f807be67ecca04ebab4bdf08756e5ac4b6d7e309c7068795f10dfb695e5070623ef55b831190bc0c0",
                 "blocknumber": "1"
             }
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x742aa798efaf220c93069fac1dc789f97a119e26a7b0f9adec619f52355c4471",
+            "hash": "0x1038fef35d6c9cd833c2b0336d165d980f46872b369fd8e04be7c26ffd72055d",
             "fixture-format": "blockchain_test",
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test that the floor cost correctly accounts for both access list\nand calldata tokens.\n\nAccording to EIP-7981:\n- total_floor_data_tokens =\n  floor_tokens_in_calldata + floor_tokens_in_access_list\n- floor_gas =\n  TX_BASE_COST + total_floor_data_tokens * TOTAL_COST_FLOOR_PER_TOKEN",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip7981_increase_access_list_cost/test_access_list_cost.py#L140",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip7981_increase_access_list_cost/test_access_list_cost.py#L140",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "CALLER": 1,
+                    "PUSH20": 1,
+                    "EQ": 4,
+                    "PUSH1": 11,
+                    "JUMPI": 7,
+                    "JUMPDEST": 8,
+                    "SLOAD": 4,
+                    "DUP1": 3,
+                    "DUP3": 3,
+                    "SUB": 1,
+                    "GT": 2,
+                    "PUSH0": 8,
+                    "DUP2": 3,
+                    "PUSH2": 6,
+                    "SWAP2": 1,
+                    "ADD": 2,
+                    "SWAP3": 1,
+                    "SWAP1": 1,
+                    "POP": 3,
+                    "SSTORE": 4,
+                    "CALLDATASIZE": 1,
+                    "PUSH32": 1,
+                    "JUMP": 1,
+                    "MUL": 1,
+                    "RETURN": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "CALLER": 1,
+                        "PUSH20": 1,
+                        "EQ": 4,
+                        "PUSH1": 11,
+                        "JUMPI": 7,
+                        "JUMPDEST": 8,
+                        "SLOAD": 4,
+                        "DUP1": 3,
+                        "DUP3": 3,
+                        "SUB": 1,
+                        "GT": 2,
+                        "PUSH0": 8,
+                        "DUP2": 3,
+                        "PUSH2": 6,
+                        "SWAP2": 1,
+                        "ADD": 2,
+                        "SWAP3": 1,
+                        "SWAP1": 1,
+                        "POP": 3,
+                        "SSTORE": 4,
+                        "CALLDATASIZE": 1,
+                        "PUSH32": 1,
+                        "JUMP": 1,
+                        "MUL": 1,
+                        "RETURN": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7981.md",
             "reference-spec-version": "954963fb6315dffadd9c40d48e4dae313e20cff5"

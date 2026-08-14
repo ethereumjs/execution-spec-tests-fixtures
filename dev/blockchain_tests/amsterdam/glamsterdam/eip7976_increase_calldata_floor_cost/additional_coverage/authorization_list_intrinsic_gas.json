@@ -655,9 +655,64 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test class documentation:\nVerify authorization list gas costs are included correctly.\n\n\nVerify the authorization-list intrinsic cost under EIP-2780.\n\nEach authorization adds exactly ``REGULAR_PER_AUTH_BASE_COST`` to\nthe (regular) intrinsic; the state-dependent authorization costs\nmoved to the top frame. Measured on the *raw* intrinsic (before\nthe EIP-7623 calldata floor is applied) the per-authorization\ndelta is exactly ``num_authorizations *\nREGULAR_PER_AUTH_BASE_COST`` -- even when the floor would\notherwise mask it (e.g. a single authorization whose base cost\nstays below the floor). Each existing authority then pays the\nfirst-write ``ACCOUNT_WRITE`` (regular) and ``AUTH_BASE``\n(state) at the top frame, so with a STOP recipient the receipt\nis ``max(intrinsic_regular + num_authorizations *\n(ACCOUNT_WRITE + AUTH_BASE), floor_cost)``.",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip7976_increase_calldata_floor_cost/test_additional_coverage.py#L682",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip7976_increase_calldata_floor_cost/test_additional_coverage.py#L682",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "CALLER": 1,
+                    "PUSH20": 1,
+                    "EQ": 4,
+                    "PUSH1": 11,
+                    "JUMPI": 7,
+                    "JUMPDEST": 8,
+                    "SLOAD": 4,
+                    "DUP1": 3,
+                    "DUP3": 3,
+                    "SUB": 1,
+                    "GT": 2,
+                    "PUSH0": 8,
+                    "DUP2": 3,
+                    "PUSH2": 6,
+                    "SWAP2": 1,
+                    "ADD": 2,
+                    "SWAP3": 1,
+                    "SWAP1": 1,
+                    "POP": 3,
+                    "SSTORE": 4,
+                    "CALLDATASIZE": 1,
+                    "PUSH32": 1,
+                    "JUMP": 1,
+                    "MUL": 1,
+                    "RETURN": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "CALLER": 1,
+                        "PUSH20": 1,
+                        "EQ": 4,
+                        "PUSH1": 11,
+                        "JUMPI": 7,
+                        "JUMPDEST": 8,
+                        "SLOAD": 4,
+                        "DUP1": 3,
+                        "DUP3": 3,
+                        "SUB": 1,
+                        "GT": 2,
+                        "PUSH0": 8,
+                        "DUP2": 3,
+                        "PUSH2": 6,
+                        "SWAP2": 1,
+                        "ADD": 2,
+                        "SWAP3": 1,
+                        "SWAP1": 1,
+                        "POP": 3,
+                        "SSTORE": 4,
+                        "CALLDATASIZE": 1,
+                        "PUSH32": 1,
+                        "JUMP": 1,
+                        "MUL": 1,
+                        "RETURN": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7976.md",
             "reference-spec-version": "83d473b0504d316a06ce58ae581e7f03b5d54fe1"
@@ -895,7 +950,7 @@
                 "storage": {}
             }
         },
-        "lastblockhash": "0xe36198e098069dfb92731fd252dc893607a7b3e6162899c432f9281133a3376c",
+        "lastblockhash": "0x45188740b251d285e57b8e4ab1b3443bc6a0ffd1489d73cb08f4a20a24ea5dd4",
         "config": {
             "network": "Amsterdam",
             "chainid": "0x01",
@@ -946,7 +1001,7 @@
                     "difficulty": "0x00",
                     "number": "0x01",
                     "gasLimit": "0x07270e00",
-                    "gasUsed": "0x97a0",
+                    "gasUsed": "0xb798",
                     "timestamp": "0x03e8",
                     "extraData": "0x00",
                     "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -959,7 +1014,7 @@
                     "requestsHash": "0xe3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
                     "blockAccessListHash": "0xaca42e3e9009171fdb56b1092acba987f99099c74070936fd1ff38da8fe0ac09",
                     "slotNumber": "0x00",
-                    "hash": "0xe36198e098069dfb92731fd252dc893607a7b3e6162899c432f9281133a3376c"
+                    "hash": "0x45188740b251d285e57b8e4ab1b3443bc6a0ffd1489d73cb08f4a20a24ea5dd4"
                 },
                 "transactions": [
                     {
@@ -1148,20 +1203,75 @@
                         "storageReads": []
                     }
                 ],
-                "rlp": "0xf90543f9027da0aaf4f4ba4cb3ca3274421bca73302531b0b9de10c833cded0af6f617bf866993a01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa09ef871188bf8c520d969f61e6f8a39db3fe32e28d4f3d6b620627229154f1af4a0790f262c131f83b3ead3b1bcc01a9b8c719cfd9c86ad1562e3209285508b1249a05581147d48cba2bb75dfeaa29656536b6fa6e6292b21446dad262774b57cdaedb901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e008297a08203e800a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a0aca42e3e9009171fdb56b1092acba987f99099c74070936fd1ff38da8fe0ac0980f902beb902bb04f902b701808007830148269437f536464af59c8d7358cae965f92cbeadd58dcb80b901f40101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101c0f85cf85a809400000000000000000000000000000000000000018080a05e294ebbaf60a7217bd037d4ec457683edd8ede447682fca1456cdefb7823b6fa024d2ea14918925e6d8e5190b1356d69e2cfb05264d1ece6921233a74a763648e01a043d8c896bbb53e84995f587064f09f3ad5fdd7b43e8bc404d2025da000d0d5dda02f07a2b025a1400fea9a26ac125cbee4b139445ce95850aca03d60139c0cf246c0c0",
+                "rlp": "0xf90543f9027da0aaf4f4ba4cb3ca3274421bca73302531b0b9de10c833cded0af6f617bf866993a01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa09ef871188bf8c520d969f61e6f8a39db3fe32e28d4f3d6b620627229154f1af4a0790f262c131f83b3ead3b1bcc01a9b8c719cfd9c86ad1562e3209285508b1249a05581147d48cba2bb75dfeaa29656536b6fa6e6292b21446dad262774b57cdaedb901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e0082b7988203e800a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a0aca42e3e9009171fdb56b1092acba987f99099c74070936fd1ff38da8fe0ac0980f902beb902bb04f902b701808007830148269437f536464af59c8d7358cae965f92cbeadd58dcb80b901f40101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101c0f85cf85a809400000000000000000000000000000000000000018080a05e294ebbaf60a7217bd037d4ec457683edd8ede447682fca1456cdefb7823b6fa024d2ea14918925e6d8e5190b1356d69e2cfb05264d1ece6921233a74a763648e01a043d8c896bbb53e84995f587064f09f3ad5fdd7b43e8bc404d2025da000d0d5dda02f07a2b025a1400fea9a26ac125cbee4b139445ce95850aca03d60139c0cf246c0c0",
                 "blocknumber": "1"
             }
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xb877d13f42d0cc9d00b1eed3616f4893180ea42aee2c51ce3c287bb632c9758c",
+            "hash": "0x2e8f6e2fa7db50d4993fa5c6a8f5ae0b6ddf47484c318fe6ec275b8ee6aebf0c",
             "fixture-format": "blockchain_test",
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test class documentation:\nVerify authorization list gas costs are included correctly.\n\n\nVerify the authorization-list intrinsic cost under EIP-2780.\n\nEach authorization adds exactly ``REGULAR_PER_AUTH_BASE_COST`` to\nthe (regular) intrinsic; the state-dependent authorization costs\nmoved to the top frame. Measured on the *raw* intrinsic (before\nthe EIP-7623 calldata floor is applied) the per-authorization\ndelta is exactly ``num_authorizations *\nREGULAR_PER_AUTH_BASE_COST`` -- even when the floor would\notherwise mask it (e.g. a single authorization whose base cost\nstays below the floor). Each existing authority then pays the\nfirst-write ``ACCOUNT_WRITE`` (regular) and ``AUTH_BASE``\n(state) at the top frame, so with a STOP recipient the receipt\nis ``max(intrinsic_regular + num_authorizations *\n(ACCOUNT_WRITE + AUTH_BASE), floor_cost)``.",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip7976_increase_calldata_floor_cost/test_additional_coverage.py#L682",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip7976_increase_calldata_floor_cost/test_additional_coverage.py#L682",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "CALLER": 1,
+                    "PUSH20": 1,
+                    "EQ": 4,
+                    "PUSH1": 11,
+                    "JUMPI": 7,
+                    "JUMPDEST": 8,
+                    "SLOAD": 4,
+                    "DUP1": 3,
+                    "DUP3": 3,
+                    "SUB": 1,
+                    "GT": 2,
+                    "PUSH0": 8,
+                    "DUP2": 3,
+                    "PUSH2": 6,
+                    "SWAP2": 1,
+                    "ADD": 2,
+                    "SWAP3": 1,
+                    "SWAP1": 1,
+                    "POP": 3,
+                    "SSTORE": 4,
+                    "CALLDATASIZE": 1,
+                    "PUSH32": 1,
+                    "JUMP": 1,
+                    "MUL": 1,
+                    "RETURN": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "CALLER": 1,
+                        "PUSH20": 1,
+                        "EQ": 4,
+                        "PUSH1": 11,
+                        "JUMPI": 7,
+                        "JUMPDEST": 8,
+                        "SLOAD": 4,
+                        "DUP1": 3,
+                        "DUP3": 3,
+                        "SUB": 1,
+                        "GT": 2,
+                        "PUSH0": 8,
+                        "DUP2": 3,
+                        "PUSH2": 6,
+                        "SWAP2": 1,
+                        "ADD": 2,
+                        "SWAP3": 1,
+                        "SWAP1": 1,
+                        "POP": 3,
+                        "SSTORE": 4,
+                        "CALLDATASIZE": 1,
+                        "PUSH32": 1,
+                        "JUMP": 1,
+                        "MUL": 1,
+                        "RETURN": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7976.md",
             "reference-spec-version": "83d473b0504d316a06ce58ae581e7f03b5d54fe1"
@@ -2023,9 +2133,64 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test class documentation:\nVerify authorization list gas costs are included correctly.\n\n\nVerify the authorization-list intrinsic cost under EIP-2780.\n\nEach authorization adds exactly ``REGULAR_PER_AUTH_BASE_COST`` to\nthe (regular) intrinsic; the state-dependent authorization costs\nmoved to the top frame. Measured on the *raw* intrinsic (before\nthe EIP-7623 calldata floor is applied) the per-authorization\ndelta is exactly ``num_authorizations *\nREGULAR_PER_AUTH_BASE_COST`` -- even when the floor would\notherwise mask it (e.g. a single authorization whose base cost\nstays below the floor). Each existing authority then pays the\nfirst-write ``ACCOUNT_WRITE`` (regular) and ``AUTH_BASE``\n(state) at the top frame, so with a STOP recipient the receipt\nis ``max(intrinsic_regular + num_authorizations *\n(ACCOUNT_WRITE + AUTH_BASE), floor_cost)``.",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip7976_increase_calldata_floor_cost/test_additional_coverage.py#L682",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip7976_increase_calldata_floor_cost/test_additional_coverage.py#L682",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "CALLER": 1,
+                    "PUSH20": 1,
+                    "EQ": 4,
+                    "PUSH1": 11,
+                    "JUMPI": 7,
+                    "JUMPDEST": 8,
+                    "SLOAD": 4,
+                    "DUP1": 3,
+                    "DUP3": 3,
+                    "SUB": 1,
+                    "GT": 2,
+                    "PUSH0": 8,
+                    "DUP2": 3,
+                    "PUSH2": 6,
+                    "SWAP2": 1,
+                    "ADD": 2,
+                    "SWAP3": 1,
+                    "SWAP1": 1,
+                    "POP": 3,
+                    "SSTORE": 4,
+                    "CALLDATASIZE": 1,
+                    "PUSH32": 1,
+                    "JUMP": 1,
+                    "MUL": 1,
+                    "RETURN": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "CALLER": 1,
+                        "PUSH20": 1,
+                        "EQ": 4,
+                        "PUSH1": 11,
+                        "JUMPI": 7,
+                        "JUMPDEST": 8,
+                        "SLOAD": 4,
+                        "DUP1": 3,
+                        "DUP3": 3,
+                        "SUB": 1,
+                        "GT": 2,
+                        "PUSH0": 8,
+                        "DUP2": 3,
+                        "PUSH2": 6,
+                        "SWAP2": 1,
+                        "ADD": 2,
+                        "SWAP3": 1,
+                        "SWAP1": 1,
+                        "POP": 3,
+                        "SSTORE": 4,
+                        "CALLDATASIZE": 1,
+                        "PUSH32": 1,
+                        "JUMP": 1,
+                        "MUL": 1,
+                        "RETURN": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7976.md",
             "reference-spec-version": "83d473b0504d316a06ce58ae581e7f03b5d54fe1"

@@ -1510,9 +1510,64 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test by varying the calldata_floor_cost.\n\nPerforms tests for the following 3 scenarios.\n\n1. calldata_floor < tx_gas_after_refund\n2. tx_gas_after_refund < calldata_floor < tx_gas_before_refund\n3. calldata_floor > tx_gas_before_refund",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip7778_block_gas_accounting_without_refunds/test_gas_accounting.py#L395",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip7778_block_gas_accounting_without_refunds/test_gas_accounting.py#L400",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "CALLER": 1,
+                    "PUSH20": 1,
+                    "EQ": 4,
+                    "PUSH1": 11,
+                    "JUMPI": 7,
+                    "JUMPDEST": 8,
+                    "SLOAD": 4,
+                    "DUP1": 3,
+                    "DUP3": 3,
+                    "SUB": 1,
+                    "GT": 2,
+                    "PUSH0": 8,
+                    "DUP2": 3,
+                    "PUSH2": 6,
+                    "SWAP2": 1,
+                    "ADD": 2,
+                    "SWAP3": 1,
+                    "SWAP1": 1,
+                    "POP": 3,
+                    "SSTORE": 4,
+                    "CALLDATASIZE": 1,
+                    "PUSH32": 1,
+                    "JUMP": 1,
+                    "MUL": 1,
+                    "RETURN": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "CALLER": 1,
+                        "PUSH20": 1,
+                        "EQ": 4,
+                        "PUSH1": 11,
+                        "JUMPI": 7,
+                        "JUMPDEST": 8,
+                        "SLOAD": 4,
+                        "DUP1": 3,
+                        "DUP3": 3,
+                        "SUB": 1,
+                        "GT": 2,
+                        "PUSH0": 8,
+                        "DUP2": 3,
+                        "PUSH2": 6,
+                        "SWAP2": 1,
+                        "ADD": 2,
+                        "SWAP3": 1,
+                        "SWAP1": 1,
+                        "POP": 3,
+                        "SSTORE": 4,
+                        "CALLDATASIZE": 1,
+                        "PUSH32": 1,
+                        "JUMP": 1,
+                        "MUL": 1,
+                        "RETURN": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7778.md",
             "reference-spec-version": "ce17d00b8341032a946301944124c4a6013032d6"
@@ -3650,7 +3705,7 @@
                 "storage": {}
             }
         },
-        "lastblockhash": "0x37364508531bb4f5588ceddfbf1001eb833b9f3297fd2573c8e2ce046e15a3d1",
+        "lastblockhash": "0xd878d2f8989c9081cec0dd6a4e8347710644c1a6499ce9909060492a6a055889",
         "config": {
             "network": "Amsterdam",
             "chainid": "0x01",
@@ -3701,7 +3756,7 @@
                     "difficulty": "0x00",
                     "number": "0x01",
                     "gasLimit": "0x07270e00",
-                    "gasUsed": "0x7e65",
+                    "gasUsed": "0x7e98",
                     "timestamp": "0x0c",
                     "extraData": "0x",
                     "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -3714,7 +3769,7 @@
                     "requestsHash": "0xe3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
                     "blockAccessListHash": "0x7cdd0cda030b2c6633ddd073530e0d5c445ca5aff7afff9b70d8e5d61e6c669d",
                     "slotNumber": "0x00",
-                    "hash": "0x37364508531bb4f5588ceddfbf1001eb833b9f3297fd2573c8e2ce046e15a3d1"
+                    "hash": "0xd878d2f8989c9081cec0dd6a4e8347710644c1a6499ce9909060492a6a055889"
                 },
                 "transactions": [
                     {
@@ -3886,20 +3941,75 @@
                         "storageReads": []
                     }
                 ],
-                "rlp": "0xf903f7f9027ba05556742c3c24d9ddc93bdf188af14da998e835c2b2e11fe858102ecaa41e5ddba01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa060d26e3bea6887a901bed0e50e75ec4f708ba4fb5429e8f9fb8d95f04ea9f486a0174103105bca10418799134c4cf89f2c870cb26120cdb0ba6c51e79b2fae2ddea0bc5bd96a5d2014c5453a813be4472150245a0c00b5ec7833c0cd1ac271a22765b901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e00827e650c80a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a07cdd0cda030b2c6633ddd073530e0d5c445ca5aff7afff9b70d8e5d61e6c669d80f90174f90171800a827e9894e15baf247c68d059214aa0d1d600f0d974c4aad780b90110303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303026a0162696d3d633bbb0de639b1be13ad84ee885b7ad0092ab4c9df21f9fca10fd88a01a5ae20c94e172cba4f8f96597c94d9fd3f123cdb6c5591e7bbb50da4560675ac0c0",
+                "rlp": "0xf903f7f9027ba05556742c3c24d9ddc93bdf188af14da998e835c2b2e11fe858102ecaa41e5ddba01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa060d26e3bea6887a901bed0e50e75ec4f708ba4fb5429e8f9fb8d95f04ea9f486a0174103105bca10418799134c4cf89f2c870cb26120cdb0ba6c51e79b2fae2ddea0bc5bd96a5d2014c5453a813be4472150245a0c00b5ec7833c0cd1ac271a22765b901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e00827e980c80a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a07cdd0cda030b2c6633ddd073530e0d5c445ca5aff7afff9b70d8e5d61e6c669d80f90174f90171800a827e9894e15baf247c68d059214aa0d1d600f0d974c4aad780b90110303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303026a0162696d3d633bbb0de639b1be13ad84ee885b7ad0092ab4c9df21f9fca10fd88a01a5ae20c94e172cba4f8f96597c94d9fd3f123cdb6c5591e7bbb50da4560675ac0c0",
                 "blocknumber": "1"
             }
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x0bfded88cf20d2c160758b7eec434a43535c1c7bb079d476db60be9751dafa4f",
+            "hash": "0x3b8a3b8b4b4c10083d61e58c275506799993af7cc8a475f9b77067bc26d17181",
             "fixture-format": "blockchain_test",
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test by varying the calldata_floor_cost.\n\nPerforms tests for the following 3 scenarios.\n\n1. calldata_floor < tx_gas_after_refund\n2. tx_gas_after_refund < calldata_floor < tx_gas_before_refund\n3. calldata_floor > tx_gas_before_refund",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip7778_block_gas_accounting_without_refunds/test_gas_accounting.py#L395",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip7778_block_gas_accounting_without_refunds/test_gas_accounting.py#L400",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "CALLER": 1,
+                    "PUSH20": 1,
+                    "EQ": 4,
+                    "PUSH1": 11,
+                    "JUMPI": 7,
+                    "JUMPDEST": 8,
+                    "SLOAD": 4,
+                    "DUP1": 3,
+                    "DUP3": 3,
+                    "SUB": 1,
+                    "GT": 2,
+                    "PUSH0": 8,
+                    "DUP2": 3,
+                    "PUSH2": 6,
+                    "SWAP2": 1,
+                    "ADD": 2,
+                    "SWAP3": 1,
+                    "SWAP1": 1,
+                    "POP": 3,
+                    "SSTORE": 4,
+                    "CALLDATASIZE": 1,
+                    "PUSH32": 1,
+                    "JUMP": 1,
+                    "MUL": 1,
+                    "RETURN": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "CALLER": 1,
+                        "PUSH20": 1,
+                        "EQ": 4,
+                        "PUSH1": 11,
+                        "JUMPI": 7,
+                        "JUMPDEST": 8,
+                        "SLOAD": 4,
+                        "DUP1": 3,
+                        "DUP3": 3,
+                        "SUB": 1,
+                        "GT": 2,
+                        "PUSH0": 8,
+                        "DUP2": 3,
+                        "PUSH2": 6,
+                        "SWAP2": 1,
+                        "ADD": 2,
+                        "SWAP3": 1,
+                        "SWAP1": 1,
+                        "POP": 3,
+                        "SSTORE": 4,
+                        "CALLDATASIZE": 1,
+                        "PUSH32": 1,
+                        "JUMP": 1,
+                        "MUL": 1,
+                        "RETURN": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7778.md",
             "reference-spec-version": "ce17d00b8341032a946301944124c4a6013032d6"
@@ -6039,7 +6149,7 @@
                 "storage": {}
             }
         },
-        "lastblockhash": "0x3aa40ed38961795d8b973d6127cbf4d496045c81fd618d3820df63d1af9d95b7",
+        "lastblockhash": "0x28c13d7df6873a33b30525d0f498783b90e48e6123273bbbeecce2a7b1367e64",
         "config": {
             "network": "Amsterdam",
             "chainid": "0x01",
@@ -6090,7 +6200,7 @@
                     "difficulty": "0x00",
                     "number": "0x01",
                     "gasLimit": "0x07270e00",
-                    "gasUsed": "0x7e6b",
+                    "gasUsed": "0x7e98",
                     "timestamp": "0x0c",
                     "extraData": "0x",
                     "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -6103,7 +6213,7 @@
                     "requestsHash": "0xe3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
                     "blockAccessListHash": "0x4d1ef4d5c7a28e1042bf92f7632caef1702e64158d3e94ebd5e0cb4a3f468afe",
                     "slotNumber": "0x00",
-                    "hash": "0x3aa40ed38961795d8b973d6127cbf4d496045c81fd618d3820df63d1af9d95b7"
+                    "hash": "0x28c13d7df6873a33b30525d0f498783b90e48e6123273bbbeecce2a7b1367e64"
                 },
                 "transactions": [
                     {
@@ -6267,20 +6377,75 @@
                         "storageReads": []
                     }
                 ],
-                "rlp": "0xf903f7f9027ba003a5b173c4545e54a04afd6f70ae6800406e3b004459334ebbc910910743d1a7a01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa0cb26e75e29a5bb78926fa284c3cfd9834a4787951527ec75ebcddff8c3f34773a0b3c8dbb804fe84d29b859eaaaff35edd3d31fdec6ae81ecb48fc5fb1ccaf8220a0fc21f84c153fc489d645eef89da1b0595be2533d579987b871b4d72bd1617994b901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e00827e6b0c80a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a04d1ef4d5c7a28e1042bf92f7632caef1702e64158d3e94ebd5e0cb4a3f468afe80f90174f90171800a827e989478e20966a7490e00cc398275f3cd880eb33f64ac80b90110303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303025a080f38ff103bff1de5a6820927bc598fce57d1be24fee49d6ef0bb60f872da1e2a07a9823c84f221d1def3ad90f26a0d8fafdb87c88d9d25793443d00dc7a9de5d1c0c0",
+                "rlp": "0xf903f7f9027ba003a5b173c4545e54a04afd6f70ae6800406e3b004459334ebbc910910743d1a7a01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa0cb26e75e29a5bb78926fa284c3cfd9834a4787951527ec75ebcddff8c3f34773a0b3c8dbb804fe84d29b859eaaaff35edd3d31fdec6ae81ecb48fc5fb1ccaf8220a0fc21f84c153fc489d645eef89da1b0595be2533d579987b871b4d72bd1617994b901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e00827e980c80a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a04d1ef4d5c7a28e1042bf92f7632caef1702e64158d3e94ebd5e0cb4a3f468afe80f90174f90171800a827e989478e20966a7490e00cc398275f3cd880eb33f64ac80b90110303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303025a080f38ff103bff1de5a6820927bc598fce57d1be24fee49d6ef0bb60f872da1e2a07a9823c84f221d1def3ad90f26a0d8fafdb87c88d9d25793443d00dc7a9de5d1c0c0",
                 "blocknumber": "1"
             }
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xff79f6fb51809d771d932cc5de94e6f840fd748365f358e7f9fe7361862afefe",
+            "hash": "0x30ed313d42d7788e3402680488f9accfbfcf250d80c694675110d75d72dbde23",
             "fixture-format": "blockchain_test",
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test by varying the calldata_floor_cost.\n\nPerforms tests for the following 3 scenarios.\n\n1. calldata_floor < tx_gas_after_refund\n2. tx_gas_after_refund < calldata_floor < tx_gas_before_refund\n3. calldata_floor > tx_gas_before_refund",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip7778_block_gas_accounting_without_refunds/test_gas_accounting.py#L395",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip7778_block_gas_accounting_without_refunds/test_gas_accounting.py#L400",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "CALLER": 1,
+                    "PUSH20": 1,
+                    "EQ": 4,
+                    "PUSH1": 11,
+                    "JUMPI": 7,
+                    "JUMPDEST": 8,
+                    "SLOAD": 4,
+                    "DUP1": 3,
+                    "DUP3": 3,
+                    "SUB": 1,
+                    "GT": 2,
+                    "PUSH0": 8,
+                    "DUP2": 3,
+                    "PUSH2": 6,
+                    "SWAP2": 1,
+                    "ADD": 2,
+                    "SWAP3": 1,
+                    "SWAP1": 1,
+                    "POP": 3,
+                    "SSTORE": 4,
+                    "CALLDATASIZE": 1,
+                    "PUSH32": 1,
+                    "JUMP": 1,
+                    "MUL": 1,
+                    "RETURN": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "CALLER": 1,
+                        "PUSH20": 1,
+                        "EQ": 4,
+                        "PUSH1": 11,
+                        "JUMPI": 7,
+                        "JUMPDEST": 8,
+                        "SLOAD": 4,
+                        "DUP1": 3,
+                        "DUP3": 3,
+                        "SUB": 1,
+                        "GT": 2,
+                        "PUSH0": 8,
+                        "DUP2": 3,
+                        "PUSH2": 6,
+                        "SWAP2": 1,
+                        "ADD": 2,
+                        "SWAP3": 1,
+                        "SWAP1": 1,
+                        "POP": 3,
+                        "SSTORE": 4,
+                        "CALLDATASIZE": 1,
+                        "PUSH32": 1,
+                        "JUMP": 1,
+                        "MUL": 1,
+                        "RETURN": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7778.md",
             "reference-spec-version": "ce17d00b8341032a946301944124c4a6013032d6"
@@ -6761,9 +6926,64 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test by varying the calldata_floor_cost.\n\nPerforms tests for the following 3 scenarios.\n\n1. calldata_floor < tx_gas_after_refund\n2. tx_gas_after_refund < calldata_floor < tx_gas_before_refund\n3. calldata_floor > tx_gas_before_refund",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip7778_block_gas_accounting_without_refunds/test_gas_accounting.py#L395",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip7778_block_gas_accounting_without_refunds/test_gas_accounting.py#L400",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "CALLER": 1,
+                    "PUSH20": 1,
+                    "EQ": 4,
+                    "PUSH1": 11,
+                    "JUMPI": 7,
+                    "JUMPDEST": 8,
+                    "SLOAD": 4,
+                    "DUP1": 3,
+                    "DUP3": 3,
+                    "SUB": 1,
+                    "GT": 2,
+                    "PUSH0": 8,
+                    "DUP2": 3,
+                    "PUSH2": 6,
+                    "SWAP2": 1,
+                    "ADD": 2,
+                    "SWAP3": 1,
+                    "SWAP1": 1,
+                    "POP": 3,
+                    "SSTORE": 4,
+                    "CALLDATASIZE": 1,
+                    "PUSH32": 1,
+                    "JUMP": 1,
+                    "MUL": 1,
+                    "RETURN": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "CALLER": 1,
+                        "PUSH20": 1,
+                        "EQ": 4,
+                        "PUSH1": 11,
+                        "JUMPI": 7,
+                        "JUMPDEST": 8,
+                        "SLOAD": 4,
+                        "DUP1": 3,
+                        "DUP3": 3,
+                        "SUB": 1,
+                        "GT": 2,
+                        "PUSH0": 8,
+                        "DUP2": 3,
+                        "PUSH2": 6,
+                        "SWAP2": 1,
+                        "ADD": 2,
+                        "SWAP3": 1,
+                        "SWAP1": 1,
+                        "POP": 3,
+                        "SSTORE": 4,
+                        "CALLDATASIZE": 1,
+                        "PUSH32": 1,
+                        "JUMP": 1,
+                        "MUL": 1,
+                        "RETURN": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7778.md",
             "reference-spec-version": "ce17d00b8341032a946301944124c4a6013032d6"
@@ -7238,9 +7458,64 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test by varying the calldata_floor_cost.\n\nPerforms tests for the following 3 scenarios.\n\n1. calldata_floor < tx_gas_after_refund\n2. tx_gas_after_refund < calldata_floor < tx_gas_before_refund\n3. calldata_floor > tx_gas_before_refund",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip7778_block_gas_accounting_without_refunds/test_gas_accounting.py#L395",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip7778_block_gas_accounting_without_refunds/test_gas_accounting.py#L400",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "CALLER": 1,
+                    "PUSH20": 1,
+                    "EQ": 4,
+                    "PUSH1": 11,
+                    "JUMPI": 7,
+                    "JUMPDEST": 8,
+                    "SLOAD": 4,
+                    "DUP1": 3,
+                    "DUP3": 3,
+                    "SUB": 1,
+                    "GT": 2,
+                    "PUSH0": 8,
+                    "DUP2": 3,
+                    "PUSH2": 6,
+                    "SWAP2": 1,
+                    "ADD": 2,
+                    "SWAP3": 1,
+                    "SWAP1": 1,
+                    "POP": 3,
+                    "SSTORE": 4,
+                    "CALLDATASIZE": 1,
+                    "PUSH32": 1,
+                    "JUMP": 1,
+                    "MUL": 1,
+                    "RETURN": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "CALLER": 1,
+                        "PUSH20": 1,
+                        "EQ": 4,
+                        "PUSH1": 11,
+                        "JUMPI": 7,
+                        "JUMPDEST": 8,
+                        "SLOAD": 4,
+                        "DUP1": 3,
+                        "DUP3": 3,
+                        "SUB": 1,
+                        "GT": 2,
+                        "PUSH0": 8,
+                        "DUP2": 3,
+                        "PUSH2": 6,
+                        "SWAP2": 1,
+                        "ADD": 2,
+                        "SWAP3": 1,
+                        "SWAP1": 1,
+                        "POP": 3,
+                        "SSTORE": 4,
+                        "CALLDATASIZE": 1,
+                        "PUSH32": 1,
+                        "JUMP": 1,
+                        "MUL": 1,
+                        "RETURN": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7778.md",
             "reference-spec-version": "ce17d00b8341032a946301944124c4a6013032d6"

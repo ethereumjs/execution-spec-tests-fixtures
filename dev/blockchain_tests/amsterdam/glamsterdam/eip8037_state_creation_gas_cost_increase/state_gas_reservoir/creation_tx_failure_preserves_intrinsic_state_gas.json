@@ -213,7 +213,7 @@
                 "storage": {}
             }
         },
-        "lastblockhash": "0x6adb0cba987e587401206cc464f489af560b6358f0e4489a1e8c92d8babeb9dd",
+        "lastblockhash": "0x4e4d73f5162a25910c86a86a599e967149f8a16865117753da179745484a882f",
         "config": {
             "network": "Amsterdam",
             "chainid": "0x01",
@@ -258,7 +258,7 @@
                     "uncleHash": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "coinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
                     "stateRoot": "0xfcf5f900dba1e966fd859af4afcef4038e311adec8bc94bfc7ab7743101843e8",
-                    "transactionsTrie": "0xd8b72dc33c325d12a603102c9368563e264014c678b51ce909faeab4d1404e02",
+                    "transactionsTrie": "0xb8a934953d722f7e5f801a5f19c658f1a201488e59922c3ecd72a1d1624acbe4",
                     "receiptTrie": "0x6109c57d8983f520f4b510024a1760aff8d920bb293bbc00c30abdac956b3b2f",
                     "bloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
                     "difficulty": "0x00",
@@ -277,7 +277,7 @@
                     "requestsHash": "0xe3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
                     "blockAccessListHash": "0xca89a452d8c44cb63c4b0b11a36a7776327a80c286fb652904453042030759dd",
                     "slotNumber": "0x00",
-                    "hash": "0x6adb0cba987e587401206cc464f489af560b6358f0e4489a1e8c92d8babeb9dd"
+                    "hash": "0x4e4d73f5162a25910c86a86a599e967149f8a16865117753da179745484a882f"
                 },
                 "transactions": [
                     {
@@ -285,12 +285,12 @@
                         "chainId": "0x01",
                         "nonce": "0x00",
                         "gasPrice": "0x0a",
-                        "gasLimit": "0x01017e80",
+                        "gasLimit": "0x01044bb0",
                         "value": "0x00",
                         "data": "0x6001600055fe",
                         "v": "0x26",
-                        "r": "0x5654fbff432fae779d8958500fbe91eb55245ed05c48b242ee70e5460a85875e",
-                        "s": "0x7b62355700fc56c21f4fac848b3d69dd303f458abf3382c822590f3fa28cb8e5",
+                        "r": "0xf585181d5e74611ac0952b3172bae768e8fbb78436c83c116ba223eeaf43a2df",
+                        "s": "0x403962ea1bee0aeae18fe1bfcb3c96da186d7e4797e508a97077fd8e66d3b75f",
                         "sender": "0xf6c3a9edc1afa0ad5b720e4d42e1437c43d3b3ff",
                         "to": ""
                     }
@@ -299,7 +299,7 @@
                 "withdrawals": [],
                 "receipts": [
                     {
-                        "transactionHash": "0x2df191adeb3b22c3b3544f1b4beb6b2240d5a96513e215383c872c9e7a3701cb",
+                        "transactionHash": "0xab6a24db7d3b919ba9533d289397f07f9fb917a8a48e8347df1fc2408c3959ed",
                         "type": "0x00",
                         "cumulativeGasUsed": "0x01000000",
                         "bloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
@@ -441,20 +441,75 @@
                         "storageReads": []
                     }
                 ],
-                "rlp": "0xf902d9f9027da073a049fe321fd480cbe07fc7a00cb2ee3f4d8c69a31ef125c4a2e974e0b1c18da01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa0fcf5f900dba1e966fd859af4afcef4038e311adec8bc94bfc7ab7743101843e8a0d8b72dc33c325d12a603102c9368563e264014c678b51ce909faeab4d1404e02a06109c57d8983f520f4b510024a1760aff8d920bb293bbc00c30abdac956b3b2fb901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e0084010000000c80a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a0ca89a452d8c44cb63c4b0b11a36a7776327a80c286fb652904453042030759dd80f855f853800a8401017e808080866001600055fe26a05654fbff432fae779d8958500fbe91eb55245ed05c48b242ee70e5460a85875ea07b62355700fc56c21f4fac848b3d69dd303f458abf3382c822590f3fa28cb8e5c0c0",
+                "rlp": "0xf902d9f9027da073a049fe321fd480cbe07fc7a00cb2ee3f4d8c69a31ef125c4a2e974e0b1c18da01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa0fcf5f900dba1e966fd859af4afcef4038e311adec8bc94bfc7ab7743101843e8a0b8a934953d722f7e5f801a5f19c658f1a201488e59922c3ecd72a1d1624acbe4a06109c57d8983f520f4b510024a1760aff8d920bb293bbc00c30abdac956b3b2fb901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e0084010000000c80a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a0ca89a452d8c44cb63c4b0b11a36a7776327a80c286fb652904453042030759dd80f855f853800a8401044bb08080866001600055fe26a0f585181d5e74611ac0952b3172bae768e8fbb78436c83c116ba223eeaf43a2dfa0403962ea1bee0aeae18fe1bfcb3c96da186d7e4797e508a97077fd8e66d3b75fc0c0",
                 "blocknumber": "1"
             }
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x285da90fee40f5b411791bf636303259a89e800be8fe27ce0bd01c70f516e3bd",
+            "hash": "0xc7ea0c97ef82a1ea71bce7eb29810bb178995155e71c7a6a1189fc375a50f00d",
             "fixture-format": "blockchain_test",
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Regression test for the creation tx failure path.\n\nA creation tx (to=None) whose initcode halts exercises both the\nintrinsic state gas for the new account and the top level failure\nrefund of execution state gas. The test asserts the block header\n`gas_used` equals `max(block_regular, intrinsic_state_gas)`,\nguarding that the failure path does not raise and that block\naccounting does not underflow when the refund is applied.",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_reservoir.py#L846",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_reservoir.py#L843",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "CALLER": 1,
+                    "PUSH20": 1,
+                    "EQ": 4,
+                    "PUSH1": 11,
+                    "JUMPI": 7,
+                    "JUMPDEST": 8,
+                    "SLOAD": 4,
+                    "DUP1": 3,
+                    "DUP3": 3,
+                    "SUB": 1,
+                    "GT": 2,
+                    "PUSH0": 8,
+                    "DUP2": 3,
+                    "PUSH2": 6,
+                    "SWAP2": 1,
+                    "ADD": 2,
+                    "SWAP3": 1,
+                    "SWAP1": 1,
+                    "POP": 3,
+                    "SSTORE": 4,
+                    "CALLDATASIZE": 1,
+                    "PUSH32": 1,
+                    "JUMP": 1,
+                    "MUL": 1,
+                    "RETURN": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "CALLER": 1,
+                        "PUSH20": 1,
+                        "EQ": 4,
+                        "PUSH1": 11,
+                        "JUMPI": 7,
+                        "JUMPDEST": 8,
+                        "SLOAD": 4,
+                        "DUP1": 3,
+                        "DUP3": 3,
+                        "SUB": 1,
+                        "GT": 2,
+                        "PUSH0": 8,
+                        "DUP2": 3,
+                        "PUSH2": 6,
+                        "SWAP2": 1,
+                        "ADD": 2,
+                        "SWAP3": 1,
+                        "SWAP1": 1,
+                        "POP": 3,
+                        "SSTORE": 4,
+                        "CALLDATASIZE": 1,
+                        "PUSH32": 1,
+                        "JUMP": 1,
+                        "MUL": 1,
+                        "RETURN": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-8037.md",
             "reference-spec-version": "a12902ae1b811c45a81b51bfce671cf7a1fb27f3"

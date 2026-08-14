@@ -464,9 +464,64 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test that duplicate access list entries are charged multiple times.\n\nAccording to EIP-2930, non-unique addresses and storage keys are allowed\nand charged multiple times. EIP-7981 should maintain this behavior.",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip7981_increase_access_list_cost/test_access_list_cost.py#L233",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip7981_increase_access_list_cost/test_access_list_cost.py#L233",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "CALLER": 1,
+                    "PUSH20": 1,
+                    "EQ": 4,
+                    "PUSH1": 11,
+                    "JUMPI": 7,
+                    "JUMPDEST": 8,
+                    "SLOAD": 4,
+                    "DUP1": 3,
+                    "DUP3": 3,
+                    "SUB": 1,
+                    "GT": 2,
+                    "PUSH0": 8,
+                    "DUP2": 3,
+                    "PUSH2": 6,
+                    "SWAP2": 1,
+                    "ADD": 2,
+                    "SWAP3": 1,
+                    "SWAP1": 1,
+                    "POP": 3,
+                    "SSTORE": 4,
+                    "CALLDATASIZE": 1,
+                    "PUSH32": 1,
+                    "JUMP": 1,
+                    "MUL": 1,
+                    "RETURN": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "CALLER": 1,
+                        "PUSH20": 1,
+                        "EQ": 4,
+                        "PUSH1": 11,
+                        "JUMPI": 7,
+                        "JUMPDEST": 8,
+                        "SLOAD": 4,
+                        "DUP1": 3,
+                        "DUP3": 3,
+                        "SUB": 1,
+                        "GT": 2,
+                        "PUSH0": 8,
+                        "DUP2": 3,
+                        "PUSH2": 6,
+                        "SWAP2": 1,
+                        "ADD": 2,
+                        "SWAP3": 1,
+                        "SWAP1": 1,
+                        "POP": 3,
+                        "SSTORE": 4,
+                        "CALLDATASIZE": 1,
+                        "PUSH32": 1,
+                        "JUMP": 1,
+                        "MUL": 1,
+                        "RETURN": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7981.md",
             "reference-spec-version": "954963fb6315dffadd9c40d48e4dae313e20cff5"
@@ -927,9 +982,64 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test that duplicate access list entries are charged multiple times.\n\nAccording to EIP-2930, non-unique addresses and storage keys are allowed\nand charged multiple times. EIP-7981 should maintain this behavior.",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip7981_increase_access_list_cost/test_access_list_cost.py#L233",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip7981_increase_access_list_cost/test_access_list_cost.py#L233",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "CALLER": 1,
+                    "PUSH20": 1,
+                    "EQ": 4,
+                    "PUSH1": 11,
+                    "JUMPI": 7,
+                    "JUMPDEST": 8,
+                    "SLOAD": 4,
+                    "DUP1": 3,
+                    "DUP3": 3,
+                    "SUB": 1,
+                    "GT": 2,
+                    "PUSH0": 8,
+                    "DUP2": 3,
+                    "PUSH2": 6,
+                    "SWAP2": 1,
+                    "ADD": 2,
+                    "SWAP3": 1,
+                    "SWAP1": 1,
+                    "POP": 3,
+                    "SSTORE": 4,
+                    "CALLDATASIZE": 1,
+                    "PUSH32": 1,
+                    "JUMP": 1,
+                    "MUL": 1,
+                    "RETURN": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "CALLER": 1,
+                        "PUSH20": 1,
+                        "EQ": 4,
+                        "PUSH1": 11,
+                        "JUMPI": 7,
+                        "JUMPDEST": 8,
+                        "SLOAD": 4,
+                        "DUP1": 3,
+                        "DUP3": 3,
+                        "SUB": 1,
+                        "GT": 2,
+                        "PUSH0": 8,
+                        "DUP2": 3,
+                        "PUSH2": 6,
+                        "SWAP2": 1,
+                        "ADD": 2,
+                        "SWAP3": 1,
+                        "SWAP1": 1,
+                        "POP": 3,
+                        "SSTORE": 4,
+                        "CALLDATASIZE": 1,
+                        "PUSH32": 1,
+                        "JUMP": 1,
+                        "MUL": 1,
+                        "RETURN": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7981.md",
             "reference-spec-version": "954963fb6315dffadd9c40d48e4dae313e20cff5"
@@ -1394,9 +1504,64 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test that duplicate access list entries are charged multiple times.\n\nAccording to EIP-2930, non-unique addresses and storage keys are allowed\nand charged multiple times. EIP-7981 should maintain this behavior.",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip7981_increase_access_list_cost/test_access_list_cost.py#L233",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip7981_increase_access_list_cost/test_access_list_cost.py#L233",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "CALLER": 1,
+                    "PUSH20": 1,
+                    "EQ": 4,
+                    "PUSH1": 11,
+                    "JUMPI": 7,
+                    "JUMPDEST": 8,
+                    "SLOAD": 4,
+                    "DUP1": 3,
+                    "DUP3": 3,
+                    "SUB": 1,
+                    "GT": 2,
+                    "PUSH0": 8,
+                    "DUP2": 3,
+                    "PUSH2": 6,
+                    "SWAP2": 1,
+                    "ADD": 2,
+                    "SWAP3": 1,
+                    "SWAP1": 1,
+                    "POP": 3,
+                    "SSTORE": 4,
+                    "CALLDATASIZE": 1,
+                    "PUSH32": 1,
+                    "JUMP": 1,
+                    "MUL": 1,
+                    "RETURN": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "CALLER": 1,
+                        "PUSH20": 1,
+                        "EQ": 4,
+                        "PUSH1": 11,
+                        "JUMPI": 7,
+                        "JUMPDEST": 8,
+                        "SLOAD": 4,
+                        "DUP1": 3,
+                        "DUP3": 3,
+                        "SUB": 1,
+                        "GT": 2,
+                        "PUSH0": 8,
+                        "DUP2": 3,
+                        "PUSH2": 6,
+                        "SWAP2": 1,
+                        "ADD": 2,
+                        "SWAP3": 1,
+                        "SWAP1": 1,
+                        "POP": 3,
+                        "SSTORE": 4,
+                        "CALLDATASIZE": 1,
+                        "PUSH32": 1,
+                        "JUMP": 1,
+                        "MUL": 1,
+                        "RETURN": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7981.md",
             "reference-spec-version": "954963fb6315dffadd9c40d48e4dae313e20cff5"
@@ -1610,7 +1775,7 @@
                 "storage": {}
             }
         },
-        "lastblockhash": "0xbdfc69524f285b68657343a3e6d7a4c1f932ea815854d7969a40b70bbdb85f26",
+        "lastblockhash": "0x5efe53848e54c9e0e19fd8f7c02fe57d009432f4a7295062da7cafcd1062e3aa",
         "config": {
             "network": "Amsterdam",
             "chainid": "0x01",
@@ -1672,9 +1837,9 @@
                     "excessBlobGas": "0x00",
                     "parentBeaconBlockRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
                     "requestsHash": "0xe3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-                    "blockAccessListHash": "0x5b30603ab29a7bb46deec2ed4bfe30deb2c148d35c645e3ee7e6331ac4a9917d",
+                    "blockAccessListHash": "0x3089183cdc3b2d671d0c8309e5819bc3e3f0479a7e6c0304e2ab1fbe620718e2",
                     "slotNumber": "0x00",
-                    "hash": "0xbdfc69524f285b68657343a3e6d7a4c1f932ea815854d7969a40b70bbdb85f26"
+                    "hash": "0x5efe53848e54c9e0e19fd8f7c02fe57d009432f4a7295062da7cafcd1062e3aa"
                 },
                 "transactions": [
                     {
@@ -1840,14 +2005,6 @@
                         "storageReads": []
                     },
                     {
-                        "address": "0xc0f6dc9e5836f54caadbf59cc69346c508e1992b",
-                        "nonceChanges": [],
-                        "balanceChanges": [],
-                        "codeChanges": [],
-                        "storageChanges": [],
-                        "storageReads": []
-                    },
-                    {
                         "address": "0xf6c3a9edc1afa0ad5b720e4d42e1437c43d3b3ff",
                         "nonceChanges": [
                             {
@@ -1866,20 +2023,75 @@
                         "storageReads": []
                     }
                 ],
-                "rlp": "0xf903bdf9027da073a049fe321fd480cbe07fc7a00cb2ee3f4d8c69a31ef125c4a2e974e0b1c18da01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa0fae0d0dcea0194992ea9d2cfa3c1579a804ba65b2e35ffaa02b25cfe8bfda182a08c89c0ec19a5bca318f71123460fb7ae37827c584d7669f93feed0c763f94ae5a06797086f1a33a75d0c073af6c1284047a1d951ff6dfb6ceb62ba1032a1183222b901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e0082a2008203e800a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a05b30603ab29a7bb46deec2ed4bfe30deb2c148d35c645e3ee7e6331ac4a9917d80f90138b9013504f901310180800782a20094c0f6dc9e5836f54caadbf59cc69346c508e1992b8080f870f7940000000000000000000000000000000000000001e1a00000000000000000000000000000000000000000000000000000000000000000f7940000000000000000000000000000000000000001e1a00000000000000000000000000000000000000000000000000000000000000000f85cf85a809400000000000000000000000000000000000000018080a02a82d26bac18a7a717fc6312efdc69a1dbcafaf5e830eb09c282c266d8ce74b9a035d7bd95b5a245932b650cecc6e00d5eef05c6c60a73dcd1cf5dad66cde4008401a04811c6f08e93b9143c51fa226cfe2b421e5cd264c16fa5d0a20b049f4195c2d7a017465fda202444612a6f48da2352d9323384f0c2696fc716e18a3334c440aa7bc0c0",
+                "rlp": "0xf903bdf9027da073a049fe321fd480cbe07fc7a00cb2ee3f4d8c69a31ef125c4a2e974e0b1c18da01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa0fae0d0dcea0194992ea9d2cfa3c1579a804ba65b2e35ffaa02b25cfe8bfda182a08c89c0ec19a5bca318f71123460fb7ae37827c584d7669f93feed0c763f94ae5a06797086f1a33a75d0c073af6c1284047a1d951ff6dfb6ceb62ba1032a1183222b901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e0082a2008203e800a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a03089183cdc3b2d671d0c8309e5819bc3e3f0479a7e6c0304e2ab1fbe620718e280f90138b9013504f901310180800782a20094c0f6dc9e5836f54caadbf59cc69346c508e1992b8080f870f7940000000000000000000000000000000000000001e1a00000000000000000000000000000000000000000000000000000000000000000f7940000000000000000000000000000000000000001e1a00000000000000000000000000000000000000000000000000000000000000000f85cf85a809400000000000000000000000000000000000000018080a02a82d26bac18a7a717fc6312efdc69a1dbcafaf5e830eb09c282c266d8ce74b9a035d7bd95b5a245932b650cecc6e00d5eef05c6c60a73dcd1cf5dad66cde4008401a04811c6f08e93b9143c51fa226cfe2b421e5cd264c16fa5d0a20b049f4195c2d7a017465fda202444612a6f48da2352d9323384f0c2696fc716e18a3334c440aa7bc0c0",
                 "blocknumber": "1"
             }
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xa0d6ffa900db7b20c5c7dcdd9ba399416397808c2969ede7bd0bfb2584f62007",
+            "hash": "0xd3dcccb25a3fae7c227a9b3b00b6d46b47704f7d72bd25842a139c594cfe36dd",
             "fixture-format": "blockchain_test",
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test that duplicate access list entries are charged multiple times.\n\nAccording to EIP-2930, non-unique addresses and storage keys are allowed\nand charged multiple times. EIP-7981 should maintain this behavior.",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip7981_increase_access_list_cost/test_access_list_cost.py#L233",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip7981_increase_access_list_cost/test_access_list_cost.py#L233",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "CALLER": 1,
+                    "PUSH20": 1,
+                    "EQ": 4,
+                    "PUSH1": 11,
+                    "JUMPI": 7,
+                    "JUMPDEST": 8,
+                    "SLOAD": 4,
+                    "DUP1": 3,
+                    "DUP3": 3,
+                    "SUB": 1,
+                    "GT": 2,
+                    "PUSH0": 8,
+                    "DUP2": 3,
+                    "PUSH2": 6,
+                    "SWAP2": 1,
+                    "ADD": 2,
+                    "SWAP3": 1,
+                    "SWAP1": 1,
+                    "POP": 3,
+                    "SSTORE": 4,
+                    "CALLDATASIZE": 1,
+                    "PUSH32": 1,
+                    "JUMP": 1,
+                    "MUL": 1,
+                    "RETURN": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "CALLER": 1,
+                        "PUSH20": 1,
+                        "EQ": 4,
+                        "PUSH1": 11,
+                        "JUMPI": 7,
+                        "JUMPDEST": 8,
+                        "SLOAD": 4,
+                        "DUP1": 3,
+                        "DUP3": 3,
+                        "SUB": 1,
+                        "GT": 2,
+                        "PUSH0": 8,
+                        "DUP2": 3,
+                        "PUSH2": 6,
+                        "SWAP2": 1,
+                        "ADD": 2,
+                        "SWAP3": 1,
+                        "SWAP1": 1,
+                        "POP": 3,
+                        "SSTORE": 4,
+                        "CALLDATASIZE": 1,
+                        "PUSH32": 1,
+                        "JUMP": 1,
+                        "MUL": 1,
+                        "RETURN": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7981.md",
             "reference-spec-version": "954963fb6315dffadd9c40d48e4dae313e20cff5"

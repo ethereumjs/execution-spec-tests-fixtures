@@ -231,7 +231,7 @@
                 "storage": {}
             }
         },
-        "lastblockhash": "0xa761352efba3070a0ec331e9b8bde97aec9f6bb9b3d1712ee6f52bf59ec238b3",
+        "lastblockhash": "0x3abdcfb9befc5244c966a3daab47940bddadffa55cf396af31bd606e8a3df5da",
         "config": {
             "network": "Amsterdam",
             "chainid": "0x01",
@@ -293,9 +293,9 @@
                     "excessBlobGas": "0x00",
                     "parentBeaconBlockRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
                     "requestsHash": "0xe3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-                    "blockAccessListHash": "0x8d6288dee3b9eb779c78bfd81d8690af707a187ed93c005130c02e68b26b73c8",
+                    "blockAccessListHash": "0xb0b5bfaec8a8edf28369683fe79661474bc7f64f254770ead4678a51f426d552",
                     "slotNumber": "0x00",
-                    "hash": "0xa761352efba3070a0ec331e9b8bde97aec9f6bb9b3d1712ee6f52bf59ec238b3"
+                    "hash": "0x3abdcfb9befc5244c966a3daab47940bddadffa55cf396af31bd606e8a3df5da"
                 },
                 "transactions": [
                     {
@@ -448,14 +448,6 @@
                         "storageReads": []
                     },
                     {
-                        "address": "0xc4028cd457e62aaa998b95f7edf9655797c54309",
-                        "nonceChanges": [],
-                        "balanceChanges": [],
-                        "codeChanges": [],
-                        "storageChanges": [],
-                        "storageReads": []
-                    },
-                    {
                         "address": "0xf6c3a9edc1afa0ad5b720e4d42e1437c43d3b3ff",
                         "nonceChanges": [
                             {
@@ -474,20 +466,75 @@
                         "storageReads": []
                     }
                 ],
-                "rlp": "0xf90347f9027ba0d442518d9d7d0f9a46f51a28ab1d94d7d449718647e7f1a5cd6b36567aca2fb7a01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa05a640425d30bb2f7898a97bcd36e0ab6637cd584cb76fce80dcd197287969418a02c615d7a717acc8c3b521fc0fedec5a1b10fd0083792c4c914e1406e37e627baa02373e819e8ccd26f5888a8b6e222f0906fdbd3baf357ac434bdaff96684496adb901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e008259200c80a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a08d6288dee3b9eb779c78bfd81d8690af707a187ed93c005130c02e68b26b73c880f8c5b8c304f8c00180800782592094c4028cd457e62aaa998b95f7edf9655797c543098080c0f85cf85a809437f536464af59c8d7358cae965f92cbeadd58dcb8080a0e6b3dc978564403f222c3c059122c4d8a59a790b8e73caf9da156e86428a64f6a027b643bd32c065223a30e282d76a9b271d5ce9e47c2b5504a64faedcdc3ae3dd80a009ae73affa4c90e64bc5e08f48f533d4e9223797e73214faa0b1c2bd89352d67a004c44673c8b153b9ccf4423f7fdce68d2fab44a6184966b664b19e72d358d26ac0c0",
+                "rlp": "0xf90347f9027ba0d442518d9d7d0f9a46f51a28ab1d94d7d449718647e7f1a5cd6b36567aca2fb7a01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa05a640425d30bb2f7898a97bcd36e0ab6637cd584cb76fce80dcd197287969418a02c615d7a717acc8c3b521fc0fedec5a1b10fd0083792c4c914e1406e37e627baa02373e819e8ccd26f5888a8b6e222f0906fdbd3baf357ac434bdaff96684496adb901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e008259200c80a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a0b0b5bfaec8a8edf28369683fe79661474bc7f64f254770ead4678a51f426d55280f8c5b8c304f8c00180800782592094c4028cd457e62aaa998b95f7edf9655797c543098080c0f85cf85a809437f536464af59c8d7358cae965f92cbeadd58dcb8080a0e6b3dc978564403f222c3c059122c4d8a59a790b8e73caf9da156e86428a64f6a027b643bd32c065223a30e282d76a9b271d5ce9e47c2b5504a64faedcdc3ae3dd80a009ae73affa4c90e64bc5e08f48f533d4e9223797e73214faa0b1c2bd89352d67a004c44673c8b153b9ccf4423f7fdce68d2fab44a6184966b664b19e72d358d26ac0c0",
                 "blocknumber": "1"
             }
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xe1024e2b76c69fee726c1ea4b9db64b82d6c4e28f1c402b413883ed37644a3b6",
+            "hash": "0xd6a5056c3b9bfb99aa2c56e8e7ab395875a9137e2ef3b6074cfdee96649121b3",
             "fixture-format": "blockchain_test",
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test the intrinsic-gas boundary and the top-frame OOG behaviour.\n\nUnder EIP-2780 the intrinsic is regular-only, so the boundary keys off\n``fork.transaction_intrinsic_cost_calculator()(auth_list)``. With\n``gas_delta=-1`` the transaction is one gas below the intrinsic and is\nrejected as intrinsic-gas-too-low. With ``gas_delta=0`` the gas limit\nequals the intrinsic exactly, so the transaction is included but has\nzero gas left for the top frame: the authority's ``NEW_ACCOUNT`` state\ncharge in ``set_delegation`` runs out of gas, the whole preparation\nrolls back, and the authority is never created.",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_set_code.py#L1131",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_set_code.py#L1131",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "CALLER": 1,
+                    "PUSH20": 1,
+                    "EQ": 4,
+                    "PUSH1": 11,
+                    "JUMPI": 7,
+                    "JUMPDEST": 8,
+                    "SLOAD": 4,
+                    "DUP1": 3,
+                    "DUP3": 3,
+                    "SUB": 1,
+                    "GT": 2,
+                    "PUSH0": 8,
+                    "DUP2": 3,
+                    "PUSH2": 6,
+                    "SWAP2": 1,
+                    "ADD": 2,
+                    "SWAP3": 1,
+                    "SWAP1": 1,
+                    "POP": 3,
+                    "SSTORE": 4,
+                    "CALLDATASIZE": 1,
+                    "PUSH32": 1,
+                    "JUMP": 1,
+                    "MUL": 1,
+                    "RETURN": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "CALLER": 1,
+                        "PUSH20": 1,
+                        "EQ": 4,
+                        "PUSH1": 11,
+                        "JUMPI": 7,
+                        "JUMPDEST": 8,
+                        "SLOAD": 4,
+                        "DUP1": 3,
+                        "DUP3": 3,
+                        "SUB": 1,
+                        "GT": 2,
+                        "PUSH0": 8,
+                        "DUP2": 3,
+                        "PUSH2": 6,
+                        "SWAP2": 1,
+                        "ADD": 2,
+                        "SWAP3": 1,
+                        "SWAP1": 1,
+                        "POP": 3,
+                        "SSTORE": 4,
+                        "CALLDATASIZE": 1,
+                        "PUSH32": 1,
+                        "JUMP": 1,
+                        "MUL": 1,
+                        "RETURN": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-8037.md",
             "reference-spec-version": "a12902ae1b811c45a81b51bfce671cf7a1fb27f3"
@@ -925,9 +972,64 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test the intrinsic-gas boundary and the top-frame OOG behaviour.\n\nUnder EIP-2780 the intrinsic is regular-only, so the boundary keys off\n``fork.transaction_intrinsic_cost_calculator()(auth_list)``. With\n``gas_delta=-1`` the transaction is one gas below the intrinsic and is\nrejected as intrinsic-gas-too-low. With ``gas_delta=0`` the gas limit\nequals the intrinsic exactly, so the transaction is included but has\nzero gas left for the top frame: the authority's ``NEW_ACCOUNT`` state\ncharge in ``set_delegation`` runs out of gas, the whole preparation\nrolls back, and the authority is never created.",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_set_code.py#L1131",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_set_code.py#L1131",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "CALLER": 1,
+                    "PUSH20": 1,
+                    "EQ": 4,
+                    "PUSH1": 11,
+                    "JUMPI": 7,
+                    "JUMPDEST": 8,
+                    "SLOAD": 4,
+                    "DUP1": 3,
+                    "DUP3": 3,
+                    "SUB": 1,
+                    "GT": 2,
+                    "PUSH0": 8,
+                    "DUP2": 3,
+                    "PUSH2": 6,
+                    "SWAP2": 1,
+                    "ADD": 2,
+                    "SWAP3": 1,
+                    "SWAP1": 1,
+                    "POP": 3,
+                    "SSTORE": 4,
+                    "CALLDATASIZE": 1,
+                    "PUSH32": 1,
+                    "JUMP": 1,
+                    "MUL": 1,
+                    "RETURN": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "CALLER": 1,
+                        "PUSH20": 1,
+                        "EQ": 4,
+                        "PUSH1": 11,
+                        "JUMPI": 7,
+                        "JUMPDEST": 8,
+                        "SLOAD": 4,
+                        "DUP1": 3,
+                        "DUP3": 3,
+                        "SUB": 1,
+                        "GT": 2,
+                        "PUSH0": 8,
+                        "DUP2": 3,
+                        "PUSH2": 6,
+                        "SWAP2": 1,
+                        "ADD": 2,
+                        "SWAP3": 1,
+                        "SWAP1": 1,
+                        "POP": 3,
+                        "SSTORE": 4,
+                        "CALLDATASIZE": 1,
+                        "PUSH32": 1,
+                        "JUMP": 1,
+                        "MUL": 1,
+                        "RETURN": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-8037.md",
             "reference-spec-version": "a12902ae1b811c45a81b51bfce671cf7a1fb27f3"

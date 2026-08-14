@@ -213,7 +213,7 @@
                 "storage": {}
             }
         },
-        "lastblockhash": "0xed5c8b7ab2edc6e565f40dcbe80d7c5bb0d82676fb91a5e4263a62e31b4f836f",
+        "lastblockhash": "0x81df24c1bc71fd6941157bf2758acddd2218f696c749581467c35068b61fb438",
         "config": {
             "network": "Amsterdam",
             "chainid": "0x01",
@@ -264,7 +264,7 @@
                     "difficulty": "0x00",
                     "number": "0x01",
                     "gasLimit": "0x07270e00",
-                    "gasUsed": "0x60f4",
+                    "gasUsed": "0x61f4",
                     "timestamp": "0x03e8",
                     "extraData": "0x00",
                     "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -277,7 +277,7 @@
                     "requestsHash": "0xe3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
                     "blockAccessListHash": "0x525fbdfaaac2716c6cbceeaafa4c4dfb8019c93f89a1e570479ef6248c1dfc9e",
                     "slotNumber": "0x00",
-                    "hash": "0xed5c8b7ab2edc6e565f40dcbe80d7c5bb0d82676fb91a5e4263a62e31b4f836f"
+                    "hash": "0x81df24c1bc71fd6941157bf2758acddd2218f696c749581467c35068b61fb438"
                 },
                 "transactions": [
                     {
@@ -439,20 +439,75 @@
                         "storageReads": []
                     }
                 ],
-                "rlp": "0xf902dbf9027da0140e308d292dbb3c4bfc6eacf824c07120f92e3f20bd5493d4563fa669bb94f7a01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa0993346ef060db794bbb0154d8ef44d97dfc89c30db332da2f0e3a1ccdfcbabb6a0bee6d752271266925d1034a818ea3bd4d349d9d5355fe952abdaf5fc7b1d9c24a0674d0c04ad37ba68bd089a55048248b4f4bfef25c512de6b7fcec7e3cc56b440b901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e008260f48203e800a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a0525fbdfaaac2716c6cbceeaafa4c4dfb8019c93f89a1e570479ef6248c1dfc9e80f857f85580843b9aca008303320c80018560006000fd25a05c7ed8e183389abae1f5246ed5534127a8a58f7dad256fea3abed8ed3c0b5533a0274140e1c164caaf7970b6ff2741da35635acb121566ce0e58cec94729b188a1c0c0",
+                "rlp": "0xf902dbf9027da0140e308d292dbb3c4bfc6eacf824c07120f92e3f20bd5493d4563fa669bb94f7a01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa0993346ef060db794bbb0154d8ef44d97dfc89c30db332da2f0e3a1ccdfcbabb6a0bee6d752271266925d1034a818ea3bd4d349d9d5355fe952abdaf5fc7b1d9c24a0674d0c04ad37ba68bd089a55048248b4f4bfef25c512de6b7fcec7e3cc56b440b901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e008261f48203e800a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a0525fbdfaaac2716c6cbceeaafa4c4dfb8019c93f89a1e570479ef6248c1dfc9e80f857f85580843b9aca008303320c80018560006000fd25a05c7ed8e183389abae1f5246ed5534127a8a58f7dad256fea3abed8ed3c0b5533a0274140e1c164caaf7970b6ff2741da35635acb121566ce0e58cec94729b188a1c0c0",
                 "blocknumber": "1"
             }
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xefa73b683f9db681ca4bbc7f55ca41e59349bb06d5337ea30d7e7a8160bda1f7",
+            "hash": "0xbea0d1e309bced883c94edfeeb1c64d4f35a7d6c57f31b9ab44adfda9efb128c",
             "fixture-format": "blockchain_test",
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test value moving contract creation transactions.\n\nWhen the init code succeeds, the contract is deployed with the\ntransferred value and the receipt's ``gas_used`` equals the\nintrinsic plus the execution gas.\n\nWhen the init code reverts, the deploy is rolled back: no code is\nset, the value transfer is reversed, and the top-frame\n``NEW_ACCOUNT`` state-gas charge for the created account is\nrefilled. The sender therefore pays only the regular intrinsic\nplus the few EVM gas units spent before the revert -- the\n``NEW_ACCOUNT`` charge does not appear on the receipt.",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip2780_reduce_intrinsic_tx_gas/test_value_moving_transactions.py#L139",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip2780_reduce_intrinsic_tx_gas/test_value_moving_transactions.py#L139",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "CALLER": 1,
+                    "PUSH20": 1,
+                    "EQ": 4,
+                    "PUSH1": 11,
+                    "JUMPI": 7,
+                    "JUMPDEST": 8,
+                    "SLOAD": 4,
+                    "DUP1": 3,
+                    "DUP3": 3,
+                    "SUB": 1,
+                    "GT": 2,
+                    "PUSH0": 8,
+                    "DUP2": 3,
+                    "PUSH2": 6,
+                    "SWAP2": 1,
+                    "ADD": 2,
+                    "SWAP3": 1,
+                    "SWAP1": 1,
+                    "POP": 3,
+                    "SSTORE": 4,
+                    "CALLDATASIZE": 1,
+                    "PUSH32": 1,
+                    "JUMP": 1,
+                    "MUL": 1,
+                    "RETURN": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "CALLER": 1,
+                        "PUSH20": 1,
+                        "EQ": 4,
+                        "PUSH1": 11,
+                        "JUMPI": 7,
+                        "JUMPDEST": 8,
+                        "SLOAD": 4,
+                        "DUP1": 3,
+                        "DUP3": 3,
+                        "SUB": 1,
+                        "GT": 2,
+                        "PUSH0": 8,
+                        "DUP2": 3,
+                        "PUSH2": 6,
+                        "SWAP2": 1,
+                        "ADD": 2,
+                        "SWAP3": 1,
+                        "SWAP1": 1,
+                        "POP": 3,
+                        "SSTORE": 4,
+                        "CALLDATASIZE": 1,
+                        "PUSH32": 1,
+                        "JUMP": 1,
+                        "MUL": 1,
+                        "RETURN": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2780.md",
             "reference-spec-version": "e6d8f589d355e891c37ff479d3ce668352e5b1be"
@@ -672,7 +727,7 @@
                 "storage": {}
             }
         },
-        "lastblockhash": "0x06a4d2376fd8253361b3a3905cda8e822e8dbfaced9a5cd7fc702a5cee843e8e",
+        "lastblockhash": "0x7a1668a59707f3f07f32e165bf5bb18e9dc4b129c3a7911fa0635cd2c654c714",
         "config": {
             "network": "Amsterdam",
             "chainid": "0x01",
@@ -723,7 +778,7 @@
                     "difficulty": "0x00",
                     "number": "0x01",
                     "gasLimit": "0x07270e00",
-                    "gasUsed": "0x5a18",
+                    "gasUsed": "0x5b18",
                     "timestamp": "0x03e8",
                     "extraData": "0x00",
                     "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -736,7 +791,7 @@
                     "requestsHash": "0xe3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
                     "blockAccessListHash": "0xeba48bd00fee57b7383516ab84f4265be0b5f2bee9ccea8561aa24e04adb02f1",
                     "slotNumber": "0x00",
-                    "hash": "0x06a4d2376fd8253361b3a3905cda8e822e8dbfaced9a5cd7fc702a5cee843e8e"
+                    "hash": "0x7a1668a59707f3f07f32e165bf5bb18e9dc4b129c3a7911fa0635cd2c654c714"
                 },
                 "transactions": [
                     {
@@ -898,20 +953,75 @@
                         "storageReads": []
                     }
                 ],
-                "rlp": "0xf902dbf9027da0140e308d292dbb3c4bfc6eacf824c07120f92e3f20bd5493d4563fa669bb94f7a01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa0794e82d0cf77b746d88e0ec3d1b6e2b0cc5409bc6a141b1f51a679f10391a735a0f7cb25b2ce2fa3b6e3f319f5959f7986c4a17756b98ed11441f9d0b8f4bfd730a00b4195529dbcee90aeb52043a3c6a80fc1fae65e9e6eda0a020e372cff1f81afb901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e00825a188203e800a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a0eba48bd00fee57b7383516ab84f4265be0b5f2bee9ccea8561aa24e04adb02f180f857f85580843b9aca0083032b3080808560006000fd26a075d527360b3dd025b873df1dd9edc90226ee8cb2b7f9b4e61d24ec5cfb73046ea0434973b1d91e0e8bfed434b206f9e0f1b5df7126e50dfa0e8ce83ab69b680665c0c0",
+                "rlp": "0xf902dbf9027da0140e308d292dbb3c4bfc6eacf824c07120f92e3f20bd5493d4563fa669bb94f7a01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa0794e82d0cf77b746d88e0ec3d1b6e2b0cc5409bc6a141b1f51a679f10391a735a0f7cb25b2ce2fa3b6e3f319f5959f7986c4a17756b98ed11441f9d0b8f4bfd730a00b4195529dbcee90aeb52043a3c6a80fc1fae65e9e6eda0a020e372cff1f81afb901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e00825b188203e800a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a0eba48bd00fee57b7383516ab84f4265be0b5f2bee9ccea8561aa24e04adb02f180f857f85580843b9aca0083032b3080808560006000fd26a075d527360b3dd025b873df1dd9edc90226ee8cb2b7f9b4e61d24ec5cfb73046ea0434973b1d91e0e8bfed434b206f9e0f1b5df7126e50dfa0e8ce83ab69b680665c0c0",
                 "blocknumber": "1"
             }
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x65bf8d5b87021bce295652f4f643ac94015003a4b4033431a911b7cdb5694341",
+            "hash": "0x1b7540bae402adf7890f0140e1d34e0052cbd43f795a0627b9784157f587f2a4",
             "fixture-format": "blockchain_test",
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test value moving contract creation transactions.\n\nWhen the init code succeeds, the contract is deployed with the\ntransferred value and the receipt's ``gas_used`` equals the\nintrinsic plus the execution gas.\n\nWhen the init code reverts, the deploy is rolled back: no code is\nset, the value transfer is reversed, and the top-frame\n``NEW_ACCOUNT`` state-gas charge for the created account is\nrefilled. The sender therefore pays only the regular intrinsic\nplus the few EVM gas units spent before the revert -- the\n``NEW_ACCOUNT`` charge does not appear on the receipt.",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip2780_reduce_intrinsic_tx_gas/test_value_moving_transactions.py#L139",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip2780_reduce_intrinsic_tx_gas/test_value_moving_transactions.py#L139",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "CALLER": 1,
+                    "PUSH20": 1,
+                    "EQ": 4,
+                    "PUSH1": 11,
+                    "JUMPI": 7,
+                    "JUMPDEST": 8,
+                    "SLOAD": 4,
+                    "DUP1": 3,
+                    "DUP3": 3,
+                    "SUB": 1,
+                    "GT": 2,
+                    "PUSH0": 8,
+                    "DUP2": 3,
+                    "PUSH2": 6,
+                    "SWAP2": 1,
+                    "ADD": 2,
+                    "SWAP3": 1,
+                    "SWAP1": 1,
+                    "POP": 3,
+                    "SSTORE": 4,
+                    "CALLDATASIZE": 1,
+                    "PUSH32": 1,
+                    "JUMP": 1,
+                    "MUL": 1,
+                    "RETURN": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "CALLER": 1,
+                        "PUSH20": 1,
+                        "EQ": 4,
+                        "PUSH1": 11,
+                        "JUMPI": 7,
+                        "JUMPDEST": 8,
+                        "SLOAD": 4,
+                        "DUP1": 3,
+                        "DUP3": 3,
+                        "SUB": 1,
+                        "GT": 2,
+                        "PUSH0": 8,
+                        "DUP2": 3,
+                        "PUSH2": 6,
+                        "SWAP2": 1,
+                        "ADD": 2,
+                        "SWAP3": 1,
+                        "SWAP1": 1,
+                        "POP": 3,
+                        "SSTORE": 4,
+                        "CALLDATASIZE": 1,
+                        "PUSH32": 1,
+                        "JUMP": 1,
+                        "MUL": 1,
+                        "RETURN": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2780.md",
             "reference-spec-version": "e6d8f589d355e891c37ff479d3ce668352e5b1be"
@@ -1399,9 +1509,64 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test value moving contract creation transactions.\n\nWhen the init code succeeds, the contract is deployed with the\ntransferred value and the receipt's ``gas_used`` equals the\nintrinsic plus the execution gas.\n\nWhen the init code reverts, the deploy is rolled back: no code is\nset, the value transfer is reversed, and the top-frame\n``NEW_ACCOUNT`` state-gas charge for the created account is\nrefilled. The sender therefore pays only the regular intrinsic\nplus the few EVM gas units spent before the revert -- the\n``NEW_ACCOUNT`` charge does not appear on the receipt.",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip2780_reduce_intrinsic_tx_gas/test_value_moving_transactions.py#L139",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip2780_reduce_intrinsic_tx_gas/test_value_moving_transactions.py#L139",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "CALLER": 1,
+                    "PUSH20": 1,
+                    "EQ": 4,
+                    "PUSH1": 11,
+                    "JUMPI": 7,
+                    "JUMPDEST": 8,
+                    "SLOAD": 4,
+                    "DUP1": 3,
+                    "DUP3": 3,
+                    "SUB": 1,
+                    "GT": 2,
+                    "PUSH0": 8,
+                    "DUP2": 3,
+                    "PUSH2": 6,
+                    "SWAP2": 1,
+                    "ADD": 2,
+                    "SWAP3": 1,
+                    "SWAP1": 1,
+                    "POP": 3,
+                    "SSTORE": 4,
+                    "CALLDATASIZE": 1,
+                    "PUSH32": 1,
+                    "JUMP": 1,
+                    "MUL": 1,
+                    "RETURN": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "CALLER": 1,
+                        "PUSH20": 1,
+                        "EQ": 4,
+                        "PUSH1": 11,
+                        "JUMPI": 7,
+                        "JUMPDEST": 8,
+                        "SLOAD": 4,
+                        "DUP1": 3,
+                        "DUP3": 3,
+                        "SUB": 1,
+                        "GT": 2,
+                        "PUSH0": 8,
+                        "DUP2": 3,
+                        "PUSH2": 6,
+                        "SWAP2": 1,
+                        "ADD": 2,
+                        "SWAP3": 1,
+                        "SWAP1": 1,
+                        "POP": 3,
+                        "SSTORE": 4,
+                        "CALLDATASIZE": 1,
+                        "PUSH32": 1,
+                        "JUMP": 1,
+                        "MUL": 1,
+                        "RETURN": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2780.md",
             "reference-spec-version": "e6d8f589d355e891c37ff479d3ce668352e5b1be"
@@ -1874,9 +2039,64 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test value moving contract creation transactions.\n\nWhen the init code succeeds, the contract is deployed with the\ntransferred value and the receipt's ``gas_used`` equals the\nintrinsic plus the execution gas.\n\nWhen the init code reverts, the deploy is rolled back: no code is\nset, the value transfer is reversed, and the top-frame\n``NEW_ACCOUNT`` state-gas charge for the created account is\nrefilled. The sender therefore pays only the regular intrinsic\nplus the few EVM gas units spent before the revert -- the\n``NEW_ACCOUNT`` charge does not appear on the receipt.",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip2780_reduce_intrinsic_tx_gas/test_value_moving_transactions.py#L139",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip2780_reduce_intrinsic_tx_gas/test_value_moving_transactions.py#L139",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "CALLER": 1,
+                    "PUSH20": 1,
+                    "EQ": 4,
+                    "PUSH1": 11,
+                    "JUMPI": 7,
+                    "JUMPDEST": 8,
+                    "SLOAD": 4,
+                    "DUP1": 3,
+                    "DUP3": 3,
+                    "SUB": 1,
+                    "GT": 2,
+                    "PUSH0": 8,
+                    "DUP2": 3,
+                    "PUSH2": 6,
+                    "SWAP2": 1,
+                    "ADD": 2,
+                    "SWAP3": 1,
+                    "SWAP1": 1,
+                    "POP": 3,
+                    "SSTORE": 4,
+                    "CALLDATASIZE": 1,
+                    "PUSH32": 1,
+                    "JUMP": 1,
+                    "MUL": 1,
+                    "RETURN": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "CALLER": 1,
+                        "PUSH20": 1,
+                        "EQ": 4,
+                        "PUSH1": 11,
+                        "JUMPI": 7,
+                        "JUMPDEST": 8,
+                        "SLOAD": 4,
+                        "DUP1": 3,
+                        "DUP3": 3,
+                        "SUB": 1,
+                        "GT": 2,
+                        "PUSH0": 8,
+                        "DUP2": 3,
+                        "PUSH2": 6,
+                        "SWAP2": 1,
+                        "ADD": 2,
+                        "SWAP3": 1,
+                        "SWAP1": 1,
+                        "POP": 3,
+                        "SSTORE": 4,
+                        "CALLDATASIZE": 1,
+                        "PUSH32": 1,
+                        "JUMP": 1,
+                        "MUL": 1,
+                        "RETURN": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2780.md",
             "reference-spec-version": "e6d8f589d355e891c37ff479d3ce668352e5b1be"

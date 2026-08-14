@@ -474,9 +474,64 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Ensure the delegation target of a delegated ``tx.to`` enters the\nBAL only when gas covers the top-frame delegation charge.",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_eip7702.py#L489",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_eip7702.py#L494",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "CALLER": 1,
+                    "PUSH20": 1,
+                    "EQ": 4,
+                    "PUSH1": 11,
+                    "JUMPI": 7,
+                    "JUMPDEST": 8,
+                    "SLOAD": 4,
+                    "DUP1": 3,
+                    "DUP3": 3,
+                    "SUB": 1,
+                    "GT": 2,
+                    "PUSH0": 8,
+                    "DUP2": 3,
+                    "PUSH2": 6,
+                    "SWAP2": 1,
+                    "ADD": 2,
+                    "SWAP3": 1,
+                    "SWAP1": 1,
+                    "POP": 3,
+                    "SSTORE": 4,
+                    "CALLDATASIZE": 1,
+                    "PUSH32": 1,
+                    "JUMP": 1,
+                    "MUL": 1,
+                    "RETURN": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "CALLER": 1,
+                        "PUSH20": 1,
+                        "EQ": 4,
+                        "PUSH1": 11,
+                        "JUMPI": 7,
+                        "JUMPDEST": 8,
+                        "SLOAD": 4,
+                        "DUP1": 3,
+                        "DUP3": 3,
+                        "SUB": 1,
+                        "GT": 2,
+                        "PUSH0": 8,
+                        "DUP2": 3,
+                        "PUSH2": 6,
+                        "SWAP2": 1,
+                        "ADD": 2,
+                        "SWAP3": 1,
+                        "SWAP1": 1,
+                        "POP": 3,
+                        "SSTORE": 4,
+                        "CALLDATASIZE": 1,
+                        "PUSH32": 1,
+                        "JUMP": 1,
+                        "MUL": 1,
+                        "RETURN": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7928.md",
             "reference-spec-version": "aca88aa0932580c29d0233f902cb4390e88b8c41"
@@ -720,7 +775,7 @@
                 "storage": {}
             }
         },
-        "lastblockhash": "0x993cd8b7873d8e88d10867836dfca77805b021bda811a72fb6372a6513fe6103",
+        "lastblockhash": "0xc67355b6381cb27b1164b671a74e5b01daf207e8ef8716dc07f8d52166018d31",
         "config": {
             "network": "Amsterdam",
             "chainid": "0x01",
@@ -765,7 +820,7 @@
                     "uncleHash": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "coinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
                     "stateRoot": "0x32fb7c4879d459ac6745ce884c474bed269094f381a2946030c754ac92497eb1",
-                    "transactionsTrie": "0xea1e2bd519edbf20c9666e1b6520e63512ffe9f4b629d982fa0923aaf55c8abe",
+                    "transactionsTrie": "0x14b366ed51b2b835b96ff9df1b6184f4ef62f7992f6b8bc0f12666617b07be1d",
                     "receiptTrie": "0x912edcfb6192a17a14a51089be6e0ffaad8bcb718a1c8ec7454305419d3f06b7",
                     "bloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
                     "difficulty": "0x00",
@@ -784,7 +839,7 @@
                     "requestsHash": "0xe3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
                     "blockAccessListHash": "0x3287677566c61851c75a647bd655cd485bdbc1cf0bfa8d087fa6d443e4743a8b",
                     "slotNumber": "0x00",
-                    "hash": "0x993cd8b7873d8e88d10867836dfca77805b021bda811a72fb6372a6513fe6103"
+                    "hash": "0xc67355b6381cb27b1164b671a74e5b01daf207e8ef8716dc07f8d52166018d31"
                 },
                 "transactions": [
                     {
@@ -792,13 +847,13 @@
                         "chainId": "0x01",
                         "nonce": "0x00",
                         "gasPrice": "0x0a",
-                        "gasLimit": "0x4a38",
+                        "gasLimit": "0x4650",
                         "to": "0x909818add4aa1606e130506d84b397466e6c39cc",
                         "value": "0x00",
                         "data": "0x",
-                        "v": "0x25",
-                        "r": "0x813e8879ffa2194ea95fedb553b4757bb54890352123f1e5cfda09b02f34e887",
-                        "s": "0x3d72d9f49efb3e71fd0dfaedf78f3db844b275cf38cb97589d04d93d1a0f4223",
+                        "v": "0x26",
+                        "r": "0xc68b2ee25d3e19a0b2834bc3c9adb3ba2702c0f260a0b014c9344e73e8238129",
+                        "s": "0x5d01952f031d25179c6f9bf553a02c821975c0ea2e3c0a00c5e1e90792aad4b5",
                         "sender": "0xf6c3a9edc1afa0ad5b720e4d42e1437c43d3b3ff"
                     }
                 ],
@@ -806,7 +861,7 @@
                 "withdrawals": [],
                 "receipts": [
                     {
-                        "transactionHash": "0xdce59afec91742a3be86103b75b2a24114d9c5c0b7913c6bf523c56d03b2bf54",
+                        "transactionHash": "0xef9ab53a521e6d2bc36a86c4ed8500f304cdf23b1ff3a1d83a01b8c9d2888426",
                         "type": "0x00",
                         "cumulativeGasUsed": "0x4650",
                         "bloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
@@ -954,20 +1009,75 @@
                         "storageReads": []
                     }
                 ],
-                "rlp": "0xf902e3f9027ba0a86b4727fae0fb30d67011e481e3ecd6552cfaf7c727ed83c13e5e050c0dd2dba01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa032fb7c4879d459ac6745ce884c474bed269094f381a2946030c754ac92497eb1a0ea1e2bd519edbf20c9666e1b6520e63512ffe9f4b629d982fa0923aaf55c8abea0912edcfb6192a17a14a51089be6e0ffaad8bcb718a1c8ec7454305419d3f06b7b901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e008246500c80a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a03287677566c61851c75a647bd655cd485bdbc1cf0bfa8d087fa6d443e4743a8b80f861f85f800a824a3894909818add4aa1606e130506d84b397466e6c39cc808025a0813e8879ffa2194ea95fedb553b4757bb54890352123f1e5cfda09b02f34e887a03d72d9f49efb3e71fd0dfaedf78f3db844b275cf38cb97589d04d93d1a0f4223c0c0",
+                "rlp": "0xf902e3f9027ba0a86b4727fae0fb30d67011e481e3ecd6552cfaf7c727ed83c13e5e050c0dd2dba01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa032fb7c4879d459ac6745ce884c474bed269094f381a2946030c754ac92497eb1a014b366ed51b2b835b96ff9df1b6184f4ef62f7992f6b8bc0f12666617b07be1da0912edcfb6192a17a14a51089be6e0ffaad8bcb718a1c8ec7454305419d3f06b7b901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e008246500c80a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a03287677566c61851c75a647bd655cd485bdbc1cf0bfa8d087fa6d443e4743a8b80f861f85f800a82465094909818add4aa1606e130506d84b397466e6c39cc808026a0c68b2ee25d3e19a0b2834bc3c9adb3ba2702c0f260a0b014c9344e73e8238129a05d01952f031d25179c6f9bf553a02c821975c0ea2e3c0a00c5e1e90792aad4b5c0c0",
                 "blocknumber": "1"
             }
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x0b50c25c6a759751b7df15cd5755ade3a314dc1812ad0baf637411a97764d723",
+            "hash": "0xb5c5a1ad9d5a2cb41b685b46e3f03d94a854cf0ec4250052cf2ca8455262065b",
             "fixture-format": "blockchain_test",
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Ensure the delegation target of a delegated ``tx.to`` enters the\nBAL only when gas covers the top-frame delegation charge.",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_eip7702.py#L489",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_eip7702.py#L494",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "CALLER": 1,
+                    "PUSH20": 1,
+                    "EQ": 4,
+                    "PUSH1": 11,
+                    "JUMPI": 7,
+                    "JUMPDEST": 8,
+                    "SLOAD": 4,
+                    "DUP1": 3,
+                    "DUP3": 3,
+                    "SUB": 1,
+                    "GT": 2,
+                    "PUSH0": 8,
+                    "DUP2": 3,
+                    "PUSH2": 6,
+                    "SWAP2": 1,
+                    "ADD": 2,
+                    "SWAP3": 1,
+                    "SWAP1": 1,
+                    "POP": 3,
+                    "SSTORE": 4,
+                    "CALLDATASIZE": 1,
+                    "PUSH32": 1,
+                    "JUMP": 1,
+                    "MUL": 1,
+                    "RETURN": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "CALLER": 1,
+                        "PUSH20": 1,
+                        "EQ": 4,
+                        "PUSH1": 11,
+                        "JUMPI": 7,
+                        "JUMPDEST": 8,
+                        "SLOAD": 4,
+                        "DUP1": 3,
+                        "DUP3": 3,
+                        "SUB": 1,
+                        "GT": 2,
+                        "PUSH0": 8,
+                        "DUP2": 3,
+                        "PUSH2": 6,
+                        "SWAP2": 1,
+                        "ADD": 2,
+                        "SWAP3": 1,
+                        "SWAP1": 1,
+                        "POP": 3,
+                        "SSTORE": 4,
+                        "CALLDATASIZE": 1,
+                        "PUSH32": 1,
+                        "JUMP": 1,
+                        "MUL": 1,
+                        "RETURN": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7928.md",
             "reference-spec-version": "aca88aa0932580c29d0233f902cb4390e88b8c41"
