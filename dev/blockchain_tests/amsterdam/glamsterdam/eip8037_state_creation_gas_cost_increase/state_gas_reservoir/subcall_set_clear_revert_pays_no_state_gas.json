@@ -226,18 +226,18 @@
             },
             "0xf6c3a9edc1afa0ad5b720e4d42e1437c43d3b3ff": {
                 "nonce": "0x01",
-                "balance": "0x033b2e3c9fd0803ce7fb3f98",
+                "balance": "0x033b2e3c9fd0803ce7fb62c0",
                 "code": "0x",
                 "storage": {}
             },
             "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba": {
                 "nonce": "0x00",
-                "balance": "0x016cec",
+                "balance": "0x016260",
                 "code": "0x",
                 "storage": {}
             }
         },
-        "lastblockhash": "0x1c5a8f8a80f2858986db391f2891140a3376404bb45ed0a3d563028cb791a608",
+        "lastblockhash": "0xa1b655bfa1cc60b0efd84a22e4ffaa1f612c91577c6a401101c46cd39c10bb44",
         "config": {
             "network": "Amsterdam",
             "chainid": "0x01",
@@ -281,14 +281,14 @@
                     "parentHash": "0x44e8019b6c03e2ad0cdf6d6e34f67b3dbeee6a4812251623d845bd0bb16d2d47",
                     "uncleHash": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "coinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
-                    "stateRoot": "0x2e58c0cd55071e4658451a9978222d05fe27f4de8645dca207a6750f89a3c56e",
+                    "stateRoot": "0x77429a610575627fe1c5a2f85624bf23910b609843473d3e1e36f65386d2d9b1",
                     "transactionsTrie": "0x9ab9d0610ea4ddef6067d7ca5ffa8add6567f195c865c2e2c257ac8dab0c20ea",
-                    "receiptTrie": "0x6c108cc12ae5870a0e1d211e2a222d2774347ed6c1e04066fca62938f6580c06",
+                    "receiptTrie": "0x0ca4eb1e37f725dafb60d43b02860cabbfab20beea95e3def606bd8d2ea54691",
                     "bloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
                     "difficulty": "0x00",
                     "number": "0x01",
                     "gasLimit": "0x07270e00",
-                    "gasUsed": "0x79a4",
+                    "gasUsed": "0x7620",
                     "timestamp": "0x03e8",
                     "extraData": "0x00",
                     "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -299,9 +299,9 @@
                     "excessBlobGas": "0x00",
                     "parentBeaconBlockRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
                     "requestsHash": "0xe3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-                    "blockAccessListHash": "0x3bf150b24b5ad132f7bf8542c18e8dfa41c236657734a9d6f58763917aeafdf0",
+                    "blockAccessListHash": "0x24661346eed79da2fe52b33534f79545604d25a499d26ecaca135b3c67c376f6",
                     "slotNumber": "0x00",
-                    "hash": "0x1c5a8f8a80f2858986db391f2891140a3376404bb45ed0a3d563028cb791a608"
+                    "hash": "0xa1b655bfa1cc60b0efd84a22e4ffaa1f612c91577c6a401101c46cd39c10bb44"
                 },
                 "transactions": [
                     {
@@ -325,11 +325,11 @@
                     {
                         "transactionHash": "0x4087790dea4a05f7274df7b7631759c56f9f7e8c51f1042a967183fb9d15eea3",
                         "type": "0x00",
-                        "cumulativeGasUsed": "0x79a4",
+                        "cumulativeGasUsed": "0x7620",
                         "bloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
                         "logs": [],
                         "status": true,
-                        "rlp": "0xf90108018279a4b9010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000c0"
+                        "rlp": "0xf9010801827620b9010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000c0"
                     }
                 ],
                 "blockAccessList": [
@@ -439,7 +439,7 @@
                         "balanceChanges": [
                             {
                                 "blockAccessIndex": "0x01",
-                                "postBalance": "0x016cec"
+                                "postBalance": "0x016260"
                             }
                         ],
                         "codeChanges": [],
@@ -465,7 +465,7 @@
                         "balanceChanges": [
                             {
                                 "blockAccessIndex": "0x01",
-                                "postBalance": "0x033b2e3c9fd0803ce7fb3f98"
+                                "postBalance": "0x033b2e3c9fd0803ce7fb62c0"
                             }
                         ],
                         "codeChanges": [],
@@ -473,73 +473,93 @@
                         "storageReads": []
                     }
                 ],
-                "rlp": "0xf902e7f9027da044e8019b6c03e2ad0cdf6d6e34f67b3dbeee6a4812251623d845bd0bb16d2d47a01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa02e58c0cd55071e4658451a9978222d05fe27f4de8645dca207a6750f89a3c56ea09ab9d0610ea4ddef6067d7ca5ffa8add6567f195c865c2e2c257ac8dab0c20eaa06c108cc12ae5870a0e1d211e2a222d2774347ed6c1e04066fca62938f6580c06b901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e008279a48203e800a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a03bf150b24b5ad132f7bf8542c18e8dfa41c236657734a9d6f58763917aeafdf080f863f861800a8401017e80942bd72bd184d23ea3b68d41cd70854491f171997f808025a0b98677bfab8a6571698a8074784a28f504d1a6facaa34650e84b9f2c0d1c3342a04d253be2f6db6b443286a00668f631b3353a5f0ef97999455328f40617d0dfe1c0c0",
+                "rlp": "0xf902e7f9027da044e8019b6c03e2ad0cdf6d6e34f67b3dbeee6a4812251623d845bd0bb16d2d47a01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa077429a610575627fe1c5a2f85624bf23910b609843473d3e1e36f65386d2d9b1a09ab9d0610ea4ddef6067d7ca5ffa8add6567f195c865c2e2c257ac8dab0c20eaa00ca4eb1e37f725dafb60d43b02860cabbfab20beea95e3def606bd8d2ea54691b901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e008276208203e800a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a024661346eed79da2fe52b33534f79545604d25a499d26ecaca135b3c67c376f680f863f861800a8401017e80942bd72bd184d23ea3b68d41cd70854491f171997f808025a0b98677bfab8a6571698a8074784a28f504d1a6facaa34650e84b9f2c0d1c3342a04d253be2f6db6b443286a00668f631b3353a5f0ef97999455328f40617d0dfe1c0c0",
                 "blocknumber": "1"
             }
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x2a5d06ecb0736026d7f5c1b87217d17ab2d92a1dce1f1fd22860d19e1ecbe1f3",
+            "hash": "0xa169cbf0e7892cf87e4b3558f2c6fd341e921729d2875ada0f5087a0a7232f9e",
             "fixture-format": "blockchain_test",
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
-            "description": "A child frame doing SSTORE 0 to x to 0 then REVERT must bill the\nsender only intrinsic + regular costs.\n\nBoth SSTOREs roll back with the REVERT, so the matching\nstate-gas charge and refund cancel cleanly. The receipt's\n`cumulative_gas_used` equals the regular baseline; a leftover\n`sstore_state_gas` would surface a double-charge at the failure\nboundary.\n\n`spill_mode` toggles whether the set draws from the reservoir\ndirectly (`no_spill`, reservoir sized to `sstore_state_gas`) or\nspills into `gas_left` (`spill`, reservoir = 0).",
-            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_reservoir.py#L1813",
+            "description": "A child frame doing SSTORE 0 to x to 0 then REVERT must bill the\nsender only intrinsic + execution costs.\n\nBoth SSTOREs roll back with the REVERT, so the matching\nstate-gas charge and refund cancel cleanly. The receipt's\n`cumulative_gas_used` equals the execution baseline; a leftover\n`sstore_state_gas` would surface a double-charge at the failure\nboundary.\n\n`spill_mode` toggles whether the set draws from the reservoir\ndirectly (`no_spill`, reservoir sized to `sstore_state_gas`) or\nspills into `gas_left` (`spill`, reservoir = 0).",
+            "url": "https://github.com/ethereum/execution-specs/blob/864fa03a155f2403653f828236b97d9131ca0228/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_reservoir.py#L1813",
             "metadata": {
                 "opcode_count": {
-                    "CALLER": 1,
-                    "PUSH20": 1,
-                    "EQ": 4,
-                    "PUSH1": 11,
-                    "JUMPI": 7,
-                    "JUMPDEST": 8,
-                    "SLOAD": 4,
-                    "DUP1": 3,
-                    "DUP3": 3,
-                    "SUB": 1,
-                    "GT": 2,
-                    "PUSH0": 8,
-                    "DUP2": 3,
-                    "PUSH2": 6,
-                    "SWAP2": 1,
-                    "ADD": 2,
-                    "SWAP3": 1,
-                    "SWAP1": 1,
-                    "POP": 3,
-                    "SSTORE": 4,
-                    "CALLDATASIZE": 1,
-                    "PUSH32": 1,
-                    "JUMP": 1,
-                    "MUL": 1,
-                    "RETURN": 1
+                    "CALLER": 6,
+                    "PUSH20": 7,
+                    "EQ": 18,
+                    "PUSH1": 56,
+                    "JUMPI": 28,
+                    "JUMPDEST": 34,
+                    "PUSH0": 34,
+                    "CALLDATALOAD": 2,
+                    "PUSH2": 25,
+                    "NUMBER": 1,
+                    "SUB": 5,
+                    "MOD": 2,
+                    "SSTORE": 21,
+                    "STOP": 3,
+                    "PUSH3": 2,
+                    "TIMESTAMP": 2,
+                    "DUP2": 11,
+                    "SWAP1": 5,
+                    "ADD": 9,
+                    "GAS": 1,
+                    "CALL": 1,
+                    "REVERT": 1,
+                    "POP": 13,
+                    "SLOAD": 16,
+                    "DUP1": 14,
+                    "DUP3": 12,
+                    "GT": 8,
+                    "SWAP2": 4,
+                    "SWAP3": 4,
+                    "PUSH32": 4,
+                    "ISZERO": 2,
+                    "JUMP": 4,
+                    "MUL": 4,
+                    "RETURN": 4,
+                    "CALLDATASIZE": 2
                 },
                 "opcode_count_per_block": [
                     {
-                        "CALLER": 1,
-                        "PUSH20": 1,
-                        "EQ": 4,
-                        "PUSH1": 11,
-                        "JUMPI": 7,
-                        "JUMPDEST": 8,
-                        "SLOAD": 4,
-                        "DUP1": 3,
-                        "DUP3": 3,
-                        "SUB": 1,
-                        "GT": 2,
-                        "PUSH0": 8,
-                        "DUP2": 3,
-                        "PUSH2": 6,
-                        "SWAP2": 1,
-                        "ADD": 2,
-                        "SWAP3": 1,
-                        "SWAP1": 1,
-                        "POP": 3,
-                        "SSTORE": 4,
-                        "CALLDATASIZE": 1,
-                        "PUSH32": 1,
-                        "JUMP": 1,
-                        "MUL": 1,
-                        "RETURN": 1
+                        "CALLER": 6,
+                        "PUSH20": 7,
+                        "EQ": 18,
+                        "PUSH1": 56,
+                        "JUMPI": 28,
+                        "JUMPDEST": 34,
+                        "PUSH0": 34,
+                        "CALLDATALOAD": 2,
+                        "PUSH2": 25,
+                        "NUMBER": 1,
+                        "SUB": 5,
+                        "MOD": 2,
+                        "SSTORE": 21,
+                        "STOP": 3,
+                        "PUSH3": 2,
+                        "TIMESTAMP": 2,
+                        "DUP2": 11,
+                        "SWAP1": 5,
+                        "ADD": 9,
+                        "GAS": 1,
+                        "CALL": 1,
+                        "REVERT": 1,
+                        "POP": 13,
+                        "SLOAD": 16,
+                        "DUP1": 14,
+                        "DUP3": 12,
+                        "GT": 8,
+                        "SWAP2": 4,
+                        "SWAP3": 4,
+                        "PUSH32": 4,
+                        "ISZERO": 2,
+                        "JUMP": 4,
+                        "MUL": 4,
+                        "RETURN": 4,
+                        "CALLDATASIZE": 2
                     }
                 ]
             },
@@ -774,18 +794,18 @@
             },
             "0xf6c3a9edc1afa0ad5b720e4d42e1437c43d3b3ff": {
                 "nonce": "0x01",
-                "balance": "0x033b2e3c9fd0803ce7fb3f98",
+                "balance": "0x033b2e3c9fd0803ce7fb62c0",
                 "code": "0x",
                 "storage": {}
             },
             "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba": {
                 "nonce": "0x00",
-                "balance": "0x016cec",
+                "balance": "0x016260",
                 "code": "0x",
                 "storage": {}
             }
         },
-        "lastblockhash": "0xb5111f3b776d1f4c70201584bd824b59d733c173d3457ac7a02969a9c28ad24d",
+        "lastblockhash": "0xf15d24961bd3d1a52f03121212f879e6b38ee0f915e02cb2fdd845c27612bfab",
         "config": {
             "network": "Amsterdam",
             "chainid": "0x01",
@@ -829,14 +849,14 @@
                     "parentHash": "0x44e8019b6c03e2ad0cdf6d6e34f67b3dbeee6a4812251623d845bd0bb16d2d47",
                     "uncleHash": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "coinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
-                    "stateRoot": "0x2e58c0cd55071e4658451a9978222d05fe27f4de8645dca207a6750f89a3c56e",
+                    "stateRoot": "0x77429a610575627fe1c5a2f85624bf23910b609843473d3e1e36f65386d2d9b1",
                     "transactionsTrie": "0x5bdf240b9fb26689f507c85a29e1e2fb6d1892ba5c9b3045e50f091c4b620f11",
-                    "receiptTrie": "0x6c108cc12ae5870a0e1d211e2a222d2774347ed6c1e04066fca62938f6580c06",
+                    "receiptTrie": "0x0ca4eb1e37f725dafb60d43b02860cabbfab20beea95e3def606bd8d2ea54691",
                     "bloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
                     "difficulty": "0x00",
                     "number": "0x01",
                     "gasLimit": "0x07270e00",
-                    "gasUsed": "0x79a4",
+                    "gasUsed": "0x7620",
                     "timestamp": "0x03e8",
                     "extraData": "0x00",
                     "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -847,9 +867,9 @@
                     "excessBlobGas": "0x00",
                     "parentBeaconBlockRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
                     "requestsHash": "0xe3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-                    "blockAccessListHash": "0x3bf150b24b5ad132f7bf8542c18e8dfa41c236657734a9d6f58763917aeafdf0",
+                    "blockAccessListHash": "0x24661346eed79da2fe52b33534f79545604d25a499d26ecaca135b3c67c376f6",
                     "slotNumber": "0x00",
-                    "hash": "0xb5111f3b776d1f4c70201584bd824b59d733c173d3457ac7a02969a9c28ad24d"
+                    "hash": "0xf15d24961bd3d1a52f03121212f879e6b38ee0f915e02cb2fdd845c27612bfab"
                 },
                 "transactions": [
                     {
@@ -873,11 +893,11 @@
                     {
                         "transactionHash": "0x68cf43c5a365f1a3d2aff7fff208119c39b0bb88f5bc2e45cb3469aaf2ba32e9",
                         "type": "0x00",
-                        "cumulativeGasUsed": "0x79a4",
+                        "cumulativeGasUsed": "0x7620",
                         "bloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
                         "logs": [],
                         "status": true,
-                        "rlp": "0xf90108018279a4b9010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000c0"
+                        "rlp": "0xf9010801827620b9010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000c0"
                     }
                 ],
                 "blockAccessList": [
@@ -987,7 +1007,7 @@
                         "balanceChanges": [
                             {
                                 "blockAccessIndex": "0x01",
-                                "postBalance": "0x016cec"
+                                "postBalance": "0x016260"
                             }
                         ],
                         "codeChanges": [],
@@ -1013,7 +1033,7 @@
                         "balanceChanges": [
                             {
                                 "blockAccessIndex": "0x01",
-                                "postBalance": "0x033b2e3c9fd0803ce7fb3f98"
+                                "postBalance": "0x033b2e3c9fd0803ce7fb62c0"
                             }
                         ],
                         "codeChanges": [],
@@ -1021,73 +1041,93 @@
                         "storageReads": []
                     }
                 ],
-                "rlp": "0xf902e7f9027da044e8019b6c03e2ad0cdf6d6e34f67b3dbeee6a4812251623d845bd0bb16d2d47a01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa02e58c0cd55071e4658451a9978222d05fe27f4de8645dca207a6750f89a3c56ea05bdf240b9fb26689f507c85a29e1e2fb6d1892ba5c9b3045e50f091c4b620f11a06c108cc12ae5870a0e1d211e2a222d2774347ed6c1e04066fca62938f6580c06b901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e008279a48203e800a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a03bf150b24b5ad132f7bf8542c18e8dfa41c236657734a9d6f58763917aeafdf080f863f861800a8401000000942bd72bd184d23ea3b68d41cd70854491f171997f808026a030a959fc84adef3966af5334c3b04fa55ee072645a1fb96436861b647f5a3f03a03cfaceb361d944623e1078e951523ea01622d12f7d27348bb3a461a8a399b58fc0c0",
+                "rlp": "0xf902e7f9027da044e8019b6c03e2ad0cdf6d6e34f67b3dbeee6a4812251623d845bd0bb16d2d47a01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa077429a610575627fe1c5a2f85624bf23910b609843473d3e1e36f65386d2d9b1a05bdf240b9fb26689f507c85a29e1e2fb6d1892ba5c9b3045e50f091c4b620f11a00ca4eb1e37f725dafb60d43b02860cabbfab20beea95e3def606bd8d2ea54691b901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e008276208203e800a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a024661346eed79da2fe52b33534f79545604d25a499d26ecaca135b3c67c376f680f863f861800a8401000000942bd72bd184d23ea3b68d41cd70854491f171997f808026a030a959fc84adef3966af5334c3b04fa55ee072645a1fb96436861b647f5a3f03a03cfaceb361d944623e1078e951523ea01622d12f7d27348bb3a461a8a399b58fc0c0",
                 "blocknumber": "1"
             }
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x81db5bf9286b3111d381e7acc47209d0c901258892c2347cf55e8f625bc4b9b1",
+            "hash": "0x9aaa0f90638296e25fad66b2639627facfc94d4afead7b8d8b8977328c8b04cb",
             "fixture-format": "blockchain_test",
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
-            "description": "A child frame doing SSTORE 0 to x to 0 then REVERT must bill the\nsender only intrinsic + regular costs.\n\nBoth SSTOREs roll back with the REVERT, so the matching\nstate-gas charge and refund cancel cleanly. The receipt's\n`cumulative_gas_used` equals the regular baseline; a leftover\n`sstore_state_gas` would surface a double-charge at the failure\nboundary.\n\n`spill_mode` toggles whether the set draws from the reservoir\ndirectly (`no_spill`, reservoir sized to `sstore_state_gas`) or\nspills into `gas_left` (`spill`, reservoir = 0).",
-            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_reservoir.py#L1813",
+            "description": "A child frame doing SSTORE 0 to x to 0 then REVERT must bill the\nsender only intrinsic + execution costs.\n\nBoth SSTOREs roll back with the REVERT, so the matching\nstate-gas charge and refund cancel cleanly. The receipt's\n`cumulative_gas_used` equals the execution baseline; a leftover\n`sstore_state_gas` would surface a double-charge at the failure\nboundary.\n\n`spill_mode` toggles whether the set draws from the reservoir\ndirectly (`no_spill`, reservoir sized to `sstore_state_gas`) or\nspills into `gas_left` (`spill`, reservoir = 0).",
+            "url": "https://github.com/ethereum/execution-specs/blob/864fa03a155f2403653f828236b97d9131ca0228/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_reservoir.py#L1813",
             "metadata": {
                 "opcode_count": {
-                    "CALLER": 1,
-                    "PUSH20": 1,
-                    "EQ": 4,
-                    "PUSH1": 11,
-                    "JUMPI": 7,
-                    "JUMPDEST": 8,
-                    "SLOAD": 4,
-                    "DUP1": 3,
-                    "DUP3": 3,
-                    "SUB": 1,
-                    "GT": 2,
-                    "PUSH0": 8,
-                    "DUP2": 3,
-                    "PUSH2": 6,
-                    "SWAP2": 1,
-                    "ADD": 2,
-                    "SWAP3": 1,
-                    "SWAP1": 1,
-                    "POP": 3,
-                    "SSTORE": 4,
-                    "CALLDATASIZE": 1,
-                    "PUSH32": 1,
-                    "JUMP": 1,
-                    "MUL": 1,
-                    "RETURN": 1
+                    "CALLER": 6,
+                    "PUSH20": 7,
+                    "EQ": 18,
+                    "PUSH1": 56,
+                    "JUMPI": 28,
+                    "JUMPDEST": 34,
+                    "PUSH0": 34,
+                    "CALLDATALOAD": 2,
+                    "PUSH2": 25,
+                    "NUMBER": 1,
+                    "SUB": 5,
+                    "MOD": 2,
+                    "SSTORE": 21,
+                    "STOP": 3,
+                    "PUSH3": 2,
+                    "TIMESTAMP": 2,
+                    "DUP2": 11,
+                    "SWAP1": 5,
+                    "ADD": 9,
+                    "GAS": 1,
+                    "CALL": 1,
+                    "REVERT": 1,
+                    "POP": 13,
+                    "SLOAD": 16,
+                    "DUP1": 14,
+                    "DUP3": 12,
+                    "GT": 8,
+                    "SWAP2": 4,
+                    "SWAP3": 4,
+                    "PUSH32": 4,
+                    "ISZERO": 2,
+                    "JUMP": 4,
+                    "MUL": 4,
+                    "RETURN": 4,
+                    "CALLDATASIZE": 2
                 },
                 "opcode_count_per_block": [
                     {
-                        "CALLER": 1,
-                        "PUSH20": 1,
-                        "EQ": 4,
-                        "PUSH1": 11,
-                        "JUMPI": 7,
-                        "JUMPDEST": 8,
-                        "SLOAD": 4,
-                        "DUP1": 3,
-                        "DUP3": 3,
-                        "SUB": 1,
-                        "GT": 2,
-                        "PUSH0": 8,
-                        "DUP2": 3,
-                        "PUSH2": 6,
-                        "SWAP2": 1,
-                        "ADD": 2,
-                        "SWAP3": 1,
-                        "SWAP1": 1,
-                        "POP": 3,
-                        "SSTORE": 4,
-                        "CALLDATASIZE": 1,
-                        "PUSH32": 1,
-                        "JUMP": 1,
-                        "MUL": 1,
-                        "RETURN": 1
+                        "CALLER": 6,
+                        "PUSH20": 7,
+                        "EQ": 18,
+                        "PUSH1": 56,
+                        "JUMPI": 28,
+                        "JUMPDEST": 34,
+                        "PUSH0": 34,
+                        "CALLDATALOAD": 2,
+                        "PUSH2": 25,
+                        "NUMBER": 1,
+                        "SUB": 5,
+                        "MOD": 2,
+                        "SSTORE": 21,
+                        "STOP": 3,
+                        "PUSH3": 2,
+                        "TIMESTAMP": 2,
+                        "DUP2": 11,
+                        "SWAP1": 5,
+                        "ADD": 9,
+                        "GAS": 1,
+                        "CALL": 1,
+                        "REVERT": 1,
+                        "POP": 13,
+                        "SLOAD": 16,
+                        "DUP1": 14,
+                        "DUP3": 12,
+                        "GT": 8,
+                        "SWAP2": 4,
+                        "SWAP3": 4,
+                        "PUSH32": 4,
+                        "ISZERO": 2,
+                        "JUMP": 4,
+                        "MUL": 4,
+                        "RETURN": 4,
+                        "CALLDATASIZE": 2
                     }
                 ]
             },

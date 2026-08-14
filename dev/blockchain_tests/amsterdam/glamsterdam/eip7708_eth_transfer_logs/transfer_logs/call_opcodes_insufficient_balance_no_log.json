@@ -214,7 +214,7 @@
             },
             "0xf6c3a9edc1afa0ad5b720e4d42e1437c43d3b3ff": {
                 "nonce": "0x01",
-                "balance": "0x033b2e3c9fd0803ce7fb924a",
+                "balance": "0x033b2e3c9fd0803ce7fb8e62",
                 "code": "0x",
                 "storage": {}
             },
@@ -232,12 +232,12 @@
             },
             "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba": {
                 "nonce": "0x00",
-                "balance": "0x01541d",
+                "balance": "0x015549",
                 "code": "0x",
                 "storage": {}
             }
         },
-        "lastblockhash": "0x574d7cfa9fc905b71b126f68cc637080a21265d36c4299b82343d92fa3838bbe",
+        "lastblockhash": "0x1c44a9a4cbf21808cecf559ceff3b37c32300f060cc2f026007b57039f4c55bb",
         "config": {
             "network": "Amsterdam",
             "chainid": "0x01",
@@ -281,14 +281,14 @@
                     "parentHash": "0x73a501112c9426b3b59c2c69cb00f6678e625c539f9ca3dcd33b177485d413ca",
                     "uncleHash": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "coinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
-                    "stateRoot": "0x4299ca827011ace566110f2bd1e04db9d35bfe154c0f9df8eaf24e5d6dbfacae",
+                    "stateRoot": "0x75dff2f321bd903c7cddbf195affef51bb3681ce72ce0609ef23b1fe9fa8ed48",
                     "transactionsTrie": "0x9ccf24a25f2eb6eca5656d01a4b0cf9b0e58726aed3eb700fce2dbaecabfc7cc",
-                    "receiptTrie": "0x2a9df003dd0c51f10638a0fee031b9030718bc14954dc10889178de654587fa9",
+                    "receiptTrie": "0x5d133ecd96705fee982b6b2ddb2297657f3df89689d49764125bd4c917779079",
                     "bloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
                     "difficulty": "0x00",
                     "number": "0x01",
                     "gasLimit": "0x07270e00",
-                    "gasUsed": "0x715f",
+                    "gasUsed": "0x71c3",
                     "timestamp": "0x03e8",
                     "extraData": "0x00",
                     "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -299,9 +299,9 @@
                     "excessBlobGas": "0x00",
                     "parentBeaconBlockRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
                     "requestsHash": "0xe3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-                    "blockAccessListHash": "0x7fbbe49170c00a80150469217a3cd05874a648b9e4c3f0d004eed97ef96072a5",
+                    "blockAccessListHash": "0x626eb15567c27b6ac92a2e4024bff5e6331e391c1fbe988b32164269aafae903",
                     "slotNumber": "0x00",
-                    "hash": "0x574d7cfa9fc905b71b126f68cc637080a21265d36c4299b82343d92fa3838bbe"
+                    "hash": "0x1c44a9a4cbf21808cecf559ceff3b37c32300f060cc2f026007b57039f4c55bb"
                 },
                 "transactions": [
                     {
@@ -325,11 +325,11 @@
                     {
                         "transactionHash": "0x394b1892d54e2db1fca22ccb706bc30f095f4748cf899be518eb5eaf83cabd38",
                         "type": "0x00",
-                        "cumulativeGasUsed": "0x715f",
+                        "cumulativeGasUsed": "0x71c3",
                         "bloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
                         "logs": [],
                         "status": true,
-                        "rlp": "0xf901080182715fb9010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000c0"
+                        "rlp": "0xf90108018271c3b9010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000c0"
                     }
                 ],
                 "blockAccessList": [
@@ -429,7 +429,7 @@
                         "balanceChanges": [
                             {
                                 "blockAccessIndex": "0x01",
-                                "postBalance": "0x01541d"
+                                "postBalance": "0x015549"
                             }
                         ],
                         "codeChanges": [],
@@ -465,7 +465,7 @@
                         "balanceChanges": [
                             {
                                 "blockAccessIndex": "0x01",
-                                "postBalance": "0x033b2e3c9fd0803ce7fb924a"
+                                "postBalance": "0x033b2e3c9fd0803ce7fb8e62"
                             }
                         ],
                         "codeChanges": [],
@@ -473,78 +473,96 @@
                         "storageReads": []
                     }
                 ],
-                "rlp": "0xf902e7f9027da073a501112c9426b3b59c2c69cb00f6678e625c539f9ca3dcd33b177485d413caa01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa04299ca827011ace566110f2bd1e04db9d35bfe154c0f9df8eaf24e5d6dbfacaea09ccf24a25f2eb6eca5656d01a4b0cf9b0e58726aed3eb700fce2dbaecabfc7cca02a9df003dd0c51f10638a0fee031b9030718bc14954dc10889178de654587fa9b901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e0082715f8203e800a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a07fbbe49170c00a80150469217a3cd05874a648b9e4c3f0d004eed97ef96072a580f863f861800a8407270e0094e075d63de373001b71ee926297757771b74fc6ba808026a0cbd95b8f830a50b34aba6f6171e755fbfc0bedefc5c806ffb9e54372846a4c36a03b7a436a2a6be59937f87f026f59aee5742f9069f6045ec88cc90624b1596b1ac0c0",
+                "rlp": "0xf902e7f9027da073a501112c9426b3b59c2c69cb00f6678e625c539f9ca3dcd33b177485d413caa01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa075dff2f321bd903c7cddbf195affef51bb3681ce72ce0609ef23b1fe9fa8ed48a09ccf24a25f2eb6eca5656d01a4b0cf9b0e58726aed3eb700fce2dbaecabfc7cca05d133ecd96705fee982b6b2ddb2297657f3df89689d49764125bd4c917779079b901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e008271c38203e800a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a0626eb15567c27b6ac92a2e4024bff5e6331e391c1fbe988b32164269aafae90380f863f861800a8407270e0094e075d63de373001b71ee926297757771b74fc6ba808026a0cbd95b8f830a50b34aba6f6171e755fbfc0bedefc5c806ffb9e54372846a4c36a03b7a436a2a6be59937f87f026f59aee5742f9069f6045ec88cc90624b1596b1ac0c0",
                 "blocknumber": "1"
             }
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x79ed2147c650fd39ff704d153fef91bfc308051b6eabd3cb03c1298fce8f1fff",
+            "hash": "0x277a9fad802ae33ae7be9110e2810e744cbf82b0aa9e88d3f903136542166927",
             "fixture-format": "blockchain_test",
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test CALL/CALLCODE with value exceeding caller balance.\n\nThe opcode returns 0 (does not revert), transfers nothing, and emits\nno transfer log.\n\nNote CALLCODE never emits a transfer log regardless\nof balance \u2014 it's a self-transfer exempted by EIP-7708 \u2014 so for that\nopcode the meaningful assertion is that the return value is 0.",
-            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip7708_eth_transfer_logs/test_transfer_logs.py#L264",
+            "url": "https://github.com/ethereum/execution-specs/blob/864fa03a155f2403653f828236b97d9131ca0228/tests/amsterdam/eip7708_eth_transfer_logs/test_transfer_logs.py#L264",
             "metadata": {
                 "opcode_count": {
-                    "CALLER": 1,
-                    "PUSH20": 1,
-                    "EQ": 4,
-                    "PUSH1": 11,
-                    "JUMPI": 7,
-                    "JUMPDEST": 8,
-                    "SLOAD": 4,
-                    "DUP1": 3,
-                    "DUP3": 3,
-                    "SUB": 1,
-                    "GT": 2,
-                    "PUSH0": 8,
-                    "DUP2": 3,
-                    "PUSH2": 6,
-                    "SWAP2": 1,
-                    "ADD": 2,
-                    "SWAP3": 1,
-                    "SWAP1": 1,
-                    "POP": 3,
-                    "SSTORE": 4,
-                    "CALLDATASIZE": 1,
-                    "PUSH32": 1,
-                    "JUMP": 1,
-                    "MUL": 1,
-                    "RETURN": 1
+                    "CALLER": 6,
+                    "PUSH20": 7,
+                    "EQ": 18,
+                    "PUSH1": 51,
+                    "JUMPI": 28,
+                    "JUMPDEST": 34,
+                    "PUSH0": 34,
+                    "CALLDATALOAD": 2,
+                    "PUSH2": 25,
+                    "NUMBER": 1,
+                    "SUB": 5,
+                    "MOD": 2,
+                    "SSTORE": 20,
+                    "STOP": 2,
+                    "PUSH3": 2,
+                    "TIMESTAMP": 2,
+                    "DUP2": 11,
+                    "SWAP1": 5,
+                    "ADD": 9,
+                    "GAS": 1,
+                    "CALL": 1,
+                    "SLOAD": 16,
+                    "DUP1": 14,
+                    "DUP3": 12,
+                    "GT": 8,
+                    "SWAP2": 4,
+                    "SWAP3": 4,
+                    "POP": 12,
+                    "PUSH32": 4,
+                    "ISZERO": 2,
+                    "JUMP": 4,
+                    "MUL": 4,
+                    "RETURN": 4,
+                    "CALLDATASIZE": 2
                 },
                 "opcode_count_per_block": [
                     {
-                        "CALLER": 1,
-                        "PUSH20": 1,
-                        "EQ": 4,
-                        "PUSH1": 11,
-                        "JUMPI": 7,
-                        "JUMPDEST": 8,
-                        "SLOAD": 4,
-                        "DUP1": 3,
-                        "DUP3": 3,
-                        "SUB": 1,
-                        "GT": 2,
-                        "PUSH0": 8,
-                        "DUP2": 3,
-                        "PUSH2": 6,
-                        "SWAP2": 1,
-                        "ADD": 2,
-                        "SWAP3": 1,
-                        "SWAP1": 1,
-                        "POP": 3,
-                        "SSTORE": 4,
-                        "CALLDATASIZE": 1,
-                        "PUSH32": 1,
-                        "JUMP": 1,
-                        "MUL": 1,
-                        "RETURN": 1
+                        "CALLER": 6,
+                        "PUSH20": 7,
+                        "EQ": 18,
+                        "PUSH1": 51,
+                        "JUMPI": 28,
+                        "JUMPDEST": 34,
+                        "PUSH0": 34,
+                        "CALLDATALOAD": 2,
+                        "PUSH2": 25,
+                        "NUMBER": 1,
+                        "SUB": 5,
+                        "MOD": 2,
+                        "SSTORE": 20,
+                        "STOP": 2,
+                        "PUSH3": 2,
+                        "TIMESTAMP": 2,
+                        "DUP2": 11,
+                        "SWAP1": 5,
+                        "ADD": 9,
+                        "GAS": 1,
+                        "CALL": 1,
+                        "SLOAD": 16,
+                        "DUP1": 14,
+                        "DUP3": 12,
+                        "GT": 8,
+                        "SWAP2": 4,
+                        "SWAP3": 4,
+                        "POP": 12,
+                        "PUSH32": 4,
+                        "ISZERO": 2,
+                        "JUMP": 4,
+                        "MUL": 4,
+                        "RETURN": 4,
+                        "CALLDATASIZE": 2
                     }
                 ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7708.md",
-            "reference-spec-version": "172188d7b090ed1afb876140f45e19ac00cba4bb"
+            "reference-spec-version": "f7230c46a743313957d8f38a159bda934cc735b2"
         }
     },
     "tests/amsterdam/eip7708_eth_transfer_logs/test_transfer_logs.py::test_call_opcodes_insufficient_balance_no_log[fork_Amsterdam-call_opcode_CALLCODE-blockchain_test_from_state_test]": {
@@ -762,7 +780,7 @@
             },
             "0xf6c3a9edc1afa0ad5b720e4d42e1437c43d3b3ff": {
                 "nonce": "0x01",
-                "balance": "0x033b2e3c9fd0803ce7fb924a",
+                "balance": "0x033b2e3c9fd0803ce7fb8e62",
                 "code": "0x",
                 "storage": {}
             },
@@ -780,12 +798,12 @@
             },
             "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba": {
                 "nonce": "0x00",
-                "balance": "0x01541d",
+                "balance": "0x015549",
                 "code": "0x",
                 "storage": {}
             }
         },
-        "lastblockhash": "0x99a8c15a8eb874c5f3f03e09cd78b4813d219d7795ace9d9bc0a40cd14704e14",
+        "lastblockhash": "0x1ab99e9e07d2346c23380612784c9d64c179c97f7174029134658852ad34fa7d",
         "config": {
             "network": "Amsterdam",
             "chainid": "0x01",
@@ -829,14 +847,14 @@
                     "parentHash": "0x5b10e463cc34bb990461cc9061002116a6c2a2775df87c5d09722bb1d212c705",
                     "uncleHash": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "coinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
-                    "stateRoot": "0xae021c3439d1f4ef2847cf9402879983d2a2d4740956769f14b037bd6543a8f5",
+                    "stateRoot": "0xb149e9ee03c2ff426963f78017d084385dc1d6b168b64b6056c9a92d944fe622",
                     "transactionsTrie": "0x4547ea40f8c7b4f96083fa3d44cf745d0dd35ddefc1a804d2d7606d460099266",
-                    "receiptTrie": "0x2a9df003dd0c51f10638a0fee031b9030718bc14954dc10889178de654587fa9",
+                    "receiptTrie": "0x5d133ecd96705fee982b6b2ddb2297657f3df89689d49764125bd4c917779079",
                     "bloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
                     "difficulty": "0x00",
                     "number": "0x01",
                     "gasLimit": "0x07270e00",
-                    "gasUsed": "0x715f",
+                    "gasUsed": "0x71c3",
                     "timestamp": "0x03e8",
                     "extraData": "0x00",
                     "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -847,9 +865,9 @@
                     "excessBlobGas": "0x00",
                     "parentBeaconBlockRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
                     "requestsHash": "0xe3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-                    "blockAccessListHash": "0x064f304ed655a41820c0c55a039d1c166a9933b597f880d4f6974713718ded5a",
+                    "blockAccessListHash": "0x5c61908f7c522b32adcef9f4c2d44cc1e048d1fc2ebfc82554c9cd2f2d8c0c62",
                     "slotNumber": "0x00",
-                    "hash": "0x99a8c15a8eb874c5f3f03e09cd78b4813d219d7795ace9d9bc0a40cd14704e14"
+                    "hash": "0x1ab99e9e07d2346c23380612784c9d64c179c97f7174029134658852ad34fa7d"
                 },
                 "transactions": [
                     {
@@ -873,11 +891,11 @@
                     {
                         "transactionHash": "0x16aa2870e459af7f66a4bdc7c856cbf23d35b9bf6da1657b89203cf64528204e",
                         "type": "0x00",
-                        "cumulativeGasUsed": "0x715f",
+                        "cumulativeGasUsed": "0x71c3",
                         "bloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
                         "logs": [],
                         "status": true,
-                        "rlp": "0xf901080182715fb9010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000c0"
+                        "rlp": "0xf90108018271c3b9010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000c0"
                     }
                 ],
                 "blockAccessList": [
@@ -987,7 +1005,7 @@
                         "balanceChanges": [
                             {
                                 "blockAccessIndex": "0x01",
-                                "postBalance": "0x01541d"
+                                "postBalance": "0x015549"
                             }
                         ],
                         "codeChanges": [],
@@ -1013,7 +1031,7 @@
                         "balanceChanges": [
                             {
                                 "blockAccessIndex": "0x01",
-                                "postBalance": "0x033b2e3c9fd0803ce7fb924a"
+                                "postBalance": "0x033b2e3c9fd0803ce7fb8e62"
                             }
                         ],
                         "codeChanges": [],
@@ -1021,78 +1039,96 @@
                         "storageReads": []
                     }
                 ],
-                "rlp": "0xf902e7f9027da05b10e463cc34bb990461cc9061002116a6c2a2775df87c5d09722bb1d212c705a01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa0ae021c3439d1f4ef2847cf9402879983d2a2d4740956769f14b037bd6543a8f5a04547ea40f8c7b4f96083fa3d44cf745d0dd35ddefc1a804d2d7606d460099266a02a9df003dd0c51f10638a0fee031b9030718bc14954dc10889178de654587fa9b901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e0082715f8203e800a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a0064f304ed655a41820c0c55a039d1c166a9933b597f880d4f6974713718ded5a80f863f861800a8407270e00941a49b8e37395ec42acceb1116f9f4d6cd2e01085808026a0a4d788302272a18c6a894975489e1880c6f454fed1d376068320d0d87ce278d5a043fa84b587592719ecbf8d9380ad32910aebb0e019f622382bd808cc1caf972bc0c0",
+                "rlp": "0xf902e7f9027da05b10e463cc34bb990461cc9061002116a6c2a2775df87c5d09722bb1d212c705a01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa0b149e9ee03c2ff426963f78017d084385dc1d6b168b64b6056c9a92d944fe622a04547ea40f8c7b4f96083fa3d44cf745d0dd35ddefc1a804d2d7606d460099266a05d133ecd96705fee982b6b2ddb2297657f3df89689d49764125bd4c917779079b901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e008271c38203e800a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a05c61908f7c522b32adcef9f4c2d44cc1e048d1fc2ebfc82554c9cd2f2d8c0c6280f863f861800a8407270e00941a49b8e37395ec42acceb1116f9f4d6cd2e01085808026a0a4d788302272a18c6a894975489e1880c6f454fed1d376068320d0d87ce278d5a043fa84b587592719ecbf8d9380ad32910aebb0e019f622382bd808cc1caf972bc0c0",
                 "blocknumber": "1"
             }
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xbd50c4d04099abafe6b24884796dff065270b5e6da9c12ab1791678190796e06",
+            "hash": "0xa9119e6208142cb3e69eb11e06d676fc91c248d89e1b315be8a7b4154627ff5a",
             "fixture-format": "blockchain_test",
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test CALL/CALLCODE with value exceeding caller balance.\n\nThe opcode returns 0 (does not revert), transfers nothing, and emits\nno transfer log.\n\nNote CALLCODE never emits a transfer log regardless\nof balance \u2014 it's a self-transfer exempted by EIP-7708 \u2014 so for that\nopcode the meaningful assertion is that the return value is 0.",
-            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip7708_eth_transfer_logs/test_transfer_logs.py#L264",
+            "url": "https://github.com/ethereum/execution-specs/blob/864fa03a155f2403653f828236b97d9131ca0228/tests/amsterdam/eip7708_eth_transfer_logs/test_transfer_logs.py#L264",
             "metadata": {
                 "opcode_count": {
-                    "CALLER": 1,
-                    "PUSH20": 1,
-                    "EQ": 4,
-                    "PUSH1": 11,
-                    "JUMPI": 7,
-                    "JUMPDEST": 8,
-                    "SLOAD": 4,
-                    "DUP1": 3,
-                    "DUP3": 3,
-                    "SUB": 1,
-                    "GT": 2,
-                    "PUSH0": 8,
-                    "DUP2": 3,
-                    "PUSH2": 6,
-                    "SWAP2": 1,
-                    "ADD": 2,
-                    "SWAP3": 1,
-                    "SWAP1": 1,
-                    "POP": 3,
-                    "SSTORE": 4,
-                    "CALLDATASIZE": 1,
-                    "PUSH32": 1,
-                    "JUMP": 1,
-                    "MUL": 1,
-                    "RETURN": 1
+                    "CALLER": 6,
+                    "PUSH20": 7,
+                    "EQ": 18,
+                    "PUSH1": 51,
+                    "JUMPI": 28,
+                    "JUMPDEST": 34,
+                    "PUSH0": 34,
+                    "CALLDATALOAD": 2,
+                    "PUSH2": 25,
+                    "NUMBER": 1,
+                    "SUB": 5,
+                    "MOD": 2,
+                    "SSTORE": 20,
+                    "STOP": 2,
+                    "PUSH3": 2,
+                    "TIMESTAMP": 2,
+                    "DUP2": 11,
+                    "SWAP1": 5,
+                    "ADD": 9,
+                    "GAS": 1,
+                    "CALLCODE": 1,
+                    "SLOAD": 16,
+                    "DUP1": 14,
+                    "DUP3": 12,
+                    "GT": 8,
+                    "SWAP2": 4,
+                    "SWAP3": 4,
+                    "POP": 12,
+                    "PUSH32": 4,
+                    "ISZERO": 2,
+                    "JUMP": 4,
+                    "MUL": 4,
+                    "RETURN": 4,
+                    "CALLDATASIZE": 2
                 },
                 "opcode_count_per_block": [
                     {
-                        "CALLER": 1,
-                        "PUSH20": 1,
-                        "EQ": 4,
-                        "PUSH1": 11,
-                        "JUMPI": 7,
-                        "JUMPDEST": 8,
-                        "SLOAD": 4,
-                        "DUP1": 3,
-                        "DUP3": 3,
-                        "SUB": 1,
-                        "GT": 2,
-                        "PUSH0": 8,
-                        "DUP2": 3,
-                        "PUSH2": 6,
-                        "SWAP2": 1,
-                        "ADD": 2,
-                        "SWAP3": 1,
-                        "SWAP1": 1,
-                        "POP": 3,
-                        "SSTORE": 4,
-                        "CALLDATASIZE": 1,
-                        "PUSH32": 1,
-                        "JUMP": 1,
-                        "MUL": 1,
-                        "RETURN": 1
+                        "CALLER": 6,
+                        "PUSH20": 7,
+                        "EQ": 18,
+                        "PUSH1": 51,
+                        "JUMPI": 28,
+                        "JUMPDEST": 34,
+                        "PUSH0": 34,
+                        "CALLDATALOAD": 2,
+                        "PUSH2": 25,
+                        "NUMBER": 1,
+                        "SUB": 5,
+                        "MOD": 2,
+                        "SSTORE": 20,
+                        "STOP": 2,
+                        "PUSH3": 2,
+                        "TIMESTAMP": 2,
+                        "DUP2": 11,
+                        "SWAP1": 5,
+                        "ADD": 9,
+                        "GAS": 1,
+                        "CALLCODE": 1,
+                        "SLOAD": 16,
+                        "DUP1": 14,
+                        "DUP3": 12,
+                        "GT": 8,
+                        "SWAP2": 4,
+                        "SWAP3": 4,
+                        "POP": 12,
+                        "PUSH32": 4,
+                        "ISZERO": 2,
+                        "JUMP": 4,
+                        "MUL": 4,
+                        "RETURN": 4,
+                        "CALLDATASIZE": 2
                     }
                 ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7708.md",
-            "reference-spec-version": "172188d7b090ed1afb876140f45e19ac00cba4bb"
+            "reference-spec-version": "f7230c46a743313957d8f38a159bda934cc735b2"
         }
     }
 }
