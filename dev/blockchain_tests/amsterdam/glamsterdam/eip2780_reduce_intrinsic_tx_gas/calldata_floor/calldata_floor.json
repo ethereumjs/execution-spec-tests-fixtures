@@ -405,9 +405,64 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "A data-heavy transaction to an existing EOA whose calldata floor\nexceeds the decomposed value-transfer intrinsic.\n\n- ``floor_binds``: with a gas limit above the floor, ``gas_used``\n  pins to the floor, so the value-transfer charges\n  (``TRANSFER_LOG_COST + TX_VALUE_COST``) folded into the intrinsic\n  are masked -- the gas paid is identical at ``value == 0`` and\n  ``value == 1`` and only the moved wei differs.\n- ``below_floor``: a gas limit one short of the floor still covers\n  the (smaller) decomposed intrinsic, so the floor -- built on the\n  EIP-2780-lowered ``TX_BASE`` -- is the only thing that can reject\n  it, with ``INTRINSIC_GAS_BELOW_FLOOR_GAS_COST``.",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip2780_reduce_intrinsic_tx_gas/test_calldata_floor.py#L79",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip2780_reduce_intrinsic_tx_gas/test_calldata_floor.py#L79",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "CALLER": 1,
+                    "PUSH20": 1,
+                    "EQ": 4,
+                    "PUSH1": 11,
+                    "JUMPI": 7,
+                    "JUMPDEST": 8,
+                    "SLOAD": 4,
+                    "DUP1": 3,
+                    "DUP3": 3,
+                    "SUB": 1,
+                    "GT": 2,
+                    "PUSH0": 8,
+                    "DUP2": 3,
+                    "PUSH2": 6,
+                    "SWAP2": 1,
+                    "ADD": 2,
+                    "SWAP3": 1,
+                    "SWAP1": 1,
+                    "POP": 3,
+                    "SSTORE": 4,
+                    "CALLDATASIZE": 1,
+                    "PUSH32": 1,
+                    "JUMP": 1,
+                    "MUL": 1,
+                    "RETURN": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "CALLER": 1,
+                        "PUSH20": 1,
+                        "EQ": 4,
+                        "PUSH1": 11,
+                        "JUMPI": 7,
+                        "JUMPDEST": 8,
+                        "SLOAD": 4,
+                        "DUP1": 3,
+                        "DUP3": 3,
+                        "SUB": 1,
+                        "GT": 2,
+                        "PUSH0": 8,
+                        "DUP2": 3,
+                        "PUSH2": 6,
+                        "SWAP2": 1,
+                        "ADD": 2,
+                        "SWAP3": 1,
+                        "SWAP1": 1,
+                        "POP": 3,
+                        "SSTORE": 4,
+                        "CALLDATASIZE": 1,
+                        "PUSH32": 1,
+                        "JUMP": 1,
+                        "MUL": 1,
+                        "RETURN": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2780.md",
             "reference-spec-version": "e6d8f589d355e891c37ff479d3ce668352e5b1be"
@@ -639,7 +694,7 @@
                 "storage": {}
             }
         },
-        "lastblockhash": "0x708850b64a65fd31fcf6ed34615eca9a00251ec9e886dc45876f6004d2ff6744",
+        "lastblockhash": "0x2902b4dc10625737b6492b28b3a7bd9524903c4aa2001901ea653e7ab8268490",
         "config": {
             "network": "Amsterdam",
             "chainid": "0x01",
@@ -690,7 +745,7 @@
                     "difficulty": "0x00",
                     "number": "0x01",
                     "gasLimit": "0x07270e00",
-                    "gasUsed": "0x539c",
+                    "gasUsed": "0x6b48",
                     "timestamp": "0x03e8",
                     "extraData": "0x00",
                     "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -703,7 +758,7 @@
                     "requestsHash": "0xe3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
                     "blockAccessListHash": "0x73ed3e40bf3b33d84b325e64dcdda23809cfa346551eaa82b3853192e66b5949",
                     "slotNumber": "0x00",
-                    "hash": "0x708850b64a65fd31fcf6ed34615eca9a00251ec9e886dc45876f6004d2ff6744"
+                    "hash": "0x2902b4dc10625737b6492b28b3a7bd9524903c4aa2001901ea653e7ab8268490"
                 },
                 "transactions": [
                     {
@@ -880,20 +935,75 @@
                         "storageReads": []
                     }
                 ],
-                "rlp": "0xf90351f9027da05129b68ac0994d7d664ac261edab8b5dd1310b33a1b067aaf97e582db97e9d1ca01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa0b1579085593f4e287051ed7bc04fcd20e0263e05dfaa7bb8be0e40b050cf4ddba0edbb3b8094f7d7e29cc2d6a26c7be78e459cd066081359e345b0273ba1e05fa9a09a38598260e2f10ebb8cfa14de64f8dcfcc485a9de4187573e63bf9f894f2333b901000000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000800000000000000000000000000000000000000000000000000000000200000000000000000000000000000000400001000000000008000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000200000000000800000000000000000000000000000000000000000040000000020004000000000000000000000000020000000000000000000000000080018407270e0082539c8203e800a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a073ed3e40bf3b33d84b325e64dcdda23809cfa346551eaa82b3853192e66b594980f8cdf8cb80843b9aca008407270e0094ffc67f2969f9d462fd69c1d08c291c85e3cc6f5101b865000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000025a064693dd5f8e7c5b3e7ffbd42602b4f03b4ddc051b19caef6593c492fa19ba702a035f8c4857dfef1459b41d18c6ec32b83f998f4be2f9ed1fabe708168d46152a6c0c0",
+                "rlp": "0xf90351f9027da05129b68ac0994d7d664ac261edab8b5dd1310b33a1b067aaf97e582db97e9d1ca01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa0b1579085593f4e287051ed7bc04fcd20e0263e05dfaa7bb8be0e40b050cf4ddba0edbb3b8094f7d7e29cc2d6a26c7be78e459cd066081359e345b0273ba1e05fa9a09a38598260e2f10ebb8cfa14de64f8dcfcc485a9de4187573e63bf9f894f2333b901000000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000800000000000000000000000000000000000000000000000000000000200000000000000000000000000000000400001000000000008000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000200000000000800000000000000000000000000000000000000000040000000020004000000000000000000000000020000000000000000000000000080018407270e00826b488203e800a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a073ed3e40bf3b33d84b325e64dcdda23809cfa346551eaa82b3853192e66b594980f8cdf8cb80843b9aca008407270e0094ffc67f2969f9d462fd69c1d08c291c85e3cc6f5101b865000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000025a064693dd5f8e7c5b3e7ffbd42602b4f03b4ddc051b19caef6593c492fa19ba702a035f8c4857dfef1459b41d18c6ec32b83f998f4be2f9ed1fabe708168d46152a6c0c0",
                 "blocknumber": "1"
             }
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xddc5261faf0369fccbed5f1ca3131a526263ab9779d0edf53b65adc1e2fe6406",
+            "hash": "0x76a3f39c5453e9be84727aa89f0ba4d8f5344a6b752e5004b17065ea173ab357",
             "fixture-format": "blockchain_test",
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "A data-heavy transaction to an existing EOA whose calldata floor\nexceeds the decomposed value-transfer intrinsic.\n\n- ``floor_binds``: with a gas limit above the floor, ``gas_used``\n  pins to the floor, so the value-transfer charges\n  (``TRANSFER_LOG_COST + TX_VALUE_COST``) folded into the intrinsic\n  are masked -- the gas paid is identical at ``value == 0`` and\n  ``value == 1`` and only the moved wei differs.\n- ``below_floor``: a gas limit one short of the floor still covers\n  the (smaller) decomposed intrinsic, so the floor -- built on the\n  EIP-2780-lowered ``TX_BASE`` -- is the only thing that can reject\n  it, with ``INTRINSIC_GAS_BELOW_FLOOR_GAS_COST``.",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip2780_reduce_intrinsic_tx_gas/test_calldata_floor.py#L79",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip2780_reduce_intrinsic_tx_gas/test_calldata_floor.py#L79",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "CALLER": 1,
+                    "PUSH20": 1,
+                    "EQ": 4,
+                    "PUSH1": 11,
+                    "JUMPI": 7,
+                    "JUMPDEST": 8,
+                    "SLOAD": 4,
+                    "DUP1": 3,
+                    "DUP3": 3,
+                    "SUB": 1,
+                    "GT": 2,
+                    "PUSH0": 8,
+                    "DUP2": 3,
+                    "PUSH2": 6,
+                    "SWAP2": 1,
+                    "ADD": 2,
+                    "SWAP3": 1,
+                    "SWAP1": 1,
+                    "POP": 3,
+                    "SSTORE": 4,
+                    "CALLDATASIZE": 1,
+                    "PUSH32": 1,
+                    "JUMP": 1,
+                    "MUL": 1,
+                    "RETURN": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "CALLER": 1,
+                        "PUSH20": 1,
+                        "EQ": 4,
+                        "PUSH1": 11,
+                        "JUMPI": 7,
+                        "JUMPDEST": 8,
+                        "SLOAD": 4,
+                        "DUP1": 3,
+                        "DUP3": 3,
+                        "SUB": 1,
+                        "GT": 2,
+                        "PUSH0": 8,
+                        "DUP2": 3,
+                        "PUSH2": 6,
+                        "SWAP2": 1,
+                        "ADD": 2,
+                        "SWAP3": 1,
+                        "SWAP1": 1,
+                        "POP": 3,
+                        "SSTORE": 4,
+                        "CALLDATASIZE": 1,
+                        "PUSH32": 1,
+                        "JUMP": 1,
+                        "MUL": 1,
+                        "RETURN": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2780.md",
             "reference-spec-version": "e6d8f589d355e891c37ff479d3ce668352e5b1be"
@@ -1305,9 +1415,64 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "A data-heavy transaction to an existing EOA whose calldata floor\nexceeds the decomposed value-transfer intrinsic.\n\n- ``floor_binds``: with a gas limit above the floor, ``gas_used``\n  pins to the floor, so the value-transfer charges\n  (``TRANSFER_LOG_COST + TX_VALUE_COST``) folded into the intrinsic\n  are masked -- the gas paid is identical at ``value == 0`` and\n  ``value == 1`` and only the moved wei differs.\n- ``below_floor``: a gas limit one short of the floor still covers\n  the (smaller) decomposed intrinsic, so the floor -- built on the\n  EIP-2780-lowered ``TX_BASE`` -- is the only thing that can reject\n  it, with ``INTRINSIC_GAS_BELOW_FLOOR_GAS_COST``.",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip2780_reduce_intrinsic_tx_gas/test_calldata_floor.py#L79",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip2780_reduce_intrinsic_tx_gas/test_calldata_floor.py#L79",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "CALLER": 1,
+                    "PUSH20": 1,
+                    "EQ": 4,
+                    "PUSH1": 11,
+                    "JUMPI": 7,
+                    "JUMPDEST": 8,
+                    "SLOAD": 4,
+                    "DUP1": 3,
+                    "DUP3": 3,
+                    "SUB": 1,
+                    "GT": 2,
+                    "PUSH0": 8,
+                    "DUP2": 3,
+                    "PUSH2": 6,
+                    "SWAP2": 1,
+                    "ADD": 2,
+                    "SWAP3": 1,
+                    "SWAP1": 1,
+                    "POP": 3,
+                    "SSTORE": 4,
+                    "CALLDATASIZE": 1,
+                    "PUSH32": 1,
+                    "JUMP": 1,
+                    "MUL": 1,
+                    "RETURN": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "CALLER": 1,
+                        "PUSH20": 1,
+                        "EQ": 4,
+                        "PUSH1": 11,
+                        "JUMPI": 7,
+                        "JUMPDEST": 8,
+                        "SLOAD": 4,
+                        "DUP1": 3,
+                        "DUP3": 3,
+                        "SUB": 1,
+                        "GT": 2,
+                        "PUSH0": 8,
+                        "DUP2": 3,
+                        "PUSH2": 6,
+                        "SWAP2": 1,
+                        "ADD": 2,
+                        "SWAP3": 1,
+                        "SWAP1": 1,
+                        "POP": 3,
+                        "SSTORE": 4,
+                        "CALLDATASIZE": 1,
+                        "PUSH32": 1,
+                        "JUMP": 1,
+                        "MUL": 1,
+                        "RETURN": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2780.md",
             "reference-spec-version": "e6d8f589d355e891c37ff479d3ce668352e5b1be"
@@ -1539,7 +1704,7 @@
                 "storage": {}
             }
         },
-        "lastblockhash": "0xcf82549f04b76d38c663696dea4305f8cf3b4293f3ba712b2a6455c485df6796",
+        "lastblockhash": "0xbc3b04ddff1ecd7201918093e11e692d95db3fd9d4af9d37beae50cb12ceae6c",
         "config": {
             "network": "Amsterdam",
             "chainid": "0x01",
@@ -1590,7 +1755,7 @@
                     "difficulty": "0x00",
                     "number": "0x01",
                     "gasLimit": "0x07270e00",
-                    "gasUsed": "0x3c2c",
+                    "gasUsed": "0x53d8",
                     "timestamp": "0x03e8",
                     "extraData": "0x00",
                     "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -1603,7 +1768,7 @@
                     "requestsHash": "0xe3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
                     "blockAccessListHash": "0x8b9204bbbee4f4f9e32ddf75eb0d9ff3068435b39c326d530226f74d32b01ee2",
                     "slotNumber": "0x00",
-                    "hash": "0xcf82549f04b76d38c663696dea4305f8cf3b4293f3ba712b2a6455c485df6796"
+                    "hash": "0xbc3b04ddff1ecd7201918093e11e692d95db3fd9d4af9d37beae50cb12ceae6c"
                 },
                 "transactions": [
                     {
@@ -1765,20 +1930,75 @@
                         "storageReads": []
                     }
                 ],
-                "rlp": "0xf90351f9027da05129b68ac0994d7d664ac261edab8b5dd1310b33a1b067aaf97e582db97e9d1ca01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa08e44bf726526eb9085e4f79d8e1826041a0b3e1b2a841c2b0cc44ff97e188c28a046d1c715ba43a452c796ccf855afb8287cce031b7e81d8bea60caf1b61a44c53a0fd0dd7d7f176bf035bfb1b9994fedbbfa5144d5ae535c97bf67904178ab50ebbb901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e00823c2c8203e800a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a08b9204bbbee4f4f9e32ddf75eb0d9ff3068435b39c326d530226f74d32b01ee280f8cdf8cb80843b9aca008407270e0094ffc67f2969f9d462fd69c1d08c291c85e3cc6f5180b865000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000025a04715704c4a8a0128fc8e55f81b7804f5d7c867a02b0fc3d3db5fe21b331b5227a0162987d467414f8f7ca512aacc5b11bab19127a0df37c39648b5eea33d705489c0c0",
+                "rlp": "0xf90351f9027da05129b68ac0994d7d664ac261edab8b5dd1310b33a1b067aaf97e582db97e9d1ca01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa08e44bf726526eb9085e4f79d8e1826041a0b3e1b2a841c2b0cc44ff97e188c28a046d1c715ba43a452c796ccf855afb8287cce031b7e81d8bea60caf1b61a44c53a0fd0dd7d7f176bf035bfb1b9994fedbbfa5144d5ae535c97bf67904178ab50ebbb901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e008253d88203e800a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a08b9204bbbee4f4f9e32ddf75eb0d9ff3068435b39c326d530226f74d32b01ee280f8cdf8cb80843b9aca008407270e0094ffc67f2969f9d462fd69c1d08c291c85e3cc6f5180b865000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000025a04715704c4a8a0128fc8e55f81b7804f5d7c867a02b0fc3d3db5fe21b331b5227a0162987d467414f8f7ca512aacc5b11bab19127a0df37c39648b5eea33d705489c0c0",
                 "blocknumber": "1"
             }
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xd547723282faaebb23b350e6dfdda89a38180faadd65edb72af30d34ce656482",
+            "hash": "0xd58d7eeb1f3c7cbb4ad6b385f7f5a56f85c72430e7427fb80ecb2e1794a5827a",
             "fixture-format": "blockchain_test",
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "A data-heavy transaction to an existing EOA whose calldata floor\nexceeds the decomposed value-transfer intrinsic.\n\n- ``floor_binds``: with a gas limit above the floor, ``gas_used``\n  pins to the floor, so the value-transfer charges\n  (``TRANSFER_LOG_COST + TX_VALUE_COST``) folded into the intrinsic\n  are masked -- the gas paid is identical at ``value == 0`` and\n  ``value == 1`` and only the moved wei differs.\n- ``below_floor``: a gas limit one short of the floor still covers\n  the (smaller) decomposed intrinsic, so the floor -- built on the\n  EIP-2780-lowered ``TX_BASE`` -- is the only thing that can reject\n  it, with ``INTRINSIC_GAS_BELOW_FLOOR_GAS_COST``.",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip2780_reduce_intrinsic_tx_gas/test_calldata_floor.py#L79",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip2780_reduce_intrinsic_tx_gas/test_calldata_floor.py#L79",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "CALLER": 1,
+                    "PUSH20": 1,
+                    "EQ": 4,
+                    "PUSH1": 11,
+                    "JUMPI": 7,
+                    "JUMPDEST": 8,
+                    "SLOAD": 4,
+                    "DUP1": 3,
+                    "DUP3": 3,
+                    "SUB": 1,
+                    "GT": 2,
+                    "PUSH0": 8,
+                    "DUP2": 3,
+                    "PUSH2": 6,
+                    "SWAP2": 1,
+                    "ADD": 2,
+                    "SWAP3": 1,
+                    "SWAP1": 1,
+                    "POP": 3,
+                    "SSTORE": 4,
+                    "CALLDATASIZE": 1,
+                    "PUSH32": 1,
+                    "JUMP": 1,
+                    "MUL": 1,
+                    "RETURN": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "CALLER": 1,
+                        "PUSH20": 1,
+                        "EQ": 4,
+                        "PUSH1": 11,
+                        "JUMPI": 7,
+                        "JUMPDEST": 8,
+                        "SLOAD": 4,
+                        "DUP1": 3,
+                        "DUP3": 3,
+                        "SUB": 1,
+                        "GT": 2,
+                        "PUSH0": 8,
+                        "DUP2": 3,
+                        "PUSH2": 6,
+                        "SWAP2": 1,
+                        "ADD": 2,
+                        "SWAP3": 1,
+                        "SWAP1": 1,
+                        "POP": 3,
+                        "SSTORE": 4,
+                        "CALLDATASIZE": 1,
+                        "PUSH32": 1,
+                        "JUMP": 1,
+                        "MUL": 1,
+                        "RETURN": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2780.md",
             "reference-spec-version": "e6d8f589d355e891c37ff479d3ce668352e5b1be"

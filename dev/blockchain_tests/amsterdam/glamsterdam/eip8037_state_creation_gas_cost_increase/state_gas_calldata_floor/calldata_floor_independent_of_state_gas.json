@@ -225,7 +225,7 @@
                 "storage": {}
             }
         },
-        "lastblockhash": "0x5839cc8093728ad0acc1ae774f1f5350ad33f17d4aefba3242cf614b5eefd7ac",
+        "lastblockhash": "0x0f7f54d4959dd5457ccca1f79c7c366b43e50ed6f304d9662feee1f0591a2d74",
         "config": {
             "network": "Amsterdam",
             "chainid": "0x01",
@@ -276,7 +276,7 @@
                     "difficulty": "0x00",
                     "number": "0x01",
                     "gasLimit": "0x07270e00",
-                    "gasUsed": "0x5a98",
+                    "gasUsed": "0xba98",
                     "timestamp": "0x03e8",
                     "extraData": "0x00",
                     "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -289,7 +289,7 @@
                     "requestsHash": "0xe3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
                     "blockAccessListHash": "0xc7a4b0456a1e2f991a529747d6a0fd345b863f1d58767b6381d19bab4bba157b",
                     "slotNumber": "0x00",
-                    "hash": "0x5839cc8093728ad0acc1ae774f1f5350ad33f17d4aefba3242cf614b5eefd7ac"
+                    "hash": "0x0f7f54d4959dd5457ccca1f79c7c366b43e50ed6f304d9662feee1f0591a2d74"
                 },
                 "transactions": [
                     {
@@ -451,20 +451,75 @@
                         "storageReads": []
                     }
                 ],
-                "rlp": "0xf904ebf9027da0d7e64cef8fefae4af423b870f316cd3ec3efdc52d6ef10be234f86921ec86706a01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa079b95d38863a291743b345a1d597d71bb36a62c3c858caee4d69198ed442930ba0b494ab9378997574c9354a5b6d25f6e1ce356843819465fd6bededf3337e2f57a0eab024339cd9cf8ade7b7bd3dcf8ad88dbd5797b41643f4d4b1d14f1cb6f37d8b901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e00825a988203e800a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a0c7a4b0456a1e2f991a529747d6a0fd345b863f1d58767b6381d19bab4bba157b80f90266f90263800a84010000009437f536464af59c8d7358cae965f92cbeadd58dcb80b90200ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff26a06be4375ef7829161b6bf0a56aa1a5dce499fd5ce75b4c9380fec402c41ca58e3a069ff0896dbc1cc496f3b16132655a0006de7eecf73d56107dc92341046327eccc0c0",
+                "rlp": "0xf904ebf9027da0d7e64cef8fefae4af423b870f316cd3ec3efdc52d6ef10be234f86921ec86706a01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa079b95d38863a291743b345a1d597d71bb36a62c3c858caee4d69198ed442930ba0b494ab9378997574c9354a5b6d25f6e1ce356843819465fd6bededf3337e2f57a0eab024339cd9cf8ade7b7bd3dcf8ad88dbd5797b41643f4d4b1d14f1cb6f37d8b901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e0082ba988203e800a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a0c7a4b0456a1e2f991a529747d6a0fd345b863f1d58767b6381d19bab4bba157b80f90266f90263800a84010000009437f536464af59c8d7358cae965f92cbeadd58dcb80b90200ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff26a06be4375ef7829161b6bf0a56aa1a5dce499fd5ce75b4c9380fec402c41ca58e3a069ff0896dbc1cc496f3b16132655a0006de7eecf73d56107dc92341046327eccc0c0",
                 "blocknumber": "1"
             }
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xdecc66e7e6b188d6d288a6e9868c6a11fa52cd467aa0a573c07f8b6b953e98eb",
+            "hash": "0xbb5cff89f69a9dade5d4bf10ea36300a15127806020bc6ac47518637d53fdae9",
             "fixture-format": "blockchain_test",
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test calldata floor applies only to regular gas dimension.\n\nThe calldata floor applies only to the sender's bill and does not\naffect the state gas dimension. A transaction with high calldata\nand no state operations should succeed even when the floor exceeds\nactual execution gas.",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_calldata_floor.py#L66",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_calldata_floor.py#L68",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "CALLER": 1,
+                    "PUSH20": 1,
+                    "EQ": 4,
+                    "PUSH1": 11,
+                    "JUMPI": 7,
+                    "JUMPDEST": 8,
+                    "SLOAD": 4,
+                    "DUP1": 3,
+                    "DUP3": 3,
+                    "SUB": 1,
+                    "GT": 2,
+                    "PUSH0": 8,
+                    "DUP2": 3,
+                    "PUSH2": 6,
+                    "SWAP2": 1,
+                    "ADD": 2,
+                    "SWAP3": 1,
+                    "SWAP1": 1,
+                    "POP": 3,
+                    "SSTORE": 4,
+                    "CALLDATASIZE": 1,
+                    "PUSH32": 1,
+                    "JUMP": 1,
+                    "MUL": 1,
+                    "RETURN": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "CALLER": 1,
+                        "PUSH20": 1,
+                        "EQ": 4,
+                        "PUSH1": 11,
+                        "JUMPI": 7,
+                        "JUMPDEST": 8,
+                        "SLOAD": 4,
+                        "DUP1": 3,
+                        "DUP3": 3,
+                        "SUB": 1,
+                        "GT": 2,
+                        "PUSH0": 8,
+                        "DUP2": 3,
+                        "PUSH2": 6,
+                        "SWAP2": 1,
+                        "ADD": 2,
+                        "SWAP3": 1,
+                        "SWAP1": 1,
+                        "POP": 3,
+                        "SSTORE": 4,
+                        "CALLDATASIZE": 1,
+                        "PUSH32": 1,
+                        "JUMP": 1,
+                        "MUL": 1,
+                        "RETURN": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-8037.md",
             "reference-spec-version": "a12902ae1b811c45a81b51bfce671cf7a1fb27f3"

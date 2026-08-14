@@ -225,7 +225,7 @@
                 "storage": {}
             }
         },
-        "lastblockhash": "0xcebe9e8438e479c0d8260a01d40dd784c611c86019b36e294c9e98962da3392f",
+        "lastblockhash": "0x67f4618c0e5de71708a857e6c5e55b5c0cd249fa957ee459a4396f4c5034d4b0",
         "config": {
             "network": "Amsterdam",
             "chainid": "0x01",
@@ -276,7 +276,7 @@
                     "difficulty": "0x00",
                     "number": "0x01",
                     "gasLimit": "0x07270e00",
-                    "gasUsed": "0x3d54",
+                    "gasUsed": "0x5398",
                     "timestamp": "0x03e8",
                     "extraData": "0x00",
                     "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -289,7 +289,7 @@
                     "requestsHash": "0xe3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
                     "blockAccessListHash": "0x7f9f3cfd8ae1ae0635c4f02bec3405fcec8854b6a3fbd16f55510fd68fc85562",
                     "slotNumber": "0x00",
-                    "hash": "0xcebe9e8438e479c0d8260a01d40dd784c611c86019b36e294c9e98962da3392f"
+                    "hash": "0x67f4618c0e5de71708a857e6c5e55b5c0cd249fa957ee459a4396f4c5034d4b0"
                 },
                 "transactions": [
                     {
@@ -451,20 +451,75 @@
                         "storageReads": []
                     }
                 ],
-                "rlp": "0xf9034af9027da0d7e64cef8fefae4af423b870f316cd3ec3efdc52d6ef10be234f86921ec86706a01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa095974ba328d9558ce8b1b96727e579875ca9bbff503355c67f345cc4717cac21a0048a8e17dc7d243491d7fa896b49e02aae8dd51bbddc587772b0c712b7e21b72a0983021d4c430a103b50ea3dc6cf64efa9b56e008ff65089465c480695b422a05b901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e00823d548203e800a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a07f9f3cfd8ae1ae0635c4f02bec3405fcec8854b6a3fbd16f55510fd68fc8556280f8c6f8c4800a8253989437f536464af59c8d7358cae965f92cbeadd58dcb80b8640101010101010101010101010101010101010101010101010100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000026a0620ee3571f9e17f94a9273a1dffb43db3c7a8ccd709c9bff8cb222f2c7cbad66a02d913c1e9ce442fe888525fbd3419db53997f8aa3e461678390bcddd19e0683fc0c0",
+                "rlp": "0xf9034af9027da0d7e64cef8fefae4af423b870f316cd3ec3efdc52d6ef10be234f86921ec86706a01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa095974ba328d9558ce8b1b96727e579875ca9bbff503355c67f345cc4717cac21a0048a8e17dc7d243491d7fa896b49e02aae8dd51bbddc587772b0c712b7e21b72a0983021d4c430a103b50ea3dc6cf64efa9b56e008ff65089465c480695b422a05b901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e008253988203e800a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a07f9f3cfd8ae1ae0635c4f02bec3405fcec8854b6a3fbd16f55510fd68fc8556280f8c6f8c4800a8253989437f536464af59c8d7358cae965f92cbeadd58dcb80b8640101010101010101010101010101010101010101010101010100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000026a0620ee3571f9e17f94a9273a1dffb43db3c7a8ccd709c9bff8cb222f2c7cbad66a02d913c1e9ce442fe888525fbd3419db53997f8aa3e461678390bcddd19e0683fc0c0",
                 "blocknumber": "1"
             }
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xab00a87be34a49768b55b3ddafa9fcf4300fddf4d3a5a2c7fadfd5ed98e531d2",
+            "hash": "0xbb85d0a9f3fd92d3e0a774efb61aa9ceadeadc63a900378d888eab436dbb3a8d",
             "fixture-format": "blockchain_test",
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test class documentation:\nTest token calculation with different byte compositions.\n\n\nVerify token calculation is correct for different byte compositions.\n\nStandard calldata token formula:\ntokens = zero_bytes + (nonzero_bytes * 4)\n\nFloor token formula introduced in EIP-7976:\nfloor_tokens = 4 * calldata_bytes",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip7976_increase_calldata_floor_cost/test_additional_coverage.py#L52",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip7976_increase_calldata_floor_cost/test_additional_coverage.py#L52",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "CALLER": 1,
+                    "PUSH20": 1,
+                    "EQ": 4,
+                    "PUSH1": 11,
+                    "JUMPI": 7,
+                    "JUMPDEST": 8,
+                    "SLOAD": 4,
+                    "DUP1": 3,
+                    "DUP3": 3,
+                    "SUB": 1,
+                    "GT": 2,
+                    "PUSH0": 8,
+                    "DUP2": 3,
+                    "PUSH2": 6,
+                    "SWAP2": 1,
+                    "ADD": 2,
+                    "SWAP3": 1,
+                    "SWAP1": 1,
+                    "POP": 3,
+                    "SSTORE": 4,
+                    "CALLDATASIZE": 1,
+                    "PUSH32": 1,
+                    "JUMP": 1,
+                    "MUL": 1,
+                    "RETURN": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "CALLER": 1,
+                        "PUSH20": 1,
+                        "EQ": 4,
+                        "PUSH1": 11,
+                        "JUMPI": 7,
+                        "JUMPDEST": 8,
+                        "SLOAD": 4,
+                        "DUP1": 3,
+                        "DUP3": 3,
+                        "SUB": 1,
+                        "GT": 2,
+                        "PUSH0": 8,
+                        "DUP2": 3,
+                        "PUSH2": 6,
+                        "SWAP2": 1,
+                        "ADD": 2,
+                        "SWAP3": 1,
+                        "SWAP1": 1,
+                        "POP": 3,
+                        "SSTORE": 4,
+                        "CALLDATASIZE": 1,
+                        "PUSH32": 1,
+                        "JUMP": 1,
+                        "MUL": 1,
+                        "RETURN": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7976.md",
             "reference-spec-version": "83d473b0504d316a06ce58ae581e7f03b5d54fe1"
@@ -696,7 +751,7 @@
                 "storage": {}
             }
         },
-        "lastblockhash": "0x2583eecd20b50f90d8a8c6556e3e27a1a2d9c82dee2c57ba935714b885d69d5a",
+        "lastblockhash": "0xab7c254a067f66872943bc645fa35153243b4ffa2b2fe7f6f0e20bb31b96c23d",
         "config": {
             "network": "Amsterdam",
             "chainid": "0x01",
@@ -747,7 +802,7 @@
                     "difficulty": "0x00",
                     "number": "0x01",
                     "gasLimit": "0x07270e00",
-                    "gasUsed": "0x3fac",
+                    "gasUsed": "0x5398",
                     "timestamp": "0x03e8",
                     "extraData": "0x00",
                     "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -760,7 +815,7 @@
                     "requestsHash": "0xe3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
                     "blockAccessListHash": "0x7f9f3cfd8ae1ae0635c4f02bec3405fcec8854b6a3fbd16f55510fd68fc85562",
                     "slotNumber": "0x00",
-                    "hash": "0x2583eecd20b50f90d8a8c6556e3e27a1a2d9c82dee2c57ba935714b885d69d5a"
+                    "hash": "0xab7c254a067f66872943bc645fa35153243b4ffa2b2fe7f6f0e20bb31b96c23d"
                 },
                 "transactions": [
                     {
@@ -922,20 +977,75 @@
                         "storageReads": []
                     }
                 ],
-                "rlp": "0xf9034af9027da0d7e64cef8fefae4af423b870f316cd3ec3efdc52d6ef10be234f86921ec86706a01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa095974ba328d9558ce8b1b96727e579875ca9bbff503355c67f345cc4717cac21a00c47b1a8ea71a566c1072f379e151e84db1a0e156d26c7510c8641efdd5d5825a0983021d4c430a103b50ea3dc6cf64efa9b56e008ff65089465c480695b422a05b901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e00823fac8203e800a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a07f9f3cfd8ae1ae0635c4f02bec3405fcec8854b6a3fbd16f55510fd68fc8556280f8c6f8c4800a8253989437f536464af59c8d7358cae965f92cbeadd58dcb80b8640101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010000000000000000000000000000000000000000000000000026a04cd678fec27afcf2a365291ea926815930a292f56de072107cdddac63157060da04668a826896afb666ce34ad6e00977ceb538a77e56c82e6223e7a9f22a6d2150c0c0",
+                "rlp": "0xf9034af9027da0d7e64cef8fefae4af423b870f316cd3ec3efdc52d6ef10be234f86921ec86706a01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa095974ba328d9558ce8b1b96727e579875ca9bbff503355c67f345cc4717cac21a00c47b1a8ea71a566c1072f379e151e84db1a0e156d26c7510c8641efdd5d5825a0983021d4c430a103b50ea3dc6cf64efa9b56e008ff65089465c480695b422a05b901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e008253988203e800a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a07f9f3cfd8ae1ae0635c4f02bec3405fcec8854b6a3fbd16f55510fd68fc8556280f8c6f8c4800a8253989437f536464af59c8d7358cae965f92cbeadd58dcb80b8640101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010000000000000000000000000000000000000000000000000026a04cd678fec27afcf2a365291ea926815930a292f56de072107cdddac63157060da04668a826896afb666ce34ad6e00977ceb538a77e56c82e6223e7a9f22a6d2150c0c0",
                 "blocknumber": "1"
             }
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x057161c5b0b2e876f26e7b054b3f77ec745d60bda55dd7e35cb356ace228f4d7",
+            "hash": "0x3866840913465059affd56c5386739a15409b2d095d8741dde2d7423a5e1dfa7",
             "fixture-format": "blockchain_test",
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test class documentation:\nTest token calculation with different byte compositions.\n\n\nVerify token calculation is correct for different byte compositions.\n\nStandard calldata token formula:\ntokens = zero_bytes + (nonzero_bytes * 4)\n\nFloor token formula introduced in EIP-7976:\nfloor_tokens = 4 * calldata_bytes",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip7976_increase_calldata_floor_cost/test_additional_coverage.py#L52",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip7976_increase_calldata_floor_cost/test_additional_coverage.py#L52",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "CALLER": 1,
+                    "PUSH20": 1,
+                    "EQ": 4,
+                    "PUSH1": 11,
+                    "JUMPI": 7,
+                    "JUMPDEST": 8,
+                    "SLOAD": 4,
+                    "DUP1": 3,
+                    "DUP3": 3,
+                    "SUB": 1,
+                    "GT": 2,
+                    "PUSH0": 8,
+                    "DUP2": 3,
+                    "PUSH2": 6,
+                    "SWAP2": 1,
+                    "ADD": 2,
+                    "SWAP3": 1,
+                    "SWAP1": 1,
+                    "POP": 3,
+                    "SSTORE": 4,
+                    "CALLDATASIZE": 1,
+                    "PUSH32": 1,
+                    "JUMP": 1,
+                    "MUL": 1,
+                    "RETURN": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "CALLER": 1,
+                        "PUSH20": 1,
+                        "EQ": 4,
+                        "PUSH1": 11,
+                        "JUMPI": 7,
+                        "JUMPDEST": 8,
+                        "SLOAD": 4,
+                        "DUP1": 3,
+                        "DUP3": 3,
+                        "SUB": 1,
+                        "GT": 2,
+                        "PUSH0": 8,
+                        "DUP2": 3,
+                        "PUSH2": 6,
+                        "SWAP2": 1,
+                        "ADD": 2,
+                        "SWAP3": 1,
+                        "SWAP1": 1,
+                        "POP": 3,
+                        "SSTORE": 4,
+                        "CALLDATASIZE": 1,
+                        "PUSH32": 1,
+                        "JUMP": 1,
+                        "MUL": 1,
+                        "RETURN": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7976.md",
             "reference-spec-version": "83d473b0504d316a06ce58ae581e7f03b5d54fe1"
@@ -1167,7 +1277,7 @@
                 "storage": {}
             }
         },
-        "lastblockhash": "0xe0498295beaf65b92148004c8eb2fabadd55a3704ecb797d44a64125e1512ea1",
+        "lastblockhash": "0xf7a65bec825edc3ccfb5d2d55e4aa466125ace7ac335a3143821f8362bfe528f",
         "config": {
             "network": "Amsterdam",
             "chainid": "0x01",
@@ -1218,7 +1328,7 @@
                     "difficulty": "0x00",
                     "number": "0x01",
                     "gasLimit": "0x07270e00",
-                    "gasUsed": "0x40d8",
+                    "gasUsed": "0x5398",
                     "timestamp": "0x03e8",
                     "extraData": "0x00",
                     "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -1231,7 +1341,7 @@
                     "requestsHash": "0xe3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
                     "blockAccessListHash": "0x7f9f3cfd8ae1ae0635c4f02bec3405fcec8854b6a3fbd16f55510fd68fc85562",
                     "slotNumber": "0x00",
-                    "hash": "0xe0498295beaf65b92148004c8eb2fabadd55a3704ecb797d44a64125e1512ea1"
+                    "hash": "0xf7a65bec825edc3ccfb5d2d55e4aa466125ace7ac335a3143821f8362bfe528f"
                 },
                 "transactions": [
                     {
@@ -1393,20 +1503,75 @@
                         "storageReads": []
                     }
                 ],
-                "rlp": "0xf9034af9027da0d7e64cef8fefae4af423b870f316cd3ec3efdc52d6ef10be234f86921ec86706a01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa095974ba328d9558ce8b1b96727e579875ca9bbff503355c67f345cc4717cac21a089e2b7b0de0636f07ae61b7f1eddf71b666e042a1e8b36897499279f026d3933a0983021d4c430a103b50ea3dc6cf64efa9b56e008ff65089465c480695b422a05b901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e008240d88203e800a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a07f9f3cfd8ae1ae0635c4f02bec3405fcec8854b6a3fbd16f55510fd68fc8556280f8c6f8c4800a8253989437f536464af59c8d7358cae965f92cbeadd58dcb80b8640101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010126a0c89dd6e4501035bbb7b57606bae77bfb73e62014774224e654c1729d4eace4fda00a203ff25830d31eac30d31a0e780928fb0e6a22804b7caf524570d44a9e4a3fc0c0",
+                "rlp": "0xf9034af9027da0d7e64cef8fefae4af423b870f316cd3ec3efdc52d6ef10be234f86921ec86706a01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa095974ba328d9558ce8b1b96727e579875ca9bbff503355c67f345cc4717cac21a089e2b7b0de0636f07ae61b7f1eddf71b666e042a1e8b36897499279f026d3933a0983021d4c430a103b50ea3dc6cf64efa9b56e008ff65089465c480695b422a05b901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e008253988203e800a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a07f9f3cfd8ae1ae0635c4f02bec3405fcec8854b6a3fbd16f55510fd68fc8556280f8c6f8c4800a8253989437f536464af59c8d7358cae965f92cbeadd58dcb80b8640101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010126a0c89dd6e4501035bbb7b57606bae77bfb73e62014774224e654c1729d4eace4fda00a203ff25830d31eac30d31a0e780928fb0e6a22804b7caf524570d44a9e4a3fc0c0",
                 "blocknumber": "1"
             }
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x7e3e16f6ab4fd61e8aa6aeb5cedfab5ee83713211b7cd3dda9b11aed99f938c8",
+            "hash": "0x70e7408329573973772220a0da2130e17cf04a68ce35aa239a4f6988a4607fb3",
             "fixture-format": "blockchain_test",
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test class documentation:\nTest token calculation with different byte compositions.\n\n\nVerify token calculation is correct for different byte compositions.\n\nStandard calldata token formula:\ntokens = zero_bytes + (nonzero_bytes * 4)\n\nFloor token formula introduced in EIP-7976:\nfloor_tokens = 4 * calldata_bytes",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip7976_increase_calldata_floor_cost/test_additional_coverage.py#L52",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip7976_increase_calldata_floor_cost/test_additional_coverage.py#L52",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "CALLER": 1,
+                    "PUSH20": 1,
+                    "EQ": 4,
+                    "PUSH1": 11,
+                    "JUMPI": 7,
+                    "JUMPDEST": 8,
+                    "SLOAD": 4,
+                    "DUP1": 3,
+                    "DUP3": 3,
+                    "SUB": 1,
+                    "GT": 2,
+                    "PUSH0": 8,
+                    "DUP2": 3,
+                    "PUSH2": 6,
+                    "SWAP2": 1,
+                    "ADD": 2,
+                    "SWAP3": 1,
+                    "SWAP1": 1,
+                    "POP": 3,
+                    "SSTORE": 4,
+                    "CALLDATASIZE": 1,
+                    "PUSH32": 1,
+                    "JUMP": 1,
+                    "MUL": 1,
+                    "RETURN": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "CALLER": 1,
+                        "PUSH20": 1,
+                        "EQ": 4,
+                        "PUSH1": 11,
+                        "JUMPI": 7,
+                        "JUMPDEST": 8,
+                        "SLOAD": 4,
+                        "DUP1": 3,
+                        "DUP3": 3,
+                        "SUB": 1,
+                        "GT": 2,
+                        "PUSH0": 8,
+                        "DUP2": 3,
+                        "PUSH2": 6,
+                        "SWAP2": 1,
+                        "ADD": 2,
+                        "SWAP3": 1,
+                        "SWAP1": 1,
+                        "POP": 3,
+                        "SSTORE": 4,
+                        "CALLDATASIZE": 1,
+                        "PUSH32": 1,
+                        "JUMP": 1,
+                        "MUL": 1,
+                        "RETURN": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7976.md",
             "reference-spec-version": "83d473b0504d316a06ce58ae581e7f03b5d54fe1"
@@ -1638,7 +1803,7 @@
                 "storage": {}
             }
         },
-        "lastblockhash": "0x2dae966db009ce0e529b513de50292c803d5cfe5068e27c15b2948e6367a9cdf",
+        "lastblockhash": "0xadb922e76633e83e3afa48bf52a3a3e0d95b7e8df897e887510387b4e77c4ae2",
         "config": {
             "network": "Amsterdam",
             "chainid": "0x01",
@@ -1689,7 +1854,7 @@
                     "difficulty": "0x00",
                     "number": "0x01",
                     "gasLimit": "0x07270e00",
-                    "gasUsed": "0x3c28",
+                    "gasUsed": "0x5398",
                     "timestamp": "0x03e8",
                     "extraData": "0x00",
                     "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -1702,7 +1867,7 @@
                     "requestsHash": "0xe3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
                     "blockAccessListHash": "0x7f9f3cfd8ae1ae0635c4f02bec3405fcec8854b6a3fbd16f55510fd68fc85562",
                     "slotNumber": "0x00",
-                    "hash": "0x2dae966db009ce0e529b513de50292c803d5cfe5068e27c15b2948e6367a9cdf"
+                    "hash": "0xadb922e76633e83e3afa48bf52a3a3e0d95b7e8df897e887510387b4e77c4ae2"
                 },
                 "transactions": [
                     {
@@ -1864,20 +2029,75 @@
                         "storageReads": []
                     }
                 ],
-                "rlp": "0xf9034af9027da0d7e64cef8fefae4af423b870f316cd3ec3efdc52d6ef10be234f86921ec86706a01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa095974ba328d9558ce8b1b96727e579875ca9bbff503355c67f345cc4717cac21a027643f650035c8bb5030943890fbc40c84d077691742e0e3fed9046ceb9404e0a0983021d4c430a103b50ea3dc6cf64efa9b56e008ff65089465c480695b422a05b901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e00823c288203e800a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a07f9f3cfd8ae1ae0635c4f02bec3405fcec8854b6a3fbd16f55510fd68fc8556280f8c6f8c4800a8253989437f536464af59c8d7358cae965f92cbeadd58dcb80b8640000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000026a00f76e6cfb721a3553ff477f5dc1694c3a769cc8ee07538dd58439345b65aa282a01ffed1c8330c0a3ea584ff13173cab659bdc5847176cf0ca1fbe514c8ab2b8d9c0c0",
+                "rlp": "0xf9034af9027da0d7e64cef8fefae4af423b870f316cd3ec3efdc52d6ef10be234f86921ec86706a01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa095974ba328d9558ce8b1b96727e579875ca9bbff503355c67f345cc4717cac21a027643f650035c8bb5030943890fbc40c84d077691742e0e3fed9046ceb9404e0a0983021d4c430a103b50ea3dc6cf64efa9b56e008ff65089465c480695b422a05b901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e008253988203e800a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a07f9f3cfd8ae1ae0635c4f02bec3405fcec8854b6a3fbd16f55510fd68fc8556280f8c6f8c4800a8253989437f536464af59c8d7358cae965f92cbeadd58dcb80b8640000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000026a00f76e6cfb721a3553ff477f5dc1694c3a769cc8ee07538dd58439345b65aa282a01ffed1c8330c0a3ea584ff13173cab659bdc5847176cf0ca1fbe514c8ab2b8d9c0c0",
                 "blocknumber": "1"
             }
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x712a260f026c57dafb51626dfdfed04539e846218fef91f2844e6f38cc7bbdd2",
+            "hash": "0xad36fb4529195023280ec4c82910b6ccf80e2b6e273fe21aebcc9a29a99c11fc",
             "fixture-format": "blockchain_test",
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test class documentation:\nTest token calculation with different byte compositions.\n\n\nVerify token calculation is correct for different byte compositions.\n\nStandard calldata token formula:\ntokens = zero_bytes + (nonzero_bytes * 4)\n\nFloor token formula introduced in EIP-7976:\nfloor_tokens = 4 * calldata_bytes",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip7976_increase_calldata_floor_cost/test_additional_coverage.py#L52",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip7976_increase_calldata_floor_cost/test_additional_coverage.py#L52",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "CALLER": 1,
+                    "PUSH20": 1,
+                    "EQ": 4,
+                    "PUSH1": 11,
+                    "JUMPI": 7,
+                    "JUMPDEST": 8,
+                    "SLOAD": 4,
+                    "DUP1": 3,
+                    "DUP3": 3,
+                    "SUB": 1,
+                    "GT": 2,
+                    "PUSH0": 8,
+                    "DUP2": 3,
+                    "PUSH2": 6,
+                    "SWAP2": 1,
+                    "ADD": 2,
+                    "SWAP3": 1,
+                    "SWAP1": 1,
+                    "POP": 3,
+                    "SSTORE": 4,
+                    "CALLDATASIZE": 1,
+                    "PUSH32": 1,
+                    "JUMP": 1,
+                    "MUL": 1,
+                    "RETURN": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "CALLER": 1,
+                        "PUSH20": 1,
+                        "EQ": 4,
+                        "PUSH1": 11,
+                        "JUMPI": 7,
+                        "JUMPDEST": 8,
+                        "SLOAD": 4,
+                        "DUP1": 3,
+                        "DUP3": 3,
+                        "SUB": 1,
+                        "GT": 2,
+                        "PUSH0": 8,
+                        "DUP2": 3,
+                        "PUSH2": 6,
+                        "SWAP2": 1,
+                        "ADD": 2,
+                        "SWAP3": 1,
+                        "SWAP1": 1,
+                        "POP": 3,
+                        "SSTORE": 4,
+                        "CALLDATASIZE": 1,
+                        "PUSH32": 1,
+                        "JUMP": 1,
+                        "MUL": 1,
+                        "RETURN": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7976.md",
             "reference-spec-version": "83d473b0504d316a06ce58ae581e7f03b5d54fe1"
@@ -2109,7 +2329,7 @@
                 "storage": {}
             }
         },
-        "lastblockhash": "0xc2bf75f3b456abfd51be51df4cd4f4e516820a1eee6a027cc3fb8a43b24ad52c",
+        "lastblockhash": "0x71efe6516cef2299495417f8257b53db018630b7d1dfd65f2ddf509f78003da3",
         "config": {
             "network": "Amsterdam",
             "chainid": "0x01",
@@ -2160,7 +2380,7 @@
                     "difficulty": "0x00",
                     "number": "0x01",
                     "gasLimit": "0x07270e00",
-                    "gasUsed": "0x3e80",
+                    "gasUsed": "0x5398",
                     "timestamp": "0x03e8",
                     "extraData": "0x00",
                     "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -2173,7 +2393,7 @@
                     "requestsHash": "0xe3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
                     "blockAccessListHash": "0x7f9f3cfd8ae1ae0635c4f02bec3405fcec8854b6a3fbd16f55510fd68fc85562",
                     "slotNumber": "0x00",
-                    "hash": "0xc2bf75f3b456abfd51be51df4cd4f4e516820a1eee6a027cc3fb8a43b24ad52c"
+                    "hash": "0x71efe6516cef2299495417f8257b53db018630b7d1dfd65f2ddf509f78003da3"
                 },
                 "transactions": [
                     {
@@ -2335,20 +2555,75 @@
                         "storageReads": []
                     }
                 ],
-                "rlp": "0xf9034af9027da0d7e64cef8fefae4af423b870f316cd3ec3efdc52d6ef10be234f86921ec86706a01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa095974ba328d9558ce8b1b96727e579875ca9bbff503355c67f345cc4717cac21a093178ba4c70a5e247633c7b6aa8b8acce887ab5edf4c6e1f9e9d3ed7567c60aea0983021d4c430a103b50ea3dc6cf64efa9b56e008ff65089465c480695b422a05b901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e00823e808203e800a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a07f9f3cfd8ae1ae0635c4f02bec3405fcec8854b6a3fbd16f55510fd68fc8556280f8c6f8c4800a8253989437f536464af59c8d7358cae965f92cbeadd58dcb80b864ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000026a0e7314369337f96d1f31a640e43f3799787ef9754ad4821f0ac60e52569a7fc76a0673e74326a52a6a2587f226a9a28283820077c626f8a1fd6879f79e5705b2205c0c0",
+                "rlp": "0xf9034af9027da0d7e64cef8fefae4af423b870f316cd3ec3efdc52d6ef10be234f86921ec86706a01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa095974ba328d9558ce8b1b96727e579875ca9bbff503355c67f345cc4717cac21a093178ba4c70a5e247633c7b6aa8b8acce887ab5edf4c6e1f9e9d3ed7567c60aea0983021d4c430a103b50ea3dc6cf64efa9b56e008ff65089465c480695b422a05b901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e008253988203e800a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a07f9f3cfd8ae1ae0635c4f02bec3405fcec8854b6a3fbd16f55510fd68fc8556280f8c6f8c4800a8253989437f536464af59c8d7358cae965f92cbeadd58dcb80b864ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000026a0e7314369337f96d1f31a640e43f3799787ef9754ad4821f0ac60e52569a7fc76a0673e74326a52a6a2587f226a9a28283820077c626f8a1fd6879f79e5705b2205c0c0",
                 "blocknumber": "1"
             }
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x074df5553e9ffbb60572833153db36e4ada9177c38bb169fccd59e6b31810ae5",
+            "hash": "0x447ad5610cd395654e7b32a6f27eae1203c2b8278b2387186ec213f261ecbeff",
             "fixture-format": "blockchain_test",
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test class documentation:\nTest token calculation with different byte compositions.\n\n\nVerify token calculation is correct for different byte compositions.\n\nStandard calldata token formula:\ntokens = zero_bytes + (nonzero_bytes * 4)\n\nFloor token formula introduced in EIP-7976:\nfloor_tokens = 4 * calldata_bytes",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip7976_increase_calldata_floor_cost/test_additional_coverage.py#L52",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip7976_increase_calldata_floor_cost/test_additional_coverage.py#L52",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "CALLER": 1,
+                    "PUSH20": 1,
+                    "EQ": 4,
+                    "PUSH1": 11,
+                    "JUMPI": 7,
+                    "JUMPDEST": 8,
+                    "SLOAD": 4,
+                    "DUP1": 3,
+                    "DUP3": 3,
+                    "SUB": 1,
+                    "GT": 2,
+                    "PUSH0": 8,
+                    "DUP2": 3,
+                    "PUSH2": 6,
+                    "SWAP2": 1,
+                    "ADD": 2,
+                    "SWAP3": 1,
+                    "SWAP1": 1,
+                    "POP": 3,
+                    "SSTORE": 4,
+                    "CALLDATASIZE": 1,
+                    "PUSH32": 1,
+                    "JUMP": 1,
+                    "MUL": 1,
+                    "RETURN": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "CALLER": 1,
+                        "PUSH20": 1,
+                        "EQ": 4,
+                        "PUSH1": 11,
+                        "JUMPI": 7,
+                        "JUMPDEST": 8,
+                        "SLOAD": 4,
+                        "DUP1": 3,
+                        "DUP3": 3,
+                        "SUB": 1,
+                        "GT": 2,
+                        "PUSH0": 8,
+                        "DUP2": 3,
+                        "PUSH2": 6,
+                        "SWAP2": 1,
+                        "ADD": 2,
+                        "SWAP3": 1,
+                        "SWAP1": 1,
+                        "POP": 3,
+                        "SSTORE": 4,
+                        "CALLDATASIZE": 1,
+                        "PUSH32": 1,
+                        "JUMP": 1,
+                        "MUL": 1,
+                        "RETURN": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7976.md",
             "reference-spec-version": "83d473b0504d316a06ce58ae581e7f03b5d54fe1"
@@ -2580,7 +2855,7 @@
                 "storage": {}
             }
         },
-        "lastblockhash": "0x60669ce1bb1c318c8f1304b087e90d66e3b70432a05ffb2f10587ec270d79cf3",
+        "lastblockhash": "0x3ed87ecd2d774ff95edd8afdeddb70f9de25a5b179e27d1f46df57ad7189ab23",
         "config": {
             "network": "Amsterdam",
             "chainid": "0x01",
@@ -2631,7 +2906,7 @@
                     "difficulty": "0x00",
                     "number": "0x01",
                     "gasLimit": "0x07270e00",
-                    "gasUsed": "0x3acc",
+                    "gasUsed": "0x3b98",
                     "timestamp": "0x03e8",
                     "extraData": "0x00",
                     "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -2644,7 +2919,7 @@
                     "requestsHash": "0xe3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
                     "blockAccessListHash": "0xfe57ac5fc78962c0afd2f28bc2b1bf29ac0fd3f42a203202b39434445687c02d",
                     "slotNumber": "0x00",
-                    "hash": "0x60669ce1bb1c318c8f1304b087e90d66e3b70432a05ffb2f10587ec270d79cf3"
+                    "hash": "0x3ed87ecd2d774ff95edd8afdeddb70f9de25a5b179e27d1f46df57ad7189ab23"
                 },
                 "transactions": [
                     {
@@ -2806,20 +3081,75 @@
                         "storageReads": []
                     }
                 ],
-                "rlp": "0xf902e9f9027da0d7e64cef8fefae4af423b870f316cd3ec3efdc52d6ef10be234f86921ec86706a01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa02fa12bd25e984cacf3c0e120710883bc3c173287aa2e0c8fb718c651e4786516a0e00a012b0444a87c9a29b461704cdf015cf1912e9224b8f06943bfb6f6b22333a0dcf23d9372fe0d2b5e56e495be5683837fe18bdee253dd70687ae4b5e48b8fe5b901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e00823acc8203e800a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a0fe57ac5fc78962c0afd2f28bc2b1bf29ac0fd3f42a203202b39434445687c02d80f865f863800a823b989437f536464af59c8d7358cae965f92cbeadd58dcb80840102030025a0f8daf37e862ef5811693c0a3107fe95792522297556f1078c525da354be5cf6da03c7bdcbd96a3ab756aef691dff410c6f51e25999165dc0e0ff9e4f12ce236c5dc0c0",
+                "rlp": "0xf902e9f9027da0d7e64cef8fefae4af423b870f316cd3ec3efdc52d6ef10be234f86921ec86706a01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa02fa12bd25e984cacf3c0e120710883bc3c173287aa2e0c8fb718c651e4786516a0e00a012b0444a87c9a29b461704cdf015cf1912e9224b8f06943bfb6f6b22333a0dcf23d9372fe0d2b5e56e495be5683837fe18bdee253dd70687ae4b5e48b8fe5b901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e00823b988203e800a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a0fe57ac5fc78962c0afd2f28bc2b1bf29ac0fd3f42a203202b39434445687c02d80f865f863800a823b989437f536464af59c8d7358cae965f92cbeadd58dcb80840102030025a0f8daf37e862ef5811693c0a3107fe95792522297556f1078c525da354be5cf6da03c7bdcbd96a3ab756aef691dff410c6f51e25999165dc0e0ff9e4f12ce236c5dc0c0",
                 "blocknumber": "1"
             }
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xceb44d015951f319861cb04bef467f5e383454bac734dcc804d2b4f659db97c8",
+            "hash": "0x41ce25ec570ad835d96fd09b261c2037c4d86b97220b8bb7a8d2bdd374015cc7",
             "fixture-format": "blockchain_test",
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test class documentation:\nTest token calculation with different byte compositions.\n\n\nVerify token calculation is correct for different byte compositions.\n\nStandard calldata token formula:\ntokens = zero_bytes + (nonzero_bytes * 4)\n\nFloor token formula introduced in EIP-7976:\nfloor_tokens = 4 * calldata_bytes",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip7976_increase_calldata_floor_cost/test_additional_coverage.py#L52",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip7976_increase_calldata_floor_cost/test_additional_coverage.py#L52",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "CALLER": 1,
+                    "PUSH20": 1,
+                    "EQ": 4,
+                    "PUSH1": 11,
+                    "JUMPI": 7,
+                    "JUMPDEST": 8,
+                    "SLOAD": 4,
+                    "DUP1": 3,
+                    "DUP3": 3,
+                    "SUB": 1,
+                    "GT": 2,
+                    "PUSH0": 8,
+                    "DUP2": 3,
+                    "PUSH2": 6,
+                    "SWAP2": 1,
+                    "ADD": 2,
+                    "SWAP3": 1,
+                    "SWAP1": 1,
+                    "POP": 3,
+                    "SSTORE": 4,
+                    "CALLDATASIZE": 1,
+                    "PUSH32": 1,
+                    "JUMP": 1,
+                    "MUL": 1,
+                    "RETURN": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "CALLER": 1,
+                        "PUSH20": 1,
+                        "EQ": 4,
+                        "PUSH1": 11,
+                        "JUMPI": 7,
+                        "JUMPDEST": 8,
+                        "SLOAD": 4,
+                        "DUP1": 3,
+                        "DUP3": 3,
+                        "SUB": 1,
+                        "GT": 2,
+                        "PUSH0": 8,
+                        "DUP2": 3,
+                        "PUSH2": 6,
+                        "SWAP2": 1,
+                        "ADD": 2,
+                        "SWAP3": 1,
+                        "SWAP1": 1,
+                        "POP": 3,
+                        "SSTORE": 4,
+                        "CALLDATASIZE": 1,
+                        "PUSH32": 1,
+                        "JUMP": 1,
+                        "MUL": 1,
+                        "RETURN": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7976.md",
             "reference-spec-version": "83d473b0504d316a06ce58ae581e7f03b5d54fe1"

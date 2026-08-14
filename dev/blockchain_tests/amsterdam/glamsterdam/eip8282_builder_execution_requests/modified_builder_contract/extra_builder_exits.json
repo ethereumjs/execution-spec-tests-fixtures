@@ -362,9 +362,30 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test how clients were to behave when more than the per-block maximum of\nbuilder exit requests would be returned by the predeploy.",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip8282_builder_execution_requests/test_modified_builder_contract.py#L150",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip8282_builder_execution_requests/test_modified_builder_contract.py#L150",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "PUSH1": 8,
+                    "MSTORE": 3,
+                    "MLOAD": 1,
+                    "PUSH28": 1,
+                    "AND": 1,
+                    "PUSH32": 1,
+                    "OR": 1,
+                    "RETURN": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "PUSH1": 8,
+                        "MSTORE": 3,
+                        "MLOAD": 1,
+                        "PUSH28": 1,
+                        "AND": 1,
+                        "PUSH32": 1,
+                        "OR": 1,
+                        "RETURN": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-8282.md",
             "reference-spec-version": "35ab20cb31a416c50600da00125d262e1756850c"
@@ -733,9 +754,18 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test how clients were to behave when more than the per-block maximum of\nbuilder exit requests would be returned by the predeploy.",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip8282_builder_execution_requests/test_modified_builder_contract.py#L150",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip8282_builder_execution_requests/test_modified_builder_contract.py#L150",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "PUSH1": 2,
+                    "RETURN": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "PUSH1": 2,
+                        "RETURN": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-8282.md",
             "reference-spec-version": "35ab20cb31a416c50600da00125d262e1756850c"
@@ -1104,9 +1134,32 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test how clients were to behave when more than the per-block maximum of\nbuilder exit requests would be returned by the predeploy.",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip8282_builder_execution_requests/test_modified_builder_contract.py#L150",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip8282_builder_execution_requests/test_modified_builder_contract.py#L150",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "PUSH1": 47,
+                    "MSTORE": 48,
+                    "MLOAD": 16,
+                    "PUSH28": 16,
+                    "AND": 16,
+                    "PUSH32": 16,
+                    "OR": 16,
+                    "PUSH2": 51,
+                    "RETURN": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "PUSH1": 47,
+                        "MSTORE": 48,
+                        "MLOAD": 16,
+                        "PUSH28": 16,
+                        "AND": 16,
+                        "PUSH32": 16,
+                        "OR": 16,
+                        "PUSH2": 51,
+                        "RETURN": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-8282.md",
             "reference-spec-version": "35ab20cb31a416c50600da00125d262e1756850c"
@@ -1475,9 +1528,32 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test how clients were to behave when more than the per-block maximum of\nbuilder exit requests would be returned by the predeploy.",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip8282_builder_execution_requests/test_modified_builder_contract.py#L150",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip8282_builder_execution_requests/test_modified_builder_contract.py#L150",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "PUSH1": 45,
+                    "MSTORE": 45,
+                    "MLOAD": 15,
+                    "PUSH28": 15,
+                    "AND": 15,
+                    "PUSH32": 15,
+                    "OR": 15,
+                    "PUSH2": 47,
+                    "RETURN": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "PUSH1": 45,
+                        "MSTORE": 45,
+                        "MLOAD": 15,
+                        "PUSH28": 15,
+                        "AND": 15,
+                        "PUSH32": 15,
+                        "OR": 15,
+                        "PUSH2": 47,
+                        "RETURN": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-8282.md",
             "reference-spec-version": "35ab20cb31a416c50600da00125d262e1756850c"
@@ -1846,9 +1922,32 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test how clients were to behave when more than the per-block maximum of\nbuilder exit requests would be returned by the predeploy.",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip8282_builder_execution_requests/test_modified_builder_contract.py#L150",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip8282_builder_execution_requests/test_modified_builder_contract.py#L150",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "PUSH1": 49,
+                    "MSTORE": 51,
+                    "MLOAD": 17,
+                    "PUSH28": 17,
+                    "AND": 17,
+                    "PUSH32": 17,
+                    "OR": 17,
+                    "PUSH2": 55,
+                    "RETURN": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "PUSH1": 49,
+                        "MSTORE": 51,
+                        "MLOAD": 17,
+                        "PUSH28": 17,
+                        "AND": 17,
+                        "PUSH32": 17,
+                        "OR": 17,
+                        "PUSH2": 55,
+                        "RETURN": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-8282.md",
             "reference-spec-version": "35ab20cb31a416c50600da00125d262e1756850c"
@@ -2217,9 +2316,32 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test how clients were to behave when more than the per-block maximum of\nbuilder exit requests would be returned by the predeploy.",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip8282_builder_execution_requests/test_modified_builder_contract.py#L150",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip8282_builder_execution_requests/test_modified_builder_contract.py#L150",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "PUSH1": 51,
+                    "MSTORE": 54,
+                    "MLOAD": 18,
+                    "PUSH28": 18,
+                    "AND": 18,
+                    "PUSH32": 18,
+                    "OR": 18,
+                    "PUSH2": 59,
+                    "RETURN": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "PUSH1": 51,
+                        "MSTORE": 54,
+                        "MLOAD": 18,
+                        "PUSH28": 18,
+                        "AND": 18,
+                        "PUSH32": 18,
+                        "OR": 18,
+                        "PUSH2": 59,
+                        "RETURN": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-8282.md",
             "reference-spec-version": "35ab20cb31a416c50600da00125d262e1756850c"

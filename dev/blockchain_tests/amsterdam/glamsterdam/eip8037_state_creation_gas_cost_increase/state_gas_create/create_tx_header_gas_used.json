@@ -225,7 +225,7 @@
                 "storage": {}
             }
         },
-        "lastblockhash": "0x9778c07a7cbf140961407d81638c02d6dca55ba388770861b4dee636b67bba35",
+        "lastblockhash": "0xf9896f2ffe35113adaa55c261be3aaddede0264a27a0ffef1d22853ec10307ed",
         "config": {
             "network": "Amsterdam",
             "chainid": "0x01",
@@ -276,7 +276,7 @@
                     "difficulty": "0x00",
                     "number": "0x01",
                     "gasLimit": "0x07270e00",
-                    "gasUsed": "0x59de",
+                    "gasUsed": "0x5a18",
                     "timestamp": "0x0c",
                     "extraData": "0x",
                     "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -289,7 +289,7 @@
                     "requestsHash": "0xe3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
                     "blockAccessListHash": "0xae000357d86a66b3dff31b08141e06e53e8da2ab411cae520b8d2daf8b086a12",
                     "slotNumber": "0x00",
-                    "hash": "0x9778c07a7cbf140961407d81638c02d6dca55ba388770861b4dee636b67bba35"
+                    "hash": "0xf9896f2ffe35113adaa55c261be3aaddede0264a27a0ffef1d22853ec10307ed"
                 },
                 "transactions": [
                     {
@@ -456,20 +456,75 @@
                         "storageReads": []
                     }
                 ],
-                "rlp": "0xf902d1f9027ba0f821b1840f977fd3e1ce1876d9c0f2b6e099ce21e84b606678af1498e8290a17a01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa04475e502f6b2e532d65420505e154542cc80318396371dc6526ef374801729aca019db3dd7aa5359c64290ebd5f6e2f430c0ffe86bda868aada765389028dbf748a0ab3eeff2244e3a925ca1b800e6f0ed545b0a5e9aa68894b92a777d8c66036411b901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e008259de0c80a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a0ae000357d86a66b3dff31b08141e06e53e8da2ab411cae520b8d2daf8b086a1280f84ff84d800a840102d32a80800025a07c417a00d0996582d366d2dead5698e4bd6ea89bfdd4c9761e5c86bc0bb9dee1a016b79df44a09021be341d61516f23419c5e1fedc79f5843b2bede85cf19bd93bc0c0",
+                "rlp": "0xf902d1f9027ba0f821b1840f977fd3e1ce1876d9c0f2b6e099ce21e84b606678af1498e8290a17a01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa04475e502f6b2e532d65420505e154542cc80318396371dc6526ef374801729aca019db3dd7aa5359c64290ebd5f6e2f430c0ffe86bda868aada765389028dbf748a0ab3eeff2244e3a925ca1b800e6f0ed545b0a5e9aa68894b92a777d8c66036411b901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e00825a180c80a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a0ae000357d86a66b3dff31b08141e06e53e8da2ab411cae520b8d2daf8b086a1280f84ff84d800a840102d32a80800025a07c417a00d0996582d366d2dead5698e4bd6ea89bfdd4c9761e5c86bc0bb9dee1a016b79df44a09021be341d61516f23419c5e1fedc79f5843b2bede85cf19bd93bc0c0",
                 "blocknumber": "1"
             }
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xef6c474e4241a51b54c9a51ddf1c89bb4971ec58eb776ce9d48629cbc0c8a796",
+            "hash": "0x839b117d62f6eac97ae617f1e69f46d909e0a1271e3a08056440bbe771343f98",
             "fixture-format": "blockchain_test",
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
-            "description": "Verify block header gas_used for a successful CREATE transaction.\n\nA contract creation tx (to=None) with known gas costs. Compute\nexact gas_used from first principles and verify against the block\nheader. Catches bugs where clients report gas_limit instead of\nactual consumed gas.\n\nFor a fresh target the top-frame NEW_ACCOUNT state gas is charged and\ndominates the regular gas, so gas_used == NEW_ACCOUNT. For a\npre-existing balance-only leaf the target is not EMPTY pre-tx, so the\ntop-frame NEW_ACCOUNT is never charged: net state gas is zero and the\nregular intrinsic gas dominates. The expected value therefore equals\nthe regular intrinsic and fails if a stray NEW_ACCOUNT is charged.",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_create.py#L1310",
+            "description": "Verify block header gas_used for a successful CREATE transaction.\n\nA contract creation tx (to=None) with known gas costs. Compute\nexact gas_used from first principles and verify against the block\nheader. Catches bugs where clients report gas_limit instead of\nactual consumed gas.\n\nFor a fresh target the top-frame NEW_ACCOUNT state gas is charged and\ndominates the regular gas, so gas_used == NEW_ACCOUNT. For a\npre-existing balance-only leaf the target is not EMPTY pre-tx, so the\ntop-frame NEW_ACCOUNT is never charged: net state gas is zero and only\nthe regular dimension remains. The block-level calldata floor tops up\nthat regular remainder, so the expected value is the greater of the\nregular intrinsic and the floor, and fails if a stray NEW_ACCOUNT is\ncharged.",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_create.py#L1308",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "CALLER": 1,
+                    "PUSH20": 1,
+                    "EQ": 4,
+                    "PUSH1": 11,
+                    "JUMPI": 7,
+                    "JUMPDEST": 8,
+                    "SLOAD": 4,
+                    "DUP1": 3,
+                    "DUP3": 3,
+                    "SUB": 1,
+                    "GT": 2,
+                    "PUSH0": 8,
+                    "DUP2": 3,
+                    "PUSH2": 6,
+                    "SWAP2": 1,
+                    "ADD": 2,
+                    "SWAP3": 1,
+                    "SWAP1": 1,
+                    "POP": 3,
+                    "SSTORE": 4,
+                    "CALLDATASIZE": 1,
+                    "PUSH32": 1,
+                    "JUMP": 1,
+                    "MUL": 1,
+                    "RETURN": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "CALLER": 1,
+                        "PUSH20": 1,
+                        "EQ": 4,
+                        "PUSH1": 11,
+                        "JUMPI": 7,
+                        "JUMPDEST": 8,
+                        "SLOAD": 4,
+                        "DUP1": 3,
+                        "DUP3": 3,
+                        "SUB": 1,
+                        "GT": 2,
+                        "PUSH0": 8,
+                        "DUP2": 3,
+                        "PUSH2": 6,
+                        "SWAP2": 1,
+                        "ADD": 2,
+                        "SWAP3": 1,
+                        "SWAP1": 1,
+                        "POP": 3,
+                        "SSTORE": 4,
+                        "CALLDATASIZE": 1,
+                        "PUSH32": 1,
+                        "JUMP": 1,
+                        "MUL": 1,
+                        "RETURN": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-8037.md",
             "reference-spec-version": "a12902ae1b811c45a81b51bfce671cf7a1fb27f3"
@@ -936,10 +991,65 @@
             "fixture-format": "blockchain_test",
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
-            "description": "Verify block header gas_used for a successful CREATE transaction.\n\nA contract creation tx (to=None) with known gas costs. Compute\nexact gas_used from first principles and verify against the block\nheader. Catches bugs where clients report gas_limit instead of\nactual consumed gas.\n\nFor a fresh target the top-frame NEW_ACCOUNT state gas is charged and\ndominates the regular gas, so gas_used == NEW_ACCOUNT. For a\npre-existing balance-only leaf the target is not EMPTY pre-tx, so the\ntop-frame NEW_ACCOUNT is never charged: net state gas is zero and the\nregular intrinsic gas dominates. The expected value therefore equals\nthe regular intrinsic and fails if a stray NEW_ACCOUNT is charged.",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_create.py#L1310",
+            "description": "Verify block header gas_used for a successful CREATE transaction.\n\nA contract creation tx (to=None) with known gas costs. Compute\nexact gas_used from first principles and verify against the block\nheader. Catches bugs where clients report gas_limit instead of\nactual consumed gas.\n\nFor a fresh target the top-frame NEW_ACCOUNT state gas is charged and\ndominates the regular gas, so gas_used == NEW_ACCOUNT. For a\npre-existing balance-only leaf the target is not EMPTY pre-tx, so the\ntop-frame NEW_ACCOUNT is never charged: net state gas is zero and only\nthe regular dimension remains. The block-level calldata floor tops up\nthat regular remainder, so the expected value is the greater of the\nregular intrinsic and the floor, and fails if a stray NEW_ACCOUNT is\ncharged.",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_create.py#L1308",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "CALLER": 1,
+                    "PUSH20": 1,
+                    "EQ": 4,
+                    "PUSH1": 11,
+                    "JUMPI": 7,
+                    "JUMPDEST": 8,
+                    "SLOAD": 4,
+                    "DUP1": 3,
+                    "DUP3": 3,
+                    "SUB": 1,
+                    "GT": 2,
+                    "PUSH0": 8,
+                    "DUP2": 3,
+                    "PUSH2": 6,
+                    "SWAP2": 1,
+                    "ADD": 2,
+                    "SWAP3": 1,
+                    "SWAP1": 1,
+                    "POP": 3,
+                    "SSTORE": 4,
+                    "CALLDATASIZE": 1,
+                    "PUSH32": 1,
+                    "JUMP": 1,
+                    "MUL": 1,
+                    "RETURN": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "CALLER": 1,
+                        "PUSH20": 1,
+                        "EQ": 4,
+                        "PUSH1": 11,
+                        "JUMPI": 7,
+                        "JUMPDEST": 8,
+                        "SLOAD": 4,
+                        "DUP1": 3,
+                        "DUP3": 3,
+                        "SUB": 1,
+                        "GT": 2,
+                        "PUSH0": 8,
+                        "DUP2": 3,
+                        "PUSH2": 6,
+                        "SWAP2": 1,
+                        "ADD": 2,
+                        "SWAP3": 1,
+                        "SWAP1": 1,
+                        "POP": 3,
+                        "SSTORE": 4,
+                        "CALLDATASIZE": 1,
+                        "PUSH32": 1,
+                        "JUMP": 1,
+                        "MUL": 1,
+                        "RETURN": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-8037.md",
             "reference-spec-version": "a12902ae1b811c45a81b51bfce671cf7a1fb27f3"

@@ -213,7 +213,7 @@
                 "storage": {}
             }
         },
-        "lastblockhash": "0x33b91584bda8842de121df837191c9132b8d2eb339b6625fc73b6eec77a024c7",
+        "lastblockhash": "0x053c8c136285d9e357c2859cc637d7e778d7301d3628d46b143ceeeee048b3f4",
         "config": {
             "network": "Amsterdam",
             "chainid": "0x01",
@@ -264,7 +264,7 @@
                     "difficulty": "0x00",
                     "number": "0x01",
                     "gasLimit": "0x07270e00",
-                    "gasUsed": "0x5fa4",
+                    "gasUsed": "0x6048",
                     "timestamp": "0x0c",
                     "extraData": "0x",
                     "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -277,7 +277,7 @@
                     "requestsHash": "0xe3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
                     "blockAccessListHash": "0x8c8f68c30b939fa4cff1e70a25e87b1f151e2ea464a8867a9b1a97f5b99f5b43",
                     "slotNumber": "0x00",
-                    "hash": "0x33b91584bda8842de121df837191c9132b8d2eb339b6625fc73b6eec77a024c7"
+                    "hash": "0x053c8c136285d9e357c2859cc637d7e778d7301d3628d46b143ceeeee048b3f4"
                 },
                 "transactions": [
                     {
@@ -431,20 +431,75 @@
                         "storageReads": []
                     }
                 ],
-                "rlp": "0xf9031ff9027ba073a049fe321fd480cbe07fc7a00cb2ee3f4d8c69a31ef125c4a2e974e0b1c18da01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa0df30af06120ee55187c197bc5d4eec62910139cd9274709646eb55ea7a1c9df2a0ff7147845dbef50f5a299c9fa164ea9f7537df5c8c48eb93a8ac4cbc79ece96ca0fef94181c8925abdd8af3a2ef90eeee09f905d7faf305e6445e7bd4e42cce210b901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e00825fa40c80a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a08c8f68c30b939fa4cff1e70a25e87b1f151e2ea464a8867a9b1a97f5b99f5b4380f89df89b800a8407270e009400000961ef480eb55e80d19ad83579a64c00700201b83900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000026a0d95f184206b416ef1108e3e80f5377d6f263efbd1b99d2881c436f14364c3f90a039d35eb72debdc6b924de7238b35a6641ad25d324fde10a0f4423ab300cad25fc0c0",
+                "rlp": "0xf9031ff9027ba073a049fe321fd480cbe07fc7a00cb2ee3f4d8c69a31ef125c4a2e974e0b1c18da01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa0df30af06120ee55187c197bc5d4eec62910139cd9274709646eb55ea7a1c9df2a0ff7147845dbef50f5a299c9fa164ea9f7537df5c8c48eb93a8ac4cbc79ece96ca0fef94181c8925abdd8af3a2ef90eeee09f905d7faf305e6445e7bd4e42cce210b901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e008260480c80a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a08c8f68c30b939fa4cff1e70a25e87b1f151e2ea464a8867a9b1a97f5b99f5b4380f89df89b800a8407270e009400000961ef480eb55e80d19ad83579a64c00700201b83900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000026a0d95f184206b416ef1108e3e80f5377d6f263efbd1b99d2881c436f14364c3f90a039d35eb72debdc6b924de7238b35a6641ad25d324fde10a0f4423ab300cad25fc0c0",
                 "blocknumber": "1"
             }
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0xf913ac39f5fdd2054b1e9a62774e23149f330b63986bbca64a06ba0796937c0a",
+            "hash": "0x8cf905cb5ae031de1eb023551145179b201809d82b460639bc77883c27c47a1a",
             "fixture-format": "blockchain_test",
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Ensure BAL correctly handles invalid withdrawal request scenarios.\n\nTests various failure modes:\n- insufficient_fee: Transaction reverts due to fee below minimum\n- calldata_too_short: Transaction reverts due to short calldata (55 bytes)\n- calldata_too_long: Transaction reverts due to long calldata (57 bytes)\n- oog: Transaction runs out of gas before completion\n- invalid_call_type_*: Contract call via DELEGATECALL/STATICCALL/CALLCODE\n- contract_reverts: Contract calls system contract but reverts after\n\nIn all cases:\n- Sender's nonce increments (transaction executed)\n- Sender pays gas costs\n- System contract is accessed during dequeue but has no state changes\n- No withdrawal request is queued",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_eip7002.py#L624",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_eip7002.py#L624",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "CALLER": 1,
+                    "PUSH20": 1,
+                    "EQ": 4,
+                    "PUSH1": 11,
+                    "JUMPI": 7,
+                    "JUMPDEST": 8,
+                    "SLOAD": 4,
+                    "DUP1": 3,
+                    "DUP3": 3,
+                    "SUB": 1,
+                    "GT": 2,
+                    "PUSH0": 8,
+                    "DUP2": 3,
+                    "PUSH2": 6,
+                    "SWAP2": 1,
+                    "ADD": 2,
+                    "SWAP3": 1,
+                    "SWAP1": 1,
+                    "POP": 3,
+                    "SSTORE": 4,
+                    "CALLDATASIZE": 1,
+                    "PUSH32": 1,
+                    "JUMP": 1,
+                    "MUL": 1,
+                    "RETURN": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "CALLER": 1,
+                        "PUSH20": 1,
+                        "EQ": 4,
+                        "PUSH1": 11,
+                        "JUMPI": 7,
+                        "JUMPDEST": 8,
+                        "SLOAD": 4,
+                        "DUP1": 3,
+                        "DUP3": 3,
+                        "SUB": 1,
+                        "GT": 2,
+                        "PUSH0": 8,
+                        "DUP2": 3,
+                        "PUSH2": 6,
+                        "SWAP2": 1,
+                        "ADD": 2,
+                        "SWAP3": 1,
+                        "SWAP1": 1,
+                        "POP": 3,
+                        "SSTORE": 4,
+                        "CALLDATASIZE": 1,
+                        "PUSH32": 1,
+                        "JUMP": 1,
+                        "MUL": 1,
+                        "RETURN": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7928.md",
             "reference-spec-version": "aca88aa0932580c29d0233f902cb4390e88b8c41"
@@ -664,7 +719,7 @@
                 "storage": {}
             }
         },
-        "lastblockhash": "0x47e7a57e523e120ca9972abd01e3cb48b5adcf4d37dcbed58a583841174da165",
+        "lastblockhash": "0x0616ccbd136fca9bf3295d9494e9f02dda65e865bd8c41333b0969c66ec0992e",
         "config": {
             "network": "Amsterdam",
             "chainid": "0x01",
@@ -715,7 +770,7 @@
                     "difficulty": "0x00",
                     "number": "0x01",
                     "gasLimit": "0x07270e00",
-                    "gasUsed": "0x5f9c",
+                    "gasUsed": "0x5fc8",
                     "timestamp": "0x0c",
                     "extraData": "0x",
                     "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -728,7 +783,7 @@
                     "requestsHash": "0xe3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
                     "blockAccessListHash": "0x8e5985083302679116187d4c08cd218542aca6ff0ee98fe8b2cef2034e380718",
                     "slotNumber": "0x00",
-                    "hash": "0x47e7a57e523e120ca9972abd01e3cb48b5adcf4d37dcbed58a583841174da165"
+                    "hash": "0x0616ccbd136fca9bf3295d9494e9f02dda65e865bd8c41333b0969c66ec0992e"
                 },
                 "transactions": [
                     {
@@ -882,20 +937,75 @@
                         "storageReads": []
                     }
                 ],
-                "rlp": "0xf9031cf9027ba073a049fe321fd480cbe07fc7a00cb2ee3f4d8c69a31ef125c4a2e974e0b1c18da01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa0c6fc68593ca51306770ee7bcbbe8666229a3931a222b5b66ecc0b1012434007da0871d4715afc8f38097cdea96c0642a125d07392332a33564f43ab95e36722e05a04e8bd40f2509ccd9561fa92aef0d074ac9789338e18a1268b18fcd19a7e31802b901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e00825f9c0c80a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a08e5985083302679116187d4c08cd218542aca6ff0ee98fe8b2cef2034e38071880f89af898800a8407270e009400000961ef480eb55e80d19ad83579a64c00700201b70000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000025a0848b1194d48407f2b1acd78248d6e01bb8401fa2765032a3a559cce4b4a49e31a03e7be7382ac31274a51dcbec6fc1bf03fda725f17ba7b8554ebc7ce2f5dd4330c0c0",
+                "rlp": "0xf9031cf9027ba073a049fe321fd480cbe07fc7a00cb2ee3f4d8c69a31ef125c4a2e974e0b1c18da01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa0c6fc68593ca51306770ee7bcbbe8666229a3931a222b5b66ecc0b1012434007da0871d4715afc8f38097cdea96c0642a125d07392332a33564f43ab95e36722e05a04e8bd40f2509ccd9561fa92aef0d074ac9789338e18a1268b18fcd19a7e31802b901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e00825fc80c80a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a08e5985083302679116187d4c08cd218542aca6ff0ee98fe8b2cef2034e38071880f89af898800a8407270e009400000961ef480eb55e80d19ad83579a64c00700201b70000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000025a0848b1194d48407f2b1acd78248d6e01bb8401fa2765032a3a559cce4b4a49e31a03e7be7382ac31274a51dcbec6fc1bf03fda725f17ba7b8554ebc7ce2f5dd4330c0c0",
                 "blocknumber": "1"
             }
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x74fb56e46df0a2c100561122207c6c94ea52b36b8d74c29d6cd213be4030c9ed",
+            "hash": "0xdde1c40d9521f4d73136545b15cd8903a69498bfb0564b24d4610485303bf88e",
             "fixture-format": "blockchain_test",
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Ensure BAL correctly handles invalid withdrawal request scenarios.\n\nTests various failure modes:\n- insufficient_fee: Transaction reverts due to fee below minimum\n- calldata_too_short: Transaction reverts due to short calldata (55 bytes)\n- calldata_too_long: Transaction reverts due to long calldata (57 bytes)\n- oog: Transaction runs out of gas before completion\n- invalid_call_type_*: Contract call via DELEGATECALL/STATICCALL/CALLCODE\n- contract_reverts: Contract calls system contract but reverts after\n\nIn all cases:\n- Sender's nonce increments (transaction executed)\n- Sender pays gas costs\n- System contract is accessed during dequeue but has no state changes\n- No withdrawal request is queued",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_eip7002.py#L624",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_eip7002.py#L624",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "CALLER": 1,
+                    "PUSH20": 1,
+                    "EQ": 4,
+                    "PUSH1": 11,
+                    "JUMPI": 7,
+                    "JUMPDEST": 8,
+                    "SLOAD": 4,
+                    "DUP1": 3,
+                    "DUP3": 3,
+                    "SUB": 1,
+                    "GT": 2,
+                    "PUSH0": 8,
+                    "DUP2": 3,
+                    "PUSH2": 6,
+                    "SWAP2": 1,
+                    "ADD": 2,
+                    "SWAP3": 1,
+                    "SWAP1": 1,
+                    "POP": 3,
+                    "SSTORE": 4,
+                    "CALLDATASIZE": 1,
+                    "PUSH32": 1,
+                    "JUMP": 1,
+                    "MUL": 1,
+                    "RETURN": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "CALLER": 1,
+                        "PUSH20": 1,
+                        "EQ": 4,
+                        "PUSH1": 11,
+                        "JUMPI": 7,
+                        "JUMPDEST": 8,
+                        "SLOAD": 4,
+                        "DUP1": 3,
+                        "DUP3": 3,
+                        "SUB": 1,
+                        "GT": 2,
+                        "PUSH0": 8,
+                        "DUP2": 3,
+                        "PUSH2": 6,
+                        "SWAP2": 1,
+                        "ADD": 2,
+                        "SWAP3": 1,
+                        "SWAP1": 1,
+                        "POP": 3,
+                        "SSTORE": 4,
+                        "CALLDATASIZE": 1,
+                        "PUSH32": 1,
+                        "JUMP": 1,
+                        "MUL": 1,
+                        "RETURN": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7928.md",
             "reference-spec-version": "aca88aa0932580c29d0233f902cb4390e88b8c41"
@@ -1367,9 +1477,64 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Ensure BAL correctly handles invalid withdrawal request scenarios.\n\nTests various failure modes:\n- insufficient_fee: Transaction reverts due to fee below minimum\n- calldata_too_short: Transaction reverts due to short calldata (55 bytes)\n- calldata_too_long: Transaction reverts due to long calldata (57 bytes)\n- oog: Transaction runs out of gas before completion\n- invalid_call_type_*: Contract call via DELEGATECALL/STATICCALL/CALLCODE\n- contract_reverts: Contract calls system contract but reverts after\n\nIn all cases:\n- Sender's nonce increments (transaction executed)\n- Sender pays gas costs\n- System contract is accessed during dequeue but has no state changes\n- No withdrawal request is queued",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_eip7002.py#L624",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_eip7002.py#L624",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "CALLER": 1,
+                    "PUSH20": 1,
+                    "EQ": 4,
+                    "PUSH1": 11,
+                    "JUMPI": 7,
+                    "JUMPDEST": 8,
+                    "SLOAD": 4,
+                    "DUP1": 3,
+                    "DUP3": 3,
+                    "SUB": 1,
+                    "GT": 2,
+                    "PUSH0": 8,
+                    "DUP2": 3,
+                    "PUSH2": 6,
+                    "SWAP2": 1,
+                    "ADD": 2,
+                    "SWAP3": 1,
+                    "SWAP1": 1,
+                    "POP": 3,
+                    "SSTORE": 4,
+                    "CALLDATASIZE": 1,
+                    "PUSH32": 1,
+                    "JUMP": 1,
+                    "MUL": 1,
+                    "RETURN": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "CALLER": 1,
+                        "PUSH20": 1,
+                        "EQ": 4,
+                        "PUSH1": 11,
+                        "JUMPI": 7,
+                        "JUMPDEST": 8,
+                        "SLOAD": 4,
+                        "DUP1": 3,
+                        "DUP3": 3,
+                        "SUB": 1,
+                        "GT": 2,
+                        "PUSH0": 8,
+                        "DUP2": 3,
+                        "PUSH2": 6,
+                        "SWAP2": 1,
+                        "ADD": 2,
+                        "SWAP3": 1,
+                        "SWAP1": 1,
+                        "POP": 3,
+                        "SSTORE": 4,
+                        "CALLDATASIZE": 1,
+                        "PUSH32": 1,
+                        "JUMP": 1,
+                        "MUL": 1,
+                        "RETURN": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7928.md",
             "reference-spec-version": "aca88aa0932580c29d0233f902cb4390e88b8c41"
@@ -1589,7 +1754,7 @@
                 "storage": {}
             }
         },
-        "lastblockhash": "0x7fe351b3f82b868a8c55b0645f51840f2a3a027a286278833d00435f99d0526c",
+        "lastblockhash": "0x8514dd5629acf8c203ccd43fb5d6f999b0037bc06ea63b72b3ac40e304ea294f",
         "config": {
             "network": "Amsterdam",
             "chainid": "0x01",
@@ -1640,7 +1805,7 @@
                     "difficulty": "0x00",
                     "number": "0x01",
                     "gasLimit": "0x07270e00",
-                    "gasUsed": "0x4834",
+                    "gasUsed": "0x4898",
                     "timestamp": "0x0c",
                     "extraData": "0x",
                     "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -1653,7 +1818,7 @@
                     "requestsHash": "0xe3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
                     "blockAccessListHash": "0x294e03b855b2a14e40985af0235a39f5700dd431e0a7d48f63e13e8ba0b18315",
                     "slotNumber": "0x00",
-                    "hash": "0x7fe351b3f82b868a8c55b0645f51840f2a3a027a286278833d00435f99d0526c"
+                    "hash": "0x8514dd5629acf8c203ccd43fb5d6f999b0037bc06ea63b72b3ac40e304ea294f"
                 },
                 "transactions": [
                     {
@@ -1807,20 +1972,75 @@
                         "storageReads": []
                     }
                 ],
-                "rlp": "0xf9031ef9027ba073a049fe321fd480cbe07fc7a00cb2ee3f4d8c69a31ef125c4a2e974e0b1c18da01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa022ff319269abe715cad93a9fdbdc41c9789497089184971666e6740637d6adb2a076ca53045043b6fe30dcadfebad0a5d615239c0f7566b12f97a02aa224d6b086a028a04df468623043e981f68433b68652e5bd1d665f87780d05993547994354a5b901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e008248340c80a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a0294e03b855b2a14e40985af0235a39f5700dd431e0a7d48f63e13e8ba0b1831580f89cf89a800a8407270e009400000961ef480eb55e80d19ad83579a64c00700280b838000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000025a0d75bfb99eabccc7d5d3fc0c107605fa42b6d95b0dbed2bf3f541e8cac470b46da022804c203528814f141d281ff0fd70a1c17a6add618168e82d6dba2cff494791c0c0",
+                "rlp": "0xf9031ef9027ba073a049fe321fd480cbe07fc7a00cb2ee3f4d8c69a31ef125c4a2e974e0b1c18da01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa022ff319269abe715cad93a9fdbdc41c9789497089184971666e6740637d6adb2a076ca53045043b6fe30dcadfebad0a5d615239c0f7566b12f97a02aa224d6b086a028a04df468623043e981f68433b68652e5bd1d665f87780d05993547994354a5b901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e008248980c80a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a0294e03b855b2a14e40985af0235a39f5700dd431e0a7d48f63e13e8ba0b1831580f89cf89a800a8407270e009400000961ef480eb55e80d19ad83579a64c00700280b838000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000025a0d75bfb99eabccc7d5d3fc0c107605fa42b6d95b0dbed2bf3f541e8cac470b46da022804c203528814f141d281ff0fd70a1c17a6add618168e82d6dba2cff494791c0c0",
                 "blocknumber": "1"
             }
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x1972c95b009e85993de8502638473495a253e94d811fcd3f4cea16b3a8a85820",
+            "hash": "0x046f777261a9c12a8aabd16a37b46a73404f7b8a9506950607e62cd51381ef6a",
             "fixture-format": "blockchain_test",
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Ensure BAL correctly handles invalid withdrawal request scenarios.\n\nTests various failure modes:\n- insufficient_fee: Transaction reverts due to fee below minimum\n- calldata_too_short: Transaction reverts due to short calldata (55 bytes)\n- calldata_too_long: Transaction reverts due to long calldata (57 bytes)\n- oog: Transaction runs out of gas before completion\n- invalid_call_type_*: Contract call via DELEGATECALL/STATICCALL/CALLCODE\n- contract_reverts: Contract calls system contract but reverts after\n\nIn all cases:\n- Sender's nonce increments (transaction executed)\n- Sender pays gas costs\n- System contract is accessed during dequeue but has no state changes\n- No withdrawal request is queued",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_eip7002.py#L624",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_eip7002.py#L624",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "CALLER": 1,
+                    "PUSH20": 1,
+                    "EQ": 4,
+                    "PUSH1": 11,
+                    "JUMPI": 7,
+                    "JUMPDEST": 8,
+                    "SLOAD": 4,
+                    "DUP1": 3,
+                    "DUP3": 3,
+                    "SUB": 1,
+                    "GT": 2,
+                    "PUSH0": 8,
+                    "DUP2": 3,
+                    "PUSH2": 6,
+                    "SWAP2": 1,
+                    "ADD": 2,
+                    "SWAP3": 1,
+                    "SWAP1": 1,
+                    "POP": 3,
+                    "SSTORE": 4,
+                    "CALLDATASIZE": 1,
+                    "PUSH32": 1,
+                    "JUMP": 1,
+                    "MUL": 1,
+                    "RETURN": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "CALLER": 1,
+                        "PUSH20": 1,
+                        "EQ": 4,
+                        "PUSH1": 11,
+                        "JUMPI": 7,
+                        "JUMPDEST": 8,
+                        "SLOAD": 4,
+                        "DUP1": 3,
+                        "DUP3": 3,
+                        "SUB": 1,
+                        "GT": 2,
+                        "PUSH0": 8,
+                        "DUP2": 3,
+                        "PUSH2": 6,
+                        "SWAP2": 1,
+                        "ADD": 2,
+                        "SWAP3": 1,
+                        "SWAP1": 1,
+                        "POP": 3,
+                        "SSTORE": 4,
+                        "CALLDATASIZE": 1,
+                        "PUSH32": 1,
+                        "JUMP": 1,
+                        "MUL": 1,
+                        "RETURN": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7928.md",
             "reference-spec-version": "aca88aa0932580c29d0233f902cb4390e88b8c41"
@@ -2340,9 +2560,64 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Ensure BAL correctly handles invalid withdrawal request scenarios.\n\nTests various failure modes:\n- insufficient_fee: Transaction reverts due to fee below minimum\n- calldata_too_short: Transaction reverts due to short calldata (55 bytes)\n- calldata_too_long: Transaction reverts due to long calldata (57 bytes)\n- oog: Transaction runs out of gas before completion\n- invalid_call_type_*: Contract call via DELEGATECALL/STATICCALL/CALLCODE\n- contract_reverts: Contract calls system contract but reverts after\n\nIn all cases:\n- Sender's nonce increments (transaction executed)\n- Sender pays gas costs\n- System contract is accessed during dequeue but has no state changes\n- No withdrawal request is queued",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_eip7002.py#L624",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_eip7002.py#L624",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "CALLER": 1,
+                    "PUSH20": 1,
+                    "EQ": 4,
+                    "PUSH1": 11,
+                    "JUMPI": 7,
+                    "JUMPDEST": 8,
+                    "SLOAD": 4,
+                    "DUP1": 3,
+                    "DUP3": 3,
+                    "SUB": 1,
+                    "GT": 2,
+                    "PUSH0": 8,
+                    "DUP2": 3,
+                    "PUSH2": 6,
+                    "SWAP2": 1,
+                    "ADD": 2,
+                    "SWAP3": 1,
+                    "SWAP1": 1,
+                    "POP": 3,
+                    "SSTORE": 4,
+                    "CALLDATASIZE": 1,
+                    "PUSH32": 1,
+                    "JUMP": 1,
+                    "MUL": 1,
+                    "RETURN": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "CALLER": 1,
+                        "PUSH20": 1,
+                        "EQ": 4,
+                        "PUSH1": 11,
+                        "JUMPI": 7,
+                        "JUMPDEST": 8,
+                        "SLOAD": 4,
+                        "DUP1": 3,
+                        "DUP3": 3,
+                        "SUB": 1,
+                        "GT": 2,
+                        "PUSH0": 8,
+                        "DUP2": 3,
+                        "PUSH2": 6,
+                        "SWAP2": 1,
+                        "ADD": 2,
+                        "SWAP3": 1,
+                        "SWAP1": 1,
+                        "POP": 3,
+                        "SSTORE": 4,
+                        "CALLDATASIZE": 1,
+                        "PUSH32": 1,
+                        "JUMP": 1,
+                        "MUL": 1,
+                        "RETURN": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7928.md",
             "reference-spec-version": "aca88aa0932580c29d0233f902cb4390e88b8c41"
@@ -2813,9 +3088,64 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Ensure BAL correctly handles invalid withdrawal request scenarios.\n\nTests various failure modes:\n- insufficient_fee: Transaction reverts due to fee below minimum\n- calldata_too_short: Transaction reverts due to short calldata (55 bytes)\n- calldata_too_long: Transaction reverts due to long calldata (57 bytes)\n- oog: Transaction runs out of gas before completion\n- invalid_call_type_*: Contract call via DELEGATECALL/STATICCALL/CALLCODE\n- contract_reverts: Contract calls system contract but reverts after\n\nIn all cases:\n- Sender's nonce increments (transaction executed)\n- Sender pays gas costs\n- System contract is accessed during dequeue but has no state changes\n- No withdrawal request is queued",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_eip7002.py#L624",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_eip7002.py#L624",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "CALLER": 1,
+                    "PUSH20": 1,
+                    "EQ": 4,
+                    "PUSH1": 11,
+                    "JUMPI": 7,
+                    "JUMPDEST": 8,
+                    "SLOAD": 4,
+                    "DUP1": 3,
+                    "DUP3": 3,
+                    "SUB": 1,
+                    "GT": 2,
+                    "PUSH0": 8,
+                    "DUP2": 3,
+                    "PUSH2": 6,
+                    "SWAP2": 1,
+                    "ADD": 2,
+                    "SWAP3": 1,
+                    "SWAP1": 1,
+                    "POP": 3,
+                    "SSTORE": 4,
+                    "CALLDATASIZE": 1,
+                    "PUSH32": 1,
+                    "JUMP": 1,
+                    "MUL": 1,
+                    "RETURN": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "CALLER": 1,
+                        "PUSH20": 1,
+                        "EQ": 4,
+                        "PUSH1": 11,
+                        "JUMPI": 7,
+                        "JUMPDEST": 8,
+                        "SLOAD": 4,
+                        "DUP1": 3,
+                        "DUP3": 3,
+                        "SUB": 1,
+                        "GT": 2,
+                        "PUSH0": 8,
+                        "DUP2": 3,
+                        "PUSH2": 6,
+                        "SWAP2": 1,
+                        "ADD": 2,
+                        "SWAP3": 1,
+                        "SWAP1": 1,
+                        "POP": 3,
+                        "SSTORE": 4,
+                        "CALLDATASIZE": 1,
+                        "PUSH32": 1,
+                        "JUMP": 1,
+                        "MUL": 1,
+                        "RETURN": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7928.md",
             "reference-spec-version": "aca88aa0932580c29d0233f902cb4390e88b8c41"
@@ -3284,9 +3614,64 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Ensure BAL correctly handles invalid withdrawal request scenarios.\n\nTests various failure modes:\n- insufficient_fee: Transaction reverts due to fee below minimum\n- calldata_too_short: Transaction reverts due to short calldata (55 bytes)\n- calldata_too_long: Transaction reverts due to long calldata (57 bytes)\n- oog: Transaction runs out of gas before completion\n- invalid_call_type_*: Contract call via DELEGATECALL/STATICCALL/CALLCODE\n- contract_reverts: Contract calls system contract but reverts after\n\nIn all cases:\n- Sender's nonce increments (transaction executed)\n- Sender pays gas costs\n- System contract is accessed during dequeue but has no state changes\n- No withdrawal request is queued",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_eip7002.py#L624",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_eip7002.py#L624",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "CALLER": 1,
+                    "PUSH20": 1,
+                    "EQ": 4,
+                    "PUSH1": 11,
+                    "JUMPI": 7,
+                    "JUMPDEST": 8,
+                    "SLOAD": 4,
+                    "DUP1": 3,
+                    "DUP3": 3,
+                    "SUB": 1,
+                    "GT": 2,
+                    "PUSH0": 8,
+                    "DUP2": 3,
+                    "PUSH2": 6,
+                    "SWAP2": 1,
+                    "ADD": 2,
+                    "SWAP3": 1,
+                    "SWAP1": 1,
+                    "POP": 3,
+                    "SSTORE": 4,
+                    "CALLDATASIZE": 1,
+                    "PUSH32": 1,
+                    "JUMP": 1,
+                    "MUL": 1,
+                    "RETURN": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "CALLER": 1,
+                        "PUSH20": 1,
+                        "EQ": 4,
+                        "PUSH1": 11,
+                        "JUMPI": 7,
+                        "JUMPDEST": 8,
+                        "SLOAD": 4,
+                        "DUP1": 3,
+                        "DUP3": 3,
+                        "SUB": 1,
+                        "GT": 2,
+                        "PUSH0": 8,
+                        "DUP2": 3,
+                        "PUSH2": 6,
+                        "SWAP2": 1,
+                        "ADD": 2,
+                        "SWAP3": 1,
+                        "SWAP1": 1,
+                        "POP": 3,
+                        "SSTORE": 4,
+                        "CALLDATASIZE": 1,
+                        "PUSH32": 1,
+                        "JUMP": 1,
+                        "MUL": 1,
+                        "RETURN": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7928.md",
             "reference-spec-version": "aca88aa0932580c29d0233f902cb4390e88b8c41"
@@ -3735,9 +4120,64 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Ensure BAL correctly handles invalid withdrawal request scenarios.\n\nTests various failure modes:\n- insufficient_fee: Transaction reverts due to fee below minimum\n- calldata_too_short: Transaction reverts due to short calldata (55 bytes)\n- calldata_too_long: Transaction reverts due to long calldata (57 bytes)\n- oog: Transaction runs out of gas before completion\n- invalid_call_type_*: Contract call via DELEGATECALL/STATICCALL/CALLCODE\n- contract_reverts: Contract calls system contract but reverts after\n\nIn all cases:\n- Sender's nonce increments (transaction executed)\n- Sender pays gas costs\n- System contract is accessed during dequeue but has no state changes\n- No withdrawal request is queued",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_eip7002.py#L624",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_eip7002.py#L624",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "CALLER": 1,
+                    "PUSH20": 1,
+                    "EQ": 4,
+                    "PUSH1": 11,
+                    "JUMPI": 7,
+                    "JUMPDEST": 8,
+                    "SLOAD": 4,
+                    "DUP1": 3,
+                    "DUP3": 3,
+                    "SUB": 1,
+                    "GT": 2,
+                    "PUSH0": 8,
+                    "DUP2": 3,
+                    "PUSH2": 6,
+                    "SWAP2": 1,
+                    "ADD": 2,
+                    "SWAP3": 1,
+                    "SWAP1": 1,
+                    "POP": 3,
+                    "SSTORE": 4,
+                    "CALLDATASIZE": 1,
+                    "PUSH32": 1,
+                    "JUMP": 1,
+                    "MUL": 1,
+                    "RETURN": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "CALLER": 1,
+                        "PUSH20": 1,
+                        "EQ": 4,
+                        "PUSH1": 11,
+                        "JUMPI": 7,
+                        "JUMPDEST": 8,
+                        "SLOAD": 4,
+                        "DUP1": 3,
+                        "DUP3": 3,
+                        "SUB": 1,
+                        "GT": 2,
+                        "PUSH0": 8,
+                        "DUP2": 3,
+                        "PUSH2": 6,
+                        "SWAP2": 1,
+                        "ADD": 2,
+                        "SWAP3": 1,
+                        "SWAP1": 1,
+                        "POP": 3,
+                        "SSTORE": 4,
+                        "CALLDATASIZE": 1,
+                        "PUSH32": 1,
+                        "JUMP": 1,
+                        "MUL": 1,
+                        "RETURN": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7928.md",
             "reference-spec-version": "aca88aa0932580c29d0233f902cb4390e88b8c41"

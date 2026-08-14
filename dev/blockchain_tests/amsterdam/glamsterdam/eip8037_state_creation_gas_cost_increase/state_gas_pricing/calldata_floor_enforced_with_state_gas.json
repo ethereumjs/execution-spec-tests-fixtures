@@ -213,7 +213,7 @@
                 "storage": {}
             }
         },
-        "lastblockhash": "0xa5233e14371b41d2b2076e1897d81b9813045f9157ed78f82f78f709b7fda9ba",
+        "lastblockhash": "0x081938286cd3d02ef2c35758f4552e7fe38ebba4056ac19a9f8deb9f99f38ae9",
         "config": {
             "network": "Amsterdam",
             "chainid": "0x01",
@@ -264,7 +264,7 @@
                     "difficulty": "0x00",
                     "number": "0x01",
                     "gasLimit": "0x07270e00",
-                    "gasUsed": "0x40d8",
+                    "gasUsed": "0x5398",
                     "timestamp": "0x03e8",
                     "extraData": "0x00",
                     "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -277,7 +277,7 @@
                     "requestsHash": "0xe3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
                     "blockAccessListHash": "0x73a36546dcada2c183965bf04ef28e468fafc54394f8145424d5be8253ebad9e",
                     "slotNumber": "0x00",
-                    "hash": "0xa5233e14371b41d2b2076e1897d81b9813045f9157ed78f82f78f709b7fda9ba"
+                    "hash": "0x081938286cd3d02ef2c35758f4552e7fe38ebba4056ac19a9f8deb9f99f38ae9"
                 },
                 "transactions": [
                     {
@@ -439,20 +439,75 @@
                         "storageReads": []
                     }
                 ],
-                "rlp": "0xf9034af9027da073a049fe321fd480cbe07fc7a00cb2ee3f4d8c69a31ef125c4a2e974e0b1c18da01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa0ede552b09da8e445f1f6260d42237614deca93f2343fead4725ab09e86258f72a0f71f7d4c50b89df3f8a9d70fc590ffeb03c2f7d466754ec5dac3cc023af497b1a0983021d4c430a103b50ea3dc6cf64efa9b56e008ff65089465c480695b422a05b901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e008240d88203e800a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a073a36546dcada2c183965bf04ef28e468fafc54394f8145424d5be8253ebad9e80f8c6f8c4800a82539894c0f6dc9e5836f54caadbf59cc69346c508e1992b80b8640101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010125a038301c1b5e35273b9766fb302741777c12f6fd98b1e4a9a937b889fc3c83066aa03803dee95b2ffeb5df0884afd12486691a805bfd245c8df02b855d8754dd0fa6c0c0",
+                "rlp": "0xf9034af9027da073a049fe321fd480cbe07fc7a00cb2ee3f4d8c69a31ef125c4a2e974e0b1c18da01dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347942adc25665018aa1fe0e6bc666dac8fc2697ff9baa0ede552b09da8e445f1f6260d42237614deca93f2343fead4725ab09e86258f72a0f71f7d4c50b89df3f8a9d70fc590ffeb03c2f7d466754ec5dac3cc023af497b1a0983021d4c430a103b50ea3dc6cf64efa9b56e008ff65089465c480695b422a05b901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080018407270e008253988203e800a0000000000000000000000000000000000000000000000000000000000000000088000000000000000007a056e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b4218080a00000000000000000000000000000000000000000000000000000000000000000a0e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855a073a36546dcada2c183965bf04ef28e468fafc54394f8145424d5be8253ebad9e80f8c6f8c4800a82539894c0f6dc9e5836f54caadbf59cc69346c508e1992b80b8640101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010125a038301c1b5e35273b9766fb302741777c12f6fd98b1e4a9a937b889fc3c83066aa03803dee95b2ffeb5df0884afd12486691a805bfd245c8df02b855d8754dd0fa6c0c0",
                 "blocknumber": "1"
             }
         ],
         "sealEngine": "NoProof",
         "_info": {
-            "hash": "0x3cc25e65fd7faddceabe4202f8028f8238c632d2cdf24c20875095447b67e1e5",
+            "hash": "0x3b78671c137941577d07e226fcdecd5841dc21ddad3b7b418ba561fc32b8b4aa",
             "fixture-format": "blockchain_test",
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test EIP-7623 calldata floor is enforced when EIP-8037 is active.\n\nSend 100 non-zero calldata bytes to a call transaction so the\nregular intrinsic cost is below the calldata floor. A gas_limit\nat the floor succeeds; one below the floor is rejected.",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_pricing.py#L449",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_pricing.py#L447",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "CALLER": 1,
+                    "PUSH20": 1,
+                    "EQ": 4,
+                    "PUSH1": 11,
+                    "JUMPI": 7,
+                    "JUMPDEST": 8,
+                    "SLOAD": 4,
+                    "DUP1": 3,
+                    "DUP3": 3,
+                    "SUB": 1,
+                    "GT": 2,
+                    "PUSH0": 8,
+                    "DUP2": 3,
+                    "PUSH2": 6,
+                    "SWAP2": 1,
+                    "ADD": 2,
+                    "SWAP3": 1,
+                    "SWAP1": 1,
+                    "POP": 3,
+                    "SSTORE": 4,
+                    "CALLDATASIZE": 1,
+                    "PUSH32": 1,
+                    "JUMP": 1,
+                    "MUL": 1,
+                    "RETURN": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "CALLER": 1,
+                        "PUSH20": 1,
+                        "EQ": 4,
+                        "PUSH1": 11,
+                        "JUMPI": 7,
+                        "JUMPDEST": 8,
+                        "SLOAD": 4,
+                        "DUP1": 3,
+                        "DUP3": 3,
+                        "SUB": 1,
+                        "GT": 2,
+                        "PUSH0": 8,
+                        "DUP2": 3,
+                        "PUSH2": 6,
+                        "SWAP2": 1,
+                        "ADD": 2,
+                        "SWAP3": 1,
+                        "SWAP1": 1,
+                        "POP": 3,
+                        "SSTORE": 4,
+                        "CALLDATASIZE": 1,
+                        "PUSH32": 1,
+                        "JUMP": 1,
+                        "MUL": 1,
+                        "RETURN": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-8037.md",
             "reference-spec-version": "a12902ae1b811c45a81b51bfce671cf7a1fb27f3"
@@ -852,9 +907,64 @@
             "comment": "`execution-specs` generated test",
             "filling-transition-tool": "2.19.0",
             "description": "Test EIP-7623 calldata floor is enforced when EIP-8037 is active.\n\nSend 100 non-zero calldata bytes to a call transaction so the\nregular intrinsic cost is below the calldata floor. A gas_limit\nat the floor succeeds; one below the floor is rejected.",
-            "url": "https://github.com/ethereum/execution-specs/blob/55d4d1ce14e4f0c5fd8638137bbccec8438e5ce2/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_pricing.py#L449",
+            "url": "https://github.com/ethereum/execution-specs/blob/882909a2c88751a31fa99a65176563a16c527893/tests/amsterdam/eip8037_state_creation_gas_cost_increase/test_state_gas_pricing.py#L447",
             "metadata": {
-                "opcode_count": {}
+                "opcode_count": {
+                    "CALLER": 1,
+                    "PUSH20": 1,
+                    "EQ": 4,
+                    "PUSH1": 11,
+                    "JUMPI": 7,
+                    "JUMPDEST": 8,
+                    "SLOAD": 4,
+                    "DUP1": 3,
+                    "DUP3": 3,
+                    "SUB": 1,
+                    "GT": 2,
+                    "PUSH0": 8,
+                    "DUP2": 3,
+                    "PUSH2": 6,
+                    "SWAP2": 1,
+                    "ADD": 2,
+                    "SWAP3": 1,
+                    "SWAP1": 1,
+                    "POP": 3,
+                    "SSTORE": 4,
+                    "CALLDATASIZE": 1,
+                    "PUSH32": 1,
+                    "JUMP": 1,
+                    "MUL": 1,
+                    "RETURN": 1
+                },
+                "opcode_count_per_block": [
+                    {
+                        "CALLER": 1,
+                        "PUSH20": 1,
+                        "EQ": 4,
+                        "PUSH1": 11,
+                        "JUMPI": 7,
+                        "JUMPDEST": 8,
+                        "SLOAD": 4,
+                        "DUP1": 3,
+                        "DUP3": 3,
+                        "SUB": 1,
+                        "GT": 2,
+                        "PUSH0": 8,
+                        "DUP2": 3,
+                        "PUSH2": 6,
+                        "SWAP2": 1,
+                        "ADD": 2,
+                        "SWAP3": 1,
+                        "SWAP1": 1,
+                        "POP": 3,
+                        "SSTORE": 4,
+                        "CALLDATASIZE": 1,
+                        "PUSH32": 1,
+                        "JUMP": 1,
+                        "MUL": 1,
+                        "RETURN": 1
+                    }
+                ]
             },
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-8037.md",
             "reference-spec-version": "a12902ae1b811c45a81b51bfce671cf7a1fb27f3"
