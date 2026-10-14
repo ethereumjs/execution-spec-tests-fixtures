@@ -1,5 +1,9 @@
 # execution-spec-tests-fixtures
 
+> **Deprecated.** EthereumJS no longer consumes fixtures from this repository. Consensus tests use official [execution-specs](https://github.com/ethereum/execution-specs) release tarballs, pinned in [`packages/vm/test/consensus/fixtures.json`](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/vm/test/consensus/fixtures.json), downloaded with `npm run fixtures:fetch` in the monorepo, and run via [`packages/vm/test/consensus/`](https://github.com/ethereumjs/ethereumjs-monorepo/tree/master/packages/vm/test/consensus). See [Updating fixtures (manifest bump)](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/vm/DEVELOPER.md#updating-fixtures-manifest-bump) in `packages/vm/DEVELOPER.md`. This repo is kept for historical snapshots only; do not open new fixture bump PRs here.
+
+---
+
 Fixtures from official Ethereum test releases ([execution-specs](https://github.com/ethereum/execution-specs)) for EthereumJS consumption.
 
 Split by **EthereumJS support**, not upstream `_stable` / `_develop` names:
@@ -7,7 +11,7 @@ Split by **EthereumJS support**, not upstream `_stable` / `_develop` names:
 - `stable/`: expected to pass on current EthereumJS `master`
 - `dev/`: upcoming fork / EIP work not yet fully supported
 
-How we bump a snapshot: `packages/vm/DEVELOPER.md` in the monorepo (Updating fixtures). Glamsterdam mixed tests live at a **stable path** `dev/blockchain_tests/amsterdam/glamsterdam/` and are replaced in place on each glamsterdam-devnet bump.
+**Historical note:** bumps used to be documented here and in an older monorepo submodule workflow. That path is retired in favor of the manifest + cache flow above.
 
 ## `stable` Fixtures
 
